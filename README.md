@@ -1,6 +1,6 @@
 # Does Exa return the new answer after it changes?
 
-Agents ask about things that changed last week. If search returns last month's version, price or CEO, the agent repeats it with confidence. Exa's Nitya Sridhar wrote that retrieval beyond model memory "requires specific focus on recency" (X, 29 Sep 2026), and Exa's WebCode post scores search on groundedness and citation precision. This repo applies that method to one question, as an independent test of features Exa already ships: **when the right answer changed in the last 30 days, does Exa return the new one?**
+Agents ask about things that changed last week. If search returns last month's version, price or CEO, the agent repeats it with confidence. Nitya at Exa wrote that retrieval beyond model memory "requires specific focus on recency" (X, 29 Sep 2026), and Exa's WebCode post scores search on groundedness and citation precision. This repo applies that method to one question, as an independent test of features Exa already ships: **when the right answer changed in the last 30 days, does Exa return the new one?**
 
 **Short answer: yes, almost always.** In every setting, the current answer appeared in the top 10 for 89 to 100% of queries. The current answer was the top result 74 to 100% of the time, and an old answer beat the new one in at most 2 of 15 held-out queries.
 
