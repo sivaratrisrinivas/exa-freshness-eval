@@ -1,0 +1,170 @@
+{
+ "status": 200,
+ "latency_s": 0.437,
+ "request": {
+  "type": "fast",
+  "contents": {
+   "text": {
+    "maxCharacters": 4000
+   }
+  },
+  "query": "Globality CEO",
+  "numResults": 10
+ },
+ "response": {
+  "requestId": "cdd1b39ed91418d55419b4812201955e",
+  "resolvedSearchType": "",
+  "results": [
+   {
+    "id": "https://www.globality.com/company/about-us/",
+    "title": "About Us - Globality",
+    "url": "https://www.globality.com/company/about-us/",
+    "text": "About Us - Globality\n\n# Redefining how enterprises source. \n\n \n\nGlo 2.0 is the autonomous sourcing platform that manages the complete intake-to-award process.\n\nOur sourcing platform autonomously interprets purchase intent, generates RFx materials, determines suitable suppliers, and executes negotiation strategies that produce high-quality award decisions, managing the full process from intake to award.\n\nWe deliver 60-90% faster sourcing cycle times and 10-20% cost savings annually for leading enterprises including BT, Tesco, Swiss Re, Deloitte, UPS, Fidelity, Bristol Myers Squibb, Soci\u00e9t\u00e9 G\u00e9n\u00e9rale, and HP.\n\n## Executive Team \n\n \n\n Jared Hyatt Chief Executive Officer \n\nJared is CEO of Globality. Before that, he led Globality\u2019s finance functions. He was previously an investor at Norwest Venture Partners, where he focused on early-stage technology. Earlier in his career, he worked at established technology companies, including Google and Apple, and at successful startups such as VideoSurf (acquired by Microsoft).\n\n \n\n Vinod Devan President, Go-To-Market \n\nVinod leads Globality\u2019s commercial organization and growth strategy. He previously led go-to-market teams through periods of rapid scaling at Confluent and Cohere, including Confluent\u2019s IPO. Prior to that, he served as a Partner at Deloitte, guiding leadership teams through major business transformations.\n\n \n\n Sonia Mathai Chief Human Resources Officer \n\nSonia is passionate about fostering a mission-driven, inclusive culture where all employees can do their best work. Prior to joining Globality, she built and scaled global recruiting and human resources functions at Synack and Upwork. Sonia has been recognized multiple times in Diversity Journal\u2019s Women Worth Watching in Leadership Awards and is a recipient of the Ragan Award which highlights her work supporting women in technology, encouraging a positive workplace environment, and focusing on employee wellness.\n\n \n\n Keith McFarlane Chief Technology Officer \n\nA software applications veteran with over 25 years of experience, Keith has a passion for building applications and organizations that perform and scale. From his early days with AT&T Bell Laboratories to his years building out the Oracle Service Cloud, Keith has run and grown diverse, open, and collaborative teams and organizations that continuously innovate while producing applications of the highest quality.\n\n## Board Members \n\n \n\n Joel Hyatt Co-Founder & Chairman \n\nJoel is a serial entrepreneur who has launched and scaled several disruptive service companies. He co-founded and served as CEO of Globality, Hyatt Legal Services, Hyatt Legal Plans (acquired by MetLife), and Current TV (acquired by Al Jazeera). He now focuses on his role as Chairman of the Board of Globality.\n\n \n\n Lior Delgo Co-Founder & Vice Chairman \n\nLior is a serial entrepreneur with a proven record of building disruptive technology and new business models. He is Co-Founder and Vice Chairman of Globality, where he pioneered the use of AI to transform enterprise sourcing and procurement. He previously co-founded and served as CEO of FareChase (acquired by Yahoo) and VideoSurf (acquired by Microsoft). After the VideoSurf acquisition, he stayed at Microsoft as a Partner and Group Program Manager at Xbox. Lior holds numerous technology patents.\n\n \n\n Jared Hyatt Chief Executive Officer \n\nJared is CEO of Globality. Before that, he led Globality\u2019s finance functions. He was previously an investor at Norwest Venture Partners, where he focused on early-stage technology. Earlier in his career, he worked at established technology companies, including Google and Apple, and at successful startups such as VideoSurf (acquired by Microsoft).\n\n \n\n John R. Joyce Former CFO, IBM; Former President, IBM Global Services \n\nJohn served in a variety of senior posts during his 30-year career at IBM, which included successful stints as CFO, President of IBM Global Services and President of IBM\u2019s Asia-Pacific operations. Following I"
+   },
+   {
+    "id": "https://procurementmag.com/news/jared-hyatt-named-new-globality-ceo-as-joel-hyatt-steps-down",
+    "title": "Jared Hyatt Named New Globality CEO as Joel Hyatt Steps Down | Procurement Magazine",
+    "url": "https://procurementmag.com/news/jared-hyatt-named-new-globality-ceo-as-joel-hyatt-steps-down",
+    "publishedDate": "2026-10-14T10:14:47.000Z",
+    "author": "Georgia Collins",
+    "text": "# Jared Hyatt Named New Globality CEO as Joel Hyatt Steps Down | Procurement Magazine\n\nAuthor: Georgia Collins\nPublished: 2026-10-14T10:14:47Z\nSource: procurementmag.com\nLanguage: en"
+   },
+   {
+    "id": "https://www.bloomberg.com/profile/person/3025768",
+    "title": "Joel Z Hyatt, Globality Inc: Profile and Biography - Bloomberg Markets",
+    "url": "https://www.bloomberg.com/profile/person/3025768",
+    "text": "Joel Z Hyatt, Globality Inc: Profile and Biography - Bloomberg Markets Skip To Content\n\nQuick Links\n\n# Joel Z HyattChairman/CEO/Co-Founder, Globality Inc\n\nTerms of Service Do Not Sell or Share My Personal Information Trademarks Privacy Policy\n\nHelp\u00a92026 Bloomberg L.P. All Rights Reserved.",
+    "image": "https://www.bloomberg.com/images/markets-logo.png"
+   },
+   {
+    "id": "https://www.globality.com/company/news/joel-hyatt-interview-forbes/",
+    "title": "[Forbes] Interview with Globality CEO Joel Hyatt",
+    "url": "https://www.globality.com/company/news/joel-hyatt-interview-forbes/",
+    "publishedDate": "2024-07-12T08:22:56.000Z",
+    "author": "Ittai Shaked",
+    "text": "[Forbes] Interview with Globality CEO Joel Hyatt\n\n# [Forbes] Interview with Globality CEO Joel Hyatt \n\n By Ittai Shaked \n\nJuly 12, 2024\n\n \n\nFeature interview with our Co-Founder, Chairman and CEO Joel Hyatt tells the story of his entrepreneurial background and Globality\u2019s mission to enable companies of all sizes and backgrounds to compete for business with the biggest corporations in the world.\n\n Headquarters 395 Page Mill Road Palo Alto, CA 94306",
+    "image": "https://www.globality.com/wp-content/uploads/2026/03/Screenshot202024-07-1220at2009.18.50-scaled.png"
+   },
+   {
+    "id": "https://exa.ai/library/organization/2l0yg17z0hb",
+    "title": "Globality",
+    "url": "https://linkedin.com/company/globality-inc-",
+    "text": "# Globality\n\nGlobality is a Software Development company. Globality is the leader in autonomous sourcing, using sophisticated AI, creating precisely scoped requirements, identifying the most qualified suppliers, providing negotiation insights, and enables data-driven decisions. Globality employs 101 people (+8.6% YoY, +8 people) and has an annual revenue of $80M, founded in 2015. Headquartered in Palo Alto, California, United States, with presence in United Kingdom. Its workforce is distributed across United States, United Kingdom, Hong Kong, and Romania.\n\n## About\n\nGlobality has always been dedicated to one goal: helping procurement teams unlock more savings and more value. Glo is the first truly autonomous sourcing platform that manages the complete intake-to-award process for all spend types, from strategic to tail. \n\nWe built the platform with deep domain expertise gained from working alongside HP, Bristol Myers Squibb, BT, PPG, Tesco, Swiss Re, Fidelity, Soci\u00e9t\u00e9 G\u00e9n\u00e9rale, Humana, UPS, and other global enterprises. \n\nLearn how Globality delivers 10-20% annual cost savings at https://www.globality.com/\nLearn more about Globality's job opportunities at https://www.globality.com/en-us/careers\n\n## Company Details\n- Industry: Software Development\n- Type: Privately held\n- Headquarters: Palo Alto, United States\n- Founded Year: 2015\n- Homepage: globality.com\n- Aliases: Globality, Inc., globality\n- LinkedIn: linkedin.com/company/globality-inc-\n- Linkedin Followers: 11,680\n- Emails: careers@globality.com\n\n## Financials\n- Annual Revenue: USD 80,000,000\n- Total Funding: USD 357,550,000\n  - Venture (2024-10-22): USD 47.0M\n  - Series e (2021-01-21): USD 138.3M\n  - Series d (2019-01-22): USD 100.0M\n  - Series c (2017-11-03): USD 35.0M\n  - Series b (2016-04-07): USD 27.2M\n\n## Acquisitions\n- Acquired GLOBALITY UK LIMITED\n\n## Workforce\n- Employees: 101\n- Company Size: 201-500 employees\n  - Monthly Growth: +3.1%\n  - Yearly Growth: +8.6%\n- Key Executives:\n  - Andrew Chiang: Vice President of Product Management\n  - Andrew Plumb: Director of Engineering\n  - Ashley (Erica) Vandenhoek: Senior Director, Product Management\n  - Claire Oas: Customer Success Director\n  - Doug K.: Chief Sales Officer\n  - Jacob Giles: Director of Solutions Consulting\n  - Jared Hyatt: Chief Financial Officer\n  - Jeff Ligh: Director Of Engineering\n  - Jessica Kremer: Head of Product Marketing\n  - Joel Hyatt: Chairman, Chief Executive Officer and Co-Founder\n- Breakdown:\n  - By Country: United States: 59 (58%), United Kingdom: 9 (9%), Hong Kong: 1 (1%), Romania: 1 (1%)\n  - By Department: Technical: 18 (18%), Customer Service: 12 (12%), Sales: 9 (9%), Other Department: 7 (7%), Marketing: 4 (4%), Finance: 3 (3%), General Management: 3 (3%), Hr: 3 (3%), Product: 3 (3%), Consulting: 2 (2%) (+4 more)\n  - By Seniority: Senior: 19 (19%), Specialist: 13 (13%), Director: 9 (9%), Other Management: 9 (9%), Manager: 7 (7%), Clevel: 6 (6%), Vp: 6 (6%), Head: 3 (3%)\n- Active job postings: 10\n- Salary ranges (20 of 24 roles):\n  - Principal Product Manager: median $306,113.19 per year\n  - Director: median $270,224.86 per year\n  - Senior Backend Engineer: median $223,677.09 per year\n  - Sr. Software Engineer: median $209,470.42 per year\n  - Senior Software Engineer: median $208,805.16 per year\n  - Senior Software Engineer II: median $204,191.4 per year\n  - Senior Program Manager: median $179,097.24 per year\n  - Site Reliability Engineer: median $174,781.72 per year\n  - Software Engineer: median $170,280.18 per year\n  - Manager: median $168,818.14 per year\n  - Engineer: median $151,289.46 per year\n  - Product Manager: median $148,834.81 per year\n  - Marketing: median $143,407.35 per year\n  - Software QA Engineer: median $121,976.03 per year\n  - Senior Associate: median $117,074.29 per year\n  - Senior Graphic Designer: median $116,139.23 per year\n  - Customer Success Manager: median $112,265.4 per year\n  - Technical Content Manager: median $112,241.37 per year\n  - Associate: median $101,981.6",
+    "image": "https://media.licdn.com/dms/image/v2/D560BAQE3OhRnuZkpbA/company-logo_200_200/B56aB_UPkMIMAE-/0/1788842408435/globality_inc__logo?e=2147483647&v=beta&t=Wt7AQo_TfLDmR-4KOV6jNqKcWB4c-0DwNE8TxmPb1jY",
+    "entities": [
+     {
+      "id": "https://exa.ai/library/organization/2l0yg17z0hb",
+      "type": "company",
+      "version": 1,
+      "properties": {
+       "name": "Globality",
+       "foundedYear": 2015,
+       "description": "Globality has always been dedicated to one goal: helping procurement teams unlock more savings and more value. Glo is the first truly autonomous sourcing platform that manages the complete intake-to-award process for all spend types, from strategic to tail. \n\nWe built the platform with deep domain expertise gained from working alongside HP, Bristol Myers Squibb, BT, PPG, Tesco, Swiss Re, Fidelity, Soci\u00e9t\u00e9 G\u00e9n\u00e9rale, Humana, UPS, and other global enterprises. \n\nLearn how Globality delivers 10-20% annual cost savings at https://www.globality.com/\nLearn more about Globality's job opportunities at https://www.globality.com/en-us/careers",
+       "workforce": {
+        "total": 101
+       },
+       "headquarters": {
+        "address": "395 Page Mill Rd, Palo Alto, California 94306, US",
+        "city": "Palo Alto",
+        "postalCode": null,
+        "country": "United States"
+       },
+       "financials": {
+        "revenueAnnual": 80000000,
+        "fundingTotal": 357550000,
+        "fundingLatestRound": {
+         "name": "Venture",
+         "date": "2024-10-22",
+         "amount": 47000000
+        }
+       },
+       "webTraffic": {
+        "visitsMonthly": 9640,
+        "countryRank": 593220,
+        "avgDurationSeconds": 32,
+        "history": [
+         {
+          "value": 31744,
+          "dateFrom": "2026-04",
+          "dateTo": "2026-04"
+         },
+         {
+          "value": 26280,
+          "dateFrom": "2026-05",
+          "dateTo": "2026-05"
+         },
+         {
+          "value": 20700,
+          "dateFrom": "2026-06",
+          "dateTo": "2026-06"
+         },
+         {
+          "value": 10898,
+          "dateFrom": "2026-07",
+          "dateTo": "2026-07"
+         },
+         {
+          "value": 15580,
+          "dateFrom": "2026-08",
+          "dateTo": "2026-08"
+         },
+         {
+          "value": 9640,
+          "dateFrom": "2026-10",
+          "dateTo": "2026-10"
+         }
+        ]
+       },
+       "research": null
+      }
+     }
+    ]
+   },
+   {
+    "id": "https://people.equilar.com/bio/person/joel-hyatt-globality-inc/21083",
+    "title": "Joel Z. Hyatt - Executive Bio, Work History, and Contacts - Equilar ExecAtlas",
+    "url": "https://people.equilar.com/bio/person/joel-hyatt-globality-inc/21083",
+    "text": "Joel Z. Hyatt - Executive Bio, Work History, and Contacts - Equilar ExecAtlas\n\n# Joel Z. Hyatt\n\nCo-Founder, Chairman, & CEO at Globality, Inc.\n\n Current \n\nBoard Member, \n\n Board Member Equilar on 12/03/2025 \n\nRAND CORPORATION \n\nCo-Founder, Chairman, & CEO, \n\nGlobality, Inc. \n\n B.A., Dartmouth College J.D., Yale University - Yale Law School\n\n Age 75 \n\n### Joel Z. Hyatt's Biography \n\nJoel is a serial entrepreneur with broad experience successfully launching and scaling disruptive service companies. He was the Co-Founder and CEO of Hyatt Legal Services, Hyatt Legal Plans (acquired by MetLife) and Current TV (acquired by Al Jazeera).\n\n Source: Globality, Inc. on 09/16/2026 \n\n### Joel Z. Hyatt's Connections (144) \n\nSteve Arentzoff Former Chief Marketing Officer, Globality, Inc.\n\nJay Krishnan Former VP, Product Marketing, Globality, Inc.\n\nJames J. Chung Former SVP, Technical Programs, Globality, Inc.\n\nErik K. Bardman Former Chief Financial Officer, Globality, Inc.\n\nIdo Ben-Zvi Former VP, AI, Globality, Inc.\n\nLuke Jesson Former Vice President, HR Category, Globality, Inc.\n\nLeigh Simpson Former VP, Engineering (EMEA), Globality, Inc.\n\nAdam Hadani Former Senior Vice President, AI, Globality, Inc.\n\nTom Umberg Former VP, Corporate Counsel, Globality, Inc.\n\nJoel is a serial entrepreneur with broad experience successfully launching and scaling disruptive service companies. He was the Co-Founder and CEO of Hyatt Legal Services, Hyatt Legal Plans (acquired by MetLife) and Current TV (acquired by Al Jazeera)."
+   },
+   {
+    "id": "https://www.linkedin.com/posts/globality-inc-_joel-hyatt-cofounder-and-ceo-of-globality-activity-7420111753474097152-_EbR",
+    "title": "Joel Hyatt, Co\u2011Founder and CEO of Globality, is participating in the World Economic Forum\u2019s annual meeting in Davos this week as part of the WEF\u2019s invited Innovators Community. | Globality, Inc.",
+    "url": "https://www.linkedin.com/posts/globality-inc-_joel-hyatt-cofounder-and-ceo-of-globality-activity-7420111753474097152-_EbR",
+    "publishedDate": "2026-01-22T00:00:00.000Z",
+    "author": "Globality, Inc.",
+    "text": "# Joel Hyatt, Co\u2011Founder and CEO of Globality, is participating in the World Economic Forum\u2019s annual meeting in Davos this week as part of the WEF\u2019s invited Innovators Community. | Globality, Inc. \u00b7 LinkedIn \u00b7 2026-01-22\n\n**Globality, Inc.**: Globality, Inc. is a Software Development company. Globality is a company that provides autonomous sourcing solutions using sophisticated AI. They help businesses create precisely scoped requirements, identify qualified suppliers, provide negotiation insights, and enable data-driven decisions. Globality, Inc. has 60-70 employees (6-7% YoY decline) and has annual revenue in the $80M-$90M range, founded in 2015. Headquartered in Palo Alto, California, United States, with presence in United Kingdom. Its workforce is distributed across United States, United Kingdom, Romania, and Hong Kong. Has $357.6M in total funding, with 5 prior funding rounds.\n\n---\n\nJoel Hyatt, Co\u2011Founder and CEO of Globality, is participating in the World Economic Forum\u2019s annual meeting in Davos this week as part of the WEF\u2019s invited Innovators Community.\n\nJoel has been engaging with Fortune 500 executives and policy leaders on how AI is transforming enterprise sourcing and supply\u2011chain performance.\n\nJoel is sharing his perspective with business and government leaders on how AI can unlock savings and efficiencies, improve decision\u2011making, and strengthen collaboration across global value chains for companies and governments.\n\nJoel Hyatt, Co\u2011Founder and CEO of Globality, is participating in the World Economic Forum\u2019s annual meeting in Davos this week as part of the WEF\u2019s invited Innovators Community. | Globality, Inc. image\n\n## Comments\n\n**Jamie Gannaway** \u00b7 2026-01-22\n> The face of all European politicians dealing with Trump.\n\n**Reddy Mallidi** \u00b7 2026-01-22 \u00b7 1 reaction\n> - great to see you spreading the word on AI\u2019s goodness. And its impact on supply chain planning and optimizing supply and demand.\n\n**BT Sourced** \u00b7 2026-01-22 \u00b7 1 reaction\n> \ud83d\udc4f \ud83d\udc9c \ud83d\udc9c\n\n## Engagement\n\n- Reactions: 132",
+    "image": "https://media.licdn.com/dms/image/v2/D4E22AQH1bqsksIaG8A/feedshare-image-high-res/B4EZvl4FBqKoAU-/0/1769088242186?e=2147483647&v=beta&t=pv9zwT5p3Ey_z2JPq2aJeMZ2M0nzDe9c3Mv4E0v4qhk"
+   },
+   {
+    "id": "https://muraena.ai/profile/joel_hyatt_ef9ecf0f",
+    "title": "Joel Hyatt | Founder and Chief Executive Officer",
+    "url": "https://muraena.ai/profile/joel_hyatt_ef9ecf0f",
+    "text": "Joel Hyatt | Founder and Chief Executive Officer\n\nJoel Hyatt\n\nJoel Hyatt\n\nFounder and Chief Executive Officer | Globality, Inc.\n\nCalifornia, San Francisco, United States\n\nJoel Hyatt\n\nSummary\n\nJoel Hyatt is a seasoned entrepreneur and leader currently serving as the Co-Founder, CEO, and Chairman of Globality, Inc. Based in San Francisco, California, he has a proven track record of building and leading innovative companies. With a background in law from Yale and an A.B. from Dartmouth College, Joel combines legal expertise with business acumen. He has also contributed to academia as a lecturer in entrepreneurship at Stanford Graduate School of Business. His experience includes founding MetLife Legal Plans and leading Current TV, showcasing his versatility in various sectors. Joel's commitment to fostering global business solutions reflects his visionary approach in the tech landscape. He is actively involved in the RAND Corporation, contributing to strategic decision-making at the board level. Joel's passion for entrepreneurship and leadership continues to drive his professional journey.\n\nGeneral\n\nGeneralist\n\nTechnical Background\n\nLeadership Experience\n\nLong-Term Tenure\n\nProfessional interests\n\nLeadership Development\n\nInnovation\n\nOrganisational experience\n\nStartup Experience\n\nCorporate Experience\n\nJoel Hyatt\n\nChairman, Chief Executive Officer and Co-Founder at\n\nGlobality, Inc.\n\nMarch 2015 - Present\n\nLogos provided by Logo.dev\n\nJoel Hyatt\n\nDartmouth College, A.B Degree\n\nYale Law School, J.D. Degree\n\nFrequently Asked Questions about Joel Hyatt\n\nWhat is Joel Hyatt email address?\n\nJoel Hyatt's primary email address is **********@globality.com. To view the full verified email and additional contact details, sign up for free with Muraena.\n\nWhat company does Joel Hyatt work for?\n\nJoel Hyatt is a Founder and Chief Executive Officer at Globality, Inc..\n\nWhere Joel Hyatt graduated from?\n\nJoel Hyatt holds a degree in null from Dartmouth College.\n\nHow can I directly contact Joel Hyatt?\n\nTo contact Joel Hyatt directly, you can use the email address **********@globality.com. Complete contact information is available upon registration with Muraena.\n\nWho is Joel Hyatt?\n\nJoel Hyatt is a seasoned entrepreneur and leader currently serving as the Co-Founder, CEO, and Chairman of Globality, Inc. Based in San Francisco, California, he has a proven track record of building and leading innovative companies. With a background in law from Yale and an A.B. from Dartmouth College, Joel combines legal expertise with business acumen. He has also contributed to academia as a lecturer in entrepreneurship at Stanford Graduate School of Business. His experience includes founding MetLife Legal Plans and leading Current TV, showcasing his versatility in various sectors. Joel's commitment to fostering global business solutions reflects his visionary approach in the tech landscape. He is actively involved in the RAND Corporation, contributing to strategic decision-making at the board level. Joel's passion for entrepreneurship and leadership continues to drive his professional journey.\n\nJoel`s contact details\n\n**********@globality.com\n\n**********@rand.org\n\nColleagues\n\nTechnical Team Lead\n\nCorporate Strategy and Business Development Analyst\n\nVice President",
+    "image": "https://contacts.muraena.ai/sitemap_avatars/joel-hyatt-7a959943.png"
+   },
+   {
+    "id": "https://www.bloomberg.com/profile/person/4350810",
+    "title": "Lior Delgo, Globality Inc: Profile and Biography - Bloomberg Markets",
+    "url": "https://www.bloomberg.com/profile/person/4350810",
+    "text": "Lior Delgo, Globality Inc: Profile and Biography - Bloomberg Markets\n\nPALO ALTO NETWOR\n\nBLUE FILM PRODUCTIONS SAS\n\n-1.20\n\nSPACE EXPLORAT-A\n\n162.57\n\n+2.00\n\nMICROSOFT CORP\n\n535.07\n\n+12.46\n\nLior Delgo\n\nChief Product Officer/Co-Founder, Globality Inc\n\n## CURRENT POSITION\n\nChief Product Officer/Co-Founder, Globality Inc\n\n## TENURE AT CURRENT POSITION\n\nPRESENT\n\n## PREVIOUS POSITION\n\nPresident/Co-Founder, Farechase Inc\n\n## EDUCATION\n\n--\n\n## BOARD MEMBERSHIPS\n\nGlobality Inc\n\n## INDUSTRY\n\nSoftware & Tech Services\n\n## Board Memberships\n\ntitle company tenure\n\nBoard Member Globality Inc PRESENT\n\n## Career History\n\ntitle company tenure\n\nCo-Founder Videosurf Inc 01/2006\u2013PRESENT\n\nCo-Founder Farechase Inc 08/2004\u2013PRESENT\n\nChief Product Officer/Co-Founder Globality Inc PRESENT\n\nPresident/Co-Founder Farechase Inc UNKNOWN\u201308/2004\n\nCEO/Co-Founder Videosurf Inc 01/2006\u2013UNKNOWN\n\nDirector:Business Development Yahoo! Inc FORMER\n\nCo-Founder TLV Partners LLC FORMER\n\nPresident/Co-Founder Globality Inc FORMER\n\n##"
+   },
+   {
+    "id": "https://www.comparably.com/companies/globality/lior-delgo",
+    "title": "Lior Delgo \u2014 Co-Founder and President of Globality at Globality | Comparably",
+    "url": "https://www.comparably.com/companies/globality/lior-delgo",
+    "publishedDate": "2026-04-27T10:51:03.000Z",
+    "text": "Lior Delgo \u2014 Co-Founder and President of Globality at Globality | Comparably\n\nGlobality CEO Joel Hyatt joins CNBC Squawk Box to talk about the future of work\n\nComparably Awards\n\n- Best Company Work-Life Balance 2024 (Small & Midsize Companies)\n- Best Company Perks & Benefits 2024 (Small & Midsize Companies)\n- Happiest Employees 2024 (Small & Midsize Companies)\n- Best Leadership Teams 2024 (Small & Midsize Companies)\n- +38 MORE\n\nGlobality is the future of enterprise spending: an AI solution that is guaranteed to empower employees, bolster the bottom line, and improve business outcomes. read more\n\nThis company is accepting feedback from verified employees\n\nEMPLOYEE PARTICIPANTS\n\n148\n\nTOTAL RATINGS4559\n\n# Lior Delgo \u2014 Co-Founder and President of Globality at Globality\n\n## Executive Bio\n\nLior is a serial entrepreneur with a proven record of building disruptive technology and new business models. He was Co-Founder and CEO of FareChase (acquired by Yahoo) and VideoSurf (acquired by Microsoft). He loves leading product and technology teams, most recently as a Partner and GPM of Microso\n\n### Executive Team Culture Ratings from Globality Employees\n\nTOP\n\n5%\n\nGlobality's Executive Team scores in the Top 5% of similar sized companies on Comparably\n\nSee Detailed Executive Team Ratings\n\nDo you approve of the job your executive team is doing at your company?\n\n98% Yes\n\n98\n\nWho ranks the Executive Team the highest?\n\nDepartment - IT 99/100\n\nEthnicity - Asian or Pacific Islander 97/100\n\nExperience - 6 to 10 Years 97/100\n\nWho ranks the Executive Team the lowest?\n\nDepartment - Product 86/100\n\nEthnicity - Other 90/100\n\nDepartment - Operations 91/100\n\n## Globality's Executive Team at a Glance\n\nBased on 293 ratings, Globality's employees are very satisfied with their Executive Team and give them an \u201cA+\u201d or 94/100. On average, Men provided higher ratings for their Executive Team compared to Women. Also, the IT department thinks more highly of the Executive Team relative to the Product department.\n\nGlobality's Executive Team ranks in the Top 5% of other companies in San Francisco and Top 5% of other companies on Comparably that also have 51-200 Employees.\n\n\u00d7\n\nRate your company",
+    "image": "https://images.comparably.com/companies/globality/lior-delgo",
+    "favicon": "https://images.comparably.com/immutable/favicons/2023-08-15/apple-touch-icon.png"
+   }
+  ],
+  "searchTime": 321.6,
+  "costDollars": {
+   "total": 0.007,
+   "search": {
+    "neural": 0.007
+   }
+  }
+ },
+ "fetched_at": "2026-10-14T17:23:33+0530"
+}

@@ -1,0 +1,176 @@
+{
+ "status": 200,
+ "latency_s": 7.245,
+ "request": {
+  "type": "auto",
+  "contents": {
+   "text": {
+    "maxCharacters": 4000
+   },
+   "maxAgeHours": 0
+  },
+  "query": "Percheron Therapeutics CEO",
+  "numResults": 10
+ },
+ "response": {
+  "requestId": "0534a526e47414f06697a50f2d08815f",
+  "resolvedSearchType": "",
+  "results": [
+   {
+    "id": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144149-3A703275",
+    "title": "ASX Announcement",
+    "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144149-3A703275",
+    "author": "James Garner",
+    "text": "## ASX Announcement\n\nDR MICHAEL BAKER COMMENCES AS CHIEF EXECUTIVE OFFICER AND MANAGING DIRECTOR\n\nMelbourne, Australia \u2013 5 October 2026: Percheron Therapeutics Limited (ASX: PER) \n(\u2018the Company\u2019), an international biotechnology company focused on developing novel \ntherapies for oncology and rare diseases, is pleased to announce that Dr Michael Baker \nhas officially commenced his role as Chief Executive Officer and Managing Director \neffective 5 October 2026. \nThe Company announced the leadership transition for Dr Baker and former Chief \nExecutive Officer and Managing Director Dr James Garner on 10 August 2026. \nDr Baker is a highly experienced biotech executive and public company CEO. His most \nrecent role was as Chief Executive Officer and Managing Director of Arovella \nTherapeutics (ASX: ALA), where he transformed a legacy business into one of Australia\u2019s \nmost compelling cell therapy companies. He holds a PhD in Biochemistry from La Trobe \nUniversity and an MBA from the Melbourne Business School. Prior to joining Arovella, he \nserved as a senior executive at a leading Australian biotechnology-focused venture \ncapital fund. \n\u201cThe Board warmly welcomes Dr Baker to his new role with Percheron Therapeutics. His \nexperience in drug development and capital markets will be a significant asset to the \nCompany, and we feel confident that under his leadership the Company is well placed \nto unlock the full potential of its lead asset, HMBD-002,\u201d commented Percheron Chair, \nDr Charmaine Gittleson. \nNewly appointed CEO and MD, Dr Michael Baker, commented \u201cI am incredibly excited to \njoin Percheron at this important phase of the Company\u2019s growth. We are in an excellent \nposition with a unique VISTA-targeting mAb that has demonstrated excellent safety data \nand has multiple cost-effective pathways to generate promising efficacy data. I would \nlike to thank James for his careful stewardship to date and the board for the faith and \ntrust in me to lead the Company through this pivotal phase. I am committed to unlocking \nthe value of our assets and generating value for all Percheron shareholders.\u201d \nUpcoming Investor Roadshow \nAs part of his commencement, Dr Baker will undertake an investor roadshow to meet \nwith existing and prospective shareholders and provide an update on the Company's \nstrategy, clinical development programs, and key priorities. \nDr Baker will be holding investor meetings in Melbourne 20October 2026, Sydney 21 \nOctober 2026 and Perth 22 and 23 October 2026. \n~ ENDS ~ \n\nF o r p e r s o n a l u s e o n ly\n\nPage 2 of 2\n\nAbout Percheron Therapeutics Limited \nPercheron Therapeutics Limited [ASX: PER | US OTC: PERCF] is a publicly listed biotechnology \ncompany focused on the development and commercialisation of novel therapies for oncology \nand rare diseases. The company\u2019s lead program is HMBD-002, a monoclonal antibody targeting \nthe immune checkpoint regulator, VISTA. HMBD-002 has completed a phase I clinical trial in \npatients with advanced cancer, which has shown the drug to be generally safe and well \ntolerated, and Percheron aims to commence further clinical trials in CY2026. \nFor more information, please contact info@PercheronTx.com. \nThis announcement has been authorised for release to the Australian Securities Exchange \nby the Board of Directors. \n\nF o r p e r s o n a l u s e o n ly\n\n"
+   },
+   {
+    "id": "https://percherontx.com/meet-the-team",
+    "title": "MEET THE TEAM | Percheron Therapeutics",
+    "url": "https://percherontx.com/meet-the-team",
+    "text": "MEET THE TEAM | Percheron Therapeutics\n\nHMBD-002"
+   },
+   {
+    "id": "https://www.marketindex.com.au/data-api/api/v1/announcements/XASX:PER:3A703275/pdf/inline/dr-michael-baker-commences-as-ceo-and-md",
+    "title": "ASX Announcement",
+    "url": "https://www.marketindex.com.au/data-api/api/v1/announcements/XASX:PER:3A703275/pdf/inline/dr-michael-baker-commences-as-ceo-and-md",
+    "author": "James Garner",
+    "text": "## ASX Announcement\n\n### DR MICHAEL BAKER COMMENCES AS CHIEF EXECUTIVE OFFICER AND MANAGING DIRECTOR\n\nMelbourne, Australia \u2013 5 October 2026: Percheron Therapeutics Limited (ASX: PER) \n(\u2018the Company\u2019), an international biotechnology company focused on developing novel \ntherapies for oncology and rare diseases, is pleased to announce that Dr Michael Baker \nhas officially commenced his role as Chief Executive Officer and Managing Director \neffective 5 October 2026. \nThe Company announced the leadership transition for Dr Baker and former Chief \nExecutive Officer and Managing Director Dr James Garner on 10 August 2026. \nDr Baker is a highly experienced biotech executive and public company CEO. His most \nrecent role was as Chief Executive Officer and Managing Director of Arovella \nTherapeutics (ASX: ALA), where he transformed a legacy business into one of Australia\u2019s \nmost compelling cell therapy companies. He holds a PhD in Biochemistry from La Trobe \nUniversity and an MBA from the Melbourne Business School. Prior to joining Arovella, he \nserved as a senior executive at a leading Australian biotechnology-focused venture \ncapital fund. \n\u201cThe Board warmly welcomes Dr Baker to his new role with Percheron Therapeutics. His \nexperience in drug development and capital markets will be a significant asset to the \nCompany, and we feel confident that under his leadership the Company is well placed \nto unlock the full potential of its lead asset, HMBD-002,\u201d commented Percheron Chair, \nDr Charmaine Gittleson. \nNewly appointed CEO and MD, Dr Michael Baker, commented \u201cI am incredibly excited to \njoin Percheron at this important phase of the Company\u2019s growth. We are in an excellent \nposition with a unique VISTA-targeting mAb that has demonstrated excellent safety data \nand has multiple cost-effective pathways to generate promising efficacy data. I would \nlike to thank James for his careful stewardship to date and the board for the faith and \ntrust in me to lead the Company through this pivotal phase. I am committed to unlocking \nthe value of our assets and generating value for all Percheron shareholders.\u201d \nUpcoming Investor Roadshow \nAs part of his commencement, Dr Baker will undertake an investor roadshow to meet \nwith existing and prospective shareholders and provide an update on the Company's \nstrategy, clinical development programs, and key priorities. \nDr Baker will be holding investor meetings in Melbourne 20October 2026, Sydney 21 \nOctober 2026 and Perth 22 and 23 October 2026. \n~ ENDS ~ \n\nPage 2 of 2\n\nAbout Percheron Therapeutics Limited\n\nPercheron Therapeutics Limited [ASX: PER | US OTC: PERCF] is a publicly listed biotechnology company focused on the development and commercialisation of novel therapies for oncology and rare diseases. The company\u2019s lead program is HMBD-002, a monoclonal antibody targeting the immune checkpoint regulator, VISTA. HMBD-002 has completed a phase I clinical trial in patients with advanced cancer, which has shown the drug to be generally safe and well tolerated, and Percheron aims to commence further clinical trials in CY2026.\n\nFor more information, please contact info@PercheronTx.com.\n\nThis announcement has been authorised for release to the Australian Securities Exchange by the Board of Directors.\n\n"
+   },
+   {
+    "id": "https://www.linkedin.com/posts/percherontx_asxper-percheron-therapeutics-announces-activity-7492413980007780352-ud80",
+    "title": "Percheron is delighted to announce the appointment of Michael Baker as Chief Executive Officer and Managing Director, commencing in October 2026. | Percheron Therapeutics Limited",
+    "url": "https://www.linkedin.com/posts/percherontx_asxper-percheron-therapeutics-announces-activity-7492413980007780352-ud80",
+    "publishedDate": "2026-08-10T02:58:15.000Z",
+    "author": "Percheron Therapeutics Limited",
+    "text": "ASX:PER - Percheron Therapeutics Announces CEO Succession | Percheron Therapeutics Limited\n\n# Percheron Therapeutics Limited\u2019s Post\n\n Percheron Therapeutics Limited \n\nPercheron is delighted to announce the appointment of Michael Baker as Chief Executive Officer and Managing Director, commencing in October 2026. Michael is an accomplished scientist, investor, and drug developer with an extensive track record of building successful biotech businesses. He was most recently CEO and MD of Arovella Therapeutics ASX: ALA, where he transformed a legacy business into one of Australia's most compelling cell therapy companies. James Garner will step down as CEO at the end of August to pursue a new professional opportunity overseas but will remain a non-executive director of Percheron to provide continuity and support. Read our full announcement here: https://lnkd.in/eyhr4c7J\n\n Michelle Burke 2mo \n\nGreat news Michael Baker. \n\n Tara Speranza 2mo \n\nCongratulations Michael Baker! Fab news.\n\n Prashanth Rajan 2mo \n\nCongrats Michael Baker \n\n Chris McMullin 2mo \n\nBig congrats Michael Baker. Look forward to hearing all about it!\n\n Penny Field 2mo \n\nCongratulations Michael \n\n Gerry Van Blommestein 1mo \n\nGreat news Michael, glad to hear it\u2019s back to business.",
+    "image": "https://media.licdn.com/dms/image/sync/v2/D4E27AQHWggfrKDexRg/articleshare-shrink_800/B4EZ_pmpPVHkAY-/0/1786330651157?e=2147483647&v=beta&t=SojGSyFS6U4-GJCY2szhsv5w-28veAMAXSiM0TuC3fE",
+    "favicon": "https://static.licdn.com/aero-v1/sc/h/al2o9zrvru7aqj8e1x2rzsrca"
+   },
+   {
+    "id": "https://simplywall.st/stocks/au/pharmaceuticals-biotech/asx-per/percheron-therapeutics-shares/management",
+    "title": "Percheron Therapeutics Management",
+    "url": "https://simplywall.st/stocks/au/pharmaceuticals-biotech/asx-per/percheron-therapeutics-shares/management",
+    "text": "Percheron Therapeutics Limited (PER) Leadership & Management Team Analysis - Simply Wall St\n\nPercheron Therapeutics Limited\n\n## Management criteria checks 1/4\n\nWe currently do not have sufficient information about the CEO.\n\n## Key information\n\nMichael Baker\n\nChief executive officer\n\nn/a\n\nTotal compensation\n\n| CEO salary percentage | n/a |\n| --- | --- |\n| CEO tenure | less than a year |\n| CEO ownership | n/a |\n| Management average tenure | 1.1yrs |\n| Board average tenure | 4.2yrs |\n\n## Recent management updates\n\nBoard Change \u2022 Oct 08\n\n### High number of new directors\n\nCEO & Director Michael Baker was the last director to join the board, commencing their role in 2026.\n\nAnnouncement \u2022 Sep 01\n\n+ 1 more update\n\n### Percheron Therapeutics Limited Announces Board Changes\n\nPercheron Therapeutics Limited announced the appointment of Ms Deborah Ambrosini to the Board of Directors effective September 1, 2026. Ms Ambrosini\u2019s appointment was an interim transitional arrangement and was intended to ensure that Percheron maintained a sufficient Board throughout the CEO transition period. It was expected that she would retire from the Board upon the appointment of Dr Michael Baker on October 5, 2026, in accordance with the Company\u2019s previous announcement. Ms Ambrosini was currently the Chief Financial Officer and Company Secretary of Percheron and would continue to retain all responsibilities associated with those roles. Ms Ambrosini was a highly experienced corporate executive with more than twenty years of experience as a CFO in both public and private companies. She was a Chartered Accountant and additionally held a Certificate in Governance Practice from the Governance Institute of Australia. Her prior experience in the healthcare sector included Cortical Dynamics Limited, Acrux Limited, and Cann Group Limited.\n\nAnnouncement \u2022 Aug 12\n\n### Percheron Therapeutics Limited, Annual General Meeting, Oct 07, 2026\n\nPercheron Therapeutics Limited, Annual General Meeting, Oct 07, 2026.\n\nBoard Change \u2022 Jun 01\n\n### Insufficient new directors\n\nNo new directors have joined the board in the last 3 years. The company's board is composed of: No new directors. 3 experienced directors. No highly experienced directors. CEO, MD & Director James Garner was the last director to join the board, commencing their role in 2023. The company\u2019s insufficient board refreshment is considered a risk according to the Simply Wall St Risk Model.\n\nAnnouncement \u2022 Aug 28\n\n### Percheron Therapeutics Limited, Annual General Meeting, Oct 22, 2025\n\nPercheron Therapeutics Limited, Annual General Meeting, Oct 22, 2025.\n\nRecent Insider Transactions \u2022 Apr 07\n\n### Independent Non-Executive Director recently bought AU$58k worth of stock\n\nOn the 31st of March, Ben Price bought around 5m shares on-market at roughly AU$0.012 per share. This transaction increased Ben's direct individual holding by 5x at the time of the trade. In the last 3 months, there was an even bigger purchase from another insider worth AU$475k. Insiders have collectively bought AU$1.2m more in shares than they have sold in the last 12 months.\n\nAnnouncement \u2022 5h\n\n### Percheron Therapeutics Limited has completed a Follow-on Equity Offering in the amount of AUD 2.3 million.\n\nPercheron Therapeutics Limited has completed a Follow-on Equity Offering in the amount of AUD 2.3 million. Security Name: Ordinary Shares Security Type: Common Stock Securities Offered: 300,000,000 Price\\Range: AUD 0.005 Discount Per Security: AUD 0.0003 Security Features: Attached Options Security Name: Ordinary Shares Security Type: Common Stock Securities Offered: 138,000,000 Price\\Range: AUD 0.005 Discount Per Security: AUD 0.0003 Security Features: Attached Options Security Name: Ordinary Shares Security Type: Common Stock Securities Offered: 22,000,000 Price\\Range: AUD 0.005 Discount Per Security: AUD 0.0003 Security Features: Attached Options Transaction Features: Subsequent Direct Listing\n\nBoard Change \u2022 Oct 08\n\n### High number of new directors\n",
+    "image": "https://simplywall.st/cdn-cgi/image/format=auto,fit=cover,w=1200,h=627,q=80,blur=0,metadata=none/https://images.simplywall.st/asset/industry/6121000-choice2-main-header/1585186699299",
+    "favicon": "https://simplywall.st/static/images/favicons/favicon-96x96.png"
+   },
+   {
+    "id": "https://bellwire.news/biotech/per-percheron-therapeutics-installs-arovella-veteran-baker/",
+    "title": "Percheron Therapeutics Installs Arovella Veteran Baker as CEO, Roadshow Set for October",
+    "url": "https://bellwire.news/biotech/per-percheron-therapeutics-installs-arovella-veteran-baker/",
+    "publishedDate": "2026-10-04T22:25:25.000Z",
+    "author": "Rachel Underwood",
+    "text": "# Percheron Therapeutics Installs Arovella Veteran Baker as CEO, Roadshow Set for October\n\nAuthor: Rachel Underwood\nPublished: 2026-10-04T22:25:25Z\nSource: bellwire.news\nLanguage: en\n\n## Story\n\nPercheron Therapeutics Installs Arovella Veteran Baker as CEO, Roadshow Set for October\n\n# Percheron Therapeutics Installs Arovella Veteran Baker as CEO, Roadshow Set for October\n\nPercheron Therapeutics (ASX: PER) has confirmed Dr Michael Baker commenced as chief executive officer and managing director on 5 October, completing the\u2026\n\n By Rachel Underwood \u00b7 5 October 2026 \u00b7 2 min read \n\nPercheron Therapeutics (ASX: PER) has confirmed Dr Michael Baker commenced as chief executive officer and managing director on 5 October, completing the leadership transition announced in August when Dr James Garner stepped down from the role.\n\nBaker joins from Arovella Therapeutics (ASX: ALA), where he served as CEO and managing director and oversaw the company's pivot into cell therapy. He holds a PhD in biochemistry from La Trobe University and an MBA from Melbourne Business School, with prior experience at a biotechnology-focused venture capital fund. Baker's capital markets background arrives as Percheron moves toward further HMBD-002 trials.\n\nThe appointment places a capital markets-experienced executive at the helm as Percheron prepares for further clinical development of HMBD-002, a monoclonal antibody targeting the immune checkpoint regulator VISTA. The company completed a Phase I trial in advanced cancer patients demonstrating the drug was generally safe and well-tolerated, and has flagged plans for additional trials in calendar year 2026.\n\n\"His experience in drug development and capital markets will be a significant asset to the Company, and we feel confident that under his leadership the Company is well placed to unlock the full potential of its lead asset, HMBD-002,\" chair Dr Charmaine Gittleson said.\n\nBaker said Percheron was \"in an excellent position with a unique VISTA-targeting mAb that has demonstrated excellent safety data and has multiple cost-effective pathways to generate promising efficacy data.\"\n\nThe transition follows Bell Wire's August report on Garner's departure and Baker's appointment. Percheron's July quarterly disclosed A$4.05 million in cash with plans to restart clinical activities following drug batch clearance.\n\nBaker will meet existing and prospective shareholders at an investor roadshow in Melbourne on 20 October, Sydney on 21 October, and Perth on 22\u201323 October."
+   },
+   {
+    "id": "https://themarketfloor.news/health/percheron-therapeutics-installs-new-ceo-baker-takes-helm-from-per/",
+    "title": "Percheron Therapeutics installs new CEO as Baker takes helm from Garner",
+    "url": "https://themarketfloor.news/health/percheron-therapeutics-installs-new-ceo-baker-takes-helm-from-per/",
+    "publishedDate": "2026-10-04T22:26:00.000Z",
+    "author": "Fiona Calder",
+    "text": "# Percheron Therapeutics installs new CEO as Baker takes helm from Garner\n\nAuthor: Fiona Calder\nPublished: 2026-10-04T22:26:00Z\nSource: themarketfloor.news\nLanguage: en\n\n## Story\n\nPercheron Therapeutics installs new CEO as Baker takes helm from Garner\n\n# Percheron Therapeutics installs new CEO as Baker takes helm from Garner\n\nDr Michael Baker has formally commenced as chief executive officer and managing director of Percheron Therapeutics (ASX: PER), completing a leadership transition first announced in August as the\u2026\n\nFC\n\nFiona Calder Health & Biotech \u00b7 5 Oct 2026 \u00b7 2 min read\n\nDr Michael Baker has formally commenced as chief executive officer and managing director of Percheron Therapeutics (ASX: PER), completing a leadership transition first announced in August as the biotech prepares to advance its lead oncology asset through further clinical development.\n\nThe appointment, effective Monday, brings to Percheron a veteran of the Australian cell therapy sector. Baker most recently served as CEO and managing director of Arovella Therapeutics (ASX: ALA), where he repositioned the company from a legacy business into a cell therapy developer. He holds a PhD in biochemistry from La Trobe University and an MBA from Melbourne Business School, with prior experience at a biotechnology-focused venture capital fund.\n\nThe transition follows the departure of Dr James Garner, who stepped down from the CEO role as announced on 10 August 2026. Garner had overseen Percheron through a period that included the completion of a Phase 1 clinical trial for its lead program, HMBD-002, a monoclonal antibody targeting VISTA, an immune checkpoint regulator involved in suppressing anti-tumour immune responses.\n\n## Investor roadshow planned\n\nBaker will move quickly to meet the market. The company has scheduled an investor roadshow across Melbourne on 20 October, Sydney on 21 October, and Perth on 22 and 23 October, covering Percheron\u2019s strategy, clinical development programs and near-term priorities.\n\nThe roadshow timing aligns with a period of renewed clinical activity for the company. In late July, Percheron confirmed receipt of a cleared drug batch and flagged a September restart for clinical work, positioning the company to advance HMBD-002 into further trials during calendar year 2026.\n\n## The clinical program\n\nHMBD-002 has completed a Phase 1 trial in patients with advanced cancer. The trial established the drug as generally safe and well-tolerated, providing the foundation for Percheron to pursue additional studies. VISTA-targeting therapies represent a less crowded area of immuno-oncology compared with PD-1 and CTLA-4 inhibitors, though the pathway remains earlier in clinical validation.\n\nChair Dr Charmaine Gittleson said the board was confident Baker\u2019s experience in drug development and capital markets would help unlock the potential of HMBD-002.\n\n\u201cWe are in an excellent position with a unique VISTA-targeting mAb that has demonstrated excellent safety data and has multiple cost-effective pathways to generate promising efficacy data,\u201d Baker said. \u201cI am committed to unlocking the value of our assets and generating value for all Percheron shareholders.\u201d\n\n## What it means\n\nBaker brings a track record of repositioning ASX-listed biotechs, and the roadshow timing suggests the board is moving quickly on both clinical development and capital markets.\n\nThe investor roadshow later this month will be the first opportunity for shareholders to hear Baker\u2019s strategic priorities directly; the next material catalyst is the advancement of HMBD-002 into further clinical trials, with the company targeting additional studies in calendar 2026.\n\n## Key questions\n\nWhen did Dr Michael Baker start as CEO?\n: Dr Michael Baker commenced as CEO and managing director on 5 October 2026.\nWhat was Baker's previous role?\n: He was CEO and managing director of Arovella Therapeutics, where he repositioned the company from a legacy business into a cell therapy developer.\nWhen is the "
+   },
+   {
+    "id": "https://finance.yahoo.com/healthcare/articles/percheron-therapeutics-appoints-michael-baker-233900737.html",
+    "title": "Percheron Therapeutics appoints Michael Baker as CEO ...",
+    "url": "https://finance.yahoo.com/healthcare/articles/percheron-therapeutics-appoints-michael-baker-233900737.html",
+    "publishedDate": "2026-08-09T23:39:00.000Z",
+    "author": "Proactive",
+    "text": "Percheron Therapeutics appoints Michael Baker as CEO as HMBD-002 trial approaches\n\n# Percheron Therapeutics appoints Michael Baker as CEO as HMBD-002 trial approaches\n\n Proactive August 9, 2026 3 min read\n\nPercheron Therapeutics appoints Michael Baker as CEO as HMBD-002 trial approaches Proactive uses images sourced from Shutterstock \n\nPercheron Therapeutics Ltd (ASX:PER, OTC:PERCF) has appointed experienced biotechnology executive Dr Michael Baker as managing director and chief executive officer, with the leadership change coming as the company prepares to advance its lead oncology asset, HMBD-002, into a new clinical trial in the second half of 2026. \n\nBaker will take up the role on October 5, 2026, succeeding Dr James Garner, who will step down as CEO and managing director on August 31, to pursue a new professional opportunity overseas. Garner will remain on Percheron's board as a non-executive director from September 1, providing continuity during the transition. \n\n#### Baker brings biotech development and public company experience \n\nBaker was most recently CEO and managing director of Arovella Therapeutics Ltd (ASX:ALA, FRA:E4NA), where he led the transformation of the former SUDA Pharmaceuticals into an oncology-focused cell therapy company. \n\nDuring his tenure, Arovella built a pipeline targeting blood cancers and solid tumours, with lead program ALA-101 receiving US Food and Drug Administration acceptance of its Investigational New Drug application in January 2026 ahead of an expected Phase 1 trial. \n\nBaker also previously worked at biotechnology venture capital fund BioScience Managers and at Hexima Ltd, where he was involved in translating drug development programs from discovery toward the clinic. \n\nPercheron chair Dr Charmaine Gittleson said Baker brought drug development, investment and public company experience to the role. \n\nBaker said his immediate priorities would be advancing HMBD-002, increasing engagement with the investment community and building on the company's existing development work. \n\n#### HMBD-002 remains key development focus \n\nThe management transition does not alter Percheron's existing development timetable, with the company maintaining guidance that it expects to begin a new clinical trial of HMBD-002 during the second half of calendar 2026. \n\nHMBD-002 is a monoclonal antibody targeting VISTA, an immune checkpoint regulator. The therapy has completed a Phase 1 clinical trial in patients with advanced cancer, where Percheron reported that it was generally safe and well tolerated. \n\nThe company describes HMBD-002 as Phase 2-ready, with Baker identifying advancement of the program as a central priority following his appointment. \n\n#### Shareholder-aligned remuneration package \n\nBaker will receive a base salary of $375,000 per annum plus superannuation, alongside short- and long-term incentive arrangements. \n\nHis sign-on equity package comprises 75 million restricted stock units, subject to shareholder approval, with vesting tied to a combination of tenure and Percheron share price hurdles ranging from $0.005 to $0.015 based on a 20-day volume-weighted average price. \n\nThe package also includes a target annual bonus equivalent to 50% of base salary and a target annual option grant equivalent to 1% of issued share capital, subject to performance conditions and required approvals. \n\n#### About Percheron Therapeutics \n\nPercheron Therapeutics is developing and commercialising novel therapies for oncology and rare diseases. \n\nIts lead program is HMBD-002, a monoclonal antibody targeting the VISTA immune checkpoint pathway.",
+    "image": "https://s.yimg.com/lo/mysterio/api/523e35bfcbc0a5f0832aa5bcf8e04986058622fb72fcb1b9cae67fd3f57d5bbc/finance/resizefill_w150_h150/https://s.yimg.com/lg/logos/USN070592100/light/1f1a8eb2.png",
+    "favicon": "https://s.yimg.com/cv/apiv2/finance/YF_Favicon_32.png"
+   },
+   {
+    "id": "https://www.proactiveinvestors.com/companies/news/1096766/percheron-therapeutics-appoints-michael-baker-as-ceo-as-hmbd-002-trial-approaches-1096766.html",
+    "title": "Percheron Therapeutics appoints Michael Baker as CEO as HMBD-002 trial approaches | ASX:PER, OTC:PERCF",
+    "url": "https://www.proactiveinvestors.com/companies/news/1096766/percheron-therapeutics-appoints-michael-baker-as-ceo-as-hmbd-002-trial-approaches-1096766.html",
+    "publishedDate": "2026-08-09T23:39:00.000Z",
+    "author": "Ephrem Joseph",
+    "text": "Percheron Therapeutics appoints Michael Baker as CEO as HMBD-002 trial approaches | ASX:PER, OTC:PERCF\n\nWritten by:\n\n# Percheron Therapeutics appoints Michael Baker as CEO as HMBD-002 trial approaches\n\n Last updated: 01:24 10 Aug 2026 BST, First published: 00:39 10 Aug 2026 BST \n\nPercheron Therapeutics Ltd (ASX:PER, OTC:PERCF) has appointed experienced biotechnology executive Dr Michael Baker as managing director and chief executive officer, with the leadership change coming as the company prepares to advance its lead oncology asset, HMBD-002, into a new clinical trial in the second half of 2026.\n\nBaker will take up the role on October 5, 2026, succeeding Dr James Garner, who will step down as CEO and managing director on August 31, to pursue a new professional opportunity overseas. Garner will remain on Percheron\u2019s board as a non-executive director from September 1, providing continuity during the transition.\n\n#### Baker brings biotech development and public company experience\n\nBaker was most recently CEO and managing director of Arovella Therapeutics Ltd (ASX:ALA, FRA:E4NA), where he led the transformation of the former SUDA Pharmaceuticals into an oncology-focused cell therapy company.\n\nDuring his tenure, Arovella built a pipeline targeting blood cancers and solid tumours, with lead program ALA-101 receiving US Food and Drug Administration acceptance of its Investigational New Drug application in January 2026 ahead of an expected Phase 1 trial.\n\nBaker also previously worked at biotechnology venture capital fund BioScience Managers and at Hexima Ltd, where he was involved in translating drug development programs from discovery toward the clinic.\n\nPercheron chair Dr Charmaine Gittleson said Baker brought drug development, investment and public company experience to the role.\n\nBaker said his immediate priorities would be advancing HMBD-002, increasing engagement with the investment community and building on the company\u2019s existing development work.\n\n#### HMBD-002 remains key development focus\n\nThe management transition does not alter Percheron\u2019s existing development timetable, with the company maintaining guidance that it expects to begin a new clinical trial of HMBD-002 during the second half of calendar 2026.\n\nHMBD-002 is a monoclonal antibody targeting VISTA, an immune checkpoint regulator. The therapy has completed a Phase 1 clinical trial in patients with advanced cancer, where Percheron reported that it was generally safe and well tolerated.\n\nThe company describes HMBD-002 as Phase 2-ready, with Baker identifying advancement of the program as a central priority following his appointment.\n\n#### Shareholder-aligned remuneration package\n\nBaker will receive a base salary of $375,000 per annum plus superannuation, alongside short- and long-term incentive arrangements.\n\nHis sign-on equity package comprises 75 million restricted stock units, subject to shareholder approval, with vesting tied to a combination of tenure and Percheron share price hurdles ranging from $0.005 to $0.015 based on a 20-day volume-weighted average price.\n\nThe package also includes a target annual bonus equivalent to 50% of base salary and a target annual option grant equivalent to 1% of issued share capital, subject to performance conditions and required approvals.\n\n#### About Percheron Therapeutics\n\nPercheron Therapeutics is developing and commercialising novel therapies for oncology and rare diseases.\n\nIts lead program is HMBD-002, a monoclonal antibody targeting the VISTA immune checkpoint pathway.",
+    "image": "https://cdn.proactiveinvestors.com/eyJidWNrZXQiOiJwYS1jZG4iLCJrZXkiOiJ1cGxvYWRcL05ld3NcL0ltYWdlXC8yMDI2XzA4XC8yMDIwLTAyLTIxLTA5LTM1LTA4LTNmYjZlMDBlZGE4NDU3NmMyNTZjYTg4MGE1MGI0NTczLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0Ijo2MzAsImZpdCI6ImNvdmVyIn19fQ=="
+   },
+   {
+    "id": "https://percherontx.com/",
+    "title": "Percheron Therapeutics",
+    "url": "https://percherontx.com/",
+    "text": "Percheron Therapeutics\n\nHMBD-002",
+    "entities": [
+     {
+      "id": "https://exa.ai/library/organization/v23trsclbpf",
+      "type": "company",
+      "version": 1,
+      "properties": {
+       "name": "Percheron Therapeutics Limited",
+       "foundedYear": 2000,
+       "description": "Percheron Therapeutics Limited [ASX: PER | US OTC: PERCF] is a publicly listed biotechnology company focused on the development and commercialisation of novel therapies for oncology and rare diseases. The company\u2019s lead program is HMBD-002, a monoclonal antibody targeting the immune checkpoint regulator, VISTA. HMBD-002 has completed a phase I clinical trial in patients with advanced cancer, which has shown the drug to be generally safe and well-tolerated, and Percheron aims to commence further clinical trials in CY2026.\n\nFor more information, please contact info@PercheronTx.com.",
+       "workforce": {
+        "total": 9
+       },
+       "headquarters": {
+        "address": "L30, 35 Collins Street, Melbourne, Victoria 3000, AU",
+        "city": "Melbourne",
+        "postalCode": null,
+        "country": "Australia"
+       },
+       "financials": {
+        "revenueAnnual": null,
+        "fundingTotal": null,
+        "fundingLatestRound": {
+         "name": "Post ipo equity",
+         "date": "2026-04-01",
+         "amount": null
+        }
+       },
+       "webTraffic": {
+        "visitsMonthly": 2362,
+        "countryRank": 421954,
+        "avgDurationSeconds": 17,
+        "history": [
+         {
+          "value": 2280,
+          "dateFrom": "2026-05",
+          "dateTo": "2026-05"
+         },
+         {
+          "value": 3504,
+          "dateFrom": "2026-06",
+          "dateTo": "2026-06"
+         },
+         {
+          "value": 2548,
+          "dateFrom": "2026-07",
+          "dateTo": "2026-07"
+         },
+         {
+          "value": 3992,
+          "dateFrom": "2026-08",
+          "dateTo": "2026-08"
+         },
+         {
+          "value": 2362,
+          "dateFrom": "2026-09",
+          "dateTo": "2026-09"
+         },
+         {
+          "value": 2362,
+          "dateFrom": "2026-10",
+          "dateTo": "2026-10"
+         }
+        ]
+       },
+       "research": null
+      }
+     }
+    ]
+   }
+  ],
+  "searchTime": 7132.2,
+  "costDollars": {
+   "total": 0.007,
+   "search": {
+    "neural": 0.007
+   }
+  }
+ },
+ "fetched_at": "2026-10-14T17:34:45+0530"
+}

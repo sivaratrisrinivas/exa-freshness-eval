@@ -1,0 +1,219 @@
+{
+ "status": 200,
+ "latency_s": 3.174,
+ "request": {
+  "type": "deep-lite",
+  "contents": {
+   "text": {
+    "maxCharacters": 4000
+   }
+  },
+  "query": "latest stable release of Hugging Face Transformers",
+  "numResults": 10
+ },
+ "response": {
+  "requestId": "dc639fad259284ddf4f99a1a61f29961",
+  "resolvedSearchType": "",
+  "results": [
+   {
+    "id": "https://github.com/huggingface/transformers/releases/",
+    "title": "Releases \u00b7 huggingface/transformers \u00b7 GitHub",
+    "url": "https://github.com/huggingface/transformers/releases/",
+    "text": "Releases \u00b7 huggingface/transformers \u00b7 GitHub\n\n## Release v5.19.0\n\nRelease v5.19.0\n\nvasqu released this \n\n 06 Oct 16:39 \n\n v5.19.0 \n\n `c4c4605` \n\n### EmbeddingGemma2\n\nEmbeddingGemma 2 is a multimodal embedding model from Google built on the Gemma 4 architecture. It encodes text, images, audio, and video, individually or combined in one input, into a shared 768-dimensional vector space for cross-modal retrieval, semantic similarity, clustering, and classification. It uses Matryoshka Representation Learning, so embeddings can be truncated to 512, 256, or 128 dimensions. It also offers configurable visual and video token budgets, and unused vision or audio towers can be disabled at load time to save memory.\n\n- Smthn smthn (#49364) by @vasqu in #49364\n\n## Breaking changes\n\nAll MoE models whose routers compute logits now return them when `output_router_logits=True`, following the Qwen3-MoE pattern (a `router_logits` recorder on the base model, `MoeModelOutputWithPast` from the backbone, and a MoE causal LM output from the head), so code that relied on the previous outputs or their absence should read the router logits from these output classes.\n\n- \ud83d\udea8 Return router logits from every MoE model that computes them (#48920) by @qgallouedec\n\n`Owlv2ForObjectDetection.embed_image_query` now selects the query box with the highest objectness score, as in the original OWLv2 notebook, instead of the OWL-ViT heuristic, so image-guided query embeddings and detections may differ from earlier releases.\n\n- \ud83d\udea8 Select the OWLv2 image query by objectness (#49200) by @qgallouedec\n\nThe `\"paged|\"` prefix for SDPA and flash attention implementations is deprecated, so users should set the regular attention implementation (e.g. `sdpa` or `flash_attention_2`) for continuous batching instead of `paged|sdpa` or `paged|flash_attention_2`.\n\n- \ud83d\udea8 Attention \ud83d\udea8 Deprecate \"paged|\" prefix for SDPA and flash (#49112) by @remi-or\n\nThe regular flash and SDPA attention functions (`flash_attention.py`, `sdpa_attention.py`) now support continuous batching directly, and `\"paged|...\"` implementations for these are redirected to them, while eager still requires the `\"paged|eager\"` prefix.\n\n- \ud83d\udea8 Attention \ud83d\udea8 Make regular attention support CB (#49101) by @remi-or\n\nIn continuous batching, the cache update for the index-based and block-table paths is now fused into a single call, which slightly changes the cache update function's behavior and affects any custom code that calls the separate update paths.\n\n- \ud83d\udea8 [CB] \ud83d\udea8 Fuse update for index and block table path (#49088) by @remi-or\n\nContinuous batching internals changed in preparation for removing `\"paged\"`: `max\n\n- \ud83d\udea8 [CB] \ud83d\udea8 Little fixes before removing \"paged\" (#49069) by @remi-or\n\n## Parallelization\n\nExpert parallelism gains a token-dispatch implementation, selected via the new `ep_dispatch_experts` plan rule and now the default for Qwen3 MoE and Mellum, which removes the requirement that EP size equal TP size. The `Trainer` was also adapted to work with expert parallelism, and the docs now note that PEFT adapters support tensor parallelism. A CI-related fix for pipeline-parallel chart2table inference was also included.\n\n- [`distributed`]: adapt Trainer to work Expert Parallel (#48873) by @3outeille in [#48873]\n- [`distributed`] Add expert-parallel token dispatch, default for Qwen3 MoE (#48865) by @3outeille in [#48865]\n- Fix pp chart2table inference (#49225) by @zucchini-nlp in [#49225]\n- [docs] TP for PEFT adapters (#49060) by @stevhliu in [#49060]\n\n## Cache\n\nThis release fixes quantized cache handling: `generate` no longer mutates the user's `cache_config`, and `QuantizedLayer.reorder_cache` is repaired. It also adds per-layer cache configuration, so `DynamicCache` and `StaticCache` initialize each layer from its own config (sliding window, attention chunk size, conv states, and attention head counts) to better support heterogeneous models. Separately, the deprecation cycle on mask and cache\n\n- Fix quantized cache (#48700) by",
+    "image": "https://repository-images.githubusercontent.com/155220641/a16c4880-a501-11ea-9e8f-646cf611702e"
+   },
+   {
+    "id": "https://huggingface.co/docs/transformers/main/quicktour",
+    "title": "Quickstart \u00b7 Hugging Face",
+    "url": "https://huggingface.co/docs/transformers/main/quicktour",
+    "text": "# Quickstart\n\nTransformers is designed to be fast and easy to use so that everyone can start learning or building with transformer models.\n\nThe number of user-facing abstractions is limited to only three classes for instantiating a model, and two APIs for inference or training. This quickstart introduces you to Transformers' key features and shows you how to:\n\n- load a pretrained model\n- run inference with Pipeline\n- fine-tune a model with Trainer\n\n## Set up\n\nTo start, we recommend creating a Hugging Face account. An account lets you host and access version controlled models, datasets, and Spaces on the Hugging Face Hub, a collaborative platform for discovery and building.\n\nCreate a User Access Token and log in to your account.\n\nPaste your User Access Token into notebook_login when prompted to log in.\n\n```py\nfrom huggingface_hub import notebook_login\n\nnotebook_login()\n\n```\n\nMake sure the huggingface_hub[cli] package is installed and run the command below. Paste your User Access Token when prompted to log in.\n\n```bash\nhf auth login\n\n```\n\nInstall PyTorch.\n\n```bash\n# remove ! if installing from the CLI\n!pip install torch\n\n```\n\nThen install an up-to-date version of Transformers and some additional libraries from the Hugging Face ecosystem for accessing datasets and vision models, evaluating training, and optimizing training for large models.\n\n```bash\n# remove ! if installing from the CLI\n!pip install -U transformers datasets evaluate accelerate timm\n\n```\n\n## Agent skills\n\nHugging Face Skills teach your coding agent how to work with Transformers. Instead of writing a training script yourself, ask your agent to fine-tune a vision model and let the skill guide it.\n\n```sh\n/plugin marketplace add huggingface/skills\n/plugin install hf-cli@huggingface/skills\n\n```\n\n```sh\ncodex plugin marketplace add huggingface/skills\n\n```\n\nThen run `/plugins` in Codex and install a skill from the `huggingface/skills` repository.\n\nSee the Installation guide for more supported platforms like Cursor and Gemini.\n\nOnce a skill is installed, include it in your instructions to your coding agent.\n\n```md\nUse the HF Trainer skill to fine-tune RT-DETRv2 on [Lekim89/sportsmot](https://huggingface.co/datasets/Lekim89/sportsmot) for basketball player tracking.\n\n```\n\n## Pretrained models\n\nEach pretrained model inherits from three base classes.\n\n| Class | Description |\n| --- | --- |\n| PreTrainedConfig | A file that specifies a model's attributes such as the number of attention heads or vocabulary size. |\n| PreTrainedModel | A model (or architecture) defined by the model attributes from the configuration file. A pretrained model only returns the raw hidden states. For a specific task, use the appropriate model head to convert the raw hidden states into a meaningful result (for example, LlamaModel versus LlamaForCausalLM). |\n| Preprocessor | A class for converting raw inputs (text, images, audio, multimodal) into numerical inputs to the model. For example, PreTrainedTokenizer converts text into tensors and ImageProcessingMixin converts pixels into tensors. |\n\nWe recommend using the AutoClass API to load models and preprocessors because it automatically infers the appropriate architecture for each task and machine learning framework based on the name or path to the pretrained weights and configuration file.\n\nUse from_pretrained() to load the weights and configuration file from the Hub into the model and preprocessor class.\n\nWhen you load a model, configure the following parameters to ensure the model is optimally loaded.\n\n- `device_map=\"auto\"` automatically allocates the model weights to your fastest device first.\n- `dtype=\"auto\"` directly initializes the model weights in the data type they're stored in, which can help avoid loading the weights twice (PyTorch loads weights in `torch.float32` by default).\n\n```py\nfrom transformers import AutoModelForCausalLM, AutoTokenizer\n\nmodel = AutoModelForCausalLM.from_pretrained(\"meta-llama/Llama-2-7b-hf\", dtype=\"auto\", device_map=\"aut",
+    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/docs/transformers/quicktour.png"
+   },
+   {
+    "id": "https://github.com/huggingface/transformers/releases/tag/v5.6.0",
+    "title": "Release v5.6.0",
+    "url": "https://github.com/huggingface/transformers/releases/tag/v5.6.0",
+    "publishedDate": "2026-04-22T00:00:00.000Z",
+    "author": "vasqu",
+    "text": "# Release v5.6.0\n\n- Tag: v5.6.0\n- Repository: huggingface/transformers\n- Published: 2026-04-22T15:52:30Z\n- Author: vasqu\n\n---\n\n# Release v5.6.0 \n \n \n## New Model additions \n \n### OpenAI Privacy Filter \n \nOpenAI Privacy Filter is a bidirectional token-classification model for personally identifiable information (PII) detection and masking in text. It is intended for high-throughput data sanitization workflows where teams need a model that they can run on-premises that is fast, context-aware, and tunable. The model labels an input sequence in a single forward pass, then decodes coherent spans with a constrained Viterbi procedure, predicting probability distributions over 8 privacy-related output categories for each input token. \n \n**Links:** Documentation \n* [`Privacy Filter`] Add model (#45580) by @vasqu in #45580 \n \n### QianfanOCR \n \nQianfan-OCR is a 4B-parameter end-to-end document intelligence model developed by Baidu that performs direct image-to-text conversion without traditional multi-stage OCR pipelines. It supports a broad range of prompt-driven tasks including structured document parsing, table extraction, chart understanding, document question answering, and key information extraction all within one unified model. The model features a unique \"Layout-as-Thought\" capability that generates structured layout representations before producing final outputs, making it particularly effective for complex documents with mixed element types. \n \n**Links:** Documentation | Paper \n* add Qianfan-OCR model definition (#45280) by @marvinzh in #45280 \n \n### SAM3-LiteText \n \nSAM3-LiteText is a lightweight variant of SAM3 that replaces the heavy SAM3 text encoder (353M parameters) with a compact MobileCLIP-based text encoder optimized through knowledge distillation, while keeping the SAM3 ViT-H image encoder intact. This reduces text encoder parameters by up to 88% while maintaining segmentation performance comparable to the original model. The model enables efficient vision-language segmentation by addressing the redundancy found in text prompting for segmentation tasks. \n \n**Links:** Documentation | Paper \n* Add SAM3-LiteText (#44320) by @NielsRogge in #44320 \n \n### SLANet \n \nSLANet and SLANet_plus are lightweight models designed for table structure recognition, focusing on accurately recognizing table structures in documents and natural scenes. The model improves accuracy and inference speed by adopting a CPU-friendly lightweight backbone network PP-LCNet, a high-low-level feature fusion module CSP-PAN, and a feature decoding module SLA Head that aligns structural and positional information. SLANet was developed by Baidu PaddlePaddle Vision Team as part of their table structure recognition solutions. \n \n**Links:** Documentation \n* [Model] Add SLANet Model Support (#45532) by @zhang-prog in #45532 \n \n \n## Breaking changes \n \nThe internal `rotary_fn` is no longer registered as a hidden kernel function, so any code referencing `self.rotary_fn(...)` within an Attention module will break and must be updated to call the function directly instead. \n* :rotating_light: [`Kernels`] Fix kernel function registration (#45420) by @vasqu \n \n \n \n## Serve \n \nThe `transformers serve` command received several enhancements, including a new `/v1/completions` endpoint for legacy text completion, multimodal support for audio and video inputs, improved tool-calling via `parse_response`, proper forwarding of `tool_calls`/`tool_call_id` fields, a 400 error on model mismatch when the server is pinned to a specific model, and fixes for the response API. Documentation was also updated to cover new serving options such as `--compile` and `--model-timeout`. \n \n \n* Add /v1/completions endpoint (OpenAI legacy completions API) to `transformers serve` (#44558) by @rain-1 in [#44558] \n* Updated the image cache for Paddle models according to the latest API (#45562) by @zhang-prog in [#45562] \n* Raise 400 on model mismatch when `transformers serve` is pinned (#45443) by "
+   },
+   {
+    "id": "https://huggingface.co/docs/transformers/main/en/installation",
+    "title": "",
+    "url": "https://huggingface.co/docs/transformers/main/en/installation",
+    "text": "# Installation\n\nTransformers works with PyTorch. It has been tested on Python 3.10+ and PyTorch 2.4+.\n\n## Virtual environment\n\nuv is an extremely fast Rust-based Python package and project manager and requires a virtual environment by default to manage different projects and avoids compatibility issues between dependencies.\n\nIt can be used as a drop-in replacement for pip, but if you prefer to use pip, remove `uv` from the commands below.\n\n> [!TIP]\n> Refer to the uv installation docs to install uv.\n\nCreate a virtual environment to install Transformers in.\n\n```bash\nuv venv .env\nsource .env/bin/activate\n```\n\n## Python\n\nInstall Transformers with the following command.\n\nuv is a fast Rust-based Python package and project manager.\n\n```bash\nuv pip install transformers\n```\n\nFor GPU acceleration, install the appropriate CUDA drivers for PyTorch.\n\nRun the command below to check if your system detects an NVIDIA GPU.\n\n```bash\nnvidia-smi\n```\n\nTo install a CPU-only version of Transformers, run the following command.\n\n```bash\nuv pip install torch --index-url https://download.pytorch.org/whl/cpu\nuv pip install transformers\n```\n\nTest whether the install was successful with the following command. It should return a label and score for the provided text.\n\n```bash\npython -c \"from transformers import pipeline; print(pipeline('sentiment-analysis')('hugging face is the best'))\"\n[{'label': 'POSITIVE', 'score': 0.9998704791069031}]\n```\n\n### Source install\n\nInstalling from source installs the *latest* version rather than the *stable* version of the library. It ensures you have the most up-to-date changes in Transformers and it's useful for experimenting with the latest features or fixing a bug that hasn't been officially released in the stable version yet.\n\nThe downside is that the latest version may not always be stable. If you encounter any problems, please open a GitHub Issue so we can fix it as soon as possible.\n\nInstall from source with the following command.\n\n```bash\nuv pip install git+https://github.com/huggingface/transformers\n```\n\nCheck if the install was successful with the command below. It should return a label and score for the provided text.\n\n```bash\npython -c \"from transformers import pipeline; print(pipeline('sentiment-analysis')('hugging face is the best'))\"\n[{'label': 'POSITIVE', 'score': 0.9998704791069031}]\n```\n\n### Editable install\n\nAn editable install is useful if you're developing locally with Transformers. It links your local copy of Transformers to the Transformers repository instead of copying the files. The files are added to Python's import path.\n\n```bash\ngit clone https://github.com/huggingface/transformers.git\ncd transformers\nuv pip install -e .\n```\n\n> [!WARNING]\n> You must keep the local Transformers folder to keep using it.\n\nUpdate your local version of Transformers with the latest changes in the main repository with the following command.\n\n```bash\ncd ~/transformers/\ngit pull\n```\n\n## conda\n\nconda is a language-agnostic package manager. Install Transformers from the conda-forge channel in your newly created virtual environment.\n\n```bash\nconda install conda-forge::transformers\n```\n\n## Set up\n\nAfter installation, you can configure the Transformers cache location or set up the library for offline usage.\n\n### Cache directory\n\nWhen you load a pretrained model with from_pretrained(), the model is downloaded from the Hub and locally cached.\n\nEvery time you load a model, it checks whether the cached model is up-to-date. If it's the same, then the local model is loaded. If it's not the same, the newer model is downloaded and cached.\n\nThe default directory given by the shell environment variable `HF_HUB_CACHE` is `~/.cache/huggingface/hub`. On Windows, the default directory is `C:\\Users\\username\\.cache\\huggingface\\hub`.\n\nCache a model in a different directory by changing the path in the following shell environment variables (listed by priority).\n\n1. HF_HUB_CACHE (default)\n2. HF_HOME\n3. XDG_CACHE_HOME + `/huggingface` (only if `HF_H"
+   },
+   {
+    "id": "https://huggingface.co/",
+    "title": "Hugging Face \u2013 The AI community building the future.",
+    "url": "https://huggingface.co/",
+    "text": "# The AI community building the future.\n\nThe platform where the machine learning community collaborates on models, datasets, and applications.\n\n#### google/embeddinggemma-2\n\n Updated 8 days ago \u2022 135k \u2022 2.17k \n\n#### jialinyyzz/humanizer\n\n Updated 6 days ago \u2022 65.6k \u2022 1.57k \n\n#### Qwen/Qwen-Image-2.1-Turbo\n\n Updated 2 days ago \u2022 12.7k \u2022 738 \n\n#### abenzerps/Qwen-Image-2.1-Uncensored-Quantized\n\n Updated 2 days ago \u2022 2.32M \u2022 4.24k \n\n#### openbmb/MiniCPM-V-4.7-35B-A3B\n\n Updated 28 minutes ago \u2022 4.16k \u2022 526 \n\n## Spaces\n\n Running on Zero\n\n Agents\n\n 1.53k\n\n#### MiniMax H3 Turbo LoRA\n\n 1.53k\n\nVideo generation with a synchronized soundtrack\n\n#### Jev Decision Index\n\n 647\n\nBenchmarks and news on various repros of TypeSafe's Jev\n\n MCP\n\n 513\n\n#### Wan2.2 14B Preview\n\n\ud83d\udc0c\n\n 513\n\ngenerate a video from an image with a text prompt\n\n 227\n\n#### BFS Best Face Swap\n\n 227\n\nHead swap with the BFS LoRA on Qwen-Image-2.1 (+turbo)\n\n#### Model Pulse\n\n 209\n\nHugging Face model download stats, history & trends\n\n#### datasocial/tiktok-5.6B-videos\n\n Updated 7 days ago \u2022 17.2k \u2022 291 \n\n#### XiaomiMiMo/MiMo-V2.6-RL-oss\n\n Updated 18 days ago \u2022 139k \u2022 945 \n\n#### FineEnvs/openai-math\n\n Updated 5 days ago \u2022 4.87k \u2022 82 \n\n#### LightwheelAI/EgoDemo\n\n Updated 4 days ago \u2022 59.5k \u2022 206 \n\n#### LightwheelAI/EgoPro\n\n Updated 4 days ago \u2022 34.5k \u2022 190 \n\n## The Home of Machine Learning\n\nCreate, discover and collaborate on ML better.\n\n### The collaboration platform\n\n### Move faster\n\nWith the HF Open source stack.\n\n### Explore all modalities\n\nText, image, video, audio or even 3D.\n\n## Accelerate your ML\n\n### Team & Enterprise\n\nStarting at $20/user/month\n\n### Inference Providers\n\n \n\n### Compute\n\nDeploy on optimized Inference Endpoints or update your Spaces applications to a GPU in a few clicks.\n\nStarting at $0.60/hour for GPU\n\n## More than 400,000 organizations are using Hugging Face\n\ncompany \u2022 11 models \u2022 236 followers \n\ncompany \u2022 28 models \u2022 406 followers \n\n## Our Open Source\n\nWe are building the foundation of ML tooling with the community.\n\n Transformers\n\n 167,704\n\nState-of-the-art AI models for PyTorch\n\n Diffusers\n\nState-of-the-art Diffusion models in PyTorch\n\n Safetensors\n\n 3,918\n\nSafe way to store/distribute neural network weights\n\n Hub Python Library\n\n 3,981\n\nPython client to interact with the Hugging Face Hub\n\n Tokenizers\n\n 11,169\n\nFast tokenizers optimized for research & production\n\n TRL\n\n 19,512\n\nTrain transformers LMs with reinforcement learning\n\n Transformers.js\n\n 16,344\n\nState-of-the-art ML running directly in your browser\n\n smolagents\n\n 29,839\n\nSmol library to build great agents in Python\n\n PEFT\n\n 21,788\n\nParameter-efficient finetuning for large language models\n\n Datasets\n\n 22,056\n\nAccess & share datasets for any ML tasks\n\n Text Generation Inference\n\n 10,879\n\nServe language models with TGI optimized toolkit\n\n Accelerate\n\n 9,914\n\nTrain PyTorch models with multi-GPU, TPU, mixed precision",
+    "image": "https://huggingface.co/front/thumbnails/v2-2.png",
+    "entities": [
+     {
+      "id": "https://exa.ai/library/organization/vmq35yq5br9",
+      "type": "company",
+      "version": 1,
+      "properties": {
+       "name": "Hugging Face",
+       "foundedYear": 2016,
+       "description": "The AI community building the future.",
+       "workforce": {
+        "total": 1153
+       },
+       "headquarters": {
+        "address": "Paris, FR",
+        "city": null,
+        "postalCode": null,
+        "country": "France"
+       },
+       "financials": {
+        "revenueAnnual": 50000000,
+        "fundingTotal": null,
+        "fundingLatestRound": {
+         "name": "Venture",
+         "date": "2024-09-01",
+         "amount": null
+        }
+       },
+       "webTraffic": null,
+       "research": null
+      }
+     }
+    ]
+   },
+   {
+    "id": "https://github.com/",
+    "title": "GitHub \u00b7 Change is constant. GitHub keeps you ahead. \u00b7 GitHub \u00b7 GitHub",
+    "url": "https://github.com/",
+    "text": "GitHub \u00b7 Change is constant. GitHub keeps you ahead. \u00b7 GitHub \u00b7 GitHub\n\n# The future of building happens together\n\nTools and trends evolve, but collaboration endures. With GitHub, developers, agents, and code come together on one platform.\n\n## GitHub features\n\nA demonstration animation of a code editor using GitHub Copilot Chat, where the user requests GitHub Copilot to refactor duplicated logic and extract it into a reusable function for a given code snippet.\n\nWrite, test, and fix code quickly with GitHub Copilot, from simple boilerplate to complex features.\n\nPause animation\n\nAccelerate your entire workflow\n\nFrom your first line of code to final deployment, GitHub provides AI and automation tools to help you build and ship better software faster.\n\nA Copilot chat window with the 'Ask' mode enabled. The user switches from 'Ask' mode to 'Agent' mode from a dropdown menu, then sends the prompt 'Update the website to allow searching for running races by name.' Copilot analyzes the codebase, then explains the required edits for three files before generating them. Copilot then confirms completion and summarizes the implemented changes for the new functionality allowing users to search races by name and view paginated, filtered results.\n\n### Your AI partner everywhere. Copilot is ready to work with you at each step of the software development lifecycle.\n\nDuolingo boosts developer speed by 25% with GitHub Copilot\n\n2025 Gartner\u00ae Magic Quadrant\u2122 for AI Code Assistants\n\nRead industry report\n\n### Automate your path to production\n\nShip faster with secure, reliable CI/CD.\n\n### Code instantly from anywhere\n\nLaunch a full, cloud-based development environment in seconds.\n\n### Keep momentum on the go\n\nManage projects and assign tasks to Copilot, all from your mobile device.\n\n### Shape your toolchain\n\nExtend your stack with apps, actions, and AI models.\n\nBuilt-in application security where found means fixed\n\nUse AI to find and fix vulnerabilities so your team can ship more secure software faster.\n\n### Apply fixes in seconds. Spend less time debugging and more time building features with Copilot Autofix.\n\nSecurity debt, solved. Leverage security campaigns and Copilot Autofix to reduce application vulnerabilities.\n\nDependencies you can depend on. Update vulnerable dependencies with supported fixes for breaking changes.\n\nYour secrets, your business. Detect, prevent, and remediate leaked secrets across your organization.\n\nLearn about GitHub Secret Protection\n\n70% MTTR reduction with Copilot Autofix\n\n8.3M secret leaks stopped in the past 12 months with push protection\n\nFrom planning and discussion to code review, GitHub keeps your team\u2019s conversation and context next to your code.\n\n### Plan with clarity. Organize everything from high-level roadmaps to everyday tasks.\n\n\u201c\n\n> It helps us onboard new software engineers and get them productive right away. We have all our source code, issues, and pull requests in one place... GitHub is a complete platform that frees us from menial tasks and enables us to do our best work.\n\nFabian Faulhaber Application manager at Mercedes-Benz\n\nCreate issues and manage projects with tools that adapt to your code.\n\nCreate space for open-ended conversations alongside your project.\n\nAssign initial reviews to Copilot for greater speed and quality.\n\nMercedes-Benz standardizes source code and automates onboarding\n\nMercado Libre cuts coding time by 50%\n\nWhether you\u2019re scaling your development process or just learning how to code, GitHub is where you belong. Join the world\u2019s most widely adopted developer platform to build the technologies that shape what\u2019s next.",
+    "image": "https://images.ctfassets.net/8aevphvgewt8/4pe4eOtUJ0ARpZRE4fNekf/f52b1f9c52f059a33170229883731ed0/GH-Homepage-Universe-img.png",
+    "entities": [
+     {
+      "id": "https://exa.ai/library/organization/2cwm2bw4qfr",
+      "type": "company",
+      "version": 1,
+      "properties": {
+       "name": "GitHub",
+       "foundedYear": 2008,
+       "description": "As the global home for all developers, GitHub is the complete AI-powered developer platform to build, scale, and deliver secure software. Over 100 million people, including developers from 90 of the Fortune 100 companies, use GitHub to build amazing things together across 330+ million repositories. With all the collaborative features of GitHub, it has never been easier for individuals and teams to write faster, better code.\n",
+       "workforce": {
+        "total": 6864
+       },
+       "headquarters": {
+        "address": "88 Colin P Kelly Jr St, San Francisco, CA 94107, US",
+        "city": "San Francisco",
+        "postalCode": null,
+        "country": "United States"
+       },
+       "financials": {
+        "revenueAnnual": 1000000000,
+        "fundingTotal": 350000000,
+        "fundingLatestRound": {
+         "name": "Secondary market",
+         "date": "2015-12-01",
+         "amount": null
+        }
+       },
+       "webTraffic": null,
+       "research": null
+      }
+     }
+    ]
+   },
+   {
+    "id": "https://discuss.huggingface.co/",
+    "title": "Hugging Face Forums - Hugging Face Community Discussion",
+    "url": "https://discuss.huggingface.co/",
+    "text": "Hugging Face Forums - Hugging Face Community Discussion\n\n# All hot topics\n\nTopic list, column headers with buttons are sortable.\n\n| Topic | Posters | Replies | Views | Activity |\n| --- | --- | --- | --- | --- |\n| Picking STS3215 servos for SO-101: am I the only one confused? Beginners | | 1 | 49 | 9h |\n| How do you reproduce LLM agent failures? I built an open-source Python tool for offline replay and pytest testing Beginners | | 4 | 72 | 35m |\n| Technical scaling & spatial fit for SKU object replacement Beginners | | 1 | 60 | 20h |\n| We gave AI a trust we never gave people - The third axis, after capability and permission Research | | 10 | 471 | 6d |\n| Useful parameter for Model/Dataset/Space search Site Feedback | | 3 | 140 | 4d |\n| Do you Think Removing the $0.10 Monthly Free Inference Credits Is the Right Decision? Beginners | | 2 | 179 | 5d |\n| How to keep what the model makes up out of the agent Research | | 4 | 70 | 7h |\n| Shoe string ablation or pruning Beginners | | 12 | 225 | 1d |\n| Scaling Beatrix V3: a 376M byte-level model and the training Show and Tell | | 9 | 192 | 3d |\n| What does a AI judge score of 0.8 actually mean? Introducing Typed Evals Show and Tell | | 2 | 87 | 5m |\n| Sanity check on my hybrid RAG settings Community Calls | | 3 | 79 | 15h |\n| What do you think about AI? Beginners | | 21 | 973 | 5d |\n| How to improve my tokens per second? Research | | 1 | 118 | 4d |\n| Coordinated spam wave flooding the \u201cNew\u201d topics feed Site Feedback | | 2 | 136 | 2d |\n| Janas-LLM 37 tok/s vs llama.cpp 2.8 tok/s on Qwen3-Next-80B, on an Intel Core Ultra 9 185H with 32 GB RAM Show and Tell | | 0 | 90 | 3d |\n| Did HuggingFace remove the credits given to Free Users? Beginners | | 5 | 326 | 4d |\n| Inference Providers credits show $0.00 despite no usage Beginners | | 1 | 49 | 18h |\n| Anyone else having trouble getting a ZeroGPU allocation/reservation? Spaces | | 37 | 1.9k | 1d |\n| Best Jira Integrations for Engineering Teams: Connecting Issues, Code, and AI Agents Beginners | | 1 | 41 | 19h |\n| Keeping the Attention Sink Exact in Activation-Whitened SVD Compression Research | | 2 | 104 | 3d |\n| ZY-S1 Preview \u2014 Born in India. Built for Intelligence Models | | 0 | 49 | 2d |\n| The Confidence Trap: Why AI Systems Are Deliberately Trained to Sound Certain When They\u2019re Wrong Research | | 9 | 242 | 3d |\n| Request to update paper title: arXiv 2610.02205 Site Feedback | | 0 | 41 | 2d |\n| What Should I Learn First? Beginners | | 1 | 65 | 20h |\n| How to download pan.baidu.com or Quark Pan weights without a Chinese account Beginners | | 4 | 516 | 1d |\n| Misalignment is not required for an agent to act without authorization Research | | 29 | 735 | 14h |\n| An open research lab for measuring \u2014 not prompting \u2014 music production in a DAW Research | | 14 | 402 | 4d |\n| Could RAG retrieve LLM-native latent memory instead of text? Research | | 4 | 118 | 1d |\n| AI, Mathematics, and the Possibility of an \u201cInformation Field\u201d Research | | 3 | 131 | 8h |\n| How Do You Choose the Right AI Model for a Real Workflow? Models | | 0 | 53 | 2d |",
+    "image": "https://us1.discourse-cdn.com/hellohellohello/original/2X/d/de4155eb4aa4108ecb32a1389d7cc37ae69f88b7.png"
+   },
+   {
+    "id": "https://pypi.org/",
+    "title": "PyPI \u00b7 The Python Package Index",
+    "url": "https://pypi.org/",
+    "text": "PyPI \u00b7 The Python Package Index\n\n# Find, install and publish Python packages with the Python Package Index\n\n Publishing as a team? Use an organization account \n\n 915,214 projects \n\n 9,871,239 releases \n\n 22,018,231 files\n\n 1,127,020 users\n\n The Python Package Index (PyPI) is a repository of software for the Python programming language. \n\n PyPI helps you find and install software developed and shared by the Python community. Learn about installing packages. \n\n Package authors use PyPI to distribute their software. Learn how to package your Python code for PyPI.",
+    "image": "https://pypi.org/static/images/og-card.00947198.webp",
+    "entities": [
+     {
+      "id": "https://exa.ai/library/organization/2x4sn1ln50j",
+      "type": "company",
+      "version": 1,
+      "properties": {
+       "name": "PyPI",
+       "foundedYear": 2003,
+       "description": "The Python Package Index (PyPI) is a repository of software for the Python programming language",
+       "workforce": {
+        "total": 9
+       },
+       "headquarters": {
+        "address": "Leicester, Leicester, United Kingdom",
+        "city": "Leicester",
+        "postalCode": null,
+        "country": "United Kingdom"
+       },
+       "financials": {
+        "revenueAnnual": null,
+        "fundingTotal": null,
+        "fundingLatestRound": {
+         "name": "Non equity assistance",
+         "date": "2023-04-12",
+         "amount": null
+        }
+       },
+       "webTraffic": {
+        "visitsMonthly": 3579569,
+        "countryRank": 17303,
+        "avgDurationSeconds": 85,
+        "history": [
+         {
+          "value": 4932490,
+          "dateFrom": "2026-04",
+          "dateTo": "2026-04"
+         },
+         {
+          "value": 4829728,
+          "dateFrom": "2026-05",
+          "dateTo": "2026-05"
+         },
+         {
+          "value": 4253634,
+          "dateFrom": "2026-06",
+          "dateTo": "2026-06"
+         },
+         {
+          "value": 3992335,
+          "dateFrom": "2026-07",
+          "dateTo": "2026-07"
+         },
+         {
+          "value": 3876185,
+          "dateFrom": "2026-08",
+          "dateTo": "2026-08"
+         },
+         {
+          "value": 3579569,
+          "dateFrom": "2026-09",
+          "dateTo": "2026-09"
+         }
+        ]
+       },
+       "research": null
+      }
+     }
+    ]
+   },
+   {
+    "id": "https://www.pypi.org/project/transformers",
+    "title": "transformers v5.17.0",
+    "url": "https://www.pypi.org/project/transformers",
+    "text": "# transformers v5.17.0\n\nTransformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.\n\n- Author: The Hugging Face team (past and future) with the help of all our contributors (https://github.com/huggingface/transformers/graphs/contributors)\n- Author email: transformers@huggingface.co\n- License: Apache 2.0 License\n- Python: >=3.10.0\n- Homepage: https://github.com/huggingface/transformers\n- Package URL: https://pypi.org/project/transformers/\n\n## Project URLs\n\n- Homepage: https://github.com/huggingface/transformers\n\n## Keywords\n\nmachine-learning nlp python pytorch transformer llm vlm deep-learning inference training model-hub pretrained-models llama gemma qwen\n\n## Dependencies\n\n| Package | Constraint |\n| --- | --- |\n| huggingface-hub | <2.0,>=1.5.0 |\n| numpy | >=1.17 |\n| packaging | >=20.0 |\n| pyyaml | >=5.1 |\n| regex | >=2025.10.22 |\n| tokenizers | <0.24.0,>=0.23.1 |\n| typer | * |\n| safetensors | >=0.8.0 |\n| tqdm | >=4.60 |\n\n## Optional Dependencies\n\n| Package | Constraint | Extra |\n| --- | --- | --- |\n| torch | >=2.5 | torch |\n| accelerate | >=1.1.0 | torch |\n| torchvision | * | vision |\n| Pillow | <=15.0,>=10.0.1 | vision |\n| torchaudio | * | audio |\n| librosa | * | audio |\n| pyctcdecode | >=0.4.0 | audio |\n| phonemizer | * | audio |\n| av | * | video |\n| timm | >=1.0.23 | timm |\n| datasets | >=2.15.0 | quality |\n| ruff | ==0.14.10 | quality |\n| GitPython | <3.1.19 | quality |\n| urllib3 | <2.0.0 | quality |\n| libcst | * | quality |\n| rich | * | quality |\n| ty | ==0.0.20 | quality |\n| tomli | * | quality |\n| transformers-mlinter | ==0.1.5 | quality |\n| hf-doc-builder | * | docs |\n| kernels | <0.17,>=0.16.0 | kernels |\n| sentencepiece | !=0.1.92,>=0.1.91 | sentencepiece |\n| protobuf | * | sentencepiece |\n| tiktoken | * | tiktoken |\n| blobfile | * | tiktoken |\n| mistral-common | >=1.11.7 | mistral-common |\n| jinja2 | >=3.1.0 | chat-template |\n| scikit-learn | * | sklearn |\n| accelerate | >=1.1.0 | accelerate |\n| faiss-cpu | * | retrieval |\n| datasets | >=2.15.0 | retrieval |\n| sagemaker | >=2.31.0 | sagemaker |\n| deepspeed | >=0.9.3 | deepspeed |\n| accelerate | >=1.1.0 | deepspeed |\n| optuna | * | optuna |\n| kernels | <0.17,>=0.16.0 | integrations |\n| optuna | * | integrations |\n| codecarbon | >=2.8.1 | integrations |\n| ray | >=2.7.0 | integrations |\n| ray | >=2.7.0 | ray |\n| codecarbon | >=2.8.1 | codecarbon |\n| openai | >=1.98.0 | serving |\n| pydantic | >=2 | serving |\n| uvicorn | * | serving |\n| fastapi | * | serving |\n| starlette | * | serving |\n| rich | * | serving |\n| torch | >=2.5 | serving |\n| accelerate | >=1.1.0 | serving |\n| num2words | * | num2words |\n| optimum-benchmark | >=0.3.0 | benchmark |\n| fugashi | >=1.0 | ja |\n| ipadic | <2.0,>=1.0.0 | ja |\n| unidic_lite | >=1.0.7 | ja |\n| unidic | >=1.0.2 | ja |\n| rhoknp | <1.3.1,>=1.1.0 | ja |\n| sudachipy | >=0.6.6 | ja |\n| sudachidict_core | >=20220729 | ja |\n| pytest | <9.0.0,>=7.2.0 | testing |\n| pytest-asyncio | >=1.2.0 | testing |\n| pytest-random-order | * | testing |\n| pytest-rich | * | testing |\n| pytest-xdist | * | testing |\n| pytest-order | * | testing |\n| pytest-rerunfailures | <16.0 | testing |\n| pytest-timeout | * | testing |\n| pytest-env | * | testing |\n| timeout-decorator | * | testing |\n| parameterized | >=0.9 | testing |\n| psutil | * | testing |\n| dill | <0.3.5 | testing |\n| diffusers | ==0.35.2 | testing |\n| evaluate | >=0.4.6 | testing |\n| rouge-score | !=0.0.7,!=0.0.8,!=0.1,!=0.1.1 | testing |\n| nltk | <=3.8.1 | testing |\n| sacremoses | * | testing |\n| rjieba | * | testing |\n| beautifulsoup4 | * | testing |\n| tensorboard | * | testing |\n| sacrebleu | <2.0.0,>=1.4.12 | testing |\n| filelock | * | testing |\n| hf-doc-builder | * | testing |\n| datasets | >=2.15.0 | testing |\n| ruff | ==0.14.10 | testing |\n| GitPython | <3.1.19 | testing |\n| urllib3 | <2.0.0 | testing |\n| libcst | * | testing |\n| rich | * | testing |\n| ty | ==0.0.20 | testing |\n| tomli | *"
+   }
+  ],
+  "searchTime": 3059,
+  "costDollars": {
+   "total": 0.012
+  }
+ },
+ "fetched_at": "2026-10-14T17:28:05+0530"
+}
