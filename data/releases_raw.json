@@ -1,0 +1,272 @@
+[
+ {
+  "r": "nodejs/node",
+  "name": "Node.js",
+  "cur": "v26.11.1",
+  "date": "2026-10-07T23:55:23Z",
+  "url": "https://github.com/nodejs/node/releases/tag/v26.11.1",
+  "prev": "v26.8.2",
+  "prev_date": "2026-09-09T16:07:48Z"
+ },
+ {
+  "r": "rust-lang/rust",
+  "name": "Rust",
+  "cur": "1.99.0",
+  "date": "2026-10-01T12:41:12Z",
+  "url": "https://github.com/rust-lang/rust/releases/tag/1.99.0",
+  "prev": "1.98.1",
+  "prev_date": "2026-09-03T13:14:07Z"
+ },
+ {
+  "r": "astral-sh/uv",
+  "name": "uv (Astral)",
+  "cur": "0.13.1",
+  "date": "2026-10-14T05:15:30Z",
+  "url": "https://github.com/astral-sh/uv/releases/tag/0.13.1",
+  "prev": "0.12.13",
+  "prev_date": "2026-09-10T19:27:24Z"
+ },
+ {
+  "r": "astral-sh/ruff",
+  "name": "Ruff",
+  "cur": "0.17.0",
+  "date": "2026-10-09T19:48:30Z",
+  "url": "https://github.com/astral-sh/ruff/releases/tag/0.17.0",
+  "prev": "0.16.7",
+  "prev_date": "2026-09-10T18:05:06Z"
+ },
+ {
+  "r": "pydantic/pydantic",
+  "name": "Pydantic",
+  "cur": "v2.14.1",
+  "date": "2026-10-11T18:39:44Z",
+  "url": "https://github.com/pydantic/pydantic/releases/tag/v2.14.1",
+  "prev": "v2.13.5",
+  "prev_date": "2026-08-28T14:06:45Z"
+ },
+ {
+  "r": "fastapi/fastapi",
+  "name": "FastAPI",
+  "cur": "0.143.0",
+  "date": "2026-10-08T12:29:29Z",
+  "url": "https://github.com/fastapi/fastapi/releases/tag/0.143.0",
+  "prev": "0.141.1",
+  "prev_date": "2026-07-29T17:17:26Z"
+ },
+ {
+  "r": "langchain-ai/langchain",
+  "name": "LangChain (langchain package)",
+  "cur": "1.4.5",
+  "date": "2026-10-12T19:28:41Z",
+  "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.5",
+  "prev": "1.4.0",
+  "prev_date": "2026-09-03T16:59:53Z"
+ },
+ {
+  "r": "huggingface/transformers",
+  "name": "Hugging Face Transformers",
+  "cur": "v5.19.0",
+  "date": "2026-10-06T16:39:23Z",
+  "url": "https://github.com/huggingface/transformers/releases/tag/v5.19.0",
+  "prev": "v5.17.0",
+  "prev_date": "2026-09-09T15:42:45Z"
+ },
+ {
+  "r": "pytorch/pytorch",
+  "name": "PyTorch",
+  "cur": "v2.14.1",
+  "date": "2026-09-30T19:14:48Z",
+  "url": "https://github.com/pytorch/pytorch/releases/tag/v2.14.1",
+  "prev": "v2.14.0",
+  "prev_date": "2026-09-02T17:40:10Z"
+ },
+ {
+  "r": "denoland/deno",
+  "name": "Deno",
+  "cur": "v2.9.7",
+  "date": "2026-09-17T09:04:55Z",
+  "url": "https://github.com/denoland/deno/releases/tag/v2.9.7",
+  "prev": "v2.9.6",
+  "prev_date": "2026-08-27T17:29:30Z"
+ },
+ {
+  "r": "oven-sh/bun",
+  "name": "Bun",
+  "cur": "v1.4.3",
+  "date": "2026-10-10T05:24:54Z",
+  "url": "https://github.com/oven-sh/bun/releases/tag/bun-v1.4.3",
+  "prev": "v1.4.2",
+  "prev_date": "2026-09-05T05:55:48Z"
+ },
+ {
+  "r": "vitejs/vite",
+  "name": "Vite",
+  "cur": "v8.3.4",
+  "date": "2026-10-08T12:03:54Z",
+  "url": "https://github.com/vitejs/vite/releases/tag/v8.3.4",
+  "prev": "v8.3.0",
+  "prev_date": "2026-09-10T11:25:16Z"
+ },
+ {
+  "r": "kubernetes/kubernetes",
+  "name": "Kubernetes",
+  "cur": "v1.37.1",
+  "date": "2026-09-23T19:13:17Z",
+  "url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.37.1",
+  "prev": "v1.37.0",
+  "prev_date": "2026-08-26T16:29:12Z"
+ },
+ {
+  "r": "docker/compose",
+  "name": "Docker Compose",
+  "cur": "v5.6.0",
+  "date": "2026-10-02T16:07:06Z",
+  "url": "https://github.com/docker/compose/releases/tag/v5.6.0",
+  "prev": "v5.5.1",
+  "prev_date": "2026-09-03T15:53:28Z"
+ },
+ {
+  "r": "ollama/ollama",
+  "name": "Ollama",
+  "cur": "v0.40.4",
+  "date": "2026-10-12T19:00:12Z",
+  "url": "https://github.com/ollama/ollama/releases/tag/v0.40.4",
+  "prev": "v0.34.0",
+  "prev_date": "2026-09-05T23:49:00Z"
+ },
+ {
+  "r": "vllm-project/vllm",
+  "name": "vLLM",
+  "cur": "v0.31.0",
+  "date": "2026-10-05T06:44:55Z",
+  "url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
+  "prev": "v0.29.0",
+  "prev_date": "2026-09-09T08:54:49Z"
+ },
+ {
+  "r": "sveltejs/svelte",
+  "name": "Svelte",
+  "cur": "5.57.2",
+  "date": "2026-10-06T14:20:22Z",
+  "url": "https://github.com/sveltejs/svelte/releases/tag/svelte%405.57.2",
+  "prev": "5.57.0",
+  "prev_date": "2026-08-28T23:31:40Z"
+ },
+ {
+  "r": "vuejs/core",
+  "name": "Vue",
+  "cur": "v3.5.44",
+  "date": "2026-10-13T07:43:25Z",
+  "url": "https://github.com/vuejs/core/releases/tag/v3.5.44",
+  "prev": "v3.5.42",
+  "prev_date": "2026-08-27T05:47:42Z"
+ },
+ {
+  "r": "pandas-dev/pandas",
+  "name": "pandas",
+  "cur": "v3.0.6",
+  "date": "2026-09-17T21:32:36Z",
+  "url": "https://github.com/pandas-dev/pandas/releases/tag/v3.0.6",
+  "prev": "v3.0.5",
+  "prev_date": "2026-07-22T21:47:08Z"
+ },
+ {
+  "r": "numpy/numpy",
+  "name": "NumPy",
+  "cur": "v2.5.4",
+  "date": "2026-10-10T21:30:10Z",
+  "url": "https://github.com/numpy/numpy/releases/tag/v2.5.4",
+  "prev": "v2.5.3",
+  "prev_date": "2026-09-06T16:37:15Z"
+ },
+ {
+  "r": "grafana/grafana",
+  "name": "Grafana",
+  "cur": "v13.2.4",
+  "date": "2026-10-13T11:41:03Z",
+  "url": "https://github.com/grafana/grafana/releases/tag/v13.2.4",
+  "prev": "v13.2.1",
+  "prev_date": "2026-09-02T07:00:31Z"
+ },
+ {
+  "r": "hashicorp/terraform",
+  "name": "Terraform",
+  "cur": "v1.16.6",
+  "date": "2026-10-14T09:31:54Z",
+  "url": "https://github.com/hashicorp/terraform/releases/tag/v1.16.6",
+  "prev": "v1.16.2",
+  "prev_date": "2026-09-09T13:22:31Z"
+ },
+ {
+  "r": "elastic/elasticsearch",
+  "name": "Elasticsearch",
+  "cur": "v9.5.5",
+  "date": "2026-10-06T14:01:58Z",
+  "url": "https://github.com/elastic/elasticsearch/releases/tag/v9.5.5",
+  "prev": "v9.5.3",
+  "prev_date": "2026-09-03T10:08:41Z"
+ },
+ {
+  "r": "redis/redis",
+  "name": "Redis",
+  "cur": "8.10.2",
+  "date": "2026-09-17T15:06:56Z",
+  "url": "https://github.com/redis/redis/releases/tag/8.10.2",
+  "prev": "8.10.1",
+  "prev_date": "2026-08-17T16:44:04Z"
+ },
+ {
+  "r": "supabase/supabase-js",
+  "name": "supabase-js",
+  "cur": "v2.117.3",
+  "date": "2026-10-07T12:33:06Z",
+  "url": "https://github.com/supabase/supabase-js/releases/tag/v2.117.3",
+  "prev": "v2.116.0",
+  "prev_date": "2026-09-07T16:24:55Z"
+ },
+ {
+  "r": "openai/openai-python",
+  "name": "OpenAI Python SDK",
+  "cur": "v3.31.0",
+  "date": "2026-10-14T05:38:46Z",
+  "url": "https://github.com/openai/openai-python/releases/tag/v3.31.0",
+  "prev": "v3.13.0",
+  "prev_date": "2026-09-10T19:37:39Z"
+ },
+ {
+  "r": "anthropics/anthropic-sdk-python",
+  "name": "Anthropic Python SDK",
+  "cur": "v1.13.0",
+  "date": "2026-10-09T15:28:52Z",
+  "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.13.0",
+  "prev": "v1.5.0",
+  "prev_date": "2026-09-10T17:45:22Z"
+ },
+ {
+  "r": "microsoft/vscode",
+  "name": "VS Code",
+  "cur": "1.141.1",
+  "date": "2026-10-13T21:53:53Z",
+  "url": "https://github.com/microsoft/vscode/releases/tag/1.141.1",
+  "prev": "1.137.0",
+  "prev_date": "2026-09-09T15:32:58Z"
+ },
+ {
+  "r": "JetBrains/kotlin",
+  "name": "Kotlin",
+  "cur": "v2.4.21",
+  "date": "2026-10-08T09:25:15Z",
+  "url": "https://github.com/JetBrains/kotlin/releases/tag/v2.4.21",
+  "prev": "v2.4.20",
+  "prev_date": "2026-09-07T10:31:56Z"
+ },
+ {
+  "r": "neovim/neovim",
+  "name": "Neovim",
+  "cur": "v0.12.6",
+  "date": "2026-10-09T15:43:25Z",
+  "url": "https://github.com/neovim/neovim/releases/tag/v0.12.6",
+  "prev": "v0.12.5",
+  "prev_date": "2026-08-23T18:27:13Z"
+ }
+]

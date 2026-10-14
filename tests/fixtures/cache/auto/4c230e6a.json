@@ -1,0 +1,22 @@
+{
+ "status": 200,
+ "latency_s": 1.0,
+ "request": {
+  "query": "latest stable release of Node.js"
+ },
+ "fixture": true,
+ "response": {
+  "results": [
+   {
+    "url": "https://example.com/a",
+    "title": "old",
+    "text": "Release 26.8.2 is out"
+   },
+   {
+    "url": "https://example.com/b",
+    "title": "new",
+    "text": "Release v26.11.1 is out"
+   }
+  ]
+ }
+}
