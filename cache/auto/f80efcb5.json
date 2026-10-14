@@ -1,0 +1,210 @@
+{
+ "status": 200,
+ "latency_s": 1.324,
+ "request": {
+  "type": "auto",
+  "contents": {
+   "text": {
+    "maxCharacters": 4000
+   }
+  },
+  "query": "Globality CEO",
+  "numResults": 10
+ },
+ "response": {
+  "requestId": "50bba93ee50a59b94df607f0843fc259",
+  "resolvedSearchType": "",
+  "results": [
+   {
+    "id": "https://www.globality.com/company/about-us/",
+    "title": "About Us - Globality",
+    "url": "https://www.globality.com/company/about-us/",
+    "text": "About Us - Globality\n\n# Redefining how enterprises source. \n\n \n\nGlo 2.0 is the autonomous sourcing platform that manages the complete intake-to-award process.\n\nOur sourcing platform autonomously interprets purchase intent, generates RFx materials, determines suitable suppliers, and executes negotiation strategies that produce high-quality award decisions, managing the full process from intake to award.\n\nWe deliver 60-90% faster sourcing cycle times and 10-20% cost savings annually for leading enterprises including BT, Tesco, Swiss Re, Deloitte, UPS, Fidelity, Bristol Myers Squibb, Soci\u00e9t\u00e9 G\u00e9n\u00e9rale, and HP.\n\n## Executive Team \n\n \n\n Jared Hyatt Chief Executive Officer \n\nJared is CEO of Globality. Before that, he led Globality\u2019s finance functions. He was previously an investor at Norwest Venture Partners, where he focused on early-stage technology. Earlier in his career, he worked at established technology companies, including Google and Apple, and at successful startups such as VideoSurf (acquired by Microsoft).\n\n \n\n Vinod Devan President, Go-To-Market \n\nVinod leads Globality\u2019s commercial organization and growth strategy. He previously led go-to-market teams through periods of rapid scaling at Confluent and Cohere, including Confluent\u2019s IPO. Prior to that, he served as a Partner at Deloitte, guiding leadership teams through major business transformations.\n\n \n\n Sonia Mathai Chief Human Resources Officer \n\nSonia is passionate about fostering a mission-driven, inclusive culture where all employees can do their best work. Prior to joining Globality, she built and scaled global recruiting and human resources functions at Synack and Upwork. Sonia has been recognized multiple times in Diversity Journal\u2019s Women Worth Watching in Leadership Awards and is a recipient of the Ragan Award which highlights her work supporting women in technology, encouraging a positive workplace environment, and focusing on employee wellness.\n\n \n\n Keith McFarlane Chief Technology Officer \n\nA software applications veteran with over 25 years of experience, Keith has a passion for building applications and organizations that perform and scale. From his early days with AT&T Bell Laboratories to his years building out the Oracle Service Cloud, Keith has run and grown diverse, open, and collaborative teams and organizations that continuously innovate while producing applications of the highest quality.\n\n## Board Members \n\n \n\n Joel Hyatt Co-Founder & Chairman \n\nJoel is a serial entrepreneur who has launched and scaled several disruptive service companies. He co-founded and served as CEO of Globality, Hyatt Legal Services, Hyatt Legal Plans (acquired by MetLife), and Current TV (acquired by Al Jazeera). He now focuses on his role as Chairman of the Board of Globality.\n\n \n\n Lior Delgo Co-Founder & Vice Chairman \n\nLior is a serial entrepreneur with a proven record of building disruptive technology and new business models. He is Co-Founder and Vice Chairman of Globality, where he pioneered the use of AI to transform enterprise sourcing and procurement. He previously co-founded and served as CEO of FareChase (acquired by Yahoo) and VideoSurf (acquired by Microsoft). After the VideoSurf acquisition, he stayed at Microsoft as a Partner and Group Program Manager at Xbox. Lior holds numerous technology patents.\n\n \n\n Jared Hyatt Chief Executive Officer \n\nJared is CEO of Globality. Before that, he led Globality\u2019s finance functions. He was previously an investor at Norwest Venture Partners, where he focused on early-stage technology. Earlier in his career, he worked at established technology companies, including Google and Apple, and at successful startups such as VideoSurf (acquired by Microsoft).\n\n \n\n John R. Joyce Former CFO, IBM; Former President, IBM Global Services \n\nJohn served in a variety of senior posts during his 30-year career at IBM, which included successful stints as CFO, President of IBM Global Services and President of IBM\u2019s Asia-Pacific operations. Following I"
+   },
+   {
+    "id": "https://procurementmag.com/news/jared-hyatt-named-new-globality-ceo-as-joel-hyatt-steps-down",
+    "title": "Jared Hyatt Named New Globality CEO as Joel Hyatt Steps Down | Procurement Magazine",
+    "url": "https://procurementmag.com/news/jared-hyatt-named-new-globality-ceo-as-joel-hyatt-steps-down",
+    "publishedDate": "2026-10-14T10:14:47.000Z",
+    "author": "Georgia Collins",
+    "text": "# Jared Hyatt Named New Globality CEO as Joel Hyatt Steps Down | Procurement Magazine\n\nAuthor: Georgia Collins\nPublished: 2026-10-14T10:14:47Z\nSource: procurementmag.com\nLanguage: en"
+   },
+   {
+    "id": "https://www.globality.com/company/news/joel-hyatt-interview-forbes/",
+    "title": "[Forbes] Interview with Globality CEO Joel Hyatt",
+    "url": "https://www.globality.com/company/news/joel-hyatt-interview-forbes/",
+    "publishedDate": "2024-07-12T08:22:56.000Z",
+    "author": "Ittai Shaked",
+    "text": "[Forbes] Interview with Globality CEO Joel Hyatt\n\n# [Forbes] Interview with Globality CEO Joel Hyatt \n\n By Ittai Shaked \n\nJuly 12, 2024\n\n \n\nFeature interview with our Co-Founder, Chairman and CEO Joel Hyatt tells the story of his entrepreneurial background and Globality\u2019s mission to enable companies of all sizes and backgrounds to compete for business with the biggest corporations in the world.\n\n Headquarters 395 Page Mill Road Palo Alto, CA 94306",
+    "image": "https://www.globality.com/wp-content/uploads/2026/03/Screenshot202024-07-1220at2009.18.50-scaled.png"
+   },
+   {
+    "id": "https://longevity.stanford.edu/joel-hyatt/",
+    "title": "Joel Hyatt - Stanford Center on Longevity",
+    "url": "https://longevity.stanford.edu/joel-hyatt/",
+    "text": "Joel Hyatt - Stanford Center on Longevity\n\n### JOEL HYATT\n\nCEO, Co-Founder and Chairman, Globality, Inc.\n\nJoel Hyatt is a serial entrepreneur who has successfully launched and scaled several disruptive companies. Each was inspired by his belief that there are private sector solutions to pressing societal issues. BusinessWeek recognized him as one of the top 50 business leaders in the United States.\n\nJoel is currently CEO, Co-founder and Chairman of Globality, Inc., which is building a new ecosystem for global trade in business services. Globality\u2019s mission is to make globalization work by enabling small and midsize companies to participate in the global economy \u2014 helping them grow, create jobs and foster innovation.\n\nPreviously, he was CEO and Co-founder of Current Media. Under Joel\u2019s leadership, Current TV grew to 70 million subscriber households, won two Emmy\u00ae Awards and received several accolades for outstanding investigative journalism. Prior to Current Media, he was CEO and Co-founder of Hyatt Legal Services and Hyatt Legal Plans \u2014 the largest provider of employer sponsored group legal plans at over 200 Fortune 500 companies, serving 10 million families (acquired by MetLife).\n\nHe was also a faculty member at Stanford University\u2019s Graduate School of Business, teaching highly popular entrepreneurship courses. He also taught legal ethics and professional responsibility at Stanford Law School. Joel presently serves on the Boards of the Rand Corporation and Stanford University Hospital.",
+    "image": "https://longevity.stanford.edu/wp-content/uploads/2024/03/Stanford-Center-on-Longevity.png"
+   },
+   {
+    "id": "https://people.equilar.com/bio/person/joel-hyatt-globality-inc/21083",
+    "title": "Joel Z. Hyatt - Executive Bio, Work History, and Contacts - Equilar ExecAtlas",
+    "url": "https://people.equilar.com/bio/person/joel-hyatt-globality-inc/21083",
+    "text": "Joel Z. Hyatt - Executive Bio, Work History, and Contacts - Equilar ExecAtlas\n\n# Joel Z. Hyatt\n\nCo-Founder, Chairman, & CEO at Globality, Inc.\n\n Current \n\nBoard Member, \n\n Board Member Equilar on 12/03/2025 \n\nRAND CORPORATION \n\nCo-Founder, Chairman, & CEO, \n\nGlobality, Inc. \n\n B.A., Dartmouth College J.D., Yale University - Yale Law School\n\n Age 75 \n\n### Joel Z. Hyatt's Biography \n\nJoel is a serial entrepreneur with broad experience successfully launching and scaling disruptive service companies. He was the Co-Founder and CEO of Hyatt Legal Services, Hyatt Legal Plans (acquired by MetLife) and Current TV (acquired by Al Jazeera).\n\n Source: Globality, Inc. on 09/16/2026 \n\n### Joel Z. Hyatt's Connections (144) \n\nSteve Arentzoff Former Chief Marketing Officer, Globality, Inc.\n\nJay Krishnan Former VP, Product Marketing, Globality, Inc.\n\nJames J. Chung Former SVP, Technical Programs, Globality, Inc.\n\nErik K. Bardman Former Chief Financial Officer, Globality, Inc.\n\nIdo Ben-Zvi Former VP, AI, Globality, Inc.\n\nLuke Jesson Former Vice President, HR Category, Globality, Inc.\n\nLeigh Simpson Former VP, Engineering (EMEA), Globality, Inc.\n\nAdam Hadani Former Senior Vice President, AI, Globality, Inc.\n\nTom Umberg Former VP, Corporate Counsel, Globality, Inc.\n\nJoel is a serial entrepreneur with broad experience successfully launching and scaling disruptive service companies. He was the Co-Founder and CEO of Hyatt Legal Services, Hyatt Legal Plans (acquired by MetLife) and Current TV (acquired by Al Jazeera)."
+   },
+   {
+    "id": "https://en.wikipedia.org/wiki/Joel_Hyatt",
+    "title": "Joel Hyatt",
+    "url": "https://en.wikipedia.org/wiki/Joel_Hyatt",
+    "publishedDate": "2026-08-31T15:26:35.000Z",
+    "text": "Joel Hyatt\n\n| Joel Hyatt | |\n| --- | --- |\n| Hyatt at the 69th Annual Peabody Awards | |\n| Born | Joel Hyatt Zylberberg May 6, 1950 (age 76) |\n| Education | Dartmouth College Yale Law School |\n| Occupations | Entrepreneur; (former) Attorney; (former) Professor |\n| Political party | Democratic |\n\nJoel Z. Hyatt (born Joel Hyatt Zylberberg; May 6, 1950) [1] is an American entrepreneur and former politician. He founded Hyatt Legal Services, and was featured in his firm's nationwide television commercials which always ended with the slogan, \"I'm Joel Hyatt and you have my word on it.\" [2] Hyatt was a co-founder of Current TV.\n\n## Life and career\n\nHyatt graduated from Dartmouth College and Yale Law School. He briefly practiced law as an associate at Paul, Weiss, Rifkind, Wharton & Garrison. [2] \n\nHyatt co-founded Hyatt Legal Services in 1977 as a low-cost legal service, making legal services available to millions of hitherto disenfranchised middle- and lower-class Americans. He later founded Hyatt Legal Plans, which became the country's largest provider of employer-sponsored group legal services, pioneering the concept of legal services as a fringe benefit (provided in the same manner as, for example, dental insurance). Hyatt Legal Plans was acquired by MetLife in 1997.\n\nHyatt was a founding member of the U.S. Senate Democratic Leadership Circle and was a member of that group from 1981 to 1986. He was the Democratic National Committee's assistant treasurer from 1981 to 1983.\n\nHyatt is the son-in-law of Howard Metzenbaum, former United States Senator for Ohio. Hyatt was Metzenbaum's campaign manager for his first two successful bids for the Senate. In the 1994 election, when Metzenbaum decided to retire, Hyatt ran to replace him. Hyatt won the Democratic nomination, but lost to then Lieutenant Governor of Ohio Michael DeWine in the general election, in a campaign year in which Republicans swept all twelve of the Senate vacancies and unseated many incumbents.\n\nIn 1990, Hyatt Legal Services paid a $157,000 settlement for having illegally fired an attorney in their Philadelphia offices, Clarence B. Cain, in reference to his AIDS diagnosis. [3] The case was an inspiration for the 1993 film Philadelphia, alongside the more renowned Geoffrey Bowers case three-years prior. Hyatt is known to have expressed his disappointment in his own firm's handling of the case, and of its treatment of Mr. Cain. [4] \n\nHyatt was appointed to the California Public Utilities Commission in June 1999, by Governor Gray Davis. He served six months of a six-year term, resigning in December 1999. [5] \n\nHyatt served as National Finance Chair for the Democratic party in 2000, and is a business partner of former U.S. Vice President Al Gore. In 2004, Hyatt and Gore purchased Newsworld International, a cable news channel, programmed by the Canadian Broadcasting Corporation, which aired news programming from around the world. On August 1, 2005, Gore and Hyatt relaunched the network as Current TV, a young adult-programmed news and information service which pioneered the concept of user generated content on cable TV. [6] Hyatt and Gore later sold the channel to Al Jazeera Media Network on January 2, 2013 for a reported $500 million. In August 2014, Hyatt and Gore sued Al Jazeera for fraud and breach of contract in connection with a residual payment of $65 million that remained unpaid. The allegations were denied by Al Jazeera as \"blatantly false\" and \"potentially misleading.\" [7] \n\nHyatt taught entrepreneurship at Stanford University Graduate School of Business from 1998 to 2003 and at Stanford Law school. He is a member of the board of trustees of Morehouse College and of The Brookings Institution. Hyatt was elected to the board of directors of Hewlett-Packard Company in May 2007, and of The RAND Corporation in March 2015. Hyatt is a member of the Council on Foreign Relations. He also serves on the board of Stanford Hospital. [8] \n\nHyatt was an investor in and chairman of"
+   },
+   {
+    "id": "https://www.linkedin.com/posts/globality-inc-_joel-hyatt-cofounder-and-ceo-of-globality-activity-7420111753474097152-_EbR",
+    "title": "Joel Hyatt, Co\u2011Founder and CEO of Globality, is participating in the World Economic Forum\u2019s annual meeting in Davos this week as part of the WEF\u2019s invited Innovators Community. | Globality, Inc.",
+    "url": "https://www.linkedin.com/posts/globality-inc-_joel-hyatt-cofounder-and-ceo-of-globality-activity-7420111753474097152-_EbR",
+    "publishedDate": "2026-01-22T00:00:00.000Z",
+    "author": "Globality, Inc.",
+    "text": "# Joel Hyatt, Co\u2011Founder and CEO of Globality, is participating in the World Economic Forum\u2019s annual meeting in Davos this week as part of the WEF\u2019s invited Innovators Community. | Globality, Inc. \u00b7 LinkedIn \u00b7 2026-01-22\n\n**Globality, Inc.**: Globality, Inc. is a Software Development company. Globality is a company that provides autonomous sourcing solutions using sophisticated AI. They help businesses create precisely scoped requirements, identify qualified suppliers, provide negotiation insights, and enable data-driven decisions. Globality, Inc. has 60-70 employees (6-7% YoY decline) and has annual revenue in the $80M-$90M range, founded in 2015. Headquartered in Palo Alto, California, United States, with presence in United Kingdom. Its workforce is distributed across United States, United Kingdom, Romania, and Hong Kong. Has $357.6M in total funding, with 5 prior funding rounds.\n\n---\n\nJoel Hyatt, Co\u2011Founder and CEO of Globality, is participating in the World Economic Forum\u2019s annual meeting in Davos this week as part of the WEF\u2019s invited Innovators Community.\n\nJoel has been engaging with Fortune 500 executives and policy leaders on how AI is transforming enterprise sourcing and supply\u2011chain performance.\n\nJoel is sharing his perspective with business and government leaders on how AI can unlock savings and efficiencies, improve decision\u2011making, and strengthen collaboration across global value chains for companies and governments.\n\nJoel Hyatt, Co\u2011Founder and CEO of Globality, is participating in the World Economic Forum\u2019s annual meeting in Davos this week as part of the WEF\u2019s invited Innovators Community. | Globality, Inc. image\n\n## Comments\n\n**Jamie Gannaway** \u00b7 2026-01-22\n> The face of all European politicians dealing with Trump.\n\n**Reddy Mallidi** \u00b7 2026-01-22 \u00b7 1 reaction\n> - great to see you spreading the word on AI\u2019s goodness. And its impact on supply chain planning and optimizing supply and demand.\n\n**BT Sourced** \u00b7 2026-01-22 \u00b7 1 reaction\n> \ud83d\udc4f \ud83d\udc9c \ud83d\udc9c\n\n## Engagement\n\n- Reactions: 132",
+    "image": "https://media.licdn.com/dms/image/v2/D4E22AQH1bqsksIaG8A/feedshare-image-high-res/B4EZvl4FBqKoAU-/0/1769088242186?e=2147483647&v=beta&t=pv9zwT5p3Ey_z2JPq2aJeMZ2M0nzDe9c3Mv4E0v4qhk"
+   },
+   {
+    "id": "https://www.globality.com/company/news/",
+    "title": "News",
+    "url": "https://www.globality.com/company/news/",
+    "publishedDate": "2026-03-30T16:24:50.000Z",
+    "text": "News - Globality\n\n## [CFO Dive] Inside Bristol Myers\u2019 AI-powered procurement overhaul \n\n### [Procurement Magazine] Is Globality\u2019s AI Redefining the Sourcing Landscape? \n\n### [Procurement Magazine] Top 10: Industry CEOs \n\n## [CFO Dive] Inside Bristol Myers\u2019 AI-powered procurement overhaul \n\n## [Procurement Magazine] Top 10: Industry CEOs \n\n## [Procurement Magazine] Is Globality\u2019s AI Redefining the Sourcing Landscape? \n\n## [BairesDev] Why Is Procurement Uniquely Positioned for AI Transformation? \n\n## [Enterprise Times] Agentic AI\u2019s Transition from Promise to Proof in Enterprise Procurement \n\n## [NODE] A Practical Agentic AI Maturity Model to Transform Procurement from Firefighter to Value Creator \n\n## [Future of Sourcing] The Future is Bright for Agentic Autonomous Sourcing \n\n## [CFO Tech] Globality Named on Hackett \u201950 to Know\u2019 List \n\n Globality has been named to The Hackett Group's 2025-2026 \"50 to Know\" list, which tracks procurement technology providers identified by the advisory firm's Solution Intelligence analysts. The list is part of The Hackett Group's annual review of the global procurement techn... \n\n## [Procurement Mag] How AI Will Transform Procurement Into a Growth Engine \n\n Peter Wetherill, VP EMEA at Globality, explains how agentic AI is shifting procurement from a cost-control function into a strategic powerhouse for growth \n\n## [Supply Chain Digital] Globality on Scaling Procurement with AI \n\n Peter Wetherill, VP EMEA at Globality, explains how agentic AI is shifting procurement from a cost-control function into a strategic powerhouse for growth \n\n## [Supply Chain Brain] A Tale of Two AI-Driven Procurement Transformations \n\n 2026 is the year when all procurement teams are under pressure to stop experimenting and piloting with AI and start delivering the ROI their CEOs and CFOs are demanding. This new article in SupplyChainBrain highlights the stories of Fortune 500 companies Invesco and Bristol... \n\n## [AI Journal] Why 2026 will be the Breakout Year for AI Procurement ROI \n\n Writing in leading industry title The AI Journal, our Chief Technology Officer Keith McFarlane shares his thoughts on why 2026 will be the year that procurement delivers the ROI on AI that every CEO and CFO is looking for. As he highlights, the function will deliver these n... \n\n## [Procurement360] From 9-Month RFPs to 25-Day Cycles with AI Agents \n\n In this Q&A for Procurement360, Peter Wetherill explains how AI agents are compressing sourcing cycle times, shifting work closer to stakeholders, and redefining where procurement leaders should still insist on human judgment. \n\n## [Procurement Mag] Kantar: Exploring the Evolution of Procurement \n\n Jonathan Clarke, Global Procurement Director at Kantar, offers his perspective on procurement's evolution and the growing impact of AI with Glo delivering new sourcing efficiencies, savings and intelligence \n\n## [Procurement Mag] Machine Learning in Procurement \n\n Keith Hausmann speaks to Procurement Magazine about a new breed of CPOs at the forefront of generating sources of value creation for their companies \n\n## [Supply Chain Connect] For ROI in Procurement, Avoid the Multi AI Agent Trap \n\n Keith Hausmann speaks to Procurement Magazine about a new breed of CPOs at the forefront of generating sources of value creation for their companies \n\n## [Enterprise Times] Procurement\u2019s Agentic Future is Now: Lessons from Building AI the Hard Way \n\n Keith Hausmann speaks to Procurement Magazine about a new breed of CPOs at the forefront of generating sources of value creation for their companies \n\n## [TechTarget] AI in Procurement \n\n In the podcast, Globality CTO Keith McFarlane explains why procurement is so well suited to AI automation and why trust is key in getting people to let go of manual tasks. \n\n## [SupplyChainBrain] Gaining Advantage in the Storm With AI-Driven Sourcing \n\n Keith Hausmann speaks to Procurement Magazine about a new breed of CPOs at the forefront of generating sources of value creation "
+   },
+   {
+    "id": "https://exa.ai/library/person/v0kqrq0tb50",
+    "title": "Joel Hyatt - Globality, Inc.",
+    "url": "https://www.linkedin.com/in/joel-hyatt-7a959943",
+    "publishedDate": "2026-10-06T15:10:47.000Z",
+    "text": "# Joel Hyatt\n\nCo-Founder, CEO and Chairman of Globality, Inc.\n\nSan Francisco, California, United States (US)\n\n500 connections \u2022 1,426 followers\n\n## About\n\nJoel Z. Hyatt (born Joel Hyatt Zylberberg; May 6, 1950) is an American entrepreneur and former politician. He founded Hyatt Legal Services, and was featured in his firm's nationwide television commercials which always ended with the slogan, \"I'm Joel Hyatt and you have my word on it.\" Hyatt was a co-founder of Current TV.\n\n| Fact | Value |\n| --- | --- |\n| Born | Joel Hyatt Zylberberg, (1950-05-06) May 6, 1950 (age 76) |\n| Occupations | Entrepreneur; (former) Attorney; (former) Professor |\n| Political party | Democratic |\n\n## Experience\n\n### Chairman, Chief Executive Officer and Co-Founder - [Globality](https://www.linkedin.com/company/globality-inc-) (Current)\n\nMar 2015 - Present (11 years and 7 months) in Menlo Park, California, United States\n\nDepartment: General Management \u2022 Level: C-Level\n\nGlobality, Inc. is a Software Development company. Globality is a company that provides autonomous sourcing solutions using sophisticated AI. They help businesses create precisely scoped requirements, identify qualified suppliers, provide negotiation insights, and enable data-driven decisions. Globality, Inc. has 60-70 employees (6-7% YoY decline) and has annual revenue in the $80M-$90M range, founded in 2015. Headquartered in Palo Alto, California, United States, with presence in United Kingdom. Its workforce is distributed across United States, United Kingdom, Romania, and Hong Kong. Has $357.6M in total funding, with 5 prior funding rounds.\n\n### Member Board Of Trustees - [RAND](https://www.linkedin.com/company/rand-corporation) (Current)\n\nNov 2014 - Present (11 years and 3 months)\n\nDepartment: Other \u2022 Level: Board Member\n\nRAND is a nonprofit organization. RAND is a nonprofit institution that helps improve policy and decisionmaking through research and analysis. RAND focuses on the issues that matter most such as health, education, national security, international affairs, the environment, and more. With a research staff consisting of some of the world's preeminent minds, RAND has been expanding the boundaries of human knowledge for more than 75 years. RAND has 1,000-2,000 employees (5-6% YoY decline) and has annual revenue in the $500M-$600M range, founded in 1946. Headquartered in santa monica, California, United States, with presence in Australia and United Kingdom. Its workforce is distributed across 30 countries (including United States, United Kingdom, Australia, India, and Canada). Has $1.5M in total funding, with 1 prior funding round. Research output of 20,000-30,000 works, primarily in Medicine, Social Sciences, and Health Professions. Funds research behind 10-20 works.\n\n### Co-Founder and Chief Executive Officer - [Current TV](https://www.linkedin.com/company/current-tv)\n\nSep 2004 - Jan 2013 (8 years and 4 months)\n\nDepartment: General Management \u2022 Level: C-Level\n\nCurrent TV is a Broadcast Media Production and Distribution company. Current is a fintech not a bank that provides banking services. They offer a banking app for paycheck, allowing customers to build credit while banking. They also provide financial technology services. Current TV has 20-30 employees (1-2% YoY decline) and has annual revenue in the $1M-$10M range, founded in 2002. Headquartered in San Francisco, California, United States. Its workforce is distributed across 10 countries (including United States, United Kingdom, India, Indonesia, and Egypt). Has $15M in total funding.\n\n### Member Board of Directors - Hewlett-Packard\n\nMay 2007 - Aug 2011 (4 years and 3 months)\n\nDepartment: General Management \u2022 Level: Director\n\n### Lecturer in Entrepreneurship - [Stanford University Graduate School of Business](https://www.linkedin.com/school/stanford-graduate-school-of-business)\n\nSep 1998 - Jun 2003 (4 years and 9 months)\n\nDepartment: Education \u2022 Level: Specialist\n\nStanford University Graduate School of Business is ",
+    "image": "https://media.licdn.com/dms/image/v2/C5603AQFUdtZL5nR4IA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1517002472339?e=2147483647&v=beta&t=H5blC3QIiwEJcyB__FC_9TFHFi0EGozEjkUtCRG8tGg",
+    "entities": [
+     {
+      "id": "https://exa.ai/library/person/v0kqrq0tb50",
+      "type": "person",
+      "version": 1,
+      "properties": {
+       "name": "Joel Hyatt",
+       "firstName": "Joel",
+       "lastName": "Hyatt",
+       "location": "San Francisco, California, United States",
+       "workHistory": [
+        {
+         "title": "Chairman, Chief Executive Officer and Co-Founder",
+         "location": "Menlo Park, California, United States",
+         "dates": {
+          "from": "2015-03-01",
+          "to": null
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/2l0yg17z0hb",
+          "name": "Globality"
+         }
+        },
+        {
+         "title": "Member Board Of Trustees",
+         "location": null,
+         "dates": {
+          "from": "2014-11-01",
+          "to": null
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/c8mp0jg3g30",
+          "name": "RAND"
+         }
+        },
+        {
+         "title": "Co-Founder and Chief Executive Officer",
+         "location": null,
+         "dates": {
+          "from": "2004-09-01",
+          "to": "2013-01-01"
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/gwzm8fnn0zc",
+          "name": "Current TV"
+         }
+        },
+        {
+         "title": "Member Board of Directors",
+         "location": null,
+         "dates": {
+          "from": "2007-05-01",
+          "to": "2011-08-01"
+         },
+         "company": {
+          "id": null,
+          "name": "Hewlett-Packard"
+         }
+        },
+        {
+         "title": "Lecturer in Entrepreneurship",
+         "location": null,
+         "dates": {
+          "from": "1998-09-01",
+          "to": "2003-06-01"
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/6c4t1fsnw3g",
+          "name": "Stanford University Graduate School of Business"
+         }
+        },
+        {
+         "title": "Founder and Chief Executive Officer",
+         "location": null,
+         "dates": {
+          "from": "1990-06-01",
+          "to": "1997-03-01"
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/rl7ywgl4rzn",
+          "name": "MetLife Legal Plans"
+         }
+        }
+       ],
+       "educationHistory": [
+        {
+         "degree": "A.B Degree",
+         "dates": null,
+         "institution": {
+          "id": "https://exa.ai/library/organization/j2b7s0n355w",
+          "name": "Dartmouth College"
+         }
+        },
+        {
+         "degree": "J.D. Degree",
+         "dates": null,
+         "institution": {
+          "id": "https://exa.ai/library/organization/m33vs90wtc1",
+          "name": "Yale Law School"
+         }
+        }
+       ],
+       "research": null
+      }
+     }
+    ]
+   },
+   {
+    "id": "https://www.supplychain-outlook.com/supply-chain-technology/how-globality-is-using-glo-2-0-to-take-ai-powered-sourcing-to-the-next-level",
+    "title": "How Globality is Using Glo 2.0 to Take AI-Powered ...",
+    "url": "https://www.supplychain-outlook.com/supply-chain-technology/how-globality-is-using-glo-2-0-to-take-ai-powered-sourcing-to-the-next-level",
+    "publishedDate": "2026-09-09T06:00:00.000Z",
+    "author": "Neil Perry",
+    "text": "How Globality is Using Glo 2.0 to Take AI-Powered Sourcing to the Next Level | Supply Chain Outlook\n\n# How Globality is Using Glo 2.0 to Take AI-Powered Sourcing to the Next Level\n\nBy\n\nBy Neil Perry\n\nContent Director\n\nNeil Perry is Content Director for Outlook Publishing.\n\n Published: 9 September, 2026\n\nGlobality has launched Glo 2.0, an artificial intelligence (AI)-powered sourcing platform designed to run entire procurement events autonomously, including supplier selection, negotiation and award recommendations.\n\nContents\n\n- AI Agents Take on Complete Sourcing Events\n- What is Glo 2.0?\n- Globality Targets Procurement Backlogs\n- Conversational Intake Targets More Spend\n\n## AI Agents Take on Complete Sourcing Events\n\nGlobality has introduced Glo 2.0 as a platform that allows procurement teams to automate sourcing from initial purchasing requests through to supplier award.\n\nThe platform uses specialised AI agents to generate requests for quotation (RFx), identify and invite suppliers, conduct negotiations, analyse results and recommend suppliers and award scenarios.\n\nAccording to Globality, the technology is intended to address capacity constraints that can prevent procurement teams from competitively sourcing a larger proportion of organisational spend.\n\nJoel Hyatt, Co-Founder and CEO of Globality, said: \u201cThis is the first truly autonomous sourcing platform where AI runs the complete intake-to-award process. Our agents don\u2019t just automate a workflow; they reason through the data, decide the right approach for what\u2019s being sourced, and act on your behalf with suppliers.\u201d\n\nJoel Hyatt, Co-Founder and CEO of Globality,\n\n## What is Glo 2.0?\n\nA central feature of Glo 2.0 is its ability to conduct supplier negotiations autonomously and simultaneously.\n\nThe platform can negotiate across factors including price, quality, delivery, service and risk. Once negotiations are completed, it performs scenario analysis and recommends a supplier and sourcing scenario.\n\nProcurement teams can determine how much control is handed to the AI, with autonomy settings available at organisation, category or individual sourcing-event level.\n\nIn Collaborative Mode, procurement professionals retain responsibility for supplier interactions and award decisions, while Glo 2.0 provides commercial reasoning, develops the RFx and establishes the negotiation strategy.\n\nIn Autonomous Mode, procurement sets objectives and guardrails and approves the final award, while the platform manages the stages in between.\n\nSamer Ijaz, Head of Strategic Sourcing at Dropbox, said: \u201cGlobality\u2019s autonomous sourcing represents a meaningful opportunity to scale our sourcing work, enabling us to run more events efficiently and ultimately deliver greater value.\u201d\n\n## Globality Targets Procurement Backlogs\n\nGlobality said more than half of addressable enterprise spend is still not competitively sourced, with procurement capacity forcing teams to prioritise higher-value events.\n\nGlo 2.0 is designed to extend competitive sourcing across direct, indirect and tail spend without requiring procurement teams to manage every stage manually.\n\nAccording to Globality, customers are running between five and nine times more sourcing events without adding headcount, while Global 2000 companies using its technology have achieved annual cost savings of between 10 and 20 per cent.\n\nThe company also said sourcing events that typically require six to 10 weeks can be completed in days using the platform.\n\nSteve Dyson, Vice President of Global Indirect Procurement at HP, said: \u201cWe\u2019ve been impressed by what Globality has delivered for our procurement organization over the years, and the early results from autonomous mode are the most exciting yet. We\u2019re competitively sourcing spend we simply didn\u2019t have the capacity to reach before.\u201d\n\n## Conversational Intake Targets More Spend\n\nGlo 2.0 also includes Glo Intake, a conversational interface intended to provide employees with a single entry point for purchasing",
+    "image": "https://www.supplychain-outlook.com/media/Globality-header-.webp"
+   }
+  ],
+  "searchTime": 1207,
+  "costDollars": {
+   "total": 0.007,
+   "search": {
+    "neural": 0.007
+   }
+  }
+ },
+ "fetched_at": "2026-10-14T17:24:51+0530"
+}

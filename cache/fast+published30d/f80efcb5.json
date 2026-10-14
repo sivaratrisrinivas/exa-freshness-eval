@@ -1,0 +1,1263 @@
+{
+ "status": 200,
+ "latency_s": 0.431,
+ "request": {
+  "type": "fast",
+  "startPublishedDate": "2026-09-14T00:00:00.000Z",
+  "contents": {
+   "text": {
+    "maxCharacters": 4000
+   }
+  },
+  "query": "Globality CEO",
+  "numResults": 10
+ },
+ "response": {
+  "requestId": "48038bdd5164164da7078b7cc787bc63",
+  "resolvedSearchType": "",
+  "results": [
+   {
+    "id": "https://procurementmag.com/news/jared-hyatt-named-new-globality-ceo-as-joel-hyatt-steps-down",
+    "title": "Jared Hyatt Named New Globality CEO as Joel Hyatt Steps Down | Procurement Magazine",
+    "url": "https://procurementmag.com/news/jared-hyatt-named-new-globality-ceo-as-joel-hyatt-steps-down",
+    "publishedDate": "2026-10-14T10:14:47.000Z",
+    "author": "Georgia Collins",
+    "text": "# Jared Hyatt Named New Globality CEO as Joel Hyatt Steps Down | Procurement Magazine\n\nAuthor: Georgia Collins\nPublished: 2026-10-14T10:14:47Z\nSource: procurementmag.com\nLanguage: en"
+   },
+   {
+    "id": "https://exa.ai/library/person/30k701zscxm",
+    "title": "Lior Delgo",
+    "url": "https://linkedin.com/in/liordelgo",
+    "publishedDate": "2026-10-06T00:00:00.000Z",
+    "text": "# Lior Delgo\n\nPalo Alto, California, United States (US)\n\n500 connections \u2022 1,659 followers\n\n## About\n\nTotal Experience: 11 years and 7 months\n\n## Experience\n\n### Co-founder & President - [Globality](https://www.linkedin.com/company/globality-inc-) (Current)\n\nMar 2015 - Present (11 years and 7 months)\n\nDepartment: General Management \u2022 Level: President/Vice President\n\nGlobality, Inc. is a Software Development company. Globality is a company that provides autonomous sourcing solutions using sophisticated AI. They help businesses create precisely scoped requirements, identify qualified suppliers, provide negotiation insights, and enable data-driven decisions. Globality, Inc. has 60-70 employees (6-7% YoY decline) and has annual revenue in the $80M-$90M range, founded in 2015. Headquartered in Palo Alto, California, United States, with presence in United Kingdom. Its workforce is distributed across United States, United Kingdom, Romania, and Hong Kong. Has $357.6M in total funding, with 5 prior funding rounds.\n\n## Skills\n\nboard \u2022 board governance \u2022 co-founder \u2022 investor\n\n## Recommendations\n\n[Anat Amibar](https://www.linkedin.com/in/anata)\n\n\u201cLior is a passionate, intelligent and visionary entrepreneur, who thinks big and aims high, and has a great success record as a result. I have worked for his company for several years and have learned a lot from the experience.\u201d\n\n## Social\n\n### Linkedin\n\n- [2026-09-23 \u00b7 Lior Delgo shared this] [Welcome to the team! BIG things start with the right people. Join...](https://www.linkedin.com/posts/liordelgo_welcome-to-the-team-activity-7508592487670697985-OFDu): Welcome to the team! BIG things start with the right people. Join us in welcoming our newest additions to Team Glo! Welcome Jessica Kremer , Chris Hansen , Shine L. , Mir Rahim Ali Khan , Dave Mill...\n\n- [2026-08-27 \u00b7 Lior Delgo shared this] [Proud to have Vinod Devan representing Globality, Inc. We\u2019re...](https://www.linkedin.com/posts/liordelgo_proud-to-have-vinod-devan-representing-globality-activity-7498867571996311552-TqzV): Proud to have Vinod Devan representing Globality, Inc. We\u2019re excited to announce that Vinod Devan , President, Go-to-Market at Globality, Inc. , will be hosting a keynote at Procurement LIVE: The L...\n\n- [2026-08-21 \u00b7 Lior Delgo reposted this] [We\u2019re building something special at Globality and bringing in...](https://www.linkedin.com/posts/vdevan_were-building-something-special-at-globality-activity-7496377853127856129-nu3o): We\u2019re building something special at Globality and bringing in exceptional people to help shape what comes next. Come build with us. Jared Hyatt , Sonia Mathai , Keith McFarlane , Doug Kurfess, Lior...\n\n- [2026-06-15 \u00b7 Lior Delgo shared this] [100% Ashish G. . Well said. As Ashish put it: \u201cAI does not need...](https://www.linkedin.com/posts/liordelgo_100-ashish-g-well-said-as-ashish-put-activity-7472331090461040640-CIaf): 100% Ashish G. . Well said. As Ashish put it: \u201cAI does not need clean data to begin. It needs to begin to make data clean.\u201d The path to better data is increasingly through AI, not before AI. Organi...\n\n- [2026-06-10 \u00b7 Lior Delgo reposted this] [Driving real progress means moving forward before everything is...](https://www.linkedin.com/posts/rhondagriscti_inside-bristol-myers-ai-powered-procurement-activity-7470580686522073089-xLOe): Driving real progress means moving forward before everything is perfect. Excited to see momentum building as AI connects workflows and unlocks smarter, faster decisions at scale. #ProudToBeBMS ...m...\n\n- [2026-05-14 \u00b7 Lior Delgo reposted this] [In this episode, Telliant Systems' CEO Seth Narayanan and Globality...](https://www.linkedin.com/posts/telliant-systems_keith-mcfarlane-seth-activity-7460705604832247808-pVAQ): In this episode, Telliant Systems' CEO Seth Narayanan and Globality CTO Keith McFarlane tackle the hard truths of enterprise innovation. They explore why rigid processes often stifle the very creat...\n\n- [2026-04-23 \u00b7 Lior Delgo repos",
+    "image": "https://media.licdn.com/dms/image/v2/D5603AQGQ3ETOqdG_Tw/profile-displayphoto-shrink_200_200/B56ZbPqVV.GgAY-/0/1747240703690?e=2147483647&v=beta&t=C33WAdLjjdG3YBgVoAiPGiNCX4iwsFLbFtWQOsrgC4s",
+    "entities": [
+     {
+      "id": "https://exa.ai/library/person/30k701zscxm",
+      "type": "person",
+      "version": 1,
+      "properties": {
+       "name": "Lior Delgo",
+       "firstName": "Lior",
+       "lastName": "Delgo",
+       "location": "Palo Alto, California, United States",
+       "workHistory": [
+        {
+         "title": "Co-founder & President",
+         "location": null,
+         "dates": {
+          "from": "2015-03-01",
+          "to": null
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/2l0yg17z0hb",
+          "name": "Globality"
+         }
+        }
+       ],
+       "educationHistory": [],
+       "research": null
+      }
+     }
+    ]
+   },
+   {
+    "id": "https://exa.ai/library/person/x9ft50ppnqq",
+    "title": "Jared Hyatt",
+    "url": "https://linkedin.com/in/jared-hyatt-88a47a12",
+    "publishedDate": "2026-10-06T00:00:00.000Z",
+    "text": "# Jared Hyatt\n\nChief Financial Officer at Globality, Inc.\n\nPalo Alto, California, United States (US)\n\n500 connections \u2022 2,473 followers\n\n## About\n\nChief Financial Officer at Globality, Inc.\n\nTotal Experience: 18 years and 10 months\n\n## Experience\n\n### [Globality](https://www.linkedin.com/company/globality-inc-)\n\n#### Chief Financial Officer (Current)\n\nSep 2022 - Present (4 years and 1 month) in Palo Alto, California, United States\n\nDepartment: Finance & Accounting \u2022 Level: C-Level\n\n#### SVP Strategic Partnerships\n\nApr 2022 - Sep 2022 (5 months)\n\nDepartment: Sales \u2022 Level: Senior\n\n#### SVP Customer Success\n\nJan 2021 - Apr 2022 (1 year and 3 months)\n\nDepartment: General Management \u2022 Level: Manager\n\n#### Vice President Sales\n\nAug 2018 - Jan 2021 (2 years and 5 months) in Menlo Park, California, United States\n\nDepartment: Sales \u2022 Level: President/Vice President\n\nGlobality, Inc. is a Software Development company. Globality is a company that provides autonomous sourcing solutions using sophisticated AI. They help businesses create precisely scoped requirements, identify qualified suppliers, provide negotiation insights, and enable data-driven decisions. Globality, Inc. has 60-70 employees (6-7% YoY decline) and has annual revenue in the $80M-$90M range, founded in 2015. Headquartered in Palo Alto, California, United States, with presence in United Kingdom. Its workforce is distributed across United States, United Kingdom, Romania, and Hong Kong. Has $357.6M in total funding, with 5 prior funding rounds.\n\n### Kauffman Fellow - [Kauffman Fellows](https://www.linkedin.com/company/kauffmanfellows)\n\nJan 2017 - Jan 2019 (2 years)\n\nDepartment: Other \u2022 Level: Entry\n\nKauffman Fellows is a nonprofit organization. Kauffman Fellows is a lifelong learning community and network for people who represent the future of venture capital. Kauffman Fellows has 300-400 employees (+10% YoY) and has annual revenue in the $70M-$80M range, founded in 1995. Headquartered in Palo Alto, California, United States, with an office in Austin. Its workforce is distributed across 41 countries (including United States, United Kingdom, Singapore, Israel, and Mexico).\n\n### Venture Capital Investor - [Norwest](https://www.linkedin.com/company/norwest-venture-partners)\n\nJan 2014 - Jan 2018 (4 years) in San Francisco, California, United States\n\nDepartment: Other \u2022 Level: Specialist\n\nNorwest is a Venture Capital and Private Equity Principals company. Norwest is a venture capital and growth equity firm with over 65 years of experience backing bold teams in biotech, SaaS, fintech, consumer, and healthcare. Norwest has 150-200 employees (+10% YoY) and has annual revenue in the $80M-$90M range, founded in 1961. Headquartered in Menlo Park, California, United States, with offices in San Francisco, P.O Box 12242, Nariman Point, and Palo Alto. Its workforce is distributed across United States, India, Israel, and Canada.\n\n### Investor - [Bertelsmann SE & Co. KGaA](https://www.linkedin.com/company/bertelsmann)\n\nAug 2013 - Sep 2013 (1 month) in Beijing, Beijing Shi, China\n\nInvestor in early and growth stage companies in TMT and education sector in greater China\n\nDepartment: Consulting \u2022 Level: Investor\n\nBertelsmann SE & Co. KGaA (BTG4.F) is a Media Production company. Bertelsmann is a media, services, and education company with more than 80,000 employees that operates in about 50 countries around the world. It includes the entertainment group RTL Group, the trade book publisher Penguin Random House, the music company BMG, the service provider Arvato Group, Bertelsmann Marketing Services, the Bertelsmann Education Group and Bertelsmann Investments, an international network of funds. The. Bertelsmann SE & Co. KGaA has 600-700 employees (+6-7% YoY) and has annual revenue in the EUR10B-EUR20B range. Headquartered in G\u00fctersloh, Germany, with presence in United States. Its workforce is distributed across 23 countries (including Germany, China, United States, United Kingdom, and India).\n\n##",
+    "image": "https://media.licdn.com/dms/image/v2/C5603AQE17pZ7ItMcOA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1517790079416?e=2147483647&v=beta&t=BBTvso5wOwKdOWbW5J03SsmMa5qziEkXoyFT2xDFndU",
+    "entities": [
+     {
+      "id": "https://exa.ai/library/person/x9ft50ppnqq",
+      "type": "person",
+      "version": 1,
+      "properties": {
+       "name": "Jared Hyatt",
+       "firstName": "Jared",
+       "lastName": "Hyatt",
+       "location": "Palo Alto, California, United States",
+       "workHistory": [
+        {
+         "title": "Chief Financial Officer",
+         "location": "Palo Alto, California, United States",
+         "dates": {
+          "from": "2022-09-01",
+          "to": null
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/2l0yg17z0hb",
+          "name": "Globality"
+         }
+        },
+        {
+         "title": "SVP Strategic Partnerships",
+         "location": null,
+         "dates": {
+          "from": "2022-04-01",
+          "to": "2022-09-01"
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/2l0yg17z0hb",
+          "name": "Globality"
+         }
+        },
+        {
+         "title": "SVP Customer Success",
+         "location": null,
+         "dates": {
+          "from": "2021-01-01",
+          "to": "2022-04-01"
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/2l0yg17z0hb",
+          "name": "Globality"
+         }
+        },
+        {
+         "title": "Vice President Sales",
+         "location": "Menlo Park, California, United States",
+         "dates": {
+          "from": "2018-08-01",
+          "to": "2021-01-01"
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/2l0yg17z0hb",
+          "name": "Globality"
+         }
+        },
+        {
+         "title": "Kauffman Fellow",
+         "location": null,
+         "dates": {
+          "from": "2017-01-01",
+          "to": "2019-01-01"
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/bywjj3wdjld",
+          "name": "Kauffman Fellows"
+         }
+        },
+        {
+         "title": "Venture Capital Investor",
+         "location": "San Francisco, California, United States",
+         "dates": {
+          "from": "2014-01-01",
+          "to": "2018-01-01"
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/9xmtxh60s3b",
+          "name": "Norwest"
+         }
+        },
+        {
+         "title": "Investor",
+         "location": "Beijing, Beijing Shi, China",
+         "dates": {
+          "from": "2013-08-01",
+          "to": "2013-09-01"
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/rppd92gdl61",
+          "name": "Bertelsmann SE & Co. KGaA"
+         }
+        },
+        {
+         "title": "Vice President Business Development",
+         "location": "San Francisco, California, United States",
+         "dates": {
+          "from": "2009-01-01",
+          "to": "2012-01-01"
+         },
+         "company": {
+          "id": null,
+          "name": "VideoSurf, Inc (Acquired by Microsoft)"
+         }
+        },
+        {
+         "title": "Content Acquisition Associate",
+         "location": null,
+         "dates": {
+          "from": "2007-01-01",
+          "to": "2009-01-01"
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/0hgs4nh347k",
+          "name": "Google"
+         }
+        },
+        {
+         "title": "Corporate Strategy and Business Development Analyst",
+         "location": null,
+         "dates": {
+          "from": "2006-01-01",
+          "to": "2007-01-01"
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/yyrzbgkchng",
+          "name": "Discovery Inc"
+         }
+        }
+       ],
+       "educationHistory": [
+        {
+         "degree": "Master of Business Administration (MBA)",
+         "dates": null,
+         "institution": {
+          "id": "https://exa.ai/library/organization/6c4t1fsnw3g",
+          "name": "Stanford University Graduate School of Business"
+         }
+        },
+        {
+         "degree": "A.B.",
+         "dates": null,
+         "institution": {
+          "id": "https://exa.ai/library/organization/j2b7s0n355w",
+          "name": "Dartmouth College"
+         }
+        },
+        {
+         "degree": "Foreign Study Abroad Program",
+         "dates": null,
+         "institution": {
+          "id": "https://exa.ai/library/organization/6myywtc4hs0",
+          "name": "Universitat de Barcelona"
+         }
+        }
+       ],
+       "research": null
+      }
+     }
+    ]
+   },
+   {
+    "id": "https://exa.ai/library/person/xx8p0s9vbmx",
+    "title": "Keith McFarlane",
+    "url": "https://linkedin.com/in/keithmcfarlane",
+    "publishedDate": "2026-09-21T00:00:00.000Z",
+    "text": "# Keith McFarlane\n\nChief Technology Officer at Globality, Inc.\n\nPunta Gorda, Florida, United States (US)\n\n500 connections \u2022 4,728 followers\n\n## About\n\nTechnology Leader -- Organization Builder -- Passionate Brand Advocate As a technology leader with engineering expertise across multiple disciplines, I bring great credibility to my leadership roles. I have demonstrated the ability to recruit and retain A-players, and have built and fine-tuned processes to ensure all resources are producing at the highest level possible. I am also an excellent cross-functional communicator, bridging gaps between business functions for greater overall effectiveness. Beyond internal communications, I am an extremely effective public speaker, and will often represent my brand at conferences, in print media, and via social media.\n\nTotal Experience: 36 years and 9 months\n\n## Experience\n\n### Chief Technology Officer - [Globality](https://www.linkedin.com/company/globality-inc-) (Current)\n\nFeb 2020 - Present (6 years and 8 months) in Palo Alto, California, United States\n\nDepartment: Engineering and Technical \u2022 Level: C-Level\n\nGlobality, Inc. is a Software Development company. Globality is a company that provides autonomous sourcing solutions using sophisticated AI. They help businesses create precisely scoped requirements, identify qualified suppliers, provide negotiation insights, and enable data-driven decisions. Globality, Inc. has 60-70 employees (6-7% YoY decline) and has annual revenue in the $80M-$90M range, founded in 2015. Headquartered in Palo Alto, California, United States, with presence in United Kingdom. Its workforce is distributed across United States, United Kingdom, Romania, and Hong Kong. Has $357.6M in total funding, with 5 prior funding rounds.\n\n### Advisor - [Playboox](https://www.linkedin.com/company/playboox) (Current)\n\nOct 2010 - Present (14 years and 5 months)\n\nDepartment: Consulting \u2022 Level: Specialist\n\nPlayboox is a Business Consulting and Services company. Playboox is an AI-powered fractional sales enablement company helping growth-stage enterprise SaaS teams win big deals more often delivered in 30 days for a flat quarterly fee. Playboox has 1-10 employees (-10% YoY). Headquartered in San Francisco, United States. Has $3.5M in total funding, with 2 prior funding rounds.\n\n### Director Board Of Directors - [Vibrant Emotional Health](https://www.linkedin.com/company/vibrantforall)\n\nJun 2020 - Jun 2023 (3 years) in New York, United States\n\nDepartment: General Management \u2022 Level: Director\n\nVibrant Emotional Health is a nonprofit organization. Vibrant Emotional Health provides high-quality mental and emotional support and care services, including call, text, chat, and online services, community programs, disaster services, advocacy, policy & education, and business solutions. They have been building a society in which emotional wellness can be a reality for everyone for over 55 years. Vibrant Emotional Health has 400-500 employees and has annual revenue in the $300M-$400M range, founded in 1969. Headquartered in New York, New York, United States. Its workforce is distributed across United States and Georgia. Research output of 100-150 works, primarily in Medicine, Psychology, and Social Sciences.\n\n### Senior Vice President, Service Cloud Development - [Oracle](https://www.linkedin.com/company/oracle)\n\nAug 2015 - Feb 2020 (4 years and 6 months) in Redwood Shores, California, United States\n\nLevel: Executive\n\nOracle (ORCL) is a IT Services and IT Consulting company. Oracle offers a comprehensive and fully integrated stack of cloud applications and cloud platform services. Oracle has 100,000-200,000 employees (less than 1% YoY growth) and has annual revenue in the $60B-$70B range, founded in 1977. Headquartered in Austin, Texas, United States, operates in 43 countries (including Australia, Mexico, Netherlands, Sweden, and Egypt). Its workforce is distributed across 146 countries (including United States, India, Mexico, Romania, and ",
+    "image": "https://media.licdn.com/dms/image/v2/D4E03AQEaGVIRRItZzg/profile-displayphoto-scale_200_200/B4EaCDCTKXHAAc-/0/1788904814856?e=2147483647&v=beta&t=OhSIGy8MoI1tOSdtboQ8aJzW4gt3x9Ig3tB4Pft6QL8",
+    "entities": [
+     {
+      "id": "https://exa.ai/library/person/xx8p0s9vbmx",
+      "type": "person",
+      "version": 1,
+      "properties": {
+       "name": "Keith McFarlane",
+       "firstName": "Keith",
+       "lastName": "McFarlane",
+       "location": "Punta Gorda, Florida, United States",
+       "workHistory": [
+        {
+         "title": "Chief Technology Officer",
+         "location": "Palo Alto, California, United States",
+         "dates": {
+          "from": "2020-02-01",
+          "to": null
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/2l0yg17z0hb",
+          "name": "Globality"
+         }
+        },
+        {
+         "title": "Advisor",
+         "location": null,
+         "dates": {
+          "from": "2010-10-01",
+          "to": null
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/pjzfdnw9dtc",
+          "name": "Playboox"
+         }
+        },
+        {
+         "title": "Director Board Of Directors",
+         "location": "New York, United States",
+         "dates": {
+          "from": "2020-06-01",
+          "to": "2023-06-01"
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/yx9dqj4tkql",
+          "name": "Vibrant Emotional Health"
+         }
+        },
+        {
+         "title": "Senior Vice President, Service Cloud Development",
+         "location": "Redwood Shores, California, United States",
+         "dates": {
+          "from": "2015-08-01",
+          "to": "2020-02-01"
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/9kzyvyzqbcb",
+          "name": "Oracle"
+         }
+        },
+        {
+         "title": "Development Manager, CRM Architecture",
+         "location": null,
+         "dates": {
+          "from": "2005-04-01",
+          "to": "2006-03-01"
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/9kzyvyzqbcb",
+          "name": "Oracle"
+         }
+        },
+        {
+         "title": "Engineering Manager",
+         "location": null,
+         "dates": {
+          "from": "2004-05-01",
+          "to": "2005-04-01"
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/9kzyvyzqbcb",
+          "name": "Oracle"
+         }
+        },
+        {
+         "title": "CTO and SVP of Engineering",
+         "location": "Santa Clara, California, United States",
+         "dates": {
+          "from": "2012-07-01",
+          "to": "2015-07-01"
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/vmq3cbh540s",
+          "name": "Serenova"
+         }
+        },
+        {
+         "title": "Chief Architect",
+         "location": null,
+         "dates": {
+          "from": "2008-04-01",
+          "to": "2012-07-01"
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/vmq3cbh540s",
+          "name": "Serenova"
+         }
+        },
+        {
+         "title": "Lead Communication Enabled Application Architect",
+         "location": null,
+         "dates": {
+          "from": "2006-04-01",
+          "to": "2008-04-01"
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/xgy3nm4pk1h",
+          "name": "Avaya"
+         }
+        },
+        {
+         "title": "Manager",
+         "location": null,
+         "dates": {
+          "from": "1998-01-01",
+          "to": "2004-01-01"
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/xgy3nm4pk1h",
+          "name": "Avaya"
+         }
+        },
+        {
+         "title": "Software Engineer",
+         "location": null,
+         "dates": {
+          "from": "1996-04-01",
+          "to": "1999-11-01"
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/xgy3nm4pk1h",
+          "name": "Avaya"
+         }
+        },
+        {
+         "title": "Advisor",
+         "location": "San Francisco, California, United States",
+         "dates": {
+          "from": "2004-01-01",
+          "to": "2007-01-01"
+         },
+         "company": {
+          "id": null,
+          "name": "Salesedge"
+         }
+        },
+        {
+         "title": "Consulting Engineer",
+         "location": null,
+         "dates": {
+          "from": "1997-01-01",
+          "to": "1998-01-01"
+         },
+         "company": {
+          "id": null,
+          "name": "Lifespring"
+         }
+        },
+        {
+         "title": "Software Engineer",
+         "location": null,
+         "dates": {
+          "from": "1992-01-01",
+          "to": "1997-01-01"
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/9x9ddydt8hh",
+          "name": "AT&T"
+         }
+        },
+        {
+         "title": "Computer Technician",
+         "location": null,
+         "dates": {
+          "from": "1990-01-01",
+          "to": "1992-01-01"
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/xnrjw350xns",
+          "name": "University of Colorado Denver"
+         }
+        },
+        {
+         "title": "Testing Intern",
+         "location": null,
+         "dates": {
+          "from": "1990-01-01",
+          "to": "1991-01-01"
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/gxl16rnpqtq",
+          "name": "Microsoft"
+         }
+        }
+       ],
+       "educationHistory": [
+        {
+         "degree": "Bachelor of Science (B.Sc.) Computer Science",
+         "dates": {
+          "from": "1990",
+          "to": "1993"
+         },
+         "institution": {
+          "id": "https://exa.ai/library/organization/xnrjw350xns",
+          "name": "University of Colorado Denver"
+         }
+        }
+       ],
+       "research": null
+      }
+     }
+    ]
+   },
+   {
+    "id": "https://www.globenewswire.com/news-release/2026/10/12/3378981/0/en/globali-launches-technology-platform-to-restructure-enterprise-global-immigration.html",
+    "title": "Globali Launches Technology Platform to Restructure",
+    "url": "https://www.globenewswire.com/news-release/2026/10/12/3378981/0/en/globali-launches-technology-platform-to-restructure-enterprise-global-immigration.html",
+    "publishedDate": "2026-10-12T14:00:00.000Z",
+    "author": "Globali",
+    "text": "# Globali Launches Technology Platform to Restructure\n\nAuthor: Globali\nPublished: 2026-10-12T14:00:00Z\nSource: globenewswire.com\nLanguage: en\n\n## Story\n\nGlobali Launches Technology Platform to Restructure\n## The AI-native operating layer coordinates enterprise immigration execution while keeping legal judgment with qualified attorneys.\nOctober 12, 2026 10:00 ET | Source: Globali\n**Globali Launches to Redefine How Enterprises Manage Immigration: Technology Execution, Attorney Oversight, End-to-End Accountability**\nIrvine, CALIFORNIA, Oct. 12, 2026 (GLOBE NEWSWIRE) -- Enterprise immigration has a structural problem. Companies spend significant resources on immigration processes that are reactive, fragmented and opaque \u2013 disrupting workforce plans, delaying business priorities and creating uncertainty for the people who matter most. Software alone hasn't solved it. Adding technology to a broken process produces a faster broken process. **\n**\nGlobali Founder, Maryam Etminan is presenting a pitch on globally\n**Globali today announced the launch of its advanced technology platform for enterprise global mobility**, introducing a service-delivery model that rethinks how immigration gets executed at scale. Globali combines technology-enabled operational execution with qualified attorney oversight into a single coordinated managed service.\n\"Immigration is never simply a process,\" said Maryam Etminan, Founder and CEO of Globali. \"Behind every case is a person's career, a family's future and an enterprise's ability to reach the talent it needs to grow. Globali brings intelligence, execution and professional oversight into one coordinated foundation, so employers can plan with greater visibility and people can navigate important opportunities with more clarity.\"\n**What Makes Globali Different**\nMost immigration technology companies build software and sell it to immigration professionals. Globali runs the operation.\nThe platform coordinates end-to-end case execution while qualified attorneys retain full responsibility for legal judgment. Technology handles the operational weight \u2013 structured decision-making, case activity, stakeholder coordination, timeline management \u2013 while professional oversight ensures accountability at every step. The result: greater consistency, earlier visibility and a process that can scale with an enterprise's actual needs.\nFor companies managing global workforces, this translates to:\n- Reduced manual work across immigration programs\n- Improved visibility into case status and timelines\n- Fewer delays that disrupt hiring and workforce planning\n- Lower total cost of managing immigration at scale\nFor employees and their families, it means a clearer, less uncertain experience navigating a process that affects careers and lives.\n**A Market Built for a Different Era**\nThree structural forces have converged to create the conditions for a new model:\n**Demand has scaled past existing capacity. **The competition for skilled talent has intensified across every major economy. Employers routinely need expertise that isn't available domestically. Workers need pathways abroad that existing systems weren't designed to handle at current volume.\n**Government infrastructure has caught up.**Immigration agencies have modernized significantly over the past decade. The digital infrastructure now exists to enable a more coordinated, technology-supported operational model.\n**AI can now handle regulated operational work**. With appropriate oversight, AI and workflow automation can execute complex, regulated tasks at a level and consistency that changes what's possible in a managed service.\nGlobali was designed around this convergence from the start \u2013 not retrofitted to it after the fact.\n**The Team**\nMaryam Etminan, Founder and CEO, brings a doctorate in business administration and 20 years of entrepreneurial and business leadership, including six years at the intersection of immigration and technology and a prior exit in the category. She "
+   },
+   {
+    "id": "https://exa.ai/library/person/3fv0024ttjr",
+    "title": "Maryam Etminan, DBA",
+    "url": "https://linkedin.com/in/maryam-etminan",
+    "publishedDate": "2026-09-29T00:00:00.000Z",
+    "text": "# Maryam Etminan, DBA\n\nCEO & Founder at Globali | Business Strategist\n\nUnited States (US)\n\n500 connections \u2022 11,789 followers\n\n## About\n\nFounder & CEO of Globali.ai \u2014 building agentic AI infrastructure for global hiring and immigration. Global talent mobility is broken: slow, expensive, and highly manual. At Globali, I\u2019m building a multi-agent AI system that automates international hiring workflows, turning immigration into scalable infrastructure for companies hiring globally. Over the past decade, I\u2019ve built and scaled ventures across education, immigration, and technology, including founding and growing organizations from early-stage to multi-location operations serving thousands of users. My work is focused on transforming fragmented, service-based industries into productized, AI-driven systems. Globali sits at the intersection of AI, global workforce mobility, and enterprise infrastructure\u2014addressing a massive and growing market driven by talent shortages and cross-border hiring demand. I hold a Doctor of Business Administration, with additional training in entrepreneurship (Stanford GSB) and venture finance (Berkeley Law). My background in physics shapes a systems-level approach to solving complex, high-friction problems. Building infrastructure that enables talent to move globally\u2014faster, smarter, and at scale.\n\nTotal Experience: 20 years and 4 months\n\n## Experience\n\n### Founder & CEO - [Globali.ai](https://www.linkedin.com/company/globali1) (Current)\n\nJan 2024 - Present (2 years and 8 months) in Irvine, California, United States\n\nDepartment: General Management \u2022 Level: C-Level\n\nGlobali.ai is a Information Services company. Globali.ai has 1-10 employees (+20% YoY), founded in 2023. Headquartered in Newport Beach, California, United States. Its workforce is distributed across United States, United Arab Emirates, and United Kingdom.\n\n### Co-Founder and CEO - [Productized OS](https://www.linkedin.com/company/idea-to-startup)\n\nNov 2019 - Dec 2023 (4 years and 1 month) in California, United States\n\nStartup Visa, Startup Development, Canada Startup, Business, E-Commerce, Venture Funding, Technology Consulting, Business Consulting, Training & Education, Immigration , Startup Funding, and Angel Investors\n\nDepartment: General Management \u2022 Level: Founder\n\nProductized OS is an educational institution. Productized OS has 1-10 employees (-50% YoY), founded in 2022. Headquartered in Aliso Viejo, California, United States, with an office in Newport Beach.\n\n### Vice President - [NIPOC (Network of Iranian American Professionals of Orange County)](https://www.linkedin.com/company/nipoc)\n\nJan 2019 - Jan 2021 (2 years) in California, United States\n\nNIPOC\n\nDepartment: General Management \u2022 Level: President/Vice President\n\nNIPOC (Network of Iranian American Professionals of Orange County) is a nonprofit organization. NIPOC is a network of iranian American professionals of Orange County that creates business opportunities and networking. NIPOC (Network of Iranian American Professionals of Orange County) has 1-10 employees (-10% YoY) and has annual revenue in the $10M-$20M range, founded in 1987. Headquartered in Irvine, California, United States. Its workforce is distributed across United States and Iran.\n\n### Founder and CEO - Negaresh School\n\nMay 2009 - May 2018 (9 years) in Fars Province, Iran\n\nDepartment: General Management \u2022 Level: Founder\n\n### Phsics Lecturer - [Islamic Azad University](https://www.linkedin.com/school/islamic-azad-university)\n\nSep 2005 - Jun 2010 (4 years and 9 months) in Fars Province, Iran\n\nLevel: Mid\n\nIslamic Azad University is a higher education institution. Islamic Azad University has 3,000-4,000 employees (+9-10% YoY), founded in 1982. Headquartered in Tehran, Iran, with an office in Shahreza. Its workforce is distributed across 38 countries (including Iran, Canada, United Arab Emirates, United States, and Turkey). Research output of 30,000-40,000 works, primarily in Engineering, Medicine, and Agricultural and Biol",
+    "image": "https://media.licdn.com/dms/image/v2/D5603AQHPZPRQpRHF8Q/profile-displayphoto-scale_200_200/B56Z6FzZ9CIEAc-/0/1780361307438?e=2147483647&v=beta&t=wJkcGhoi-CWHUXAzKzzr34SoyRKLGpegZt5vf_PXMbI",
+    "entities": [
+     {
+      "id": "https://exa.ai/library/person/3fv0024ttjr",
+      "type": "person",
+      "version": 1,
+      "properties": {
+       "name": "Maryam Etminan, DBA",
+       "firstName": "Maryam",
+       "lastName": "Etminan",
+       "location": "United States",
+       "workHistory": [
+        {
+         "title": "Founder & CEO",
+         "location": "Irvine, California, United States",
+         "dates": {
+          "from": "2024-01-01",
+          "to": null
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/yjjrtc7jtd4",
+          "name": "Globali.ai"
+         }
+        },
+        {
+         "title": "Co-Founder and CEO",
+         "location": "California, United States",
+         "dates": {
+          "from": "2019-11-01",
+          "to": "2023-12-01"
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/vnydjrbdkk6",
+          "name": "Productized OS"
+         }
+        },
+        {
+         "title": "Vice President",
+         "location": "California, United States",
+         "dates": {
+          "from": "2019-01-01",
+          "to": "2021-01-01"
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/20kjg3vwtj0",
+          "name": "NIPOC (Network of Iranian American Professionals of Orange County)"
+         }
+        },
+        {
+         "title": "Founder and CEO",
+         "location": "Fars Province, Iran",
+         "dates": {
+          "from": "2009-05-01",
+          "to": "2018-05-01"
+         },
+         "company": {
+          "id": null,
+          "name": "Negaresh School"
+         }
+        },
+        {
+         "title": "Phsics Lecturer",
+         "location": "Fars Province, Iran",
+         "dates": {
+          "from": "2005-09-01",
+          "to": "2010-06-01"
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/1hs56q5jm56",
+          "name": "Islamic Azad University"
+         }
+        }
+       ],
+       "educationHistory": [
+        {
+         "degree": "Entrepreneurship/Entrepreneurial Studies",
+         "dates": {
+          "from": "2021",
+          "to": "2022"
+         },
+         "institution": {
+          "id": "https://exa.ai/library/organization/6c4t1fsnw3g",
+          "name": "Stanford University Graduate School of Business"
+         }
+        },
+        {
+         "degree": "Venture Capital",
+         "dates": null,
+         "institution": {
+          "id": "https://exa.ai/library/organization/7p454p9nd8q",
+          "name": "University of California, Berkeley - School of Law"
+         }
+        },
+        {
+         "degree": "Doctor of Business Admistrative, International Business",
+         "dates": {
+          "from": "2023",
+          "to": "2026"
+         },
+         "institution": {
+          "id": "https://exa.ai/library/organization/ft4230zcqrt",
+          "name": "Swiss School of Business and Management"
+         }
+        },
+        {
+         "degree": "Master's degree, Fundamental Particle Physics",
+         "dates": {
+          "from": "2000",
+          "to": "2003"
+         },
+         "institution": {
+          "id": "https://exa.ai/library/organization/6hds6fhsccn",
+          "name": "Shahid Beheshti University"
+         }
+        }
+       ],
+       "research": null
+      }
+     }
+    ]
+   },
+   {
+    "id": "https://exa.ai/library/person/747t1q0l9zb",
+    "title": "Matthew Merrilees",
+    "url": "https://linkedin.com/in/matthew-merrilees-8a432a7",
+    "publishedDate": "2026-09-21T00:00:00.000Z",
+    "text": "# Matthew Merrilees\n\nCEO, North America at Global-e\n\nBasking Ridge, New Jersey, United States (US)\n\n500 connections \u2022 6,571 followers\n\n## About\n\nGlobal-e (Nasdaq: GLBE) is the world\u2019s leading platform to enable and accelerate global, direct-to-consumer cross-border ecommerce. The chosen partner of hundreds of brands and retailers across the United States, Europe, and Asia, including Adidas, Disney, Marc Jacobs, Skims, Netflix, Hugo Boss, Reformation, Alo Yoga, Jabra, Ralph Lauren, Versace, and Marks and Spencer, to name a few; Global-e makes selling internationally as simple as selling domestically. Through our end-to-end platform, merchants can increase international traffic conversion rates by offering customers in over 200 destinations worldwide an optimal localized shopping experience on their existing websites, customized per market and aligned with their business needs and goals. Global-e\u2019s platform supports local messaging per market and a multi-lingual checkout page supported in over 30 languages, local pricing in over 100 currencies, 150+ local and alternative payment methods, duty and tax calculation with a pre-payment option for a guaranteed landed cost, as well as multiple shipping options and easy local returns. Our advanced localization capabilities are complemented by big-data best-practice business intelligence models. Those are based on our extensive big-data analysis and vast cross-border experience, handling millions of orders annually, to optimize our clients\u2019 international sales and support their continuous global growth. Global-e\u2019s end-to-end streamlined operations cover everything you need to sell globally, from customs and import processing, country restrictions, and regulations to customer service; removing many complexities involved in cross-border selling. We also handle fraud hazards and currency fluctuation, for a simplified and efficient retailer experience. With over 700 employees, Global-e operates from 20 locations worldwide, including its New York-based North American headquarters. For more information, visit:\n\nTotal Experience: 21 years and 3 months\n\n## Experience\n\n### [Global-e](https://www.linkedin.com/company/global-e)\n\n#### Chief Executive Officer, North America (Current)\n\nJan 2019 - Present (7 years and 9 months) in New York City, New York, United States\n\nDepartment: General Management \u2022 Level: C-Level\n\n#### Managing Director, Global-e U.S.\n\nJan 2018 - Jan 2019 (1 year)\n\nAs Managing Director, I am responsible for all aspects of the country\u2019s International e-commerce business. I travel often to meet and learn from team members and employees around the country, giving my time and attention to ensure everyone understands the critical role they play and value they bring to delivering best-in-class service to our customers \u2013 locally and internationally. My focus as Managing Director is to ensure we are investing in our people and putting a hyper focus on conversion to ensure the continued growth and quality for our customers.\n\nDepartment: General Management \u2022 Level: Director\n\nGlobal-e (GLBE) is a Technology, Information and Internet company. Global E-Commerce is a global platform that powers better global e-commerce, transforming how merchants and shoppers across the world engage directly. Global-e has 900-1,000 employees (+10% YoY) and has annual revenue in the $900M-$1B range, founded in 2013. Headquartered in Petah Tikva, Center District, Israel, operates in 5 countries (including United Kingdom, United States, Japan, and Australia). Its workforce is distributed across 34 countries (including Israel, United States, United Kingdom, Romania, and Ukraine). Has a market cap in the $6B-$7B range. IPO 2021.\n\n### Managing Director of Sales - [FedEx](https://www.linkedin.com/company/fedex)\n\nAug 2015 - Jan 2018 (2 years and 5 months) in New York City, New York, United States\n\nHead of sales globally with a focus on driving sales growth, retention and profitability within the Cross Border, eCommerce ",
+    "image": "https://media.licdn.com/dms/image/v2/D4E03AQEa537n_nrE-Q/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1674698756371?e=2147483647&v=beta&t=QP2U3KqszVrMBXqGeoPLZAvnNIppoOogcTFXLMI9sCE",
+    "entities": [
+     {
+      "id": "https://exa.ai/library/person/747t1q0l9zb",
+      "type": "person",
+      "version": 1,
+      "properties": {
+       "name": "Matthew Merrilees",
+       "firstName": "Matthew",
+       "lastName": "Merrilees",
+       "location": "Basking Ridge, New Jersey, United States",
+       "workHistory": [
+        {
+         "title": "Chief Executive Officer, North America",
+         "location": "New York City, New York, United States",
+         "dates": {
+          "from": "2019-01-01",
+          "to": null
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/ynkvtnv8c3v",
+          "name": "Global-e"
+         }
+        },
+        {
+         "title": "Managing Director, Global-e U.S.",
+         "location": null,
+         "dates": {
+          "from": "2018-01-01",
+          "to": "2019-01-01"
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/ynkvtnv8c3v",
+          "name": "Global-e"
+         }
+        },
+        {
+         "title": "Managing Director of Sales",
+         "location": "New York City, New York, United States",
+         "dates": {
+          "from": "2015-08-01",
+          "to": "2018-01-01"
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/7d9b3ql1txn",
+          "name": "FedEx"
+         }
+        },
+        {
+         "title": "Senior Manager, National Accounts Northeast",
+         "location": "New York City, New York, United States",
+         "dates": {
+          "from": "2014-11-01",
+          "to": "2015-08-01"
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/rfh4jgj8z2s",
+          "name": "DHL"
+         }
+        },
+        {
+         "title": "Area Sales Manager",
+         "location": "New York City, New York, United States",
+         "dates": {
+          "from": "2013-02-01",
+          "to": "2014-11-01"
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/rfh4jgj8z2s",
+          "name": "DHL"
+         }
+        },
+        {
+         "title": "National Account Manager",
+         "location": "New York City, New York, United States",
+         "dates": {
+          "from": "2009-11-01",
+          "to": "2013-02-01"
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/rfh4jgj8z2s",
+          "name": "DHL"
+         }
+        },
+        {
+         "title": "Manager, International Sales",
+         "location": "New York City, New York, United States",
+         "dates": {
+          "from": "2008-07-01",
+          "to": "2009-11-01"
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/rfh4jgj8z2s",
+          "name": "DHL"
+         }
+        },
+        {
+         "title": "Senior Account Executive",
+         "location": "Elizabeth, New Jersey, United States",
+         "dates": {
+          "from": "2007-07-01",
+          "to": "2008-07-01"
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/rfh4jgj8z2s",
+          "name": "DHL"
+         }
+        },
+        {
+         "title": "Account Executive",
+         "location": "Elizabeth, New Jersey, United States",
+         "dates": {
+          "from": "2006-07-01",
+          "to": "2007-07-01"
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/rfh4jgj8z2s",
+          "name": "DHL"
+         }
+        },
+        {
+         "title": "Account Representitive",
+         "location": "Elizabeth, New Jersey, United States",
+         "dates": {
+          "from": "2005-07-01",
+          "to": "2006-07-01"
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/rfh4jgj8z2s",
+          "name": "DHL"
+         }
+        }
+       ],
+       "educationHistory": [
+        {
+         "degree": "Bachelor's degree Business Administration and Management General",
+         "dates": {
+          "from": "2001",
+          "to": "2005"
+         },
+         "institution": {
+          "id": "https://exa.ai/library/organization/4flf3vp3wcv",
+          "name": "Fairfield University"
+         }
+        }
+       ],
+       "research": null
+      }
+     }
+    ]
+   },
+   {
+    "id": "https://exa.ai/library/person/4l1z2bsgnnb",
+    "title": "Nicole Sahin",
+    "url": "https://linkedin.com/in/nicolesahin",
+    "publishedDate": "2026-09-21T00:00:00.000Z",
+    "text": "# Nicole Sahin\n\nFounder & CEO at G-P/Globalization Partners. G-P Gia co-founder. \ud83d\ude80\n\nUnited States (US)\n\n500 connections \u2022 21,830 followers\n\n## About\n\nFounder and CEO of G-P, the creator of the employer of record (EOR) industry, and the co-founder of Gia, the world\u2019s first AI-based global HR compliance advisor. Nicole founded G-P in 2012 and changed the rules of international business by enabling businesses to hire anyone, anywhere in the world within minutes with G-P\u2019s AI-powered global employment solutions. Nicole also empowers everyone, everywhere, through social endeavors, with a focus on supporting people living in poverty to empower themselves through education and career access.\n\nTotal Experience: 22 years and 8 months\n\n## Experience\n\n### CEO & Founder - [G-P](https://www.linkedin.com/company/g-p) (Current)\n\nJan 2012 - Present (14 years and 9 months) in Silicon Valley, California, United States\n\nI'm the Founder and CEO of G-P (Globalization Partners), which enables anyone to hire anyone, anywhere, quickly and easily via our AI-driven and fully compliant global employment solutions. You find the talent, and we put your candidates on our already-established, fully compliant local payroll and contractor platform in 180+ countries. G-P has also launched GIA, the world's first global HR & compliance advisor spanning 50 states and 50 countries (at launch). Leveraging G-P makes hiring your global team fast, compliant and easy. Besides breaking down barriers for everyone, everywhere, my mission as an entrepreneur is to build a company people love. We define success at G-P with a triple bottom line: the happiness of our clients, our employees, and our shareholders. Our company culture centers around hiring the best and brightest, inspiring them to do more than they thought possible, and showing them fierce loyalty in return. Together we have built a reputation as the most competent brand in international business. In exchange, I strive to build a company employees love, by implementing programs like our 5-year sabbatical. We've also won recognition for our 97% customer satisfaction scores. I\u2019m proud to say we\u2019ve accomplished our \u201cside mission\u201d of proving that running a business with a triple bottom line results in radical success.\n\nDepartment: General Management \u2022 Level: Founder\n\nG-P is a Software Development company. G-P has 900-1,000 employees. Headquartered in Mali, operates in 34 countries (including United States, China, Norway, Portugal, and Brazil). Its workforce is distributed across 44 countries (including United States, India, Ireland, Mexico, and United Kingdom).\n\n### Member & Speaker - [World Economic Forum](https://www.linkedin.com/company/world-economic-forum) (Current)\n\nOct 2022 - Present (2 years and 5 months) in Global\n\nThe World Economic Forum is comprised of the top 1000 business, NGO and governmental leaders in the world who work to improve the state of the social systems and economic state of the world by collaborating to shape global, regional, and industry agendas. We meet in Davos annually and on other projects regularly throughout the year.\n\nDepartment: Other \u2022 Level: Executive\n\nWorld Economic Forum is a nonprofit organization. The World Economic Forum connects leaders to make sense of global challenges and move the world forward together. They drive impact centers meetings stakeholders and drive structured initiatives and insight generation. They have 11 centers for advanced manufacturing and supply chains, cybersecurity, energy and materials, financial and monetary systems, health and healthcare, nature and climate, regions, trade and geopolitics, the new economy and society, urban. World Economic Forum has 3,000-4,000 employees (+8-9% YoY) and has annual revenue in the $80M-$90M range, founded in 1971. Headquartered in Cologny, Geneva, Switzerland, with presence in United States, China, and Japan. Its workforce is distributed across 120 countries (including Switzerland, United States, United Kingdom, ",
+    "image": "https://media.licdn.com/dms/image/v2/D5603AQHiZwmeZSjcRw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1694110909353?e=2147483647&v=beta&t=l4PRRwgeznKApiRu20UVsg-fXN_wVOoKnX83EvZTQX4",
+    "entities": [
+     {
+      "id": "https://exa.ai/library/person/4l1z2bsgnnb",
+      "type": "person",
+      "version": 1,
+      "properties": {
+       "name": "Nicole Sahin",
+       "firstName": "Nicole",
+       "lastName": "Sahin",
+       "location": "United States",
+       "workHistory": [
+        {
+         "title": "CEO & Founder",
+         "location": "Silicon Valley, California, United States",
+         "dates": {
+          "from": "2012-01-01",
+          "to": null
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/1h0g5r72h05",
+          "name": "G-P"
+         }
+        },
+        {
+         "title": "Member & Speaker",
+         "location": "Global",
+         "dates": {
+          "from": "2022-10-01",
+          "to": null
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/sx91scjtckc",
+          "name": "World Economic Forum"
+         }
+        },
+        {
+         "title": "WSJ Best-Selling Author",
+         "location": "Global",
+         "dates": {
+          "from": "2021-11-01",
+          "to": null
+         },
+         "company": {
+          "id": null,
+          "name": "Global Talent Unleashed:  An Executive's Guide to Conquering the World"
+         }
+        },
+        {
+         "title": "Member",
+         "location": null,
+         "dates": {
+          "from": "2019-10-01",
+          "to": null
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/9696t6wslvw",
+          "name": "Fortune"
+         }
+        },
+        {
+         "title": "Board Member",
+         "location": null,
+         "dates": {
+          "from": "2019-03-01",
+          "to": null
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/jz8kq318sgb",
+          "name": "School the World"
+         }
+        },
+        {
+         "title": "Member",
+         "location": null,
+         "dates": {
+          "from": "2018-09-01",
+          "to": null
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/tlw10h2t48x",
+          "name": "Women Moving Millions"
+         }
+        },
+        {
+         "title": "Judge",
+         "location": null,
+         "dates": {
+          "from": "2018-01-01",
+          "to": "2022-12-01"
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/pm02ngjyvcb",
+          "name": "EY Entrepreneur Of The Year Ireland"
+         }
+        },
+        {
+         "title": "Board Member, Northeast Region - Chair of Diversity & Inclusion",
+         "location": null,
+         "dates": {
+          "from": "2018-09-01",
+          "to": "2020-12-01"
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/x75g9dy2wnd",
+          "name": "YPO"
+         }
+        },
+        {
+         "title": "Co-Founder",
+         "location": "Cambodia",
+         "dates": {
+          "from": "2011-05-01",
+          "to": "2012-06-01"
+         },
+         "company": {
+          "id": null,
+          "name": "Sweet Life School for Girls"
+         }
+        },
+        {
+         "title": "Sr Director, Ops & Sales (Various Roles) (Exit)",
+         "location": "Silicon Valley & Southern California",
+         "dates": {
+          "from": "2005-10-01",
+          "to": "2011-10-01"
+         },
+         "company": {
+          "id": null,
+          "name": "High Street Partners, Inc. (Exit)"
+         }
+        },
+        {
+         "title": "CEO & Founder",
+         "location": "St. Thomas, US Virgin Islands",
+         "dates": {
+          "from": "2001-10-01",
+          "to": "2003-06-01"
+         },
+         "company": {
+          "id": null,
+          "name": "Caribbean Retreat Outsourcing A/K/A Lotus Yoga Retreats, Inc."
+         }
+        }
+       ],
+       "educationHistory": [
+        {
+         "degree": "MBA International Management",
+         "dates": {
+          "from": "2003",
+          "to": "2005"
+         },
+         "institution": {
+          "id": "https://exa.ai/library/organization/m2bjqbmvmbv",
+          "name": "Middlebury Institute of International Studies at Monterey"
+         }
+        },
+        {
+         "degree": "BA Humanities Environmental Studies",
+         "dates": null,
+         "institution": {
+          "id": "https://exa.ai/library/organization/111fg9m9lf7",
+          "name": "Maryville University of Saint Louis"
+         }
+        }
+       ],
+       "research": null
+      }
+     }
+    ]
+   },
+   {
+    "id": "https://exa.ai/library/person/slbpr3yl645",
+    "title": "Paul Abbott",
+    "url": "https://linkedin.com/in/paul-g-abbott",
+    "publishedDate": "2026-09-26T00:00:00.000Z",
+    "text": "# Paul Abbott\n\nCEO at American Express Global Business Travel\n\nUnited Kingdom (GB)\n\n500 connections \u2022 39,755 followers\n\n## About\n\nCEO at American Express Global Business Travel\n\nTotal Experience: 40 years and 9 months\n\n## Experience\n\n### Chief Executive Officer - [American Express Global Business Travel](https://www.linkedin.com/company/american-express-global-business-travel) (Current)\n\nSep 2019 - Present (7 years and 1 month) in London, England, United Kingdom\n\nDepartment: General Management \u2022 Level: C-Level\n\nAmerican Express Global Business Travel (GBTG) is a Travel Arrangements company. Amex GBT provides end-to-end corporate travel management solutions, including online booking and savings tools, event planning and spend management. American Express Global Business Travel has 8,000-9,000 employees (+70% YoY) and has annual revenue in the $2B-$3B range. Headquartered in New York, New York, United States, with presence in United Kingdom. Its workforce is distributed across 73 countries (including United States, India, United Kingdom, Spain, and Canada). Has a market cap in the $3B-$4B range. IPO 2020.\n\n### Non Executive Director - [RWS](https://www.linkedin.com/company/rws-group) (Current)\n\nJan 2024 - Present (2 years and 4 months)\n\nDepartment: General Management \u2022 Level: Director\n\nRWS Group (RWS.L) is a Business Content company. RWS is a company that provides content management services, including localization, translation, transcreation, and AI solutions. They aim to connect global audiences with relevant content, meaningful communication, accurate information, instant access, and personalized experiences. RWS offers services such as content creation, translation, analysis, and management, as well as AI solutions and intellectual property services. RWS Group has 7,000-8,000 employees (+40% YoY) and has annual revenue in the GBP600M-GBP700M range, founded in 1958. Headquartered in Maidenhead, Berkshire, United Kingdom, operates in 7 countries (including United States, Ireland, Hungary, China, and Japan). Its workforce is distributed across 128 countries (including India, United States, United Kingdom, Czechia, and Spain). Has a market cap in the GBP400M-GBP500M range. IPO 2003.\n\n### Chair - [GBTA Foundation](https://www.linkedin.com/company/the-gbta-foundation) (Current)\n\nJul 2022 - Present (3 years and 10 months)\n\nDepartment: Other \u2022 Level: Board Member\n\nGBTA Foundation is a nonprofit organization. The GBTA Foundation works collaboratively with industry partners, governments, experts, and other like-minded, non-profit organizations to drive positive change for People and the Planet. They foster a diverse and inclusive industry of talented and passionate professionals in business travel. They provide career mobility, mentoring, education, and networking opportunities for women in business travel. They also focus on sustainability and building a greener future for the business travel. GBTA Foundation has 1-10 employees (-10% YoY). Headquartered in Alexandria, Virginia, United States. Its workforce is distributed across United Kingdom and United States.\n\n### Member Board Of Directors - [American Express Global Business Travel](https://www.linkedin.com/company/american-express-global-business-travel)\n\nJan 2016 - Oct 2019 (3 years and 9 months)\n\nProviding end to end corporate travel and meetings program management for companies of all sizes and across all industries, with 12,000 employees in 120 countries.\n\nDepartment: General Management \u2022 Level: Director\n\n### [American Express](https://www.linkedin.com/company/american-express)\n\n#### Chief Commercial Officer\n\nOct 2017 - Oct 2019 (2 years) in London, England, United Kingdom\n\nLeading a global team of 5,700 people delivering payments and business financing solutions to over 4 million businesses in 200 countries.\n\nDepartment: Sales \u2022 Level: C-Level\n\n#### Executive Vice President, International and Global Clients (Global Commercial Payments)\n\nJan 2015 - Feb 2018 (3 years and 1 mont",
+    "image": "https://media.licdn.com/dms/image/v2/C4D03AQE4tuK-QaLCDA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1575658146428?e=2147483647&v=beta&t=jLbGycpwrFIdeaIhwY-sTiWWmQ80tI7Zjch2k1lAi0I",
+    "entities": [
+     {
+      "id": "https://exa.ai/library/person/slbpr3yl645",
+      "type": "person",
+      "version": 1,
+      "properties": {
+       "name": "Paul Abbott",
+       "firstName": "Paul",
+       "lastName": "Abbott",
+       "location": "United Kingdom",
+       "workHistory": [
+        {
+         "title": "Chief Executive Officer",
+         "location": "London, England, United Kingdom",
+         "dates": {
+          "from": "2019-09-01",
+          "to": null
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/ht96tl8pdr1",
+          "name": "American Express Global Business Travel"
+         }
+        },
+        {
+         "title": "Member Board Of Directors",
+         "location": null,
+         "dates": {
+          "from": "2016-01-01",
+          "to": "2019-10-01"
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/ht96tl8pdr1",
+          "name": "American Express Global Business Travel"
+         }
+        },
+        {
+         "title": "Non Executive Director",
+         "location": null,
+         "dates": {
+          "from": "2024-01-01",
+          "to": null
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/fyk070gh1rh",
+          "name": "RWS"
+         }
+        },
+        {
+         "title": "Chair",
+         "location": null,
+         "dates": {
+          "from": "2022-07-01",
+          "to": null
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/2j8pzdybht1",
+          "name": "GBTA Foundation"
+         }
+        },
+        {
+         "title": "Chief Commercial Officer",
+         "location": "London, England, United Kingdom",
+         "dates": {
+          "from": "2017-10-01",
+          "to": "2019-10-01"
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/63q7h3l17f6",
+          "name": "American Express"
+         }
+        },
+        {
+         "title": "Executive Vice President, International and Global Clients (Global Commercial Payments)",
+         "location": null,
+         "dates": {
+          "from": "2015-01-01",
+          "to": "2018-02-01"
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/63q7h3l17f6",
+          "name": "American Express"
+         }
+        },
+        {
+         "title": "Executive Vice President, Global Network Services",
+         "location": null,
+         "dates": {
+          "from": "2012-01-01",
+          "to": "2015-01-01"
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/63q7h3l17f6",
+          "name": "American Express"
+         }
+        },
+        {
+         "title": "Executive Vice President, Global Network Services, Europe, Middle East and Africa",
+         "location": null,
+         "dates": {
+          "from": "2010-01-01",
+          "to": "2012-01-01"
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/63q7h3l17f6",
+          "name": "American Express"
+         }
+        },
+        {
+         "title": "Senior Vice President, Merchant Services Europe and Global Client Group (Global Merchant Services)",
+         "location": null,
+         "dates": {
+          "from": "2006-01-01",
+          "to": "2010-01-01"
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/63q7h3l17f6",
+          "name": "American Express"
+         }
+        },
+        {
+         "title": "Vice President and General Manager, Commercial Card Europe",
+         "location": null,
+         "dates": {
+          "from": "2004-01-01",
+          "to": "2006-01-01"
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/63q7h3l17f6",
+          "name": "American Express"
+         }
+        },
+        {
+         "title": "Vice President and General Manager, Commercial Card Canada",
+         "location": null,
+         "dates": {
+          "from": "2002-01-01",
+          "to": "2004-01-01"
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/63q7h3l17f6",
+          "name": "American Express"
+         }
+        },
+        {
+         "title": "Vice President and General Manager, Corporate Travel Canada",
+         "location": null,
+         "dates": {
+          "from": "1999-01-01",
+          "to": "2002-01-01"
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/63q7h3l17f6",
+          "name": "American Express"
+         }
+        },
+        {
+         "title": "Director, Corporate Services Business Transformation",
+         "location": null,
+         "dates": {
+          "from": "1997-01-01",
+          "to": "1999-01-01"
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/63q7h3l17f6",
+          "name": "American Express"
+         }
+        },
+        {
+         "title": "Regional Director, American Express UK Corporate Travel",
+         "location": null,
+         "dates": {
+          "from": "1995-01-01",
+          "to": "1997-01-01"
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/63q7h3l17f6",
+          "name": "American Express"
+         }
+        },
+        {
+         "title": "Senior Manager - National Account Sales",
+         "location": null,
+         "dates": {
+          "from": "1992-01-01",
+          "to": "1995-01-01"
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/68yv1lqpxns",
+          "name": "British Airways"
+         }
+        },
+        {
+         "title": "Various Roles - Marketing, Operations and Finance",
+         "location": null,
+         "dates": {
+          "from": "1986-01-01",
+          "to": "1992-01-01"
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/68yv1lqpxns",
+          "name": "British Airways"
+         }
+        }
+       ],
+       "educationHistory": [
+        {
+         "degree": "PostGrad in Business and Administration",
+         "dates": null,
+         "institution": {
+          "id": "https://exa.ai/library/organization/q54xqqkgt08",
+          "name": "Lancaster University"
+         }
+        }
+       ],
+       "research": null
+      }
+     }
+    ]
+   },
+   {
+    "id": "https://exa.ai/library/person/xl2g9xs9vfr",
+    "title": "Alexander Geiser",
+    "url": "https://linkedin.com/in/alexander-geiser-34432155",
+    "publishedDate": "2026-10-03T00:00:00.000Z",
+    "text": "# Alexander Geiser\n\nGerman-Canadian. An explorer at heart, a protector by disposition, and a leader with passion. @ FGS Global\n\nFrankfurt Rhine-Main Metropolitan Area (DE)\n\n500 connections \u2022 9,776 followers\n\n## About\n\nI am the Chief Executive Officer at FGS Global, the leading global communications and public affairs consultancy. I have over 25 years of experience advising Boards and C-suites on how to navigate the stakeholder economy, with a focus on M&A transactions, CEO transitions and corporate strategy launches. I am passionate about leadership, personal advancement and a bit obsessed with all things tech & space. When I am not working, I escape on hiking adventures (something I inherit from growing up close to beautiful nature and surroundings in Canada) and help my children explore the wonders of this planet.\n\nTotal Experience: 28 years and 5 months\n\n## Experience\n\n### Chief Executive Officer - [FGS Global](https://www.linkedin.com/company/fgs-global) (Current)\n\nDec 2020 - Present (5 years and 10 months) in Frankfurt & New York\n\nDepartment: General Management \u2022 Level: C-Level\n\nFGS Global is a Business Consulting and Services company. fgs global is a consulting company that provides insights and support to stakeholders in a fast-moving, interconnected world. They offer strategic advice, deep experience, real-time insights, and a 360\u00ba perspective. FGS Global has 1,000-2,000 employees (+20% YoY) and has annual revenue in the $400M-$500M range. Headquartered in New York, New York, United States. Its workforce is distributed across 23 countries (including United States, Germany, United Kingdom, United Arab Emirates, and Belgium). Has $62.4M in total funding, with 4 prior funding rounds.\n\n### Young Global Leader - [World Economic Forum](https://www.linkedin.com/company/world-economic-forum)\n\nJan 2014 - Jan 2021 (7 years)\n\nDepartment: Other \u2022 Level: Executive\n\nWorld Economic Forum is a nonprofit organization. The World Economic Forum connects leaders to make sense of global challenges and move the world forward together. They drive impact centers meetings stakeholders and drive structured initiatives and insight generation. They have 11 centers for advanced manufacturing and supply chains, cybersecurity, energy and materials, financial and monetary systems, health and healthcare, nature and climate, regions, trade and geopolitics, the new economy and society, urban. World Economic Forum has 3,000-4,000 employees (+8-9% YoY) and has annual revenue in the $80M-$90M range, founded in 1971. Headquartered in Cologny, Geneva, Switzerland, with presence in United States, China, and Japan. Its workforce is distributed across 120 countries (including Switzerland, United States, United Kingdom, India, and Germany). Research output of 1,000-2,000 works, primarily in Social Sciences, Environmental Science, and Business, Management and Accounting.\n\n### Managing Partner - [Finsbury Glover Hering](https://www.linkedin.com/company/finsburygloverhering)\n\nMay 1998 - Dec 2020 (22 years and 7 months)\n\nDepartment: General Management \u2022 Level: Partner\n\nFinsbury Glover Hering is a Public Relations and Communications Services company. Finsbury Glover Hering has 60-70 employees (-20% YoY). Headquartered in New York, New York, United States, operates in 10 countries (including United Arab Emirates, China, United Kingdom, Hong Kong, and Belgium). Its workforce is distributed across 9 countries (including United States, United Kingdom, Germany, United Arab Emirates, and China).\n\n## Education\n\n### Diploma at Harvard Kennedy School\n\n2016 - 2016 in Cambridge, Massachusetts, United States\n\nHarvard Kennedy School is a higher education institution. Harvard Kennedy School is an educational institution that combines cutting-edge research, teaching of outstanding students, and direct interaction with practitioners to solve public problems. Harvard Kennedy School has 700-800 employees (+7-8% YoY), founded in 1936. Headquartered in Cambridge, Massachusetts, United S",
+    "image": "https://media.licdn.com/dms/image/v2/D4E03AQFquzXZy9A79g/profile-displayphoto-scale_200_200/B4EaBDF1hgIUAc-/0/1787832002985?e=2147483647&v=beta&t=4jF41Cl9quGnxM39JeCcDen3KHzTJ_Zxlt5ldnt4Ylk",
+    "entities": [
+     {
+      "id": "https://exa.ai/library/person/xl2g9xs9vfr",
+      "type": "person",
+      "version": 1,
+      "properties": {
+       "name": "Alexander Geiser",
+       "firstName": "Alexander",
+       "lastName": "Geiser",
+       "location": "Frankfurt Rhine-Main Metropolitan Area",
+       "workHistory": [
+        {
+         "title": "Chief Executive Officer",
+         "location": "Frankfurt & New York",
+         "dates": {
+          "from": "2020-12-01",
+          "to": null
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/fknvzyjqzgh",
+          "name": "FGS Global"
+         }
+        },
+        {
+         "title": "Young Global Leader",
+         "location": null,
+         "dates": {
+          "from": "2014-01-01",
+          "to": "2021-01-01"
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/sx91scjtckc",
+          "name": "World Economic Forum"
+         }
+        },
+        {
+         "title": "Managing Partner",
+         "location": null,
+         "dates": {
+          "from": "1998-05-01",
+          "to": "2020-12-01"
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/tynys72q687",
+          "name": "Finsbury Glover Hering"
+         }
+        }
+       ],
+       "educationHistory": [
+        {
+         "degree": "Diploma",
+         "dates": {
+          "from": "2016",
+          "to": "2016"
+         },
+         "institution": {
+          "id": "https://exa.ai/library/organization/rflr4mhl4tf",
+          "name": "Harvard Kennedy School"
+         }
+        },
+        {
+         "degree": "Bachelor's degree Political Science and Government",
+         "dates": {
+          "from": "1994",
+          "to": "1998"
+         },
+         "institution": {
+          "id": "https://exa.ai/library/organization/kp6xfj7jtdh",
+          "name": "Western University"
+         }
+        },
+        {
+         "degree": "Diploma M+A",
+         "dates": {
+          "from": "1999",
+          "to": null
+         },
+         "institution": {
+          "id": "https://exa.ai/library/organization/lr5ztkxxb2q",
+          "name": "INSEAD"
+         }
+        }
+       ],
+       "research": null
+      }
+     }
+    ]
+   }
+  ],
+  "searchTime": 311.1,
+  "costDollars": {
+   "total": 0.007,
+   "search": {
+    "neural": 0.007
+   }
+  }
+ },
+ "fetched_at": "2026-10-14T17:27:30+0530"
+}

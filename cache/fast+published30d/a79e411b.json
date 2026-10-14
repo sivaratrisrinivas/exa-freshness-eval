@@ -1,0 +1,112 @@
+{
+ "status": 200,
+ "latency_s": 0.46,
+ "request": {
+  "type": "fast",
+  "startPublishedDate": "2026-09-14T00:00:00.000Z",
+  "contents": {
+   "text": {
+    "maxCharacters": 4000
+   }
+  },
+  "query": "latest stable release of OpenAI Python SDK",
+  "numResults": 10
+ },
+ "response": {
+  "requestId": "21e99480fa2a16b53f16f5c98f55b694",
+  "resolvedSearchType": "",
+  "results": [
+   {
+    "id": "https://prismix.dev/news/867ed6f1560d",
+    "title": "v3.30.0",
+    "url": "https://prismix.dev/news/867ed6f1560d",
+    "publishedDate": "2026-10-14T00:00:00.000Z",
+    "author": "OpenAI Python SDK releases",
+    "text": "v3.30.0\n\n OpenAI Python SDK releases \u00b7 October 14, 2026 \u00b7 1 min read \n\n# v3.30.0 \n\nMirrored from OpenAI Python SDK releases for archival readability. Support the source by reading on the original site.\n\n## 3.30.0 (2026-10-14)\n\n### Features\n\n- api: add beta session spending limits (#4058) (b570279)\n- api: add OCI external-storage provider support (#4060) (9eb83fe)\n- api: add organization Decisions usage reporting (#4062) (5e7a23e)\n- api: expose image tool error and moderation details (#4072) (c5452af)\n- api: support image URLs and detailed safety alert explanations (#4061) (3c50399)\n- api: support updating project API key expiry (#4066) (1f05e33)\n\n### Bug Fixes\n\n- streaming: restore async HTTP/1.1 connection reuse (#4041) (1f6cfe1)\n\n### Chores\n\n- api: clarify agent tool limits and environment pagination (#4065) (0f73f1d)\n\n## Discussion (0) \n\n Sign in to join the discussion. Free account, 30 seconds \u2014 email code or GitHub. \n\n No comments yet. Sign in and be the first to say something.",
+    "image": "https://prismix.dev/api/og/news/867ed6f1560d.svg"
+   },
+   {
+    "id": "https://traceary.com/openai-python",
+    "title": "OpenAI Python SDK changelog, now at 3.30.0 | Traceary",
+    "url": "https://traceary.com/openai-python",
+    "publishedDate": "2026-10-08T00:00:00.000Z",
+    "text": "OpenAI Python SDK changelog, now at 3.30.0 | Traceary\n\n# OpenAI Python SDK changelog\n\nOpenAI Python SDK is at 3.30.0, published 14 Oct 2026, today.\n\nOfficial Python client, released whenever the API surface changes.\n\nCollected\n\n94 releases back to 24 Oct 2025\n\nEvery release of a major line in one list, which is the one view the publisher never writes: 2 to 3. Only the lines whose first release the archive holds are listed, because a partial major would read as the whole of one.\n\nRead on 28 of the 30 days on record, last today. Collection status\n\n## Version history\n\n3.x 39 releases\n\n3.30.0 14 Oct 2026\n\nFeatures api: add beta session spending limits (#4058) (b570279) api: add OCI external-storage provider support (#4060) (9eb83fe) api: add organization Decisions usage reporting (#4062) (5e7a23e) api: expose image tool error and moderation \n\nadded fixed\n\n3.29.0 11 Oct 2026\n\nFeatures api: add billing_not_active session error code (#4052) (c88b320) api: add shida to named Live voices (#4053) (7352cf5) api: add vault updates and metadata filters (#4047) (e72f493) api: align beta pagination limits and non-null par\n\nadded changed\n\n3.28.0 9 Oct 2026\n\nFeatures api: add agent environment suspension and expiration (#4046) (6aa25a9) Chores deps: bump astral-sh/setup-uv from 10.1.0 to 10.2.0 (#4026) (8bfffd4) deps: bump CodeQL init and analyze to 4.38.2 (#4025) (4f5e618) deps: update PyJWT s\n\nsecurity added changed\n\n3.27.0 9 Oct 2026\n\nFeatures api: add prewarmed hosted environments (#4043) (c511a77)\n\nadded\n\n3.26.1 8 Oct 2026\n\nBug Fixes api: correct custom voice creation parameters (#4038) (b9bc5c1)\n\nfixed\n\n3.26.0 6 Oct 2026\n\nFeatures api: add standalone Decisions support (#4033) (b99e3e4)\n\nadded\n\n3.25.0 6 Oct 2026\n\nFeatures agents: observe local tool failures (#4028) (95d9645) agents: run local tools during streamed session creation (#4027) (919b623) api: add agent turn items and usage source grouping (#4030) (bd74c4e) lib: export type_to_response_for\n\nadded\n\n3.24.0 2 Oct 2026\n\nFeatures api: add custom voice creation and agent session events (#4013) (e5de2e5) Bug Fixes api: prioritize Python request routing fields (#4014) (ffcc4c4) api: prioritize routing fields in parse helpers (#4016) (ba53a10)\n\nadded fixed\n\n3.23.0 1 Oct 2026\n\nFeatures agents: [1/n] return typed answers from session streams (#4007) (10f8816) agents: stage files and download turn artifacts (#4009) (4fc2438) api: Add session traces and Realtime translations (#4001) (138e3d1) beta: expose typed appl\n\nadded fixed\n\n3.22.1 30 Sep 2026\n\nBug Fixes api: correct the missing authentication error message (#3993) (51692ed), closes #3962 transform NotRequired typed dictionary fields (#3995) (5544c18) Chores tests: mark sample_file.txt as text with LF line endings (#3879) (fd78a48\n\nfixed\n\n3.22.0 29 Sep 2026\n\nFeatures api: add computer use to beta agents (#3989) (f5dddb5)\n\nadded\n\n3.21.0 29 Sep 2026\n\nFeatures api: add GPT-6.1 Sol model identifier (#3986) (160b2c0)\n\nadded\n\n3.20.0 28 Sep 2026\n\nFeatures api: add Agents credential and session options (#3967) (bb68198) api: add Cyber access programs to Responses (#3956) (09c5b6f) responses: opt in to incremental WebSocket text and tool snapshots (#3973) (d0207b4) responses: preserve\n\nadded fixed\n\n3.19.2 24 Sep 2026\n\nBug Fixes preserve single files for fallback extraction paths (#3875) (bfd3680) Chores api: clarify approximate web search location defaults (#3953) (a95c95e) api: clarify Realtime modality array definitions (#3954) (e79cf53) api: correct f\n\nfixed\n\n3.19.1 23 Sep 2026\n\nBug Fixes chat: preserve single-pass tool iterables (#3770) (33ffa1f) client: merge HTTP headers case-insensitively (#3486) (5e39766) Chores api: clarify Chat Completions seed limits (#3945) (be9d666) Documentation clarify collaborator-only\n\nfixed\n\n3.19.0 23 Sep 2026\n\nFeatures api: add GCP external storage support (#3943) (d12d60f) api: add GPT-Rosalind research model (#3940) (d041d73) Bug Fixes _utils/_transform: propagate api_exclude in _async_transform_recursive (#",
+    "image": "https://traceary.com/og.png"
+   },
+   {
+    "id": "https://mrkeyoor.com/libs/openai/",
+    "title": "OpenAI Python SDK review: typed API calls and streaming \u2014 MrKeyoor",
+    "url": "https://mrkeyoor.com/libs/openai/",
+    "publishedDate": "2026-10-07T00:00:00.000Z",
+    "author": "Keyoor",
+    "text": "OpenAI Python SDK review: typed API calls and streaming \u2014 MrKeyoor\n\nWed 14 Oct 02:14 UTC\n\n# openai review\n\nopenai 3.3.1 is OpenAI's official Python client for its REST, server-sent streaming, Realtime, file, pagination, and webhook APIs. It exposes matching synchronous and asyncio clients, TypedDict request shapes, Pydantic response objects, service-specific exceptions, request IDs, retries, and configurable transports. Responses is the primary generation interface in the current README, while Chat Completions remains supported. Release 3.3.1 updates dependencies with published security fixes; 3.3.0 added named data-residency endpoints. Our Python 3.12 import succeeded, but this client still requires a remote API and credentials.\n\nopenai \u00b7 v3.29.0 \u00b7 76.3M/wk \u00b7 \u2605 31,834 \u00b7 pushed 13 Oct 2026 \u00b7 openai/openai-python \u00b7 docs \u00b7 reviewed by Keyoor\n\nVerdict\n\nopenai 3.3.1 installed in 1.1 seconds and occupied 22 MB across 14 packages in our sandbox, with 0 pip-audit findings. Use it for a Python 3.10+ service committed to OpenAI's typed APIs; use a vendor-neutral layer or local inference when provider portability or offline execution is the requirement.\n\n## We installed it\n\nuv pip install openai (v3.3.1) on 22 Aug 2026, fresh sandbox (3 CPUs, 8 GB, Python 3.12, empty cache). How we test \u2192\n\n| Install | \u2713 \u00b7 1.1s | 14 packages on disk \u00b7 22 MB |\n| --- | --- | --- |\n| Import | \u2713 | import openai in 1.51s \u00b7 pure Python \u00b7 py.typed \u00b7 requires Python >=3.10 |\n| Known vulns | 0 | (pip-audit) |\n\n### Does openai install cleanly?\n\nYes. In a fresh container with an empty cache, `pip install openai` finished in 1 seconds, leaving 14 packages and 22 MB on disk. pip-audit reported no known vulnerabilities.\n\n### What does openai need to run?\n\nPython >=3.10, and nothing compiled: it is pure Python. In our run `import openai` succeeded in 1.51s, and the package ships py.typed for type checkers.\n\n### openai or anthropic: which should you use?\n\nanthropic: Use it when a Python 3.10 service targets Anthropic and needs that provider's official types. openai 3.3.1 installed in 1.1 seconds and occupied 22 MB across 14 packages in our sandbox, with 0 pip-audit findings.\n\n### When should you not use openai?\n\nThe program must run models offline; openai 3.3.1 is an HTTP client and includes no model weights\n\nAPI stability 3/5 The OpenAI and AsyncOpenAI clients share generated resource names, and Chat Completions remains available beside Responses in version 3.3.1. Major upgrades can reach beneath those calls. Version 3 changed the default transport to HTTPX2 and stopped relying on the former httpx setup, so custom transports, mocks, hooks, auth handlers, and detailed timeout objects need explicit migration even when endpoint code looks familiar.\n\nDocs 5/5 The official repository README documents Responses, Chat Completions, image input, sync and async use, SSE streaming, Realtime events, pagination, uploads, error classes, request IDs, retries, timeouts, webhooks, workload identity, and custom transports. The official API reference supplies endpoint schemas, while api.md records the Python method surface. The HTTPX2 migration also has its own guide rather than a release-note footnote.\n\nMaintenance 5/5 PyPI published 3.3.1 on 2026-08-19, GitHub recorded a push on 2026-08-25, and the repository had 648 open items including issues and pull requests. Releases 3.1 through 3.3.1 covered WebSocket event IDs, Bedrock endpoints, data-residency names, API type updates, and dependency security fixes within 6 days. That speed keeps generated types current but makes version pinning and changelog review important.\n\nEcosystem 5/5 The available weekly snapshot reports about 97.4 million PyPI downloads, and GitHub listed 31,464 stars. The distribution includes sync, asyncio, SSE, WebSocket, file, webhook, and pagination workflows plus py.typed in one provider SDK. Our Python 3.12 environment imported it in 1.51 seconds after installing 14 packages, so it is easy to adopt but materially",
+    "image": "https://mrkeyoor.com/lab-cards/openai.png?v=mta7jcfb"
+   },
+   {
+    "id": "https://newsopenai.net/developers/openai-python-sdk-v3-29-0",
+    "title": "OpenAI Python SDK v3.29.0 | OpenAI Daily News",
+    "url": "https://newsopenai.net/developers/openai-python-sdk-v3-29-0",
+    "publishedDate": "2026-10-11T00:00:00.000Z",
+    "author": "Python SDK on GitHub",
+    "text": "OpenAI Python SDK v3.29.0 | OpenAI Daily News\n\n# OpenAI Python SDK v3.29.0\n\nPrimary source Python SDK on GitHub Sunday, October 11, 2026 at 1:38 PM EDT\n\nPython SDK on GitHub\n\nPicture: Python SDK on GitHub\n\napi: add billing_not_active session error code ( #4052 ) ( c88b320 ). api: add shida to named Live voices ( #4053 ) ( 7352cf5 ). api: add vault updates and metadata filters ( #4047 ) ( e72f493 ). api: align beta pagination limits and non-null parameters ( #4057 ) ( 800899e ). api: clarify decision creation documentation ( #4054 ) ( 16d3d3b ). api: clarify Decisions question and answer descriptions ( #4051 ) ( 895d617 ). api: document 128-character safety identifiers ( #4050 ) ( 2c1ae52 ). api: document decision choice constraints ( #4055 ) ( b7a1990 ). api: document Files API rate-limit responses ( #4049 ) ( f6a3459 ).\n\nThis notice was published by Python SDK on GitHub. What you see here is a brief excerpt. The full text is theirs.",
+    "image": "https://opengraph.githubassets.com/cd1d015850afe96d1fc4fd2e8ca874d70cf6af7e8233bf1268d6c95bc1dc6272/openai/openai-python/releases/tag/v3.29.0"
+   },
+   {
+    "id": "https://richnessagency.com/articles/openai-python-sdk-v3-29-0-release-analysis",
+    "title": "OpenAI Python SDK v3.29.0: New Features & Updates | Laravel",
+    "url": "https://richnessagency.com/articles/openai-python-sdk-v3-29-0-release-analysis",
+    "publishedDate": "2026-10-11T00:00:00.000Z",
+    "author": "Richness Tech Team",
+    "text": "OpenAI Python SDK v3.29.0: New Features & Updates | Laravel\n\n# Deep Dive: OpenAI Python SDK v3.29.0 Release Analysis \n\n Analyze the latest OpenAI Python SDK v3.29.0 release. Featuring new billing error codes, Live voice updates, and enhanced Vault metadata filtering. \n\n Published: Oct 11, 2026 \n\n## Overview#\n\nThe OpenAI Python SDK v3.29.0 release introduces critical refinements to API interaction, error handling, and data management. This update is essential for developers maintaining production-grade AI applications, specifically those leveraging the Realtime Voice API and Vault storage systems.\n\n## Key Features & Improvements#\n\n- Billing Error Handling: Introduction of `billing_not_active` session error code for granular exception handling.\n- Live API Expansion: Added 'shida' to the list of supported named Live voices.\n- Vault Enhancements: Improved metadata filtering capabilities for more efficient data retrieval.\n- Pagination Alignment: Standardized beta pagination limits to ensure consistent API response behavior.\n\n## Practical Code & Application#\n\nTo implement robust error handling for the new billing status, utilize the following pattern:\n\n```python\nimport openai\n\n# Example of handling the new billing error code\ntry:\n    client = openai.OpenAI()\n    # API call logic\nexcept openai.APIStatusError as e:\n    if e.code == 'billing_not_active':\n        print(\"Action required: Account billing is inactive.\")\n\n```\n\n## Architecture & Engineering Impact#\n\nThis release significantly improves developer velocity by reducing the ambiguity of API responses. The alignment of pagination parameters ensures that agent loops processing large datasets remain stable, reducing the need for custom retry logic and lowering overall latency in data-intensive workflows.\n\n## Quick Upgrade Guide#\n\nUpdate your environment using the following command:\n\n```bash\npip install --upgrade openai\n\n```\n\n## Summary & Future Outlook#\n\nVersion 3.29.0 reinforces OpenAI's commitment to API stability. As we move toward more complex agentic workflows, these granular error codes and metadata improvements are foundational for building resilient AI systems.\n\n## FAQ#\n\n1. What is the primary benefit of v3.29.0? It provides better error granularity and expanded support for the Realtime Voice API.\n2. Does this update break existing code? No, the changes are additive and focus on documentation and new error handling capabilities.\n3. Where can I find the full documentation? Refer to the official OpenAI GitHub repository for detailed changelogs.\n\n Table of Contents \n\n Sidebar Placement (Display Ad)",
+    "image": "https://richnessagency.com/uploads/articles/article_1791741619_jPuzdRJK.webp"
+   },
+   {
+    "id": "https://aiwire.dev/news/3426",
+    "title": "v3.28.0 \u00b7 AIWire",
+    "url": "https://aiwire.dev/news/3426",
+    "publishedDate": "2026-10-09T00:00:00.000Z",
+    "text": "v3.28.0 \u00b7 AIWire\n\n# v3.28.0\n\nOct 9, 2026, 4:49 pm ET\n\nOpenAI released version 3.28.0 of its Python SDK on 2026-10-09. The main feature is API support for agent environment suspension and expiration, plus dependency updates including PyJWT security constraint 2.14.0.\n\nRead the full story on github.com\n\nWhat to do Update the OpenAI Python SDK to 3.28.0 if you need agent environment suspension and expiration support.\n\nProvider\n\nOpenAI",
+    "image": "https://aiwire.dev/img/og.png"
+   },
+   {
+    "id": "https://releasebytes.com/item/openai-python-library-v3-26-0-adds-standalone-decisions-support",
+    "title": "OpenAI Python Library v3.26.0 Adds Standalone Decisions Support",
+    "url": "https://releasebytes.com/item/openai-python-library-v3-26-0-adds-standalone-decisions-support",
+    "publishedDate": "2026-10-06T00:00:00.000Z",
+    "text": "openai OpenAI Python SDK Releases \u00b7 Oct 6, 2026 \u00b7 3.26.0\n\n# OpenAI Python Library v3.26.0 Adds Standalone Decisions Support\n\nsdkaigaengineer\n\nfeature\n\nThe OpenAI Python library, version 3.26.0, has been released, introducing support for standalone Decisions within its API bindings. This update expands the library's capabilities, allowing developers to integrate specific decision-making functionalities directly into their applications. It is relevant for engineers and architects leveraging OpenAI's services through their official Python SDK to build AI-powered solutions.\n\nFeatures (1) \u203a\n\n- api add standalone Decisions support\n\n#4033 b99e3e4\n\nRead the original announcement \u2192 https://github.com/openai/openai-python/releases/tag/v3.26.0\n\n## Related releases\n\n- Analysis Details Agentic AI Adoption Trends in EU Businesses OpenAI News \u00b7 11h ago\n- OpenAI Python Library v3.31.0 Adds Browser and Computer Toolsets OpenAI Python SDK Releases \u00b7 5h ago\n- OpenAI Python SDK v3.30.0 adds API spending limits, OCI support, and image tool enhancements OpenAI Python SDK Releases \u00b7 7h ago\n- Higgsfield Enhances AI Video Generation with Longer Clips and Precise Visuals OpenAI News \u00b7 23h ago\n- OpenAI Python Library v3.29.0 Adds New Live Voice, Vault Updates OpenAI Python SDK Releases \u00b7 2d ago\n- OpenAI Python SDK v3.28.0 Adds Agent Environment Controls OpenAI Python SDK Releases \u00b7 4d ago"
+   },
+   {
+    "id": "https://prismix.dev/news/4da66c445617",
+    "title": "v3.28.0",
+    "url": "https://prismix.dev/news/4da66c445617",
+    "publishedDate": "2026-10-09T00:00:00.000Z",
+    "author": "OpenAI Python SDK releases",
+    "text": "v3.28.0\n\n OpenAI Python SDK releases \u00b7 October 9, 2026 \u00b7 1 min read \n\n# v3.28.0 \n\nMirrored from OpenAI Python SDK releases for archival readability. Support the source by reading on the original site.\n\n### Features\n\n- api: add agent environment suspension and expiration (#4046) (6aa25a9)\n\n### Chores\n\n- deps: bump astral-sh/setup-uv from 10.1.0 to 10.2.0 (#4026) (8bfffd4)\n- deps: bump CodeQL init and analyze to 4.38.2 (#4025) (4f5e618)\n- deps: update PyJWT security constraint to 2.14.0 (#3991) (aaed2a7)\n\n## Discussion (0) \n\n Sign in to join the discussion. Free account, 30 seconds \u2014 email code or GitHub. \n\n No comments yet. Sign in and be the first to say something.",
+    "image": "https://prismix.dev/api/og/news/4da66c445617.svg"
+   },
+   {
+    "id": "https://aiwire.dev/news/3369",
+    "title": "v3.27.0 \u00b7 AIWire",
+    "url": "https://aiwire.dev/news/3369",
+    "publishedDate": "2026-10-09T00:00:00.000Z",
+    "text": "v3.27.0 \u00b7 AIWire\n\n# v3.27.0\n\nOct 9, 2026, 9:46 am ET\n\nOpenAI released v3.27.0 of the Python SDK on 2026-10-09, adding support for prewarmed hosted environments via the API.\n\nRead the full story on github.com\n\nWhat to do Update the openai Python package to v3.27.0 if you want to use prewarmed hosted environments.\n\nProvider\n\nOpenAI",
+    "image": "https://aiwire.dev/img/og.png"
+   },
+   {
+    "id": "https://releasebytes.com/item/openai-python-sdk-v3-28-0-adds-agent-environment-controls",
+    "title": "OpenAI Python SDK v3.28.0 Adds Agent Environment Controls",
+    "url": "https://releasebytes.com/item/openai-python-sdk-v3-28-0-adds-agent-environment-controls",
+    "publishedDate": "2026-10-09T00:00:00.000Z",
+    "text": "openai OpenAI Python SDK Releases \u00b7 4d ago \u00b7 3.28.0\n\n# OpenAI Python SDK v3.28.0 Adds Agent Environment Controls\n\nsdkaigaengineer\n\nfeature patch\n\nThe OpenAI Python SDK v3.28.0 release introduces new functionality for managing agent environments. This update enables developers to programmatically suspend and expire agent environments. The feature provides enhanced control over agent lifecycle management and resource utilization for AI applications. It affects developers building agent-based solutions using the OpenAI Python library.\n\n- \u2192add agent environment suspension and expiration\n- \u2192bump astral-sh/setup-uv from 10.1.0 to 10.2.0\n- \u2192bump CodeQL init and analyze to 4.38.2\n- \u2192update PyJWT security constraint to 2.14.0\n\nFeatures (1) \u203a\n\n- api add agent environment suspension and expiration\n\n#4046 6aa25a9\n\nMaintenance (3) \u203a\n\n- deps bump astral-sh/setup-uv from 10.1.0 to 10.2.0\n\n#4026 8bfffd4\n\n- deps bump CodeQL init and analyze to 4.38.2\n\n#4025 4f5e618\n\n- deps update PyJWT security constraint to 2.14.0\n\n#3991 aaed2a7\n\nRead the original announcement \u2192 https://github.com/openai/openai-python/releases/tag/v3.28.0\n\n## Related releases\n\n- Analysis Details Agentic AI Adoption Trends in EU Businesses OpenAI News \u00b7 10h ago\n- OpenAI Python Library v3.31.0 Adds Browser and Computer Toolsets OpenAI Python SDK Releases \u00b7 5h ago\n- OpenAI Python SDK v3.30.0 adds API spending limits, OCI support, and image tool enhancements OpenAI Python SDK Releases \u00b7 6h ago\n- Higgsfield Enhances AI Video Generation with Longer Clips and Precise Visuals OpenAI News \u00b7 22h ago\n- OpenAI Python Library v3.29.0 Adds New Live Voice, Vault Updates OpenAI Python SDK Releases \u00b7 2d ago\n- Lowe's leverages OpenAI models for customer and associate support OpenAI News \u00b7 Sep 25, 2026"
+   }
+  ],
+  "searchTime": 307.2,
+  "costDollars": {
+   "total": 0.007,
+   "search": {
+    "neural": 0.007
+   }
+  }
+ },
+ "fetched_at": "2026-10-14T17:27:24+0530"
+}

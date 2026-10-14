@@ -1,0 +1,228 @@
+{
+ "status": 200,
+ "latency_s": 1.816,
+ "request": {
+  "type": "auto",
+  "contents": {
+   "text": {
+    "maxCharacters": 4000
+   }
+  },
+  "query": "latest stable release of Bun",
+  "numResults": 10
+ },
+ "response": {
+  "requestId": "c21cd3ab9870c8b6b2d929d1f82f5ba5",
+  "resolvedSearchType": "",
+  "results": [
+   {
+    "id": "https://bun.com/blog/bun-v1.4.3",
+    "title": "Bun v1.4.3 | Bun Blog",
+    "url": "https://bun.com/blog/bun-v1.4.3",
+    "publishedDate": "2026-10-10T03:18:05.000Z",
+    "author": "Jarred Sumner",
+    "text": "Bun v1.4.3 | Bun Blog\n\n# Bun v1.4.3\n\nJarred Sumner\n\nOctober 10, 2026\n\n#### To install Bun\n\ncurl\n\n```\ncurl -fsSL https://bun.sh/install | bash\n```\n\n```\nnpm install -g bun\n```\n\n```\npowershell -c \"irm bun.sh/install.ps1|iex\"\n```\n\n```\nscoop install bun\n```\n\n```\nbrew tap oven-sh/bun\n```\n\n```\nbrew install bun\n```\n\n```\ndocker pull oven/bun\n```\n\n```\ndocker run --rm --init --ulimit memlock=-1:-1 oven/bun\n```\n\n#### To upgrade Bun\n\n```\nbun upgrade\n```\n\n## `bun check`: a TypeScript type checker built into Bun#\n\n`bun check` is an incredibly fast TypeScript type checker that passes 100% of TypeScript 7.0.2's conformance test suite.\n\n```\nbun check\n```\n\n```\n1 | import { greet } from \"./user\";\n2 |\n3 | const message = greet({ id: \"1\", name: \"Ada\" });\n                            ^\nerror: TS2322: Type 'string' is not assignable to type 'number'.\n    at src/index.ts:3:25\n\nFound 1 error in 1 file, checked 2 files [14.00ms]\n```\n\nIt's 3x to 6.4x faster than `tsc` 7.0.2, on a 16-core Apple silicon Mac:\n\n| Project | Files | `bun check` | `tsc` 7.0.2 | Faster |\n| --- | --- | --- | --- | --- |\n| VS Code `src` | 9,795 | 1.24 s | 5.98 s | 4.8x |\n| mikro-orm | 2,883 | 1.20 s | 5.97 s | 5.0x |\n| Next.js `packages/next` | 2,881 | 0.28 s | 1.82 s | 6.4x |\n| Next.js, root | 3,547 | 0.42 s | 1.28 s | 3.1x |\n| Storybook `scripts` | 1,039 | 0.27 s | 0.96 s | 3.5x |\n| Nuxt | 839 | 0.27 s | 0.80 s | 3.0x |\n| Playwright | 706 | 0.15 s | 0.64 s | 4.2x |\n| lit `packages/react` | 6 | 0.46 s | 2.12 s | 4.6x |\n\nAnd it uses 2.2x to 4.9x less memory:\n\n| Project | Files | `bun check` | `tsc` 7.0.2 | Less |\n| --- | --- | --- | --- | --- |\n| VS Code `src` | 9,795 | 2.14 GB | 7.97 GB | 3.7x |\n| mikro-orm | 2,883 | 1.35 GB | 6.67 GB | 4.9x |\n| Next.js `packages/next` | 2,881 | 0.71 GB | 1.81 GB | 2.5x |\n| Next.js, root | 3,547 | 0.55 GB | 1.33 GB | 2.4x |\n| Storybook `scripts` | 1,039 | 0.56 GB | 1.39 GB | 2.5x |\n| Nuxt | 839 | 0.51 GB | 1.14 GB | 2.2x |\n| Playwright | 706 | 0.46 GB | 1.06 GB | 2.3x |\n| lit `packages/react` | 6 | 0.24 GB | 0.63 GB | 2.6x |\n\nIt's a port of typescript-go. It reads your `tsconfig.json`, reports the same errors as `tsc`, and uses every CPU core. You don't need the `typescript` package installed.\n\nIt only type checks. It doesn't emit JavaScript or `.d.ts` files, and there's no language server, so your editor keeps using TypeScript.\n\n### `bun run --check`#\n\nType check, then run. If there's a type error, your code doesn't run.\n\n```\nbun run --check src/index.ts\n```\n\n```\n1 | import { greet } from \"./user\";\n2 |\n3 | console.log(greet({ id: \"1\", name: \"Ada\" }));\n                        ^\nerror: TS2322: Type 'string' is not assignable to type 'number'.\n    at src/index.ts:3:21\n\n2 |   id: number;\n      ^\nnote: The expected type comes from property 'id' which is declared here on type 'User'\n   at src/user.ts:2:3\n\nFound 1 error in 1 file, checked 2 files [24.00ms]\n```\n\nIt also works with `package.json` scripts (`bun run --check dev`) and with `--watch`, which checks again before every restart.\n\n### `bun test --check`#\n\nType check the test files and everything they import, then run the tests. If there's a type error, no tests run.\n\n```\nbun test --check\n```\n\n```\nbun test v1.4.3\n4 | test(\"greet\", () => {\n5 |   expect(greet({ id: \"1\", name: \"Ada\" })).toBe(\"hello Ada\");\n                     ^\nerror: TS2322: Type 'string' is not assignable to type 'number'.\n    at src/user.test.ts:5:18\n\n2 |   id: number;\n      ^\nnote: The expected type comes from property 'id' which is declared here on type 'User'\n   at src/user.ts:2:3\n\nFound 1 error in 1 file, checked 2 files [23.94ms]\n```\n\n### `bun build --check`#\n\nType check, then bundle. A type error fails the build like any other build error, and nothing is written.\n\n```\nbun build --check ./src/index.ts --outdir out\n```\n\n```\n3 | console.log(greet({ id: \"1\", name: \"Ada\" }));\n                        ^\nerror: TS2322: Type 'string' is not assignable to type 'number'.\n    at /app/src/index.ts:3:21\n\n2 |   id: number;\n      ^\nnote: TS6",
+    "image": "https://bun.com/og/blog/bun-v1.4.3.png"
+   },
+   {
+    "id": "https://bun.com/",
+    "title": "Bun \u2014 A fast all-in-one JavaScript runtime",
+    "url": "https://bun.com/",
+    "text": "Bun \u2014 A fast all-in-one JavaScript runtime\n\n# Bun is a fast JavaScript runtime & toolkit. All in one.\n\nRuntime, package manager, test runner and bundler in a single binary. Use bun install or bun test in an existing Node.js project, or run the whole thing on Bun.\n\nInstall Bun v1.4.3\n\n$`curl -fsSL https://bun.sh/install | bash` Copy install command\n\n## Installing a Next.js app\n\nwarm cache \u00b7 seconds (lower is better)\n\nreplay in real time real time\n\nbun v1.4\n\n0.21s\n\nyarn v1.22.22\n\n1.76s\n\npnpm v11.21.0\n\n1.92s\n\nnpm v12.0.2\n\n4.45s\n\nT3-stack app, 25 direct dependencies, ~220 packages in the lockfile \u00b7 warm cache \u00b7 lockfile present \u00b7 node_modules removed \u00b7 Linux x64, EPYC 9R14 \u00b7 every package manager at defaults \u00b7 medians of 3 reproduce\n\nInstalling a Next.js app \u2014 T3-stack app, 25 direct dependencies, ~220 packages in the lockfile \u00b7 warm cache \u00b7 lockfile present \u00b7 node_modules removed \u00b7 Linux x64, EPYC 9R14 \u00b7 every package manager at defaults \u00b7 medians of 3\n\n| runtime | version | install time | peak RAM |\n| --- | --- | --- | --- |\n| bun | v1.4 | 210 s | 12 MB |\n| yarn | v1.22.22 | 1,760 s | 205 MB |\n| pnpm | v11.21.0 | 1,920 s | 1.4 GB |\n| npm | v12.0.2 | 4,450 s | 698 MB |\n\n## Serving Express over HTTPS\n\nhello-world app \u00b7 requests per second (higher is better)\n\nreq/s peak RAM\n\nBun v1.4\n\n48,243\n\n105 MB\n\nNode.js v26.7.0\n\n25,181\n\n142 MB\n\nDeno v2.9.5\n\n19,243\n\n176 MB\n\nhello-world app \u00b7 express 5.2.1 \u00b7 bombardier -c 50 -d 5s \u00b7 TLS 1.3 \u00b7 Linux x64, EPYC 9R14 \u00b7 medians of 3 reproduce\n\n## Querying Postgres\n\n100 rows \u00d7 100 queries in flight \u00b7 queries per second (higher is better)\n\nqueries/s peak RAM\n\nBun v1.4\n\n20,243\n\n80 MB\n\nDeno v2.9.5\n\n10,406\n\n181 MB\n\nNode.js v26.7.0\n\n168 MB\n\nSELECT 100 rows \u00b7 100 queries in flight \u00b7 100k queries total \u00b7 localhost PostgreSQL 18.3 \u00b7 Bun.sql vs postgres.js 3.4.9 \u00b7 Linux x64, EPYC 9R14 \u00b7 medians of 3 reproduce\n\nQuerying Postgres \u2014 SELECT 100 rows \u00b7 100 queries in flight \u00b7 100k queries total \u00b7 localhost PostgreSQL 18.3 \u00b7 Bun.sql vs postgres.js 3.4.9 \u00b7 Linux x64, EPYC 9R14 \u00b7 medians of 3\n\n| runtime | version | queries/sec | peak RAM |\n| --- | --- | --- | --- |\n| Bun | v1.4 | 20,243 queries/s | 80 MB |\n| Deno | v2.9.5 | 10,406 queries/s | 181 MB |\n| Node.js | v26.7.0 | 10,000 queries/s | 168 MB |\n\n## Running a WebSocket chat server\n\n32 clients broadcasting \u00b7 messages per second (higher is better)\n\nmsgs/s peak RAM\n\nBun (publish) v1.4\n\n4.17M\n\n51 MB\n\nBun (send) v1.4\n\n159K\n\n37 MB\n\nDeno v2.9.5\n\n124K\n\nws (Node.js) v26.7.0\n\n78 MB\n\n32 closed-loop clients broadcasting, delivery confirmed per message \u00b7 ws 8.21.3 on Node.js \u00b7 Linux x64, EPYC 9R14 \u00b7 medians of 3 reproduce\n\nRunning a WebSocket chat server \u2014 32 closed-loop clients broadcasting, delivery confirmed per message \u00b7 ws 8.21.3 on Node.js \u00b7 Linux x64, EPYC 9R14 \u00b7 medians of 3\n\n| runtime | version | messages/sec | peak RAM |\n| --- | --- | --- | --- |\n| Bun (publish) | v1.4 | 4,170,027 msgs/s | 51 MB |\n| Bun (send) | v1.4 | 159,379 msgs/s | 37 MB |\n| Deno | v2.9.5 | 124,088 msgs/s | 1.2 GB |\n| ws (Node.js) | v26.7.0 | 123,486 msgs/s | 78 MB |\n\n## Four tools, designed together. Adopt one, or all of them.\n\n`bun install` and `bun test` drop into existing Node.js projects. No runtime switch required.\n\n### Runtime\n\nreplaces Node.js\n\nRuns JavaScript & TypeScript on JavaScriptCore. Node.js APIs, node_modules and your framework work as-is.\n\n`$ bun run index.tsx`\n\n### Package manager\n\nreplaces npm \u00b7 yarn \u00b7 pnpm\n\nnpm-compatible, up to 30\u00d7 faster. Workspaces, catalogs, overrides, patches and a lockfile you can read.\n\n### Test runner\n\nreplaces Jest \u00b7 Vitest\n\nJest-compatible expect(), mocks, snapshots, DOM and coverage \u2014 starting in milliseconds.\n\n`$ bun test`\n\n### Bundler\n\nreplaces esbuild \u00b7 Vite \u00b7 webpack\n\nTS, JSX, CSS & HTML for browsers and servers. Dev server with HMR. Single-file executables.\n\n## One binary for the whole workflow.\n\nInstall, develop, run, test and ship with the same tool. Every step below is a real command with real output \u2014 click one, or just watch.\n\n1. 01 Inst",
+    "image": "https://bun.com/share_v4.png",
+    "entities": [
+     {
+      "id": "https://exa.ai/library/organization/l41txfzgpy7",
+      "type": "company",
+      "version": 1,
+      "properties": {
+       "name": "Shenzhen xp Co., Ltd",
+       "foundedYear": 2016,
+       "description": "We are keen to offer a one-stop solution to meet and exceed the most demanding needs of the discerning customers worldwide.",
+       "workforce": {
+        "total": 16
+       },
+       "headquarters": {
+        "address": "5th Floor, Blog4, Gaoke Industrial Park, Shilongzai, Shiyan Town, Bao'an District,Shenzhen, China, ShenZhen, Guang Dong 518108, CN",
+        "city": "Shenzhen",
+        "postalCode": null,
+        "country": "China"
+       },
+       "financials": null,
+       "webTraffic": {
+        "visitsMonthly": 427440,
+        "countryRank": 46442,
+        "avgDurationSeconds": 91,
+        "history": [
+         {
+          "value": 681801,
+          "dateFrom": "2026-04",
+          "dateTo": "2026-04"
+         },
+         {
+          "value": 672255,
+          "dateFrom": "2026-05",
+          "dateTo": "2026-05"
+         },
+         {
+          "value": 627356,
+          "dateFrom": "2026-06",
+          "dateTo": "2026-06"
+         },
+         {
+          "value": 502200,
+          "dateFrom": "2026-07",
+          "dateTo": "2026-07"
+         },
+         {
+          "value": 816414,
+          "dateFrom": "2026-08",
+          "dateTo": "2026-08"
+         },
+         {
+          "value": 427440,
+          "dateFrom": "2026-10",
+          "dateTo": "2026-10"
+         }
+        ]
+       },
+       "research": null
+      }
+     }
+    ]
+   },
+   {
+    "id": "https://www.npmjs.com/package/bun",
+    "title": "bun",
+    "url": "https://www.npmjs.com/package/bun",
+    "text": "# bun\n\nBun is a fast all-in-one JavaScript runtime.\n\n- Version: 1.3.14\n- License: MIT\n- Homepage: https://bun.com\n- Repository: git+https://github.com/oven-sh/bun.git\n- Weekly downloads: 3038838\n- Dependents: 255\n- Created: 2013-03-13T21:04:46.269Z\n- Updated: 2026-05-13T04:02:43.438Z\n\n## Keywords\n\n- bun\n- bun.js\n- node\n- node.js\n- runtime\n- bundler\n- transpiler\n- typescript\n\n## Version History\n\n| Version | Published | Deps |\n| --- | --- | --- |\n| 0.0.1 | 2013-03-13T21:05:02.668Z | 0 |\n| 0.0.10 | 2013-09-12T12:11:32.061Z | 0 |\n| 0.0.11 | 2014-11-08T06:28:43.319Z | 1 |\n| 0.0.12 | 2017-10-03T20:06:12.729Z | 1 |\n| 0.0.2 | 2013-03-13T21:25:05.747Z | 0 |\n| 0.0.3 | 2013-03-16T21:12:50.124Z | 0 |\n| 0.0.4 | 2013-03-17T00:21:04.747Z | 0 |\n| 0.0.5 | 2013-03-24T12:22:47.386Z | 0 |\n| 0.0.6 | 2013-06-21T05:00:30.548Z | 0 |\n| 0.0.7 | 2013-09-07T11:49:43.051Z | 0 |\n| 0.0.8 | 2013-09-11T12:41:00.756Z | 0 |\n| 0.0.9 | 2013-09-12T00:13:29.213Z | 0 |\n| 0.5.0 | 2023-01-24T19:31:45.845Z | 6 |\n| 0.5.1 | 2023-01-24T20:07:27.391Z | 6 |\n| 0.5.1-canary | 2023-01-24T18:03:39.870Z | 6 |\n| 0.5.1-canary.20230124.1 | 2023-01-24T19:20:18.089Z | 6 |\n| 0.5.1-canary.20230125.1 | 2023-01-25T20:42:44.801Z | 6 |\n| 0.5.1-canary.ff6fb58 | 2023-01-24T18:40:06.610Z | 6 |\n| 0.5.10-canary.20230407.1 | 2023-04-07T14:06:27.365Z | 6 |\n| 0.5.10-canary.20230407.2 | 2023-04-07T23:09:10.491Z | 6 |\n\n---\n\n## README\n\n# Bun\n\nBun is a fast all-in-one JavaScript runtime. https://bun.com\n\n### Install\n\n```sh\nnpm install -g bun\n```\n\n### Upgrade\n\n```sh\nbun upgrade\n```\n\n### Supported Platforms\n\n- macOS, arm64 (Apple Silicon)\n- macOS, x64\n- macOS, x64 (without AVX2 instructions)\n- Linux, arm64\n- Linux, x64\n- Linux, x64 (without AVX2 instructions)\n- Windows, x64\n- Windows, x64 (without AVX2 instructions)\n- Windows ARM64\n\n### Future Platforms\n\n- Unix-like variants such as FreeBSD, OpenBSD, etc.\n- Android and iOS\n"
+   },
+   {
+    "id": "https://github.com/oven-sh/bun/releases",
+    "title": "Releases \u00b7 oven-sh/bun",
+    "url": "https://github.com/oven-sh/bun/releases",
+    "text": "Releases \u00b7 oven-sh/bun \u00b7 GitHub\n\n## Bun v1.4.3\n\nJarred-Sumner released this \n\n 10 Oct 05:24 \n\n bun-v1.4.3 \n\n `c6da4a4`\n\nTo install Bun v1.4.3\n\n```\ncurl -fsSL https://bun.sh/install | bash\n# or you can use npm\n# npm install -g bun\n```\n\nWindows:\n\n```\npowershell -c \"irm bun.sh/install.ps1|iex\"\n```\n\nTo upgrade to Bun v1.4.3:\n\n```\nbun upgrade\n```\n\n### Thanks to 8 contributors!\n\n- @alii\n- @cirospaciari\n- @dylan-conway\n- @eastlondoner\n- @jarred-sumner\n- @robobun\n- @sosukesuzuki\n- @steipete\n\n Assets 40 \n\n- bun-darwin-aarch64-profile.zip \n\n sha256:75f64c0576854e701dd1dc306cf57a934ffdad40855f9e12a8ad6b63856603d4 \n\n139 MB\n\n2026-10-10T02:29:54Z\n- bun-darwin-aarch64.zip \n\n sha256:80afd4c069b46a6fa8f3ec520bebc750a7843e4a8d5b9583d29ad436c00a3403 \n\n29.1 MB\n\n2026-10-10T02:30:07Z\n- bun-darwin-x64-baseline-profile.zip \n\n sha256:16f319df6dc48e2fd15e6e97ca1be481126ba5f9b025db13f9f57f27bf061c3f \n\n150 MB\n\n2026-10-10T02:30:04Z\n- bun-darwin-x64-baseline.zip \n\n sha256:0fde04e8b092156b97fe6432e899baf16d9ed6ce52cbb4218d2d9c07a2f827ef \n\n31.7 MB\n\n2026-10-10T02:29:58Z\n- bun-darwin-x64-profile.zip \n\n sha256:b216c00754c53e5a54502ff136f35724dc595b3ed19a3a304a15cc5559db47cf \n\n150 MB\n\n2026-10-10T02:30:35Z\n- bun-darwin-x64.zip \n\n sha256:62660e6438eb872278877acca77e1152d5d031324df368d4a81b428211489d2d \n\n31.7 MB\n\n2026-10-10T02:30:12Z\n- bun-freebsd-aarch64-profile.zip \n\n sha256:70672d55d7a983175c04f587f855de0d6231aab93136a1900cbc21788ecfc166 \n\n146 MB\n\n2026-10-10T02:30:25Z\n- bun-freebsd-aarch64.zip \n\n sha256:9c6a1fa2976167867e82d6d4078072615d6b5dabe716cc92fec43d1f7f3f3b91 \n\n37.9 MB\n\n2026-10-10T02:30:10Z\n- bun-freebsd-x64-baseline-profile.zip \n\n sha256:a1a356687f5e159ee64ae47b074951ccda568ac44ca2291eaa1cfb1f032290fa \n\n145 MB\n\n2026-10-10T02:30:15Z\n- bun-freebsd-x64-baseline.zip \n\n sha256:4561f606f77fee6e26170a5f4c85f94086a53ed90c56e463d8f1c09125a85a3d \n\n37.9 MB\n\n2026-10-10T02:29:54Z\n- Source code (zip) \n\n2026-10-10T01:53:32Z\n- Source code (tar.gz) \n\n2026-10-10T01:53:32Z\n- Show all 40 assets Loading \n\n### Uh oh! \n\n \n\nThere was an error while loading. Please reload this page.\n\ndylan-conway released this \n\n 05 Sep 05:55 \n\n bun-v1.4.2 \n\n `744846f` \n\nTo install Bun v1.4.2\n\n```\ncurl -fsSL https://bun.sh/install | bash\n# or you can use npm\n# npm install -g bun\n```\n\nWindows:\n\n```\npowershell -c \"irm bun.sh/install.ps1|iex\"\n```\n\nTo upgrade to Bun v1.4.2:\n\n```\nbun upgrade\n```\n\n### Thanks to 3 contributors!\n\n- @dylan-conway\n- @jarred-sumner\n- @robobun\n\n 04 Sep 08:33 \n\n bun-v1.4.1 \n\n `4661e49`\n\nTo install Bun v1.4.1\n\n```\ncurl -fsSL https://bun.sh/install | bash\n# or you can use npm\n# npm install -g bun\n```\n\nWindows:\n\n```\npowershell -c \"irm bun.sh/install.ps1|iex\"\n```\n\nTo upgrade to Bun v1.4.1:\n\n```\nbun upgrade\n```\n\n### Thanks to 7 contributors!\n\n- @alii\n- @dylan-conway\n- @jarred-sumner\n- @jvitormelo\n- @marshallofsound\n- @robobun\n- @sosukesuzuki\n\nJarred-Sumner released this \n\n 20 Aug 14:07 \n\n bun-v1.4.0 \n\n `34cbb9a` \n\nTo install Bun v1.4\n\n```\ncurl -fsSL https://bun.com/install | bash\n# or you can use npm\n# npm install -g bun\n```\n\nWindows:\n\n```\npowershell -c \"irm bun.com/install.ps1|iex\"\n```\n\nTo upgrade to Bun v1.4.0:\n\n```\nbun upgrade\n```\n\nRead the blog post: \n\n### Thank you\n\n- @190n\n- @alanstott\n- @alii\n- @alinalihassan\n- @amdad121\n- @ant-kurt\n- @anthonybaldwin\n- @avarayr\n- @baboon-king\n- @billywhizz\n- @bmwalters\n- @Boshen\n- @braden-w\n- @c-stoeckl\n- @carlsmedstad\n- @chrislloyd\n- @cirospaciari\n- @coleleavitt\n- @connerlphillippi\n- @crishoj\n- @csvlad\n- @d4mr\n- @darwin808\n- @ddmoney420\n- @dioro\n- @djs5008\n- @dylan-conway\n- @Elfayer\n- @emwadde\n- @eroderust\n- @fraidev\n- @franklinfollis\n- @gameroman\n- @gaowhen\n- @halil-pan\n- @hamidrezahanafi\n- @HK-SHAO\n- @Hona\n- @hoXyy\n- @ig-ant\n- @igorkofman\n- @jackkleeman\n- @Jarred-Sumner\n- @jsparkdev\n- @kirillmarkelov\n- @kjanat\n- @km-anthropic\n- @kylekz\n- @ldkhang1201\n- @Lillious\n- @lydiahallie\n- @makuko\n- @mariusz4044\n- @markovejnovic\n- @martinamps\n- @mattermoran\n- @MiniGod\n- @mippbipp\n- @mmitchellg5\n- @nathanosoares\n- @nektro\n- @nfreya\n- @NicoCevallos",
+    "image": "https://opengraph.githubassets.com/fd8454de582593d3f029225d37a7a91da2ca910f67c7c70deaef5ca15fafff6c/oven-sh/bun"
+   },
+   {
+    "id": "https://releases.sh/bun",
+    "title": "",
+    "url": "https://releases.sh/bun",
+    "text": "## Overview\n\nShipped Bun v1.4 in August, followed by three patch releases through v1.4.3 in October.\n\nBun v1.4 opened the current series. The major release landed with its own blog post and a fresh install path at `bun.com/install`; `bun upgrade` remains the in-place upgrade. Follow-ups came fast \u2014 v1.4.1 and v1.4.2 within a day and a month, then v1.4.3 in early October.\n\nThe v1.3.x line closed out with real shipping. Carried forward from that series:\n\n- Test isolation and CI tooling: `--isolate`, `--parallel`, `--shard`, and `--changed`\n- Cheaper installs: streaming tarball extraction cut memory 17x, and the isolated linker took peer-heavy monorepos from 20.5s to 2.4s\n- New native APIs: `Bun.WebView`, `Bun.cron()`, and Markdown-to-ANSI rendering via `bun ./file.md`\n- A REPL rewritten in Zig, Windows ARM64 support, and self-contained HTML bundles through `--compile --target=browser`\n\nSource maps moved to a bit-packed binary format using 8x less memory, and gzip got 5.5x faster. A request smuggling fix and an HTTP response splitting patch landed across the series.\n\n## Recent Releases\n\nSummaries below \u2014 fetch the release's `canonical` URL for full content, or `url` for the original source.\n\n### Bun v1.4.3\n\nTo install Bun v1.4.3\n\n```bash\ncurl -fsSL https://bun.sh/install | bash\n# or you can use npm\n# npm install -g bun\n\n```\n\nWindows:\n\n```bash\npowershell -c \"...\n</Release>\n\n<Release source=\"bun\" version=\"bun-v1.4.2\" date=\"September 5, 2026\" published=\"2026-09-05T05:55:48.000Z\" url=\"https://github.com/oven-sh/bun/releases/tag/bun-v1.4.2\" canonical=\"https://releases.sh/release/rel_EWZZ-P-I9URxZtINcRraP\" truncated=\"true\">\n### Bun v1.4.2\n\nTo install Bun v1.4.2\n```bash\ncurl -fsSL https://bun.sh/install | bash\n# or you can use npm\n# npm install -g bun\n\n```\n\nWindows:\n\n```bash\npowers...\n</Release>\n\n<Release source=\"bun\" version=\"bun-v1.4.1\" date=\"September 4, 2026\" published=\"2026-09-04T08:33:19.000Z\" url=\"https://github.com/oven-sh/bun/releases/tag/bun-v1.4.1\" canonical=\"https://releases.sh/release/rel_EqIJdMiDJeG9t6BAk7Aoh\" truncated=\"true\">\n### Bun v1.4.1\n\nTo install Bun v1.4.1\n```bash\ncurl -fsSL https://bun.sh/install | bash\n# or you can use npm\n# npm install -g bun\n\n```\n\nWindows:\n\n```bash\npowers...\n</Release>\n\n<Release source=\"bun\" version=\"bun-v1.4.0\" date=\"August 20, 2026\" published=\"2026-08-20T14:07:21.000Z\" url=\"https://github.com/oven-sh/bun/releases/tag/bun-v1.4.0\" canonical=\"https://releases.sh/release/rel_8jimIlrknzgXaS84gU8-Y\" truncated=\"true\">\n### Bun v1.4\n\nTo install Bun v1.4\n```bash\ncurl -fsSL https://bun.com/install | bash\n# or you can use npm\n# npm install -g bun\n\n```\n\nWindows:\n\n```bash\npow...\n</Release>\n\n<Release source=\"bun\" version=\"bun-v1.3.14\" date=\"May 13, 2026\" published=\"2026-05-13T03:48:28.000Z\" url=\"https://github.com/oven-sh/bun/releases/tag/bun-v1.3.14\" canonical=\"https://releases.sh/release/rel_lFtvJ0e6KfcYDwtxYllgO\" truncated=\"true\">\n### Bun v1.3.14\n\nTo install Bun v1.3.14\n```bash\ncurl -fsSL https://bun.sh/install | bash\n# or you can use npm\n# npm install -g bun\n\n```\n\nWindows:\n\n```bash\npower...\n</Release>\n\n<Release source=\"bun\" version=\"bun-v1.3.13\" date=\"April 20, 2026\" published=\"2026-04-20T08:07:57.000Z\" url=\"https://github.com/oven-sh/bun/releases/tag/bun-v1.3.13\" canonical=\"https://releases.sh/release/rel_dkTcD9iXERONWw-Ai1DXB\" truncated=\"true\">\n### Bun v1.3.13\n\nTo install Bun v1.3.13\n```bash\ncurl -fsSL https://bun.sh/install | bash\n# or you can use npm\n# npm install -g bun\n\n```\n\nWindows:\n\n```bash\npower...\n</Release>\n\n<Release source=\"bun\" version=\"bun-v1.3.12\" date=\"April 10, 2026\" published=\"2026-04-10T03:04:46.000Z\" url=\"https://github.com/oven-sh/bun/releases/tag/bun-v1.3.12\" canonical=\"https://releases.sh/release/rel_CYtji3G5yF4Pvv9Gx7iiQ\" truncated=\"true\">\n### Bun v1.3.12\n\nTo install Bun v1.3.12\n```bash\ncurl -fsSL https://bun.sh/install | bash\n# or you can use npm\n# npm install -g bun\n\n```\n\nWindows:\n\n```bash\npower...\n</Release>\n\n<Release source=\"bun\" version=\"bun-v1.3.11\" date=\"March 18, 2026\" p"
+   },
+   {
+    "id": "https://github.com/oven-sh/bun",
+    "title": "oven-sh/bun: Incredibly fast JavaScript runtime, bundler ...",
+    "url": "https://github.com/oven-sh/bun",
+    "text": "# oven-sh/bun\n\nIncredibly fast JavaScript runtime, bundler, test runner, and package manager \u2013 all in one\n\n- Stars: 96178\n- Forks: 5105\n- Watchers: 96178\n- Open issues: 9519\n- License: Other\n- Homepage: https://bun.com\n- Default branch: main\n- Created: 2021-04-14T00:48:17Z\n\n## Languages\n\n- C\n- C++\n- CSS\n- Dockerfile\n- HTML\n- JavaScript\n- Linker Script\n- MDX\n- Makefile\n- Nix\n- Perl\n- PowerShell\n- Python\n- Rust\n- Shell\n- Svelte\n- TypeScript\n\n## Topics\n\n- bun\n- bundler\n- javascript\n- javascriptcore\n- jsx\n- nodejs\n- npm\n- react\n- rust\n- rust-lang\n- transpiler\n- typescript\n\n## Top Contributors\n\n- Jarred-Sumner (8631 contributions)\n- robobun (3063 contributions)\n- dylan-conway (1186 contributions)\n- nektro (704 contributions)\n- cirospaciari (529 contributions)\n- paperclover (459 contributions)\n- Electroid (419 contributions)\n- alii (314 contributions)\n- colinhacks (202 contributions)\n- pfgithub (164 contributions)\n\n---\n\n## README\n\n \n \n \n Bun \n\n \n \n \n \n \n\n \n Documentation \n \u00a0\u00a0\u2022\u00a0\u00a0 \n Discord \n \u00a0\u00a0\u2022\u00a0\u00a0 \n Issues \n \u00a0\u00a0\u2022\u00a0\u00a0 \n Roadmap \n \n \n\n### Read the docs \u2192\n\n## What is Bun?\n\nBun is an all-in-one toolkit for JavaScript and TypeScript apps. It ships as a single executable called `bun`.\n\nAt its core is the _Bun runtime_, a fast JavaScript runtime designed as **a drop-in replacement for Node.js**. It's written in Rust and powered by JavaScriptCore under the hood, dramatically reducing startup times and memory usage.\n\n```bash\nbun run index.tsx             # TS and JSX supported out-of-the-box\n```\n\nThe `bun` command-line tool also implements a test runner, script runner, and Node.js-compatible package manager. Instead of 1,000 node_modules for development, you only need `bun`. Bun's built-in tools are significantly faster than existing options and usable in existing Node.js projects with little to no changes.\n\n```bash\nbun test                      # run tests\nbun run start                 # run the `start` script in `package.json`\nbun install <pkg>             # install a package\nbunx cowsay 'Hello, world!'   # execute a package\n```\n\n## Install\n\nBun supports Linux (x64 & arm64), macOS (x64 & Apple Silicon), and Windows (x64 & arm64).\n\n> **Linux users** \u2014 Kernel version 5.6 or higher is strongly recommended, but the minimum is 5.1.\n\n> **x64 users** \u2014 if you see \"illegal instruction\" or similar errors, check our CPU requirements\n\n```sh\n# with install script (recommended)\ncurl -fsSL https://bun.com/install | bash\n\n# on windows\npowershell -c \"irm bun.sh/install.ps1 | iex\"\n\n# with npm\nnpm install -g bun\n\n# with Homebrew\nbrew tap oven-sh/bun\nbrew install bun\n\n# with Docker\ndocker pull oven/bun\ndocker run --rm --init --ulimit memlock=-1:-1 oven/bun\n```\n\n### Upgrade\n\nTo upgrade to the latest version of Bun, run:\n\n```sh\nbun upgrade\n```\n\nBun automatically releases a canary build on every commit to `main`. To upgrade to the latest canary build, run:\n\n```sh\nbun upgrade --canary\n```\n\nView canary build\n\n## Quick links\n\n- Intro\n - What is Bun?\n - Installation\n - Quickstart\n - TypeScript\n - TypeScript 6\n\n- Templating\n - `bun init`\n - `bun create`\n\n- Runtime\n - `bun run`\n - File types (Loaders)\n - JSX\n - Environment variables\n - Bun APIs\n - Web APIs\n - Node.js compatibility\n - Plugins\n - Watch mode / Hot Reloading\n - Module resolution\n - Auto-install\n - bunfig.toml\n - Debugger\n - REPL\n - $ Shell\n\n- Package manager\n - `bun install`\n - `bun add`\n - `bun remove`\n - `bun update`\n - `bun link`\n - `bun pm`\n - `bun outdated`\n - `bun publish`\n - `bun patch`\n - `bun why`\n - `bun audit`\n - `bun info`\n - Global cache\n - Global store\n - Isolated installs\n - Workspaces\n - Catalogs\n - Lifecycle scripts\n - Filter\n - Lockfile\n - Scopes and registries\n - Overrides and resolutions\n - Security scanner API\n - `.npmrc`\n\n- Bundler\n - `Bun.build`\n - Loaders\n - Plugins\n - Macros\n - vs esbuild\n - Single-file executable\n - CSS\n - HTML & static sites\n - Hot Module Replacement (HMR)\n - Full-stack with HTML imports\n - Standalone HTML\n - Bytecode caching\n - Minifier\n\n- Test runner\n - `bun test",
+    "entities": [
+     {
+      "id": "https://exa.ai/library/organization/m6y1j697bfj",
+      "type": "company",
+      "version": 1,
+      "properties": {
+       "name": "Bun",
+       "foundedYear": 2019,
+       "description": "Bun is an incredibly fast JavaScript runtime, bundler, transpiler, and package manager.",
+       "workforce": {
+        "total": 18
+       },
+       "headquarters": {
+        "address": "580 Howard St, San Francisco, California 94105, US",
+        "city": "San Francisco",
+        "postalCode": null,
+        "country": "United States"
+       },
+       "financials": {
+        "revenueAnnual": null,
+        "fundingTotal": 7125000,
+        "fundingLatestRound": {
+         "name": "Seed",
+         "date": "2022-08-23",
+         "amount": 7000000
+        }
+       },
+       "webTraffic": {
+        "visitsMonthly": 108559,
+        "countryRank": 48425,
+        "avgDurationSeconds": 42,
+        "history": [
+         {
+          "value": 143913,
+          "dateFrom": "2026-04",
+          "dateTo": "2026-04"
+         },
+         {
+          "value": 155601,
+          "dateFrom": "2026-05",
+          "dateTo": "2026-05"
+         },
+         {
+          "value": 119834,
+          "dateFrom": "2026-06",
+          "dateTo": "2026-06"
+         },
+         {
+          "value": 108540,
+          "dateFrom": "2026-07",
+          "dateTo": "2026-07"
+         },
+         {
+          "value": 119469,
+          "dateFrom": "2026-08",
+          "dateTo": "2026-08"
+         },
+         {
+          "value": 108559,
+          "dateFrom": "2026-09",
+          "dateTo": "2026-09"
+         }
+        ]
+       },
+       "research": null
+      }
+     }
+    ]
+   },
+   {
+    "id": "https://releases.fru.dev/releases/bun-2026-10-10-bun-v1-4-3",
+    "title": "Bun v1.4.3 (Oct 10, 2026)",
+    "url": "https://releases.fru.dev/releases/bun-2026-10-10-bun-v1-4-3",
+    "publishedDate": "2026-10-10T09:33:34.000Z",
+    "author": "Fru",
+    "text": "Bun v1.4.3 (Oct 10, 2026)\n\n# Bun v1.4.3\n\nUpdate Oct 10, 2026 4d 4 days ago\u00b7 Unverified\u00b7 Added Oct 10, 2026\n\nFixes 166 issues, addressing 122 \ud83d\udc4d. bun check, a TypeScript type checker built into Bun that is 3x to 6.4x faster than tsc 7, --check for bun run, bun build and bun test, 67\u201389% less idle CPU, Bun.FetchSession, experimental Bun.ModuleGraph, --disallow-code-generation-from-strings, up to 2.7x faster large node:http responses, a JavaScriptCore upgrade with...\n\nUpdate Sep 5 unverified\n\n### Bun v1.4.2\n\nThis release fixes two regressions impacting Elysia and AsyncLocalStorage, a hang in @discordjs/ws, CMYK JPEG decoding in Bun.Image, a rare JIT crash, and a GC crash on musl.\n\nUpdate Sep 4 unverified\n\n### Bun v1.4.1\n\nFixes 202 issues, addressing 236 \ud83d\udc4d. HTTP/2 in Bun.serve, Bun.write() streams Response bodies to disk, self-contained workspace node_modules, bun install --offline and --prefer-offline, WebSocket pause() and resume(), crypto.argon2, tree-shaking through dynamic import(), smarter CommonJS to ESM conversion for default imports, --compile --bytecode when...\n\nUpdate Aug 20 unverified\n\n### Bun 1.4\n\nBun 1.4 rewrites Bun in Rust, ships built-in headless browser automation (Bun.WebView), Bun.Image, Bun.markdown, JSON5, JSONL, Terminal and cron APIs, Node.js 26.3.0 compatibility with 1,517 newly passing tests, parallel test and run, Windows ARM64, and an opt-in global virtual store for up to 7\u00d7 faster installs.\n\nUpdate Jul 8 unverified\n\n### Rewriting Bun in Rust\n\nWhy & how we rewrote Bun from Zig to Rust\n\nUpdate May 13 unverified\n\n### Bun v1.3.14\n\nFixes 92 issues (addressing 380 \ud83d\udc4d). Bun.Image , a built-in image processing API, 7x faster warm installs with the isolated linker's global store, experimental HTTP/2 and HTTP/3 clients for fetch(), HTTP/3 (QUIC) in Bun.serve(), rewritten fs.watch() on Linux and macOS, --no-orphans CLI flag, process.execve(), Bun.Terminal on Windows via ConPTY, FreeBSD and...\n\nUpdate Apr 20 unverified\n\n### Bun v1.3.13\n\nFixes 82 issues (addressing 381 \ud83d\udc4d). bun test --parallel, --isolate, --shard, and --changed, bun install streams tarballs to disk using 17x less memory, source maps use 8x less memory, 5.5x faster gzip with zlib-ng, Range request support in Bun.serve(), SHA3 in node:crypto and WebCrypto, ws+unix:// WebSocket client, and many bugfixes and Node.js...\n\nUpdate Apr 9 unverified\n\n### Bun v1.3.12\n\nFixes 120 issues (addressing 219 \ud83d\udc4d). Render Markdown in the terminal with bun ./file.md, Bun.WebView headless browser automation, in-process Bun.cron() scheduler, async stack traces for native errors, 2.3x faster URLPattern, 2x faster Bun.Glob.scan, cgroup-aware parallelism on Linux, and many bugfixes and Node.js compatibility improvements.\n\nUpdate Mar 18 unverified\n\n### Bun v1.3.11\n\nFixes 105 issues (addressing 307 \ud83d\udc4d). 4 MB smaller on Linux. x64 Bun.cron for OS-level cron jobs and expression parsing, Bun.sliceAnsi for ANSI/grapheme-aware string slicing, richer Bun.markdown list metadata; bun test --path-ignore-patterns; native Windows ARM64 .bin shim; dgram UDP fixed on macOS, fs.openSync numeric flags fixed on Windows (unbreaks...\n\n## Also shipped on Oct 10, 2026\n\nUpdate Oct 10 unverified\n\n### unstructured 0.27.25\n\n- fix(pptx): no page break before the first slide when starting_page_number > 1 - fix(chunking): reject a negative overlap instead of corrupting text - feat(image): partition WEBP images like PNG and JPEG\n\n### Agents - Cloudflare API MCP server serves Cloudflare skills\n\nThe Cloudflare API MCP server now serves Cloudflare skills \u2197\ufe0e through the Skills over MCP extension \u2197\ufe0e . MCP clients that support the extension discover the skills with skills/list and read their files at skill:// / . To use them, add https://mcp.cloudflare.com/mcp to an MCP client that supports the extension \u2197\ufe0e .\n\n### Agent skills v0.2866.0\n\nBuild from d0c3c16556500062c29489d312e97862d240bc70\n\n### Agent skills v0.2865.0\n\nBuild from 04cdf1c6dedee995bca3af0b7089fa2363066161\n\n### MySQL 8.0.46 is now the default mino",
+    "image": "https://releases.fru.dev/og.png"
+   },
+   {
+    "id": "https://bun.com/blog/bun-v1.4.1",
+    "title": "Bun v1.4.1 | Bun Blog",
+    "url": "https://bun.com/blog/bun-v1.4.1",
+    "publishedDate": "2026-09-04T06:47:12.000Z",
+    "author": "Jarred Sumner",
+    "text": "Bun v1.4.1 | Bun Blog\n\n# Bun v1.4.1\n\nJarred Sumner\n\nSeptember 4, 2026\n\nBun v1.4.1 fixes 202 issues, addressing 236 \ud83d\udc4d.\n\n#### To install Bun\n\ncurl\n\n```\ncurl -fsSL https://bun.sh/install | bash\n```\n\n```\npowershell -c \"irm bun.sh/install.ps1|iex\"\n```\n\n```\nscoop install bun\n```\n\n```\ndocker run --rm --init --ulimit memlock=-1:-1 oven/bun\n```\n\n#### To upgrade Bun\n\n```\nbun upgrade\n```\n\n### Reduced idle memory usage#\n\nWe've made JavaScriptCore delete JIT-generated code after an extended idle period, reducing memory usage for long-running processes.\n\nRSS after 60 seconds of load followed by 3 minutes idle, on Linux x64:\n\n| App | Bun v1.4.1 | Bun v1.4.0 | Bun v1.3.14 | Node.js v26 |\n| --- | --- | --- | --- | --- |\n| Next.js SSR | 142 MB | 222 MB | 1,303 MB | 195 MB |\n| `vite dev` | 111 MB | 142 MB | 292 MB | 115 MB |\n| Express | 53 MB | 65 MB | 76 MB | 83 MB |\n| Fastify | 55 MB | 65 MB | 78 MB | 89 MB |\n| Elysia | 44 MB | 46 MB | 69 MB | 96 MB |\n| Hono | 34 MB | 35 MB | 53 MB | 92 MB |\n\n### `Bun.serve` supports HTTP/2#\n\n`Bun.serve` now supports HTTP/2 on the same port as HTTP/1.1. Both protocols use the same `routes` and `fetch` handler. `req.url` and `req.body` behave identically on each.\n\n```\nBun.serve({\n  tls: { key, cert },\n  http2: true,\n  fetch(req) {\n    return new Response(\"hi\");\n  },\n});\n```\n\nOver TLS the protocol is negotiated with ALPN. On cleartext connections, a client that sends the HTTP/2 preface is served HTTP/2. Set `http1: false` to refuse HTTP/1.x clients. WebSockets and response trailers are not yet supported over HTTP/2.\n\n### `Bun.write(path, response)` streams to disk#\n\n`Bun.write()` now streams a `Response`, `Request`, or `ReadableStream` body into the file instead of reading it into memory first. Writing a 128 MiB download previously added 161 MB to peak RSS. It now adds 13 MB.\n\n```\nawait Bun.write(\"./big.tar.gz\", await fetch(url)); // => bytes written\nawait Bun.write(\"./out.txt\", readableStream); // was \"[object ReadableStream]\"\n```\n\n`fetch()` and S3 downloads now pause when 256 KiB of the body is unread. A `Response` that is discarded without being read closes its connection.\n\n### `WebSocket` supports `pause()` and `resume()`#\n\nBun's `WebSocket` client now has `pause()` and `resume()` methods. They stop and restart reads from the underlying TCP socket.\n\n```\nconst socket = new WebSocket(\"wss://example.com/feed\");\n\nsocket.addEventListener(\"message\", (event) => {\n  if (!file.write(event.data)) {\n    // the file's buffer is full: stop reading until it drains\n    socket.pause();\n    file.once(\"drain\", () => socket.resume());\n  }\n});\n```\n\nThe WHATWG `WebSocket` API cannot stop receiving messages without closing the connection. Messages that arrive faster than they are processed accumulate in memory. While a socket is paused, Bun does not read from it and the peer receives TCP backpressure.\n\n```\nsocket.pause(); // => true\nsocket.isPaused; // => true\nsocket.resume(); // => true\nsocket.isPaused; // => false\n```\n\nMessages that were already decoded before the pause can still arrive. This is a Bun extension and is not available in browsers.\n\n`socket.bufferedAmount` now reports how many bytes are still queued to send. It was previously always `0`. The `ws` package's `pause()`, `resume()`, and `bufferedAmount` work too.\n\n### `node:crypto` supports `crypto.argon2` and `crypto.argon2Sync`#\n\n`crypto.argon2()` and `crypto.argon2Sync()` are now implemented. Previously, both were defined but threw `ERR_CRYPTO_ARGON2_NOT_SUPPORTED` when called. Feature detection therefore reported support that did not exist.\n\n```\ncrypto.argon2Sync(\"argon2id\", {\n  message: \"pw\",\n  nonce: \"saltsalt\",\n  parallelism: 1,\n  tagLength: 32,\n  memory: 8,\n  passes: 1,\n});\n// => <Buffer ...> (32 bytes)\n```\n\n- `argon2d`, `argon2i`, and `argon2id` are supported.\n- `crypto.argon2()` runs on the thread pool with a callback.\n- Output matches Node byte for byte.\n\n### Up to 9x faster `Buffer` reads and writes#\n\n`buf.readInt32LE()`, `buf.writeDoubleLE()`, and the res",
+    "image": "https://bun.com/og/blog/bun-v1.4.1.png"
+   },
+   {
+    "id": "https://bun.com/docs/installation",
+    "title": "Installation | Bun Docs",
+    "url": "https://bun.com/docs/installation",
+    "text": "Installation | Bun Docs\n\n# Installation\n\nInstall Bun with npm, Homebrew, Docker, or the official script.\n\n## Overview#\n\nBun ships as a single, dependency-free executable. Install it with the install script, a package manager, or Docker on macOS, Linux, and Windows.\n\nAfter installation, verify with `bun --version` and `bun --revision`.\n\n## Installation#\n\nmacOS & Linux Windows Package Managers Docker\n\n```\ncurl -fsSL https://bun.com/install | bash\n```\n\nLinux users: You need the `unzip` package to install Bun (`sudo apt install unzip`). We recommend kernel version 5.6 or higher. Bun runs on kernels as old as 3.10 (RHEL 7) with graceful degradation of newer syscalls. Use `uname -r` to check your kernel version.\n\nPowerShell\n\n```\npowershell -c \"irm bun.sh/install.ps1|iex\"\n```\n\nBun requires Windows 10 version 1809 or later.\n\nFor support and discussion, join the #windows channel on the Discord.\n\nnpm Homebrew Scoop\n\n```\nnpm install -g bun # the last `npm` command you'll ever need\n```\n\n```\nbrew install oven-sh/bun/bun\n```\n\n```\nscoop install bun\n```\n\nBun provides a Docker image that supports both Linux x64 and arm64.\n\nDocker\n\n```\ndocker pull oven/bun\ndocker run --rm --init --ulimit memlock=-1:-1 oven/bun\n```\n\n### Image Variants#\n\nBun also publishes image variants for different operating systems:\n\nDocker\n\n```\ndocker pull oven/bun:debian\ndocker pull oven/bun:slim\ndocker pull oven/bun:distroless\ndocker pull oven/bun:alpine\n```\n\nTo check that Bun was installed successfully, open a new terminal window and run:\n\nterminal\n\n```\nbun --version\n# Output: 1.x.y\n\n# See the precise commit of `oven-sh/bun` that you're using\nbun --revision\n# Output: 1.x.y+b7982ac13189\n```\n\nIf you've installed Bun but are seeing a `command not found` error, you may have to manually add the installation directory (`~/.bun/bin`) to your `PATH`.\n\nAdd Bun to your PATH\n\nmacOS & Linux Windows\n\nDetermine which shell you're using\n\nterminal\n\n```\necho $SHELL\n# /bin/zsh  or /bin/bash or /bin/fish\n```\n\nCopy to clipboard\n\nOpen your shell configuration file\n\n- For bash: `~/.bashrc`\n- For zsh: `~/.zshrc`\n- For fish: `~/.config/fish/config.fish`\n\nAdd the Bun directory to PATH\n\nAdd these lines to your configuration file:\n\nterminal\n\n```\nexport BUN_INSTALL=\"$HOME/.bun\"\nexport PATH=\"$BUN_INSTALL/bin:$PATH\"\n```\n\nCopy to clipboard\n\nReload your shell configuration\n\nterminal\n\n```\nsource ~/.bashrc  # or ~/.zshrc\n```\n\nCopy to clipboard\n\nDetermine if the bun binary is properly installed\n\nterminal\n\n```\n& \"$env:USERPROFILE\\.bun\\bin\\bun\" --version\n```\n\nCopy to clipboard\n\nIf the command runs successfully but `bun --version` is not recognized, bun is not in your system's PATH. To fix this, open a PowerShell terminal and run the following command:\n\nterminal\n\n```\n[System.Environment]::SetEnvironmentVariable(\n  \"Path\",\n  [System.Environment]::GetEnvironmentVariable(\"Path\", \"User\") + \";$env:USERPROFILE\\.bun\\bin\",\n  [System.EnvironmentVariableTarget]::User\n)\n```\n\nCopy to clipboard\n\nRestart your terminal\n\nRestart your terminal and test with `bun --version`.\n\nterminal\n\n```\nbun --version\n```\n\nCopy to clipboard\n\n## Upgrading#\n\nOnce installed, the binary can upgrade itself:\n\nterminal\n\n```\nbun upgrade\n```\n\nHomebrew users To avoid conflicts with Homebrew, use `brew upgrade bun` instead.\n\nScoop users To avoid conflicts with Scoop, use `scoop update bun` instead.\n\n## Canary Builds#\n\n-> View canary build\n\nBun automatically releases an (untested) canary build on every commit to main. To upgrade to the latest canary build:\n\nterminal\n\n```\n# Upgrade to latest canary\nbun upgrade --canary\n\n# Switch back to stable\nbun upgrade --stable\n```\n\nUse a canary build to test new features and bug fixes before they reach a stable release. To help the Bun team fix bugs faster, canary builds automatically upload crash reports.\n\n## Installing Older Versions#\n\nSince Bun is a single binary, you can install older versions by re-running the installer script with a specific version.\n\nTo install a specific version, pass the git tag to the insta",
+    "image": "https://bun.com/og/docs/installation.png"
+   },
+   {
+    "id": "https://github.com/oven-sh/bun/releases/tag/bun-v1.4.1",
+    "title": "Bun v1.4.1",
+    "url": "https://github.com/oven-sh/bun/releases/tag/bun-v1.4.1",
+    "text": "# Bun v1.4.1\n\n- Tag: bun-v1.4.1\n- Repository: oven-sh/bun\n- Published: 2026-09-04T08:33:19Z\n- Author: Jarred-Sumner\n\n---\n\nTo install Bun v1.4.1 \n```bash\r\ncurl -fsSL https://bun.sh/install | bash\r\n# or you can use npm\r\n# npm install -g bun\r\n```\r\n \nWindows: \n```bash\r\npowershell -c \"irm bun.sh/install.ps1|iex\"\r\n```\r\n \nTo upgrade to Bun v1.4.1: \n```bash\r\nbun upgrade\r\n```\r\n \n### Read Bun v1.4.1's release notes on Bun's blog \n \n### Thanks to 7 contributors! \n \n- @alii \n- @dylan-conway \n- @jarred-sumner \n- @jvitormelo \n- @marshallofsound \n- @robobun \n- @sosukesuzuki \n\n## Assets\n\n| Name | Size | Downloads |\n| --- | --- | --- |\n| bun-darwin-aarch64-profile.zip | 120.6 MB | 303 |\n| bun-darwin-aarch64.zip | 24.2 MB | 23959 |\n| bun-darwin-x64-baseline-profile.zip | 130.8 MB | 280 |\n| bun-darwin-x64-baseline.zip | 27.1 MB | 237 |\n| bun-darwin-x64-profile.zip | 130.8 MB | 281 |\n| bun-darwin-x64.zip | 27.1 MB | 1529 |\n| bun-freebsd-aarch64-profile.zip | 128.3 MB | 281 |\n| bun-freebsd-aarch64.zip | 34.6 MB | 265 |\n| bun-freebsd-x64-baseline-profile.zip | 126.6 MB | 268 |\n| bun-freebsd-x64-baseline.zip | 34.5 MB | 266 |\n| bun-freebsd-x64-profile.zip | 126.6 MB | 292 |\n| bun-freebsd-x64.zip | 34.5 MB | 274 |\n| bun-linux-aarch64-android-profile.zip | 331.0 MB | 26 |\n| bun-linux-aarch64-android.zip | 33.5 MB | 332 |\n| bun-linux-aarch64-musl-profile.zip | 136.1 MB | 280 |\n| bun-linux-aarch64-musl.zip | 32.4 MB | 755 |\n| bun-linux-aarch64-profile.zip | 155.5 MB | 353 |\n| bun-linux-aarch64.zip | 34.9 MB | 21705 |\n| bun-linux-x64-android-baseline-profile.zip | 332.0 MB | 40 |\n| bun-linux-x64-android-baseline.zip | 34.8 MB | 274 |\n| bun-linux-x64-android-profile.zip | 332.0 MB | 38 |\n| bun-linux-x64-android.zip | 34.8 MB | 274 |\n| bun-linux-x64-baseline-profile.zip | 158.5 MB | 292 |\n| bun-linux-x64-baseline.zip | 35.0 MB | 45407 |\n| bun-linux-x64-musl-baseline-profile.zip | 135.0 MB | 282 |\n| bun-linux-x64-musl-baseline.zip | 32.5 MB | 1115 |\n| bun-linux-x64-musl-profile.zip | 135.0 MB | 276 |\n| bun-linux-x64-musl.zip | 32.5 MB | 5025 |\n| bun-linux-x64-profile.zip | 158.5 MB | 381 |\n| bun-linux-x64.zip | 35.0 MB | 270988 |\n| bun-windows-aarch64-profile.zip | 177.1 MB | 311 |\n| bun-windows-aarch64.zip | 34.7 MB | 620 |\n| bun-windows-x64-baseline-profile.zip | 209.3 MB | 314 |\n| bun-windows-x64-baseline.zip | 38.0 MB | 6585 |\n| bun-windows-x64-profile.zip | 209.3 MB | 330 |\n| bun-windows-x64.zip | 38.0 MB | 18695 |\n| SHASUMS256.txt | 3.4 KB | 14745 |\n| SHASUMS256.txt.asc | 3.6 KB | 2101 |"
+   }
+  ],
+  "searchTime": 1701.1,
+  "costDollars": {
+   "total": 0.007,
+   "search": {
+    "neural": 0.007
+   }
+  }
+ },
+ "fetched_at": "2026-10-14T17:23:59+0530"
+}

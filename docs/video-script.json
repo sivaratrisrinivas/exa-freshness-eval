@@ -1,0 +1,38 @@
+[
+[
+"Why freshness matters",
+"Agents ask about things that changed last week. If search hands back last month's answer, the agent repeats it with confidence."
+],
+[
+"The prompt",
+"Nitya Sridhar at Exa wrote that retrieval beyond model memory needs a specific focus on what is recent. So I tested exactly that."
+],
+[
+"58 changed answers",
+"I built fifty-eight queries whose answer changed in the last thirty days: new releases, prices, new CEOs, playoff results, and API deprecations. Each has a dated answer and a source."
+],
+[
+"Held-out split",
+"Nineteen of them are held out, frozen by hash before a single call."
+],
+[
+"The run",
+"I ran them against Exa search on October fourteenth, across seven settings from instant to max age zero. Three hundred sixty-one calls, about two dollars and forty cents."
+],
+[
+"Result: mostly fresh",
+"The result is mostly good news. Without a date filter, the current answer was in the top ten for nearly every query, and ranked first up to ninety-five percent of the time."
+],
+[
+"The trade-off",
+"The date filter made results more precise, but it dropped undated official pages, so releases from that same morning were missed."
+],
+[
+"Speed",
+"Max age zero gave the best top result, at about ten seconds a call. Instant and fast came back in under half a second."
+],
+[
+"Open and checkable",
+"Every check is code, validated against five hundred fifty-one hand labels. The data, cache, and harness are open, and anyone can rescore them without a key."
+]
+]

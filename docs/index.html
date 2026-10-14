@@ -1,0 +1,16 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Exa freshness eval</title><style>
+body{font:17px/1.55 system-ui,sans-serif;max-width:900px;margin:40px auto;padding:0 20px;color:#1b1f2a}
+table{border-collapse:collapse;width:100%;font-size:15px}td,th{border-bottom:1px solid #ddd;padding:6px 8px;text-align:left}
+video{width:100%;border-radius:8px}.muted{color:#667}</style></head><body>
+<h1>Does Exa return the new answer after it changes?</h1>
+<p>Agents ask about things that changed last week. If search returns last month's answer, the agent repeats it with confidence. This is an independent test of what Exa already ships: 58 queries whose answer changed between 14 Sep and 14 Oct 2026, run on 14 Oct across search types and date settings.</p>
+<p><b>Short answer: yes, almost always.</b> In every setting the current answer appeared in the top 10 for 89 to 100% of queries and ranked first 74 to 100% of the time.</p>
+<video controls src="exa-freshness-demo.mp4"></video>
+<h2>Results (dev 39 / held-out 19)</h2><table><tr><th>config</th><th>top-1 has answer</th><th>top-10 has answer</th><th>citation precision</th><th>stale</th><th>P@10</th><th>p50 latency</th></tr><tr><td>instant</td><td>.85 / .84</td><td>.97 / 1.0</td><td>.52 / .52</td><td>0 / 0</td><td>.54 / .57</td><td>0.4 s</td></tr><tr><td>fast</td><td>.77 / .95</td><td>1.0 / 1.0</td><td>.53 / .54</td><td>0 / 0</td><td>.58 / .55</td><td>0.4 s</td></tr><tr><td>auto</td><td>.87 / .95</td><td>1.0 / 1.0</td><td>.54 / .55</td><td>0 / .07</td><td>.52 / .54</td><td>1.7 s</td></tr><tr><td>auto + published after 14 Sep</td><td>.74 / .74</td><td>1.0 / .89</td><td>.60 / .63</td><td>0 / .13</td><td>.60 / .74</td><td>1.6 s</td></tr><tr><td>fast + published after 14 Sep</td><td>.85 / .84</td><td>1.0 / .89</td><td>.60 / .61</td><td>0 / .07</td><td>.67 / .77</td><td>0.4 s</td></tr><tr><td>auto + maxAgeHours 0</td><td>.90 / .95</td><td>1.0 / 1.0</td><td>.62 / .60</td><td>0 / 0</td><td>.54 / .56</td><td>9.6 s</td></tr><tr><td>deep-lite (15 queries)</td><td>1.0 / 1.0</td><td>1.0 / 1.0</td><td>.52 / .67</td><td>0 / 0</td><td>n&lt;3</td><td>3.1 s</td></tr></table>
+<h2>What stood out</h2><ul>
+<li>The published-date filter raises precision (held-out P@10 .74 to .77) but drops undated official pages, about 65% of results. Releases from the same morning were missed under it.</li>
+<li><code>maxAgeHours: 0</code> gave the highest or tied-highest top-1 rate, at about 10 s per call. Instant and fast returned in about 0.4 s.</li>
+<li>The one unfiltered stale case was an official help page from April still listing the old Disney+ price.</li></ul>
+<p class="muted">All checks are code, checked against 551 hand labels (22 false positives, 0 misses). 361 calls, $2.44 as reported by Exa. Small samples, one day. Data, cache and harness: <a href="https://github.com/sivaratrisrinivas/exa-freshness-eval">github.com/sivaratrisrinivas/exa-freshness-eval</a>.</p>
+</body></html>

@@ -1,0 +1,223 @@
+{
+ "status": 200,
+ "latency_s": 11.866,
+ "request": {
+  "type": "auto",
+  "contents": {
+   "text": {
+    "maxCharacters": 4000
+   },
+   "maxAgeHours": 0
+  },
+  "query": "latest stable release of Node.js",
+  "numResults": 10
+ },
+ "response": {
+  "requestId": "c47fa49291549089f96783580a115cc4",
+  "resolvedSearchType": "",
+  "results": [
+   {
+    "id": "https://nodejs.org/download/release/index.tab",
+    "title": "",
+    "url": "https://nodejs.org/download/release/index.tab",
+    "text": "version date files npm v8 uv zlib openssl modules lts security\nv26.11.1 2026-10-07 aix-ppc64,headers,linux-arm64,linux-ppc64le,linux-s390x,linux-x64,linux-x64-musl,osx-arm64-tar,osx-x64-pkg,osx-x64-tar,src,win-arm64-7z,win-arm64-zip,win-x64-7z,win-x64-exe,win-x64-msi,win-x64-zip 11.20.0 14.6.202.34 1.52.1 1.3.2.1-motley 3.5.9 147 - -\nv26.11.0 2026-10-07 aix-ppc64,headers,linux-arm64,linux-ppc64le,linux-s390x,linux-x64,linux-x64-musl,osx-arm64-tar,osx-x64-pkg,osx-x64-tar,src,win-arm64-7z,win-arm64-zip,win-x64-7z,win-x64-exe,win-x64-msi,win-x64-zip 11.20.0 14.6.202.34 1.52.1 1.3.2.1-motley 3.5.9 147 - -\nv26.10.0 2026-09-21 aix-ppc64,headers,linux-arm64,linux-ppc64le,linux-s390x,linux-x64,linux-x64-musl,osx-arm64-tar,osx-x64-pkg,osx-x64-tar,src,win-arm64-7z,win-arm64-zip,win-x64-7z,win-x64-exe,win-x64-msi,win-x64-zip 11.19.1 14.6.202.34 1.52.1 1.3.2.1-motley 3.5.8 147 - -\nv26.9.0 2026-09-16 aix-ppc64,headers,linux-arm64,linux-ppc64le,linux-s390x,linux-x64,linux-x64-musl,osx-arm64-tar,osx-x64-pkg,osx-x64-tar,src,win-arm64-7z,win-arm64-zip,win-x64-7z,win-x64-exe,win-x64-msi,win-x64-zip 11.19.1 14.6.202.34 1.52.1 1.3.2.1-motley 3.5.8 147 - -\nv26.8.2 2026-09-09 aix-ppc64,headers,linux-arm64,linux-ppc64le,linux-s390x,linux-x64,linux-x64-musl,osx-arm64-tar,osx-x64-pkg,osx-x64-tar,src,win-arm64-7z,win-arm64-zip,win-x64-7z,win-x64-exe,win-x64-msi,win-x64-zip 11.19.1 14.6.202.34 1.52.1 1.3.2.1-motley 3.5.8 147 - -\nv26.8.1 2026-08-26 aix-ppc64,headers,linux-arm64,linux-ppc64le,linux-s390x,linux-x64,linux-x64-musl,osx-arm64-tar,osx-x64-pkg,osx-x64-tar,src,win-arm64-7z,win-arm64-zip,win-x64-7z,win-x64-exe,win-x64-msi,win-x64-zip 11.19.0 14.6.202.34 1.52.1 1.3.2.1-motley 3.5.7 147 - -\nv26.8.0 2026-08-25 aix-ppc64,headers,linux-arm64,linux-ppc64le,linux-s390x,linux-x64,linux-x64-musl,osx-arm64-tar,osx-x64-pkg,osx-x64-tar,src,win-arm64-7z,win-arm64-zip,win-x64-7z,win-x64-exe,win-x64-msi,win-x64-zip 11.19.0 14.6.202.34 1.52.1 1.3.2.1-motley 3.5.7 147 - -\nv26.7.0 2026-08-05 aix-ppc64,headers,linux-arm64,linux-ppc64le,linux-s390x,linux-x64,osx-arm64-tar,osx-x64-pkg,osx-x64-tar,src,win-arm64-7z,win-arm64-zip,win-x64-7z,win-x64-exe,win-x64-msi,win-x64-zip 11.19.0 14.6.202.34 1.52.1 1.3.2.1-motley 3.5.7 147 - -\nv26.6.0 2026-08-03 aix-ppc64,headers,linux-arm64,linux-ppc64le,linux-s390x,linux-x64,osx-arm64-tar,osx-x64-pkg,osx-x64-tar,src,win-arm64-7z,win-arm64-zip,win-x64-7z,win-x64-exe,win-x64-msi,win-x64-zip 11.18.0 14.6.202.34 1.52.1 1.3.2.1-motley 3.5.7 147 - -\nv26.5.1 2026-07-28 aix-ppc64,headers,linux-arm64,linux-ppc64le,linux-s390x,linux-x64,osx-arm64-tar,osx-x64-pkg,osx-x64-tar,src,win-arm64-7z,win-arm64-zip,win-x64-7z,win-x64-exe,win-x64-msi,win-x64-zip 11.17.0 14.6.202.34 1.52.1 1.3.2.1-motley 3.5.7 147 - true\nv26.5.0 2026-07-08 aix-ppc64,headers,linux-arm64,linux-ppc64le,linux-s390x,linux-x64,osx-arm64-tar,osx-x64-pkg,osx-x64-tar,src,win-arm64-7z,win-arm64-zip,win-x64-7z,win-x64-exe,win-x64-msi,win-x64-zip 11.17.0 14.6.202.34 1.52.1 1.3.2.1-motley 3.5.7 147 - -\nv26.4.0 2026-06-24 aix-ppc64,headers,linux-arm64,linux-ppc64le,linux-s390x,linux-x64,osx-arm64-tar,osx-x64-pkg,osx-x64-tar,src,win-arm64-7z,win-arm64-zip,win-x64-7z,win-x64-exe,win-x64-msi,win-x64-zip 11.17.0 14.6.202.34 1.52.1 1.3.2.1-motley 3.5.7 147 - -\nv26.3.1 2026-06-17 aix-ppc64,headers,linux-arm64,linux-ppc64le,linux-s390x,linux-x64,osx-arm64-tar,osx-x64-pkg,osx-x64-tar,src,win-arm64-7z,win-arm64-zip,win-x64-7z,win-x64-exe,win-x64-msi,win-x64-zip 11.16.0 14.6.202.34 1.52.1 1.3.1 3.5.7 147 - true\nv26.3.0 2026-06-01 aix-ppc64,headers,linux-arm64,linux-ppc64le,linux-s390x,linux-x64,osx-arm64-tar,osx-x64-pkg,osx-x64-tar,src,win-arm64-7z,win-arm64-zip,win-x64-7z,win-x64-exe,win-x64-msi,win-x64-zip 11.16.0 14.6.202.34 1.52.1 1.3.1 3.5.6 147 - -\nv26.2.0 2026-05-20 aix-ppc64,headers,linux-arm64,linux-ppc64le,linux-s390x,linux-x64,osx-arm64-tar,osx-x64-pkg,osx-x64-tar,src,win-arm64-7z,win-arm64-zip,win-x64-7z,win-x64-exe,win-x64-msi,win-x64-zip 11.13.0 14.6.202.34 1.52.1 1.3.1 3.5.6 147"
+   },
+   {
+    "id": "https://nodejs.org/en/download/current",
+    "title": "Node.js \u2014 Download Node.js\u00ae",
+    "url": "https://nodejs.org/en/download/current",
+    "text": "Node.js \u2014 Download Node.js\u00ae\n\n# Download Node.js\u00ae\n\nv26.11.1 Current\n\nv26.11.1 Current\n\nv25.9.0 EOL\n\nv24.21.0 LTS\n\nv23.11.1 EOL\n\nv22.23.3 LTS\n\nv21.7.3 EOL\n\nv20.20.2 EOL\n\nv19.9.0 EOL\n\nv18.20.8 EOL\n\nv17.9.1 EOL\n\nv16.20.2 EOL\n\nv15.14.0 EOL\n\nv14.21.3 EOL\n\nv13.14.0 EOL\n\nv12.22.12 EOL\n\nv11.15.0 EOL\n\nv10.24.1 EOL\n\nv9.11.2 EOL\n\nv8.17.0 EOL\n\nv7.10.1 EOL\n\nv6.17.1 EOL\n\nv5.12.0 EOL\n\nv4.9.1 EOL\n\nv0.12.18 EOL\n\n for \n\nOr get a prebuilt Node.js\u00ae for \n\n running a \n\n architecture.\n\nN/A Installer (.gz) Standalone Binary (.gz)",
+    "image": "https://nodejs.org/en/next-data/og/announcement/Node.js%20%E2%80%94%20Download%20Node.js%C2%AE",
+    "favicon": "https://nodejs.org/static/images/favicons/favicon.png"
+   },
+   {
+    "id": "https://nodejs.org/en/download",
+    "title": "Node.js \u2014 Download Node.js\u00ae",
+    "url": "https://nodejs.org/en/download",
+    "text": "Node.js \u2014 Download Node.js\u00ae\n\n# Download Node.js\u00ae\n\nGet Node.js\u00ae \n\nv24.21.0 LTS\n\nv26.11.1 Current\n\nv25.9.0 EOL\n\nv24.21.0 LTS\n\nv23.11.1 EOL\n\nv22.23.3 LTS\n\nv21.7.3 EOL\n\nv20.20.2 EOL\n\nv19.9.0 EOL\n\nv18.20.8 EOL\n\nv17.9.1 EOL\n\nv16.20.2 EOL\n\nv15.14.0 EOL\n\nv14.21.3 EOL\n\nv13.14.0 EOL\n\nv12.22.12 EOL\n\nv11.15.0 EOL\n\nv10.24.1 EOL\n\nv9.11.2 EOL\n\nv8.17.0 EOL\n\nv7.10.1 EOL\n\nv6.17.1 EOL\n\nv5.12.0 EOL\n\nv4.9.1 EOL\n\nv0.12.18 EOL\n\n for \n\nOr get a prebuilt Node.js\u00ae for \n\n running a \n\n architecture.\n\nN/A Installer (.gz) Standalone Binary (.gz)",
+    "image": "https://nodejs.org/en/next-data/og/announcement/Node.js%20%E2%80%94%20Download%20Node.js%C2%AE",
+    "favicon": "https://nodejs.org/static/images/favicons/favicon.png"
+   },
+   {
+    "id": "https://nodejs.org/en/about/previous-releases",
+    "title": "Node.js Releases",
+    "url": "https://nodejs.org/en/about/previous-releases",
+    "text": "Node.js \u2014 Node.js Releases\n\n# Node.js Releases\n\nCommercial support for versions past the Maintenance LTS phase is available through our OpenJS Ecosystem Sustainability Program partners\n\nMajor Node.js versions enter Current release status for six months, which gives library authors time to add support for them. Historically (up to Node.js 26), odd-numbered releases (9, 11, etc.) become unsupported after six months, and even-numbered releases (10, 12, etc.) move to Active LTS status and are ready for general use. Starting with Node.js 27, the release cycle will be annual and every major version will move to LTS status after its six-month Current phase (and six additional months of Alpha phase). LTS release status is \"long-term support\", which typically guarantees that critical bugs will be fixed for a total of 30 months. Production applications should only use Active LTS or Maintenance LTS releases.\n\n## Release Schedule\n\nFull details regarding the Node.js release schedule are available on GitHub.\n\n## Looking for the latest release of a version branch?\n\n| Node.js | Codename | First released | Last updated | Status | |\n| --- | --- | --- | --- | --- | --- |\n| v26 | - | May 05, 2026 | Oct 07, 2026 | Current | Details |\n| v25 | - | Oct 15, 2025 | Mar 31, 2026 | EOL | Details |\n| v24 | Krypton | May 06, 2025 | Sep 07, 2026 | LTS | Details |\n| v23 | - | Oct 16, 2024 | May 14, 2025 | EOL | Details |\n| v22 | Jod | Apr 24, 2024 | Sep 23, 2026 | LTS | Details |\n| v21 | - | Oct 17, 2023 | Apr 10, 2024 | EOL | Details |\n| v20 | Iron | Apr 17, 2023 | Mar 24, 2026 | EOL | Details |\n| v19 | - | Oct 17, 2022 | Apr 10, 2023 | EOL | Details |\n| v18 | Hydrogen | Apr 18, 2022 | Mar 27, 2025 | EOL | Details |\n| v17 | - | Oct 19, 2021 | Jun 01, 2022 | EOL | Details |\n| v16 | Gallium | Apr 20, 2021 | Aug 08, 2023 | EOL | Details |\n| v15 | - | Oct 20, 2020 | Apr 06, 2021 | EOL | Details |\n| v14 | Fermium | Apr 21, 2020 | Feb 16, 2023 | EOL | Details |\n| v13 | - | Oct 22, 2019 | Apr 29, 2020 | EOL | Details |\n| v12 | Erbium | Apr 23, 2019 | Apr 05, 2022 | EOL | Details |\n| v11 | - | Oct 23, 2018 | Apr 30, 2019 | EOL | Details |\n| v10 | Dubnium | Apr 24, 2018 | Apr 06, 2021 | EOL | Details |\n| v9 | - | Oct 31, 2017 | Jun 12, 2018 | EOL | Details |\n| v8 | Carbon | May 30, 2017 | Dec 17, 2019 | EOL | Details |\n| v7 | - | Oct 25, 2016 | Jul 11, 2017 | EOL | Details |\n| v6 | Boron | Apr 26, 2016 | Apr 03, 2019 | EOL | Details |\n| v5 | - | Oct 29, 2015 | Jun 23, 2016 | EOL | Details |\n| v4 | Argon | Sep 08, 2015 | Mar 29, 2018 | EOL | Details |\n| v0 | - | Feb 06, 2015 | Feb 22, 2017 | EOL | Details |\n\n## Official vs. Community Installation Methods\n\nThe Node.js website provides several non-interactive installation methods, including command-line interfaces (CLIs), operating system (OS) package managers (e.g., `brew`), and Node.js version managers (e.g., `nvm`).\n\nTo highlight and promote community contributions, the Node.js project introduced a revised Downloads page categorizing installation methods as either \u201cOfficial\u201d or \u201cCommunity.\u201d This provides users with increased flexibility and choice. To ensure clarity, we\u2019ve defined criteria for each category.\n\n### Official Installation Methods\n\nInstallation methods designated as \u201cOfficial\u201d must meet the following requirements:\n\n| Requirements (Official Installation Methods) |\n| --- |\n| New Node.js releases must be available simultaneously with the official release. |\n| Project maintainers must have a close relationship with the Node.js project, including direct communication channels. |\n| Installation method must download official binaries bundled by the Node.js project. |\n| Installation method must not build from source when pre-built binaries are available, nor should it alter the official binaries. |\n\n### Community Installation Methods\n\nCommunity installation methods included on the self-service download page (located at /download) must also adhere to a minimum set of criteria:\n\n- Version Support: Must support all",
+    "image": "https://nodejs.org/en/next-data/og/announcement/Node.js%20%E2%80%94%20Node.js%20Releases",
+    "favicon": "https://nodejs.org/static/images/favicons/favicon.png"
+   },
+   {
+    "id": "https://nodejs.org/en",
+    "title": "Node.js",
+    "url": "https://nodejs.org/en",
+    "text": "Node.js \u2014 Run JavaScript Everywhere\n\n# Run JavaScript Everywhere\n\nNode.js\u00ae is a free, open-source, cross-platform JavaScript runtime environment that lets developers create servers, web apps, command line tools and scripts.\n\nNode.js is proudly supported by the partners above and more.\n\n```js\n// server.mjs\nimport { createServer } from 'node:http';\n\nconst server = createServer((req, res) => {\n  res.writeHead(200, { 'Content-Type': 'text/plain' });\n  res.end('Hello World!\\n');\n});\n\n// starts a simple http server locally on port 3000\nserver.listen(3000, '127.0.0.1', () => {\n  console.log('Listening on 127.0.0.1:3000');\n});\n\n// run with `node server.mjs`\n```\n\n```js\n// tests.mjs\nimport assert from 'node:assert';\nimport test from 'node:test';\n\ntest('that 1 is equal 1', () => {\n  assert.strictEqual(1, 1);\n});\n\ntest('that throws as 1 is not equal 2', () => {\n  // throws an exception because 1 != 2\n  assert.strictEqual(1, 2);\n});\n\n// run with `node tests.mjs`\n```\n\n```js\n// crypto.mjs\nimport { createHash } from 'node:crypto';\nimport { readFile } from 'node:fs/promises';\n\nconst hasher = createHash('sha1');\n\nhasher.setEncoding('hex');\n// ensure you have a `package.json` file for this test!\nhasher.write(await readFile('package.json'));\nhasher.end();\n\nconst fileHash = hasher.read();\n\n// run with `node crypto.mjs`\n```\n\n```js\n// streams.mjs\nimport { createReadStream, createWriteStream } from 'node:fs';\nimport { pipeline } from 'node:stream/promises';\nimport { createGzip } from 'node:zlib';\n\n// ensure you have a `package.json` file for this test!\nawait pipeline(\n  createReadStream('package.json'),\n  createGzip(),\n  createWriteStream('package.json.gz')\n);\n\n// run with `node streams.mjs`\n```\n\n```js\n// threads.mjs\nimport { Worker, isMainThread,\n  workerData, parentPort } from 'node:worker_threads';\n\nif (isMainThread) {\n  const data = 'some data';\n  const worker = new Worker(import.meta.filename, { workerData: data });\n  worker.on('message', msg => console.log('Reply from Thread:', msg));\n} else {\n  const source = workerData;\n  parentPort.postMessage(btoa(source.toUpperCase()));\n}\n\n// run with `node threads.mjs`\n```",
+    "image": "https://nodejs.org/en/next-data/og/announcement/Node.js%20%E2%80%94%20Run%20JavaScript%20Everywhere",
+    "favicon": "https://nodejs.org/static/images/favicons/favicon.png",
+    "entities": [
+     {
+      "id": "https://exa.ai/library/organization/27tz60yrd00",
+      "type": "company",
+      "version": 1,
+      "properties": {
+       "name": "Node.js",
+       "foundedYear": 2009,
+       "description": "Node.js is a JavaScript runtime, used worldwide by millions.",
+       "workforce": {
+        "total": 717
+       },
+       "headquarters": {
+        "address": "1 Letterman Drive, San Francisco, CA 94129, US",
+        "city": "San Francisco",
+        "postalCode": null,
+        "country": "United States"
+       },
+       "financials": null,
+       "webTraffic": {
+        "visitsMonthly": 5740261,
+        "countryRank": 2091,
+        "avgDurationSeconds": 77,
+        "history": [
+         {
+          "value": 6993313,
+          "dateFrom": "2026-04",
+          "dateTo": "2026-04"
+         },
+         {
+          "value": 6966619,
+          "dateFrom": "2026-05",
+          "dateTo": "2026-05"
+         },
+         {
+          "value": 6855067,
+          "dateFrom": "2026-06",
+          "dateTo": "2026-06"
+         },
+         {
+          "value": 5811702,
+          "dateFrom": "2026-07",
+          "dateTo": "2026-07"
+         },
+         {
+          "value": 5501146,
+          "dateFrom": "2026-08",
+          "dateTo": "2026-08"
+         },
+         {
+          "value": 5740261,
+          "dateFrom": "2026-09",
+          "dateTo": "2026-09"
+         }
+        ]
+       },
+       "research": null
+      }
+     }
+    ]
+   },
+   {
+    "id": "https://en.wikipedia.org/wiki/Node.js",
+    "title": "Node.js",
+    "url": "https://en.wikipedia.org/wiki/Node.js",
+    "publishedDate": "2009-12-13T03:39:08.000Z",
+    "author": "Contributors to Wikimedia projects",
+    "text": "Node.js - Wikipedia\n\n# Node.js\n\n| Node.js | |\n| --- | --- |\n| | |\n| Original author | Ryan Dahl |\n| Developer | OpenJS Foundation |\n| Release | May 27, 2009; 17 years ago [1] |\n| Stable release | 26.11.1 [2] / October 7, 2026; 4 days ago |\n| Written in | JavaScript, C++, Python, C |\n| Operating system | z/OS, Linux, macOS, Microsoft Windows, SmartOS, FreeBSD, OpenBSD, IBM AIX [3] |\n| Type | Runtime environment |\n| License | MIT License [4] [5] |\n| Website | nodejs.org |\n| Repository | github.com/nodejs/node |\n\nNode.js is a cross-platform, open-source JavaScript runtime environment that can run on Windows, Linux, Unix, macOS, and more. Node.js runs on the V8 JavaScript engine, and executes JavaScript code outside a web browser. According to the Stack Overflow Developer Survey, Node.js is one of the most commonly used web technologies. [6] \n\nNode.js allows developers to use JavaScript for writing command line tools and server-side scripting. Running Javascript on the server is commonly used to generate dynamic web page content before the page is sent to the user's web browser. Consequently, Node.js represents a \"JavaScript everywhere\" paradigm, [7] unifying web-application development around a single programming language, as opposed to using different languages for the server- versus client-side programming.\n\nNode.js has an event-driven architecture capable of asynchronous I/O. These design choices aim to optimize throughput and scalability in web applications with many input/output operations, as well as for real-time Web applications (e.g., real-time communication programs and browser games). [8] \n\nThe Node.js distributed development project was previously governed by the Node.js Foundation, [9] and has now merged with the JS Foundation to form the OpenJS Foundation. OpenJS Foundation is facilitated by the Linux Foundation's Collaborative Projects program. [10] \n\n## History\n\nRyan Dahl, creator of Node.js, in 2010\n\nRocket Turtle, the official mascot of Node.js since February 2024\n\nNode.js was initially written by Ryan Dahl in 2009, [11] about 13 years after the introduction of the first server-side JavaScript environment, Netscape's LiveWire Pro Web. [12] The initial release supported only Linux and Mac OS X. Its development and maintenance was led by Dahl and later sponsored by Joyent. [13] \n\nDahl criticized the limited capability of Apache HTTP Server to handle many (10,000+) concurrent connections, as well as the dominant programming paradigm of sequential programming, in which applications could block entire processes or cause the creation of multiple execution stacks for simultaneous connections. [citation needed] \n\nDahl demonstrated the project at the inaugural European JSConf on November 8, 2009. [14] [15] [16] Node.js combined Google's V8 JavaScript engine, an event loop, and a low-level I/O API. [17] \n\nIn January 2010, a package manager was introduced for the Node.js environment called npm. [18] The package manager allows programmers to publish and share Node.js packages, along with the accompanying source code, and is designed to simplify the installation, update and uninstallation of packages. [17] \n\nIn June 2011, Microsoft and Joyent implemented a native Windows version of Node.js. [19] The first Node.js build supporting Windows was released in July 2011.\n\nIn January 2012, Dahl yielded management of the project to npm creator Isaac Schlueter. [20] In January 2014, Schlueter announced that Timothy J. Fontaine would lead the project. [21] \n\nIn December 2014, Fedor Indutny created io.js, a fork of Node.js created because of dissatisfaction with Joyent's governance as an open-governance alternative with a separate technical committee. The goal was to enable a structure that would be more receptive to community input, including the updating of io.js with the latest Google V8 JavaScript engine releases, diverging from Node.js's approach at that time. [22] \n\nThe Node.js Foundation, formed to reconcile Node.js and io.js und",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1280px-Node.js_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
+    "favicon": "https://en.wikipedia.org/static/apple-touch/wikipedia.png"
+   },
+   {
+    "id": "https://github.com/nodejs/Release/blob/main/README.md",
+    "title": "README.md",
+    "url": "https://github.com/nodejs/Release/blob/main/README.md",
+    "text": "# README.md\n\n- Branch: main\n- Repository: nodejs/Release\n\n---\n\n# Node.js Release Working Group\n\n## Release schedule\n\n| Release | Status | Codename |Initial Release | Active LTS Start | Maintenance Start | End-of-life |\n| :--: | :---: | :---: | :---: | :---: | :---: | :---: |\n| [22.x][] | **Maintenance LTS** | [Jod][] | 2024-04-24 | 2024-10-29 | 2025-10-21 | 2027-04-30 |\n| [24.x][] | **Active LTS** | [Krypton][] | 2025-05-06 | 2025-10-28 | 2026-10-20 | 2028-04-30 |\n| [26.x][] | **Current** | | 2026-05-05 | 2026-10-28 | 2027-10-20 | 2029-04-30 |\n\nDates are subject to change.\n\n \n\nThe Release schedule is available also as a [JSON][] file.\n\n### Release Phases\n\nThere are three phases that a Node.js release can be in: 'Current', 'Active\nLong Term Support (LTS)', and 'Maintenance'. Odd-numbered release lines are not\npromoted to LTS - they will not go through the 'Active LTS' or 'Maintenance'\nphases.\n\n * Current - Should incorporate most of the non-major (non-breaking)\n changes that land on `nodejs/node` main branch.\n * Active LTS - New features, bug fixes, and updates that have been audited by\n the Release team and have been determined to be appropriate and stable for the\n release line.\n * Maintenance - Critical bug fixes and security updates. New features may be\n added at the discretion of the Release team - typically only in cases where\n the new feature supports migration to later release lines.\n\nChanges required for critical security and bug fixes may lead to *semver-major*\nchanges landing within a release stream, such situations will be rare and will\nland as *semver-minor*. Although, those changes should have a revert option included.\n\nThe term 'supported release lines' will be used to refer to all release lines\nthat are not End-of-Life.\n\n### End-of-Life Releases\n\n| Release | Status | Codename | Initial Release | Active LTS Start | Maintenance LTS Start | End-of-life |\n|:--------:|:---------------:|:---------:|:---------------:|:----------------:|:---------------------:|:-----------:|\n| v0.10.x | **End-of-Life** | - | 2013-03-11 | - | 2015-10-01 | 2016-10-31 |\n| v0.12.x | **End-of-Life** | - | 2015-02-06 | - | 2016-04-01 | 2016-12-31 |\n| [4.x][] | **End-of-Life** | [Argon][] | 2015-09-08 | 2015-10-01 | 2017-04-01 | 2018-04-30 |\n| [5.x][] | **End-of-Life** | | 2015-10-29 | - | | 2016-06-30 |\n| [6.x][] | **End-of-Life** | [Boron][] | 2016-04-26 | 2016-10-18 | 2018-04-30 | 2019-04-30 |\n| [7.x][] | **End-of-Life** | | 2016-10-25 | - | | 2017-06-30 |\n| [8.x][] | **End-of-Life** | [Carbon][]| 2017-05-30 | 2017-10-31 | 2019-01-01 | 2019-12-31 |\n| [9.x][] | **End-of-Life** | | 2017-10-01 | - | | 2018-06-30 |\n| [10.x][] | **End-of-Life** |[Dubnium][]| 2018-04-24 | 2018-10-30 | 2020-05-19 | 2021-04-30 |\n| [11.x][] | **End-of-Life** | | 2018-10-23 | - | | 2019-06-01 |\n| [12.x][] | **End-of-Life** | [Erbium][]| 2019-04-23 | 2019-10-21 | 2020-11-30 | 2022-04-30 |\n| [13.x][] | **End-of-Life** | | 2019-10-22 | - | | 2020-06-01 |\n| [14.x][] | **End-of-Life** |[Fermium][]| 2020-04-21 | 2020-10-27 | 2021-10-19 | 2023-04-30 |\n| [15.x][] | **End-of-Life** | | 2020-10-20 | - | | 2021-06-01 |\n| [16.x][] | **End-of-Life** |[Gallium][]| 2021-04-20 | 2021-10-26 | 2022-10-18 | [2023-09-11][nodejs16eol] |\n| [17.x][] | **End-of-Life** | | 2021-10-19 | - | | 2022-06-01 |\n| [18.x][] | **End-of-Life** |[Hydrogen][]| 2022-04-19 | 2022-10-25 | 2023-10-18 | 2025-04-30 |\n| [19.x][] | **End-of-Life** | | 2022-10-18 | - | | 2023-06-01 |\n| [20.x][] | **End-of-Life** | [Iron][] | 2023-04-18 | 2023-10-24 | 2024-10-22 | 2026-04-30 |\n| [21.x][] | **End-of-Life** | | 2023-10-17 | - | 2024-04-01 | 2024-06-01 |\n| [23.x][] | **End-of-Life** | | 2024-10-15 | - | 2025-04-01 | 2025-06-01 |\n| [25.x][] | **End-of-Life** | | 2025-10-15 | - | 2026-04-01 | 2026-06-01 |\n\n## Mandate\n\nThe Release working group's purpose is:\n\n* Management/execution of the release and support process for all releases.\n\nIts responsibilities are:\n\n* Define the release process.\n* Define the content of releas"
+   },
+   {
+    "id": "https://github.com/nodejs/node/blob/master/CHANGELOG.md",
+    "title": "CHANGELOG.md",
+    "url": "https://github.com/nodejs/node/blob/master/CHANGELOG.md",
+    "text": "# CHANGELOG.md\n\n- Branch: master\n- Repository: nodejs/node\n\n---\n\n# Node.js Changelog\n\nSelect a Node.js version below to view the changelog history:\n\n* Node.js 26 **Current**\n* Node.js 25 End-of-Life\n* Node.js 24 **Long Term Support**\n* Node.js 23 End-of-Life\n* Node.js 22 Long Term Support\n* Node.js 21 End-of-Life\n* Node.js 20 End-of-Life\n* Node.js 19 End-of-Life\n* Node.js 18 End-of-Life\n* Node.js 17 End-of-Life\n* Node.js 16 End-of-Life\n* Node.js 15 End-of-Life\n* Node.js 14 End-of-Life\n* Node.js 13 End-of-Life\n* Node.js 12 End-of-Life\n* Node.js 11 End-of-Life\n* Node.js 10 End-of-Life\n* Node.js 9 End-of-Life\n* Node.js 8 End-of-Life\n* Node.js 7 End-of-Life\n* Node.js 6 End-of-Life\n* Node.js 5 End-of-Life\n* Node.js 4 End-of-Life\n* io.js End-of-Life\n* Node.js 0.12 End-of-Life\n* Node.js 0.10 End-of-Life\n* Archive\n\nPlease use the following table to find the changelog for a specific Node.js\nrelease.\n\n \n \n 26 (Current) \n 24 (LTS) \n 22 (LTS) \n \n \n \n 26.11.1 \n 26.11.0 \n 26.10.0 \n 26.9.0 \n 26.8.2 \n 26.8.1 \n 26.8.0 \n 26.7.0 \n 26.6.0 \n 26.5.1 \n 26.5.0 \n 26.4.0 \n 26.3.1 \n 26.3.0 \n 26.2.0 \n 26.1.0 \n 26.0.0 \n \n \n 24.21.0 \n 24.20.0 \n 24.19.0 \n 24.18.1 \n 24.18.0 \n 24.17.0 \n 24.16.0 \n 24.15.0 \n 24.14.1 \n 24.14.0 \n 24.13.1 \n 24.13.0 \n 24.12.0 \n 24.11.1 \n 24.11.0 \n 24.10.0 \n 24.9.0 \n 24.8.0 \n 24.7.0 \n 24.6.0 \n 24.5.0 \n 24.4.1 \n 24.4.0 \n 24.3.0 \n 24.2.0 \n 24.1.0 \n 24.0.2 \n 24.0.1 \n 24.0.0 \n \n \n 22.23.3 \n 22.23.2 \n 22.23.1 \n 22.23.0 \n 22.22.3 \n 22.22.2 \n 22.22.1 \n 22.22.0 \n 22.21.1 \n 22.21.0 \n 22.20.0 \n 22.19.0 \n 22.18.0 \n 22.17.1 \n 22.17.0 \n 22.16.0 \n 22.15.1 \n 22.15.0 \n 22.14.0 \n 22.13.1 \n 22.13.0 \n 22.12.0 \n 22.11.0 \n 22.10.0 \n 22.9.0 \n 22.8.0 \n 22.7.0 \n 22.6.0 \n 22.5.1 \n 22.5.0 \n 22.4.1 \n 22.4.0 \n 22.3.0 \n 22.2.0 \n 22.1.0 \n 22.0.0 \n \n \n \n\n## Notes\n\n* The Node.js Long Term Support plan covers\n LTS releases.\n* Release versions in **bold** text are the most recent supported releases.\n\n***\n\n***\n\n## 2016-05-06, Version 0.12.14 (Maintenance), @rvagg\n\n Moved to doc/changelogs/CHANGELOG\\_V012.md#0.12.14.\n\n## 2016-05-06, Version 0.10.45 (Maintenance), @rvagg\n\n Moved to doc/changelogs/CHANGELOG\\_V010.md#0.10.45.\n\n## 2016-05-05, Version 6.1.0 (Current), @Fishrock123\n\n Moved to doc/changelogs/CHANGELOG\\_V6.md#6.1.0.\n\n## 2016-05-05, Version 5.11.1 (Stable), @evanlucas\n\n Moved to doc/changelogs/CHANGELOG\\_V5.md#5.11.1.\n\n## 2016-05-05, Version 4.4.4 'Argon' (LTS), @thealphanerd\n\n Moved to doc/changelogs/CHANGELOG\\_V4.md#4.4.4.\n\n## 2016-04-26, Version 6.0.0 (Current), @jasnell\n\n Moved to doc/changelogs/CHANGELOG\\_V6.md#6.0.0.\n\n## 2016-04-20, Version 5.11.0 (Stable), @thealphanerd\n\n Moved to doc/changelogs/CHANGELOG\\_V5.md#5.11.0.\n\n## 2016-04-05, Version 5.10.1 (Stable), @thealphanerd\n\n Moved to doc/changelogs/CHANGELOG\\_V5.md#5.10.1.\n\n## 2016-03-31, Version 0.10.44 (Maintenance), @rvagg\n\n Moved to doc/changelogs/CHANGELOG\\_V010.md#0.10.44.\n\n## 2016-03-31, Version 5.10.0 (Stable), @evanlucas\n\n Moved to doc/changelogs/CHANGELOG\\_V5.md#5.10.0.\n\n## 2016-03-31, Version 4.4.2 'Argon' (LTS), @thealphanerd\n\n Moved to doc/changelogs/CHANGELOG\\_V4.md#4.4.2.\n\n## 2016-03-31, Version 0.12.13 (LTS), @rvagg\n\n Moved to doc/changelogs/CHANGELOG\\_V012.md#0.12.13.\n\n## 2016-03-23, Version 5.9.1 (Stable), @Fishrock123\n\n Moved to doc/changelogs/CHANGELOG\\_V5.md#5.9.1.\n\n## 2016-03-22, Version 4.4.1 'Argon' (LTS), @thealphanerd\n\n Moved to doc/changelogs/CHANGELOG\\_V4.md#4.4.1.\n\n## 2016-03-16, Version 5.9.0 (Stable), @evanlucas\n\n Moved to doc/changelogs/CHANGELOG\\_V5.md#5.9.0.\n\n## 2016-03-08, Version 5.8.0 (Stable), @Fishrock123\n\n Moved to doc/changelogs/CHANGELOG\\_V5.md#5.8.0.\n\n## 2016-03-08, Version 4.4.0 'Argon' (LTS), @thealphanerd\n\n Moved to doc/changelogs/CHANGELOG\\_V4.md#4.4.0.\n\n## 2016-03-08, Version 0.12.12 (LTS), @rvagg\n\n Moved to doc/changelogs/CHANGELOG\\_V012.md#0.12.12.\n\n## 2016-03-03, Version 0.12.11 (LTS), @rvagg\n\n Moved to doc/changelogs/CHANGELOG\\_V012.md#0.12.11.\n\n## 2016-03-02, Version 5.7.1 (Stable), @Fishrock123\n\n Moved to doc/changelogs/CHANGELOG\\_V5.md#5.7.1.\n\n## 2"
+   },
+   {
+    "id": "https://endoflife.date/nodejs",
+    "title": "Node.js",
+    "url": "https://endoflife.date/nodejs",
+    "text": "Node.js | endoflife.date\n\n# Node.js \n\n \ud83d\udcc5 Last updated on 09 October 2026 \ud83e\udd16 \n\n| Release | Released | Active Support | Security Support | Commercial Support | Latest |\n| --- | --- | --- | --- | --- | --- |\n| 26 (Upcoming LTS) | 5 months ago (05 May 2026) | Ends in 1 year (27 Oct 2027) | Ends in 2 years and 6 months (30 Apr 2029) | Unavailable | 26.11.1 (08 Oct 2026) |\n| 25 | 1 year ago (15 Oct 2025) | Ended 6 months ago (01 Apr 2026) | Ended 4 months and 2 weeks ago (01 Jun 2026) | Unavailable | 25.9.0 (01 Apr 2026) |\n| 24 (LTS) | 1 year and 5 months ago (06 May 2025) | Ends in 6 days (20 Oct 2026) | Ends in 1 year and 6 months (30 Apr 2028) | Unavailable | 24.21.0 (08 Sep 2026) |\n| 23 | 2 years ago (16 Oct 2024) | Ended 1 year and 6 months ago (01 Apr 2025) | Ended 1 year and 4 months ago (01 Jun 2025) | Unavailable | 23.11.1 (14 May 2025) |\n| 22 (LTS) | 2 years and 5 months ago (24 Apr 2024) | Ended 1 year ago (21 Oct 2025) | Ends in 6 months (30 Apr 2027) | Yes | 22.23.3 (23 Sep 2026) |\n| 21 | 3 years ago (17 Oct 2023) | Ended 2 years and 6 months ago (01 Apr 2024) | Ended 2 years and 4 months ago (01 Jun 2024) | Unavailable | 21.7.3 (10 Apr 2024) |\n| 20 (LTS) | 3 years and 6 months ago (18 Apr 2023) | Ended 1 year and 11 months ago (22 Oct 2024) | Ended 5 months ago (30 Apr 2026) | Yes | 20.20.2 (24 Mar 2026) |\n| 19 | 4 years ago (18 Oct 2022) | Ended 3 years and 6 months ago (01 Apr 2023) | Ended 3 years ago (01 Jun 2023) | Unavailable | 19.9.0 (10 Apr 2023) |\n| 18 (LTS) | 4 years and 6 months ago (19 Apr 2022) | Ended 3 years ago (18 Oct 2023) | Ended 1 year and 5 months ago (30 Apr 2025) | Yes | 18.20.8 (27 Mar 2025) |\n| 17 | 5 years ago (19 Oct 2021) | Ended 4 years and 6 months ago (01 Apr 2022) | Ended 4 years ago (01 Jun 2022) | Unavailable | 17.9.1 (01 Jun 2022) |\n| 16 (LTS) | 5 years ago (20 Apr 2021) | Ended 4 years ago (18 Oct 2022) | Ended 3 years ago (11 Sep 2023) | Yes | 16.20.2 (09 Aug 2023) |\n| 15 | 6 years ago (20 Oct 2020) | Ended 5 years ago (01 Apr 2021) | Ended 5 years ago (01 Jun 2021) | Unavailable | 15.14.0 (06 Apr 2021) |\n| 14 (LTS) | 6 years ago (21 Apr 2020) | Ended 5 years ago (19 Oct 2021) | Ended 3 years and 5 months ago (30 Apr 2023) | Yes | 14.21.3 (16 Feb 2023) |\n| 13 | 7 years ago (22 Oct 2019) | Ended 6 years ago (01 Apr 2020) | Ended 6 years ago (01 Jun 2020) | Unavailable | 13.14.0 (29 Apr 2020) |\n| 12 (LTS) | 7 years ago (23 Apr 2019) | Ended 6 years ago (20 Oct 2020) | Ended 4 years ago (30 Apr 2022) | Yes | 12.22.12 (05 Apr 2022) |\n| 11 | 8 years ago (23 Oct 2018) | Ended 7 years ago (01 Apr 2019) | Ended 7 years ago (30 Jun 2019) | Unavailable | 11.15.0 (30 Apr 2019) |\n| 10 (LTS) | 8 years ago (24 Apr 2018) | Ended 6 years ago (19 May 2020) | Ended 5 years ago (30 Apr 2021) | Unavailable | 10.24.1 (06 Apr 2021) |\n| 9 | 8 years and 11 months ago (31 Oct 2017) | Ended 8 years ago (30 Jun 2018) | Ended 8 years ago (30 Jun 2018) | Unavailable | 9.11.2 (12 Jun 2018) |\n| 8 (LTS) | 9 years ago (30 May 2017) | Ended 7 years ago (01 Jan 2019) | Ended 6 years and 9 months ago (31 Dec 2019) | Unavailable | 8.17.0 (17 Dec 2019) |\n| 7 | 9 years ago (25 Oct 2016) | Ended 9 years ago (30 Jun 2017) | Ended 9 years ago (30 Jun 2017) | Unavailable | 7.10.1 (11 Jul 2017) |\n| 6 (LTS) | 10 years ago (26 Apr 2016) | Ended 8 years ago (30 Apr 2018) | Ended 7 years ago (30 Apr 2019) | Unavailable | 6.17.1 (03 Apr 2019) |\n| 5 | 10 years ago (30 Oct 2015) | Ended 10 years ago (30 Jun 2016) | Ended 10 years ago (30 Jun 2016) | Unavailable | 5.12.0 (23 Jun 2016) |\n| 4 (LTS) | 11 years ago (09 Sep 2015) | Ended 9 years ago (01 Apr 2017) | Ended 8 years ago (30 Apr 2018) | Unavailable | 4.9.1 (29 Mar 2018) |\n| 3 | 11 years ago (04 Aug 2015) | No | No | Unavailable | 3.3.1 (15 Sep 2015) |\n| 2 | 11 years ago (04 May 2015) | No | No | Unavailable | 2.5.0 (28 Jul 2015) |\n| 1 | 11 years ago (20 Jan 2015) | No | No | Unavailable | 1.8.4 (09 Jul 2015) |\n| Show more unmaintained releases | | | | | |\n\nMajor Node.js versi",
+    "image": "https://endoflife.date/assets/logo-512x512.png",
+    "favicon": "https://endoflife.date/assets/favicon-32x32.png"
+   },
+   {
+    "id": "https://github.com/nodejs/node",
+    "title": "nodejs/node",
+    "url": "https://github.com/nodejs/node",
+    "text": "# nodejs/node\n\nNode.js JavaScript runtime \u2728\ud83d\udc22\ud83d\ude80\u2728\n\n- Stars: 122498\n- Forks: 39840\n- Watchers: 122498\n- Open issues: 1204\n- License: Other\n- Homepage: https://nodejs.org\n- Default branch: main\n- Created: 2014-11-26T19:57:11Z\n\n## Languages\n\n- Batchfile\n- C\n- C++\n- Emacs Lisp\n- Go Template\n- HTML\n- JavaScript\n- Makefile\n- Nix\n- Perl\n- Python\n- R\n- Shell\n- TypeScript\n\n## Topics\n\n- javascript\n- js\n- linux\n- macos\n- mit\n- node\n- nodejs\n- runtime\n- windows\n\n## Top Contributors\n\n- Trott (3151 contributions)\n- ry (3021 contributions)\n- bnoordhuis (2291 contributions)\n- addaleax (1655 contributions)\n- isaacs (1655 contributions)\n- jasnell (1399 contributions)\n- targos (1366 contributions)\n- joyeecheung (1289 contributions)\n- aduh95 (1192 contributions)\n- cjihrig (1186 contributions)\n\n---\n\n## README\n\n# Node.js\n\nNode.js is an open-source, cross-platform JavaScript runtime environment.\n\nFor information on using Node.js, see the [Node.js website][].\n\nThe Node.js project uses an open governance model. The\n[OpenJS Foundation][] provides support for the project.\n\nContributors are expected to act in a collaborative manner to move\nthe project forward. We encourage the constructive exchange of contrary\nopinions and compromise. The TSC\nreserves the right to limit or block contributors who repeatedly act in ways\nthat discourage, exhaust, or otherwise negatively affect other participants.\n\n**This project has a [Code of Conduct][].**\n\n## Table of contents\n\n* Support\n* Release types\n * Download\n * Current and LTS releases\n * Nightly releases\n * API documentation\n * Verifying binaries\n* Building Node.js\n* Security\n* Contributing to Node.js\n* Current project team members\n * TSC (Technical Steering Committee)\n * Collaborators\n * Triagers\n * Release keys\n* License\n\n## Support\n\nLooking for help? Check out the\ninstructions for getting support.\n\n## Release types\n\nNode.js follows semantic versioning.\n\n* **Alpha**: Under active development where semver-major changes are allowed.\n Each October, a new release line (for example, Node.js 27) branches off `main`\n and receives Alpha releases (for example, `27.0.0-alpha.0.0.0`) for 6 months,\n then are promoted to Current (see below) each April. Alpha releases are signed,\n tagged, and tested through CITGM, but their\n API and ABI may change between releases. They are intended for library authors\n and CI pipelines, not for production use.\n* **Current**: Under active development, no semver-major changes allowed. Node.js\n releases a new major version once a year, in April. Releases stay Current for\n 6 months, then convert to LTS (see below) each October. Their ABI may change\n between releases. They are intended for library authors and CI pipelines, not\n for production use.\n* **LTS**: Releases under Long Term Support, with a focus on stability\n and security. Only changes that have been on Alpha or Current release for two\n weeks can be backported to a typical LTS release. Every major version becomes an LTS\n release, and receives 30 months of LTS support, for a total of 36 months from\n its first Current release to End-of-Life. LTS release lines have alphabetically-ordered\n code names, beginning with Node.js 4 Argon.\n* **Nightly**: Code from the `main` branch built every 24-hours when there are\n changes. Unlike Alpha releases, nightly builds are automated and untested.\n Use with caution.\n\nRelease lines up to and including Node.js 26 follow the previous schedule, where a\nnew major version was released every 6 months and only even-numbered major\nversions became LTS. See the\nNode.js release schedule announcement\nfor details.\n\nFor more information, see the\nRelease README.\n\n### Download\n\nBinaries, installers, and source tarballs are available at\n.\n\n#### Current and LTS releases\n\n \n\nThe latest directory is an\nalias for the latest Current release. The latest-_codename_ directory is an\nalias for the latest release from an LTS line. For example, the\nlatest-hydrogen\ndirectory contains the latest Hydrogen (Node.js 18) release.\n\n#### Nigh",
+    "entities": [
+     {
+      "id": "https://exa.ai/library/organization/27tz60yrd00",
+      "type": "company",
+      "version": 1,
+      "properties": {
+       "name": "Node.js",
+       "foundedYear": 2009,
+       "description": "Node.js is a JavaScript runtime, used worldwide by millions.",
+       "workforce": {
+        "total": 717
+       },
+       "headquarters": {
+        "address": "1 Letterman Drive, San Francisco, CA 94129, US",
+        "city": "San Francisco",
+        "postalCode": null,
+        "country": "United States"
+       },
+       "financials": null,
+       "webTraffic": {
+        "visitsMonthly": 5740261,
+        "countryRank": 2091,
+        "avgDurationSeconds": 77,
+        "history": [
+         {
+          "value": 6993313,
+          "dateFrom": "2026-04",
+          "dateTo": "2026-04"
+         },
+         {
+          "value": 6966619,
+          "dateFrom": "2026-05",
+          "dateTo": "2026-05"
+         },
+         {
+          "value": 6855067,
+          "dateFrom": "2026-06",
+          "dateTo": "2026-06"
+         },
+         {
+          "value": 5811702,
+          "dateFrom": "2026-07",
+          "dateTo": "2026-07"
+         },
+         {
+          "value": 5501146,
+          "dateFrom": "2026-08",
+          "dateTo": "2026-08"
+         },
+         {
+          "value": 5740261,
+          "dateFrom": "2026-09",
+          "dateTo": "2026-09"
+         }
+        ]
+       },
+       "research": null
+      }
+     }
+    ]
+   }
+  ],
+  "searchTime": 11750.4,
+  "costDollars": {
+   "total": 0.007,
+   "search": {
+    "neural": 0.007
+   }
+  }
+ },
+ "fetched_at": "2026-10-14T17:28:40+0530"
+}

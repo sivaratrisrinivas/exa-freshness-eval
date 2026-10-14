@@ -1,0 +1,110 @@
+{
+ "status": 200,
+ "latency_s": 0.421,
+ "request": {
+  "type": "fast",
+  "startPublishedDate": "2026-09-14T00:00:00.000Z",
+  "contents": {
+   "text": {
+    "maxCharacters": 4000
+   }
+  },
+  "query": "latest stable release of Terraform",
+  "numResults": 10
+ },
+ "response": {
+  "requestId": "4e42f0fb9ef8c80e58198b11422fbb09",
+  "resolvedSearchType": "",
+  "results": [
+   {
+    "id": "https://discuss.hashicorp.com/t/terraform-v1-16-5-released/77800",
+    "title": "Terraform v1.16.5 released - Release Notifications - HashiCorp Discuss",
+    "url": "https://discuss.hashicorp.com/t/terraform-v1-16-5-released/77800",
+    "publishedDate": "2026-10-02T00:00:00.000Z",
+    "text": "Terraform v1.16.5 released - Release Notifications - HashiCorp Discuss\n\n# Terraform v1.16.5 released \n\n sarah.french October 2, 2026, 2:43pm 1 \n\nWe just released v1.16.5 of Terraform.\n\nThis patch release fixes two bugs, as described in the CHANGELOG :\n\n> BUG FIXES:\n> \n> - Fixed a crash that happens when a tainted instance state is seen without a valid status (#39287)\n> - resource-identity: fixed an issue where resource identity could be nil during delete (#39285)",
+    "image": "https://global.discourse-cdn.com/hashicorp/original/1X/154331ed085112b536f7a0c4c5355c17a57e53c1.png"
+   },
+   {
+    "id": "https://traceary.com/terraform",
+    "title": "Terraform changelog, now at 1.16.5 | Traceary",
+    "url": "https://traceary.com/terraform",
+    "publishedDate": "2026-09-23T00:00:00.000Z",
+    "text": "Terraform changelog, now at 1.16.5 | Traceary\n\n# Terraform changelog\n\nTerraform is at 1.16.5, published 2 Oct 2026, 12 days ago.\n\nInfrastructure as code tool with a provider ecosystem.\n\nCollected\n\n65 releases back to 31 Jan 2024\n\nSource\n\nRead on 28 of the 30 days on record, last today. Collection status\n\n## Version history\n\n1.x 65 releases\n\n1.16.5 2 Oct 2026\n\n(September 30, 2026) BUG FIXES: Fixed a crash that happens when a tainted instance state is seen without a valid status (#39287) resource-identity: fixed an issue where resource identity could be nil during delete (#39285)\n\nfixed\n\n1.16.4 23 Sep 2026\n\n(September 23, 2026) BUG FIXES: Fixed an issue where Terraform fails when rendering policy evaluation outcomes for older versions of Terraform Enterprise (#39095) stacks: Fix invalid deferred error triggered by provider returning a deferral\n\nfixed\n\n1.16.3 16 Sep 2026\n\n(September 16, 2026) BUG FIXES: Fix handling of destroy=false around create_before_destroy instances (#39169) Fix function result comparison when there are multiple marks (#39170) Filter logic for marks could cause values with multiple mark\n\nfixed\n\n1.16.2 9 Sep 2026\n\n(September 9, 2026) BUG FIXES: Fix panic in module installation when encoutering invalid module calls (#39129)\n\nfixed\n\n1.16.1 2 Sep 2026\n\n(September 2, 2026) BUG FIXES: cloud: Fixed a bug causing the CLI to pause indefinitely after a run task failure with pending policy evaluations (#38751) Support referencing modules containing dynamic sources in Terraform Test (#38950) stac\n\nfixed\n\n1.16.0 26 Aug 2026\n\n(August 26, 2026) NEW FEATURES: Terraform now stores planned private data for providers, allowing provider-specific state to be preserved across plan and apply. (#37986) terraform_data: The new store block can hold ephemeral and sensitive v\n\nadded fixed deprecated\n\n1.15.9 19 Aug 2026\n\n(August 19, 2026) BUG FIXES: validate: Child module validation has been fixed and will now raise errors or warning diagnostics for invalid blocks. (list, import, backend, and cloud) (#38994) NOTES: Update go-slug to v0.18.3 to mitigate CVE-\n\nsecurity fixed changed\n\n1.15.8 8 Jul 2026\n\n(July 8, 2026) BUG FIXES: Fix terraform init error when installing providers sourced from a service-discovery alias advertised by the configured backend (such as localterraform.com) NOTES: command/init: Provider installation was changed to \n\nfixed changed\n\n1.15.7 24 Jun 2026\n\n(June 24, 2026) BUG FIXES: Add concurrency safety to configs.Parser and SourceBundleParser (#38745) Fix submodule variable validation during init (#38770)\n\nadded fixed\n\n1.15.6 10 Jun 2026\n\n(June 10, 2026) BUG FIXES: Fixed an issue where resources being removed from state via removed block were incorrectly listed under planned_values in json representations of the plan file. (#38665) console: Fixed a panic caused by evaluating\n\nfixed deprecated removed\n\n1.15.5 27 May 2026\n\n(May 27, 2026) ENHANCEMENTS: Support for module version evaluating to null (in the context of dynamic module sources) (#38632) BUG FIXES: Fix crash on init for modules with empty source (#38628)\n\nfixed\n\n1.15.4 20 May 2026\n\n(May 20, 2026) NEW FEATURES: We now produce builds for Linux s390x (zLinux) (#38615) BUG FIXES: init: Prevent provider binaries from being installed into symlinked directories (#38611)\n\nadded fixed\n\n1.15.3 13 May 2026\n\n(May 13, 2026) BUG FIXES: stacks: Fixed a bug that prevented migrating resources under multiple layers of module nesting with implicit provider configuration. (#38528) cloud backend will now forward -generate-config-out flag usage to query \n\nfixed\n\n1.15.2 6 May 2026\n\n(May 6, 2026) ENHANCEMENTS: stacks: add ouput values to plan component instance change description (#38360) BUG FIXES: Avoid printing warnings from 'terraform output -json' (#38530)\n\nadded fixed\n\n1.15.1 1 May 2026\n\n(May 1, 2026) BUG FIXES: Fixed crash when configuration has an invalid action_trigger nested block in data or ephemeral lifecycle blocks (#38402) validate: Removed validation of attributes insi",
+    "image": "https://traceary.com/og.png"
+   },
+   {
+    "id": "https://megachangelog.com/changes/terraform/terraform-v1-16-5-381e12f",
+    "title": "Terraform v1.16.5 \u2014 Terraform Changelog | megachangelog",
+    "url": "https://megachangelog.com/changes/terraform/terraform-v1-16-5-381e12f",
+    "publishedDate": "2026-10-02T00:00:00.000Z",
+    "text": "Terraform v1.16.5 \u2014 Terraform Changelog | megachangelog\n\n# Terraform v1.16.5\n\nThis patch release fixes a crash when processing tainted instance state without a valid status and resolves an issue where resource identity could be nil during delete operations.\n\n## 1.16.5 (September 30, 2026)\n\nBUG FIXES:\n\n- Fixed a crash that happens when a tainted instance state is seen without a valid status (#39287)\n- resource-identity: fixed an issue where resource identity could be nil during delete (#39285)\n\n### Terraform 1.17.0-rc1 release\n\nRelease candidate 1.17.0 introduces Terraform Policy as generally available (removing experimental flags), adds support for variables and locals in provider requirements, includes a new -minimal-refresh planning option for efficiency, and fixes critical bugs in function evaluation and ephemeral resource handling.\n\n### Terraform v1.17.0-beta2\n\n### v1.16.4 Bug Fixes"
+   },
+   {
+    "id": "https://discuss.hashicorp.com/t/terraform-v1-16-4-released/77776",
+    "title": "Terraform v1.16.4 released - Release Notifications - HashiCorp Discuss",
+    "url": "https://discuss.hashicorp.com/t/terraform-v1-16-4-released/77776",
+    "publishedDate": "2026-09-23T00:00:00.000Z",
+    "text": "Terraform v1.16.4 released - Release Notifications - HashiCorp Discuss\n\n# Terraform v1.16.4 released \n\n kristin September 23, 2026, 12:55pm 1 \n\nWe have just released Terraform v1.16.4. This release includes several bug fixes; please see the Changelog for details!",
+    "image": "https://global.discourse-cdn.com/hashicorp/original/1X/154331ed085112b536f7a0c4c5355c17a57e53c1.png"
+   },
+   {
+    "id": "https://ettayeb.fr/en/devops/terraform-1-17-minimal-refresh-policy-ga-2026/",
+    "title": "Terraform 1.17 adds -minimal-refresh to speed up plans and graduates Policy to GA \u2014 ETTAYEB",
+    "url": "https://ettayeb.fr/en/devops/terraform-1-17-minimal-refresh-policy-ga-2026/",
+    "publishedDate": "2026-10-07T00:00:00.000Z",
+    "author": "Walid ETTAYEB",
+    "text": "Terraform 1.17 adds -minimal-refresh to speed up plans and graduates Policy to GA \u2014 ETTAYEB\n\n# Terraform 1.17 adds -minimal-refresh to speed up plans and graduates Policy to GA\n\nOn October 7, 2026, HashiCorp published Terraform 1.17.0-rc1 with a -minimal-refresh planning option that only refreshes resources with proposed changes, support for variables in provider requirements, and the general availability of Terraform Policy. A release candidate to test on large estates, not yet to roll out everywhere.\n\n WE Walid ETTAYEB \u00b7 Founder 9 October 2026 \u00b7 6 min Share Link copied Link copied \n\nOn October 7, 2026, HashiCorp published Terraform 1.17.0-rc1, the first release candidate of version 1.17. It ships a `-minimal-refresh` planning option that only refreshes resources with proposed changes, support for variables in provider requirements, and the general availability of Terraform Policy. Why it matters: slow `terraform plan` runs on large estates are a recurring complaint, and this release candidate attacks that bottleneck directly.\n\n## What -minimal-refresh changes\n\nThe historical behavior of `terraform plan` is to refresh the state of every resource before computing the diff. On an estate of several hundred resources, that refresh phase dominates the runtime, even though most resources have not moved since the last apply.\n\nThe `-minimal-refresh` option inverts the logic: it only refreshes resources that have proposed changes. In practice, when you change a single resource in a plan that counts hundreds, the refresh focuses on what is actually affected instead of re-querying the whole cloud provider. It is an optimization aimed at the most common case \u2014 a small change inside a large state.\n\nThe nuance to understand: `-minimal-refresh` is an opt-in that changes the scope of the refresh, not the semantics of the plan. A plan produced with this option may miss external drift on resources it does not touch, because they are not refreshed. It is a trade-off between speed and exhaustiveness, to be judged against whether your estate tolerates a partial refresh.\n\n## Why refresh costs so much\n\nRefresh is the phase where Terraform queries each provider for the real state of resources, to detect drift between the declared state and reality. That work is essential to a reliable plan, but it is expensive: every API call to a cloud provider takes time, and on a large estate, the accumulation of those calls dominates plan time.\n\nThe problem is made worse by a simple fact: most of the time, nothing has changed. When you modify a single resource in a five-hundred-resource estate, refreshing the other four hundred and ninety-nine only serves to confirm that they have not moved. That is exactly the waste `-minimal-refresh` removes, by concentrating work where the plan proposes a change.\n\nThe gain depends on the estate. On a state where changes are rare and localized, the difference can be dramatic; on an estate where everything moves every iteration, the option buys almost nothing, since everything would be refreshed anyway. It is an optimization for the common case, not a magic wand \u2014 and it assumes you accept that external drift on un-refreshed resources stays invisible until their next refresh.\n\n## Variables in provider requirements\n\nThe second substantive addition is support for variables and locals in provider requirements. Until now, the `required_providers` block demanded literal values: the source and version of a provider were frozen in code, which made it hard to reuse the same module in contexts where the version or origin of a provider had to vary.\n\nYou can now parametrize those requirements, which unlocks two scenarios. The first is module reuse: a module can require a provider whose version is injected by the caller rather than hard-coded. The second is multi-environment management: a single configuration can point at a different provider version per environment without duplicating code. It is a long-standing community request, tracked",
+    "image": "https://ettayeb.fr/images/articles/terraform-1-17-minimal-refresh-policy-ga-2026.webp"
+   },
+   {
+    "id": "https://discuss.hashicorp.com/t/terraform-v1-17-0-beta2-released/77777",
+    "title": "Terraform v1.17.0-beta2 released",
+    "url": "https://discuss.hashicorp.com/t/terraform-v1-17-0-beta2-released/77777",
+    "publishedDate": "2026-09-23T00:00:00.000Z",
+    "text": "# Terraform v1.17.0-beta2 released\n\nURL: https://discuss.hashicorp.com/t/terraform-v1-17-0-beta2-released/77777\nCategory: Release Notifications\nTags: terraform-release\nCreated: September 23, 2026, 5:08pm UTC\nPosts on this page: 2\nPage: 1\n\nAuthor: @kristin\nPost date: September 23, 2026, 5:08pm UTC\n\nTerraform v1.17.0-beta2 has been released today! Please see the Changelog for details.\n\nCheers!\n\n---\n\nAuthor: @kristin\nPost date: September 23, 2026, 5:08pm UTC"
+   },
+   {
+    "id": "https://discuss.hashicorp.com/t/terraform-v1-16-3-released/77757",
+    "title": "Terraform v1.16.3 released - Release Notifications - HashiCorp Discuss",
+    "url": "https://discuss.hashicorp.com/t/terraform-v1-16-3-released/77757",
+    "publishedDate": "2026-09-16T00:00:00.000Z",
+    "text": "Terraform v1.16.3 released - Release Notifications - HashiCorp Discuss\n\n# Terraform v1.16.3 released \n\n austin.valle September 16, 2026, 6:37pm 1 \n\nTerraform v1.16.3 has been released, which includes various bug fixes that you can find listed in the release changelog: Release v1.16.3 \u00b7 hashicorp/terraform \u00b7 GitHub",
+    "image": "https://global.discourse-cdn.com/hashicorp/original/1X/154331ed085112b536f7a0c4c5355c17a57e53c1.png"
+   },
+   {
+    "id": "https://dev.to/leobaniak/terraform-116-adds-destroy-time-actions-and-lets-child-modules-own-their-imports-3b1j",
+    "title": "Terraform 1.16 adds destroy-time Actions and lets child modules own their imports - DEV Community",
+    "url": "https://dev.to/leobaniak/terraform-116-adds-destroy-time-actions-and-lets-child-modules-own-their-imports-3b1j",
+    "publishedDate": "2026-10-06T10:24:10.000Z",
+    "author": "Leo",
+    "text": "# Terraform 1.16 adds destroy-time Actions and lets child modules own their imports - DEV Community\n\nAuthor: Leo\nPublished: 2026-10-06T10:24:10Z\nSource: dev.to\nLanguage: en\n\n## Story\n\nTerraform 1.16 adds destroy-time Actions and lets child modules own their imports - DEV Community\n\nLeo\n\n Posted on Oct 6 \u2022 Originally published at cicd.deployment.to \n\n# Terraform 1.16 adds destroy-time Actions and lets child modules own their imports \n\nI once kept a shell script called `pre-destroy.sh` in a repo for far longer than I'd like to admit. It took a final backup, poked an external inventory system, and only then let the pipeline run `terraform destroy`. Everyone on the team was a little scared of it, and nobody ever fully trusted it. Terraform 1.16 lets a lot of that logic move into the configuration, where the plan can see it.\n\nHashiCorp's release post covers two headline changes. Actions can now fire on `before_destroy` and `after_destroy` events. Import blocks can also live inside child modules, so the root module no longer has to own every import.\n\n## Destroy gets its own hooks \n\nThe release post opens with the cases you'd expect: taking a final backup, deregistering an asset, or cleaning up an external system before the infrastructure goes away. You attach an Action to a resource through `action_trigger` in its `lifecycle` block and list the destroy event in `events`. The shape from HashiCorp's example looks like this: \n\n```\naction \"example_cleanup\" \"archive\" {\n  config {\n    resource_id = caller.id\n  }\n}\n\nresource \"example_service\" \"payments\" {\n  name = \"payments\"\n\n  lifecycle {\n    action_trigger {\n      events  = [before_destroy]\n      actions = [action.example_cleanup.archive]\n    }\n  }\n}\n\n```\n\nFor anyone who has wired up cleanup steps in a pipeline, this is the nice part. The cleanup step sits next to the resource it belongs to, it shows up at plan time, and you stop relying on whoever runs the destroy job to remember the wrapper script.\n\n## Imports that travel with the module \n\nThe second change is quieter, and I think more people will feel it day to day. Until now, an import block could target a resource inside a child module, but the block itself had to sit in the root module. HashiCorp calls that \"an awkward exception\" for modules that are supposed to hide their implementation details.\n\nIn 1.16 the module can carry its own import: \n\n```\nvariable \"existing_bucket_name\" {\n  type = string\n}\n\nresource \"aws_s3_bucket\" \"this\" {\n  bucket = var.existing_bucket_name\n}\n\nimport {\n  to = aws_s3_bucket.this\n  id = var.existing_bucket_name\n}\n\n```\n\nThe consumer passes a name and doesn't need to know any resource addresses: \n\n```\nmodule \"logs\" {\n  source               = \"./modules/log-bucket\"\n  existing_bucket_name = \"<existing-bucket-name>\"\n}\n\n```\n\nTerraform evaluates the import in the context of each module instance, and per the post that includes nested modules and module calls that use `count` or `for_each`. If you maintain a shared module catalogue, adoption of existing infrastructure becomes something the module author designs once instead of every consumer working it out alone.\n\n## The rough edges you'll hit first \n\nThree things stood out to me as the ones that will trip up a pipeline.\n\nThe configuration and trigger condition of a destroy Action must be fully known at plan time. If your cleanup inputs only resolve during apply, you'll need to restructure before this works for you.\n\nYou can't just delete the resource block. Removing the block also removes its `action_trigger`, so Terraform has nothing to invoke when it plans the destroy. HashiCorp's guidance is to set `count = 0` on the resource and its trigger configuration first, then remove the block in a later change. That turns one pull request into two, so tell your reviewers why.\n\nFailure behaviour needs an explicit decision. The modes are `halt` (the default, which stops dependent processing after an Action error), `continue` (errors become warnings) and `taint`. The post "
+   },
+   {
+    "id": "https://www.blackinopensource.org/resources/terraform-v1-17-0-beta2",
+    "title": "Terraform v1.17.0-beta2 - BIOS",
+    "url": "https://www.blackinopensource.org/resources/terraform-v1-17-0-beta2",
+    "publishedDate": "2026-09-23T00:00:00.000Z",
+    "author": "Olamide Kosile",
+    "text": "Terraform v1.17.0-beta2 - BIOS\n\nOpen Source News September 23, 2026 2 min read\n\n# Terraform v1.17.0-beta2\n\nBy BIOS Founding Team\n\nThe second beta of 1.17 carries forward the Policy GA, provider-requirement variables and locals, and -minimal-refresh features from beta1.\n\nPolicy GA now also applies to terraform query, and a new format_version field was added to terraform version -json output for safer future format changes.\n\nFull details: https://github.com/hashicorp/terraform/releases/tag/v1.17.0-beta2",
+    "image": "https://blackinopensource.org/news/terraform.png"
+   },
+   {
+    "id": "https://www.blackinopensource.org/resources/terraform-v1-16-4",
+    "title": "Terraform v1.16.4 - BIOS",
+    "url": "https://www.blackinopensource.org/resources/terraform-v1-16-4",
+    "publishedDate": "2026-09-23T00:00:00.000Z",
+    "author": "Olamide Kosile",
+    "text": "Terraform v1.16.4 - BIOS\n\nOpen Source News September 23, 2026 2 min read\n\n# Terraform v1.16.4\n\nBy BIOS Founding Team\n\nThe latest patch on the 1.16 stable line, fixing rendering of policy evaluation outcomes against older Terraform Enterprise versions and a deferred-error bug triggered when a provider returns a deferral for a resource with an unknown count or for_each.\n\nFull details: https://github.com/hashicorp/terraform/releases/tag/v1.16.4\n\n### Python 3.15.0 Is Here",
+    "image": "https://blackinopensource.org/news/terraform.png"
+   }
+  ],
+  "searchTime": 312.4,
+  "costDollars": {
+   "total": 0.007,
+   "search": {
+    "neural": 0.007
+   }
+  }
+ },
+ "fetched_at": "2026-10-14T17:27:22+0530"
+}

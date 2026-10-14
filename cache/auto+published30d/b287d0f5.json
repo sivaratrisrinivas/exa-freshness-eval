@@ -1,0 +1,156 @@
+{
+ "status": 200,
+ "latency_s": 1.746,
+ "request": {
+  "type": "auto",
+  "startPublishedDate": "2026-09-14T00:00:00.000Z",
+  "contents": {
+   "text": {
+    "maxCharacters": 4000
+   }
+  },
+  "query": "latest stable release of pandas",
+  "numResults": 10
+ },
+ "response": {
+  "requestId": "df0020bec60511adf55803d8b9e1a515",
+  "resolvedSearchType": "",
+  "results": [
+   {
+    "id": "https://pandas.pydata.org/",
+    "title": "pandas - Python Data Analysis Library",
+    "url": "https://pandas.pydata.org/",
+    "text": "pandas - Python Data Analysis Library\n\n# pandas\n\n pandas is a fast, powerful, flexible and easy to use open source data analysis and manipulation tool, built on top of the Python programming language. \n\n \n\n \n\n \n\nThe full list of companies supporting pandas is available in the sponsors page. \n\n#### Latest version: 3.0.6\n\n- What's new in 3.0.6\n- Release date: Sep 17, 2026\n- Documentation (web)\n- Download source code\n\n \n\n#### Previous versions\n\n- 2.3.3 (Sep 29, 2025) changelog | docs | code\n- 2.2.3 (Sep 20, 2024) changelog | docs | code\n- 2.1.4 (Dec 08, 2023) changelog | docs | code\n- 2.0.3 (Jun 28, 2023) changelog | docs | code",
+    "entities": [
+     {
+      "id": "https://exa.ai/library/organization/pnbbsk1y6xl",
+      "type": "company",
+      "version": 1,
+      "properties": {
+       "name": "Pandas",
+       "foundedYear": 2008,
+       "description": "pandas is a fast, powerful, flexible and easy to use open source data analysis and manipulation tool, built on top of the Python programming language.",
+       "workforce": {
+        "total": 14
+       },
+       "headquarters": null,
+       "financials": null,
+       "webTraffic": {
+        "visitsMonthly": 895036,
+        "countryRank": null,
+        "avgDurationSeconds": 198,
+        "history": [
+         {
+          "value": 1172573,
+          "dateFrom": "2026-04",
+          "dateTo": "2026-04"
+         },
+         {
+          "value": 1056605,
+          "dateFrom": "2026-05",
+          "dateTo": "2026-05"
+         },
+         {
+          "value": 898434,
+          "dateFrom": "2026-06",
+          "dateTo": "2026-06"
+         },
+         {
+          "value": 871504,
+          "dateFrom": "2026-07",
+          "dateTo": "2026-07"
+         },
+         {
+          "value": 816208,
+          "dateFrom": "2026-08",
+          "dateTo": "2026-08"
+         },
+         {
+          "value": 895036,
+          "dateFrom": "2026-10",
+          "dateTo": "2026-10"
+         }
+        ]
+       },
+       "research": null
+      }
+     }
+    ]
+   },
+   {
+    "id": "https://pandas.pydata.org/docs/",
+    "title": "pandas 3.0.6 documentation",
+    "url": "https://pandas.pydata.org/docs/",
+    "text": "pandas documentation \u2014 pandas 3.0.6 documentation\n\n# pandas documentation#\n\nDate: Sep 17, 2026 Version: 3.0.6\n\nDownload documentation: Zipped HTML\n\nPrevious versions: Documentation of previous pandas versions is available at pandas.pydata.org.\n\n`pandas` is an open source, BSD-licensed library providing high-performance, easy-to-use data structures and data analysis tools for the Python programming language.\n\n Getting started\n\nNew to pandas? Check out the getting started guides. They contain an introduction to pandas\u2019 main concepts and links to additional tutorials.\n\n API reference\n\nThe reference guide contains a detailed description of the pandas API. The reference describes how the methods work and which parameters can be used. It assumes that you have an understanding of the key concepts.\n\n Developer guide\n\nSaw a typo in the documentation? Want to improve existing functionalities? The contributing guidelines will guide you through the process of improving pandas."
+   },
+   {
+    "id": "https://pandas.pydata.org/docs/whatsnew/v3.0.6.html",
+    "title": "What's new in 3.0.6 (September 17, 2026) - Pandas",
+    "url": "https://pandas.pydata.org/docs/whatsnew/v3.0.6.html",
+    "text": "What\u2019s new in 3.0.6 (September 17, 2026) \u2014 pandas 3.0.6 documentation\n\n# What\u2019s new in 3.0.6 (September 17, 2026)#\n\nThese are the changes in pandas 3.0.6. See Release notes for a full changelog including other versions of pandas.\n\n## Pandas 3.0.6 is now compatible with Python 3.15#\n\nPandas 3.0.6 is the first version of pandas that is generally compatible with the upcoming Python 3.15, and binary wheels will be available on PyPI for all supported platforms.\n\n## Fixed regressions#\n\n- Fixed a regression in `read_csv()` where a mixed-dtype column selected by `usecols` raised `IndexError` instead of emitting a `DtypeWarning`, and where that warning named the wrong column or the wrong index (GH 67375)\n- Fixed a regression in `DataFrame.plot.bar()` and `DataFrame.plot.barh()` raising `AttributeError` for a regularly-spaced `DatetimeIndex` whose `freq` attribute is unset (GH 66771)\n- Fixed a regression in `Series.str.split()`, `Series.str.rsplit()`, `Series.str.partition()`, and `Series.str.rpartition()` on `CategoricalDtype` Series with `expand=False` returning stringified lists/tuples instead of actual lists/tuples (GH 66341)\n- Fixed a regression in `Timestamp.tz_convert()` and `Timestamp.tz_localize()` and their `Index` and `Series` counterparts returning a UTC offset a few minutes off for dates before the specified timezone adopted a standard time (typically early 20th century); this only affected older systems whose `tzdata` was compiled with a toolchain from between 2013 and 2018, such as Amazon Linux 2 and RHEL 8 and its derivatives (GH 67066)\n- Fixed a regression in full-slice assignment (`df.loc[:, \"col\"] = value`) into a PyArrow-backed array where the result shared memory with `value`, so later modifying `value` also changed the assigned-to object, violating Copy-on-Write semantics (GH 67990)\n- Fixed a bug in setting with `.loc` or `.iloc` using a boolean mask to select the columns into a 1-column DataFrame with an extension dtype, which surfaced as a regression for a DataFrame with string data (GH 66527, GH 66255)\n- Fixed a regression in `read_csv()` where `sep=None` raised `TypeError: object of type 'NoneType' has no len()` instead of sniffing the separator with the `python` engine; passing `sep=None` together with `engine=\"c\"` or `engine=\"pyarrow\"`, which cannot sniff the separator, again raises an informative `ValueError` instead of raising `TypeError` or silently parsing each line as a single column (GH 66639)\n- Fixed a regression in `Series.interpolate()` with `method=\"linear\"` and a pyarrow-backed dtype leaving consecutive and trailing missing values unfilled, and truncating interpolated values for integer dtypes; the result now matches the equivalent masked (e.g. `Int64`) dtype (GH 65345)\n\n## Bug fixes#\n\n- Fixed a bug in `RangeIndex` where missing Copy-on-Write reference tracking allowed external modification via a `Series` to silently corrupt the index (GH 67060)\n- Fixed memory leak in `read_csv()` with `engine=\"c\"` when a string or `category` column failed to decode, for example invalid UTF-8 under `encoding=\"utf-8\"` and the default `encoding_errors=\"strict\"` (GH 67931)\n\n## Contributors#\n\nA total of 11 people contributed patches to this release. People with a \u201c+\u201d by their names contributed a patch for the first time. \n\n- Apoorv Darshan +\n- Benhur Stephen +\n- Fangchen Li\n- Joris Van den Bossche\n- Lumberbot (aka Jack)\n- Matthew Roeschke\n- Natalia Mokeeva\n- Parth Saini +\n- jbrockmendel\n- pandas Development Team\n- \u00c1lvaro Kothe\n\n On this page"
+   },
+   {
+    "id": "https://zenodo.org/records/22820507",
+    "title": "pandas-dev/pandas: Pandas | Zenodo",
+    "url": "https://zenodo.org/records/22820507",
+    "publishedDate": "2026-09-17T00:00:00.000Z",
+    "text": "pandas-dev/pandas: Pandas | Zenodo\n\nZenodo is currently experiencing slowness and intermittent outages due to heavy automated traffic from bots and AI crawlers. We are aware of the problem, and our team is focused on stabilizing the service. Thank you for your patience. More info here. \n\n Published September 17, 2026 | Version v3.0.6 Software Open \n\n### Authors/Creators\n\n- The pandas development team\n\n## Description\n\n Pandas is a powerful data structures for data analysis, time series, and statistics. \n\n## Notes \n\n## Files\n\n pandas-dev/pandas-v3.0.6.zip \n\n Files (5.5 MB) \n\n| Name | Size | Download all |\n| --- | --- | --- |\n| pandas-dev/pandas-v3.0.6.zip md5:39eaa25d80a5ec7e34aee24ce8cc9409 | 5.5 MB | Preview Download |\n\nIs supplement to\n: Software: https://github.com/pandas-dev/pandas/tree/v3.0.6 (URL) \n\n Repository URL \n: https://github.com/pandas-dev/pandas\n\n## Versions\n\nVersion v3.0.5 10.5281/zenodo.21500199 Jul 22, 2026\n\nVersion v3.0.4 10.5281/zenodo.21003741 Jun 28, 2026\n\nVersion v3.0.3 10.5281/zenodo.20127038 May 11, 2026\n\nVersion v3.0.2 10.5281/zenodo.19340003 Mar 30, 2026\n\nCite all versions? You can cite all versions by using the DOI 10.5281/zenodo.3509134. This DOI represents all versions, and will always resolve to the latest one. Read more.\n\nDOI \n: Copy to clipboard\n\nDOI Badge\n\n#### DOI \n\n```\n10.5281/zenodo.22820507\n```\n\n### Markdown \n\n```\n[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22820507.svg)](https://doi.org/10.5281/zenodo.22820507)\n```\n\n### reStructuredText \n\n```\n.. image:: https://zenodo.org/badge/DOI/10.5281/zenodo.22820507.svg\n  :target: https://doi.org/10.5281/zenodo.22820507\n```\n\n### HTML \n\n```\n<a href=\"https://doi.org/10.5281/zenodo.22820507\"><img src=\"https://zenodo.org/badge/DOI/10.5281/zenodo.22820507.svg\" alt=\"DOI\"></a>\n```\n\n### Image URL \n\n```\nhttps://zenodo.org/badge/DOI/10.5281/zenodo.22820507.svg\n```\n\n### Target URL \n\n```\nhttps://doi.org/10.5281/zenodo.22820507\n```\nResource type\n: Software\nPublisher\n: Zenodo\n\nLicense\n: BSD 3-Clause \"New\" or \"Revised\" License \n\n No further description. Read more"
+   },
+   {
+    "id": "https://zenodo.org/records/23065223",
+    "title": "pandas-dev/pandas: Pandas | Zenodo",
+    "url": "https://zenodo.org/records/23065223",
+    "publishedDate": "2026-09-30T00:00:00.000Z",
+    "author": "The pandas development team",
+    "text": "pandas-dev/pandas: Pandas | Zenodo\n\nPlanned intervention: On Tuesday, October 6th, 07:00 UTC, Zenodo will be unavailable for 5-10 minutes to perform a storage cluster upgrade.\n\n Published September 30, 2026 | Version v3.1.0rc0 Software Open \n\n### Authors/Creators\n\n- The pandas development team\n\n## Description\n\n Pandas is a powerful data structures for data analysis, time series, and statistics. \n\n## Notes \n\n## Files\n\n pandas-dev/pandas-v3.1.0rc0.zip \n\n Files (6.3 MB) \n\n| Name | Size | Download all |\n| --- | --- | --- |\n| pandas-dev/pandas-v3.1.0rc0.zip md5:72bb9dd23d7532d4cf2b1a18db833a8b | 6.3 MB | Preview Download |\n\nIs supplement to\n: Software: https://github.com/pandas-dev/pandas/tree/v3.1.0rc0 (URL) \n\n Repository URL \n: https://github.com/pandas-dev/pandas\n\n## Versions\n\nVersion v3.0.6 10.5281/zenodo.22820507 Sep 17, 2026\n\nVersion v3.0.5 10.5281/zenodo.21500199 Jul 22, 2026\n\nVersion v3.0.4 10.5281/zenodo.21003741 Jun 28, 2026\n\nVersion v3.0.3 10.5281/zenodo.20127038 May 11, 2026\n\nCite all versions? You can cite all versions by using the DOI 10.5281/zenodo.3509134. This DOI represents all versions, and will always resolve to the latest one. Read more.\n\nDOI \n: Copy to clipboard\n\nDOI Badge\n\n#### DOI \n\n```\n10.5281/zenodo.23065223\n```\n\n### Markdown \n\n```\n[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23065223.svg)](https://doi.org/10.5281/zenodo.23065223)\n```\n\n### reStructuredText \n\n```\n.. image:: https://zenodo.org/badge/DOI/10.5281/zenodo.23065223.svg\n  :target: https://doi.org/10.5281/zenodo.23065223\n```\n\n### HTML \n\n```\n<a href=\"https://doi.org/10.5281/zenodo.23065223\"><img src=\"https://zenodo.org/badge/DOI/10.5281/zenodo.23065223.svg\" alt=\"DOI\"></a>\n```\n\n### Image URL \n\n```\nhttps://zenodo.org/badge/DOI/10.5281/zenodo.23065223.svg\n```\n\n### Target URL \n\n```\nhttps://doi.org/10.5281/zenodo.23065223\n```\nResource type\n: Software\nPublisher\n: Zenodo\n\nLicense\n: BSD 3-Clause \"New\" or \"Revised\" License \n\n No further description. Read more"
+   },
+   {
+    "id": "https://sheeping.news/pandas-dev/pandas/v3.1.0-rc0",
+    "title": "v3.1.0-rc0 \u00b7 pandas-dev/pandas \u00b7 Sheeping News",
+    "url": "https://sheeping.news/pandas-dev/pandas/v3.1.0-rc0",
+    "publishedDate": "2026-09-30T00:00:00.000Z",
+    "text": "v3.1.0-rc0 \u00b7 pandas-dev/pandas \u00b7 Sheeping News\n\n Release 30 Sep 2026 \u00b7 9 days ago \n\n# v3.1.0-rc0 \n\n Development build for the 3.1 line. Follows v3.0.6 by 12 days. \n\n Released 30 Sep 2026 \u00b7 13:22 UTC\n\n Follows v3.0.6 \n\n Interval 12 days \n\n This release 9 days ago \n\n Development \u00b7 Minor \u00b7 30 Sep 2026 \n\n### v3.0.6 \n\n Shipped 17 Sep 2026 \n\n Latest \u00b7 Stable \u00b7 Patch \u00b7 on the 3.0 line \n\n### v3.0.5 \n\n Shipped 22 Jul 2026",
+    "image": "https://sheeping.news/images/sheeping-news-1200x627.png"
+   },
+   {
+    "id": "https://faun.dev/newsletter/links/pandas-310rc0/",
+    "title": "pandas 3.1.0rc0 | The fastest way for busy developers to keep up with technologies \ud83d\ude80 | www.faun.dev",
+    "url": "https://faun.dev/newsletter/links/pandas-310rc0/",
+    "publishedDate": "2026-10-06T00:00:00.000Z",
+    "author": "FAUN.dev",
+    "text": "pandas 3.1.0rc0 | The fastest way for busy developers to keep up with technologies \ud83d\ude80 | www.faun.dev\n\n# pandas 3.1.0rc0 \n\n @pydog \u30fb 06 Oct 2026 \u30fb github.com \n\n TL;DR: \n\nThe first release candidate of pandas 3.1.0 is on PyPI and conda-forge, installed with `pip install --pre pandas==3.1.0rc0`. `read_csv()` is 2 to 3 times faster single-threaded than in 3.0, and local uncompressed files of 5 MB or more are now read in parallel by default on up to 6 threads. A new `DataFrame.select` builds columns from `pd.col()` expressions, and `filter` accepts a boolean mask through the new `cond` keyword. One breaking change: `to_datetime`, `to_timedelta`, `Timestamp` and `Timedelta` with numeric input now return microsecond resolution instead of the resolution of the `unit` argument. Set `mode.max_threads` to 1 for serial reads."
+   },
+   {
+    "id": "https://www.sherlockforensics.com/security/pypi/pandas.html",
+    "title": "Pandas Security Audit - Known Vulnerabilities and Fixes",
+    "url": "https://www.sherlockforensics.com/security/pypi/pandas.html",
+    "text": "Pandas Security Audit - Known Vulnerabilities and Fixes | Sherlock Forensics\n\n# Pandas Security Audit\n\n 2026-09-19 1 known vulnerabilities \n\nPandas is a widely used PyPI package. As of 2026-09-19, there are 1 known vulnerabilities in the OSV database. The latest stable version is 3.0.6. Developers should audit their dependency trees and update to patched versions.\n\n## Package Overview\n\nPackage\n: pandas\nEcosystem\n: PyPI\nLatest Version\n: 3.0.6\nLicense\n: See package\nDescription\n: Powerful data structures for data analysis, time series, and statistics\nRepository\n: https://github.com/pandas-dev/pandas\n\n## Known Vulnerabilities (1)\n\n| ID | Severity | Score | Affected Versions | Fixed In | Description |\n| --- | --- | --- | --- | --- | --- |\n| CVE-2020-13091 | UNKNOWN | - | 0 to 1.0.4 | 1.0.4 | ** DISPUTED ** pandas through 1.0.3 can unserialize and execute commands from an untrusted file that is passed to the read_pickle() function, if __reduce__ makes an os.system call. NOTE: third parties |\n\n## Security Recommendations\n\n1. Pin Pandas to the latest stable version (3.0.6) in your dependency manifest\n2. Enable automated dependency updates with Dependabot or Renovate\n3. Run regular vulnerability scans using `pip-audit`\n4. Review your lock file (requirements.txt) after every update\n5. Monitor the OSV database and NIST NVD for new advisories\n\n## FAQ\n\nIs Pandas safe to use?\n\nPandas is actively maintained and widely used. As of 2026-09-19, there are 1 known vulnerabilities listed in the OSV database. Most have patches available. Keeping your dependencies updated and running regular security audits significantly reduces risk.\n\nWhat vulnerabilities does Pandas have?\n\nThe OSV database currently lists 1 vulnerabilities for Pandas. These range in severity and are detailed in the vulnerability table above. Check the linked advisories for full technical details and remediation guidance.\n\nHow do I update Pandas to fix vulnerabilities?\n\nRun pip install --upgrade pandas to get the newest version. Use pip-audit or safety check to scan for known vulnerabilities. Pin your dependencies with a requirements file and review updates regularly.\n\n### Using AI-Generated Code with Pandas?\n\nOur vibe coding security audit checks for misconfigurations, exposed secrets and vulnerable dependencies in AI-generated codebases. If your project uses Pandas, we can verify it is locked to a safe version and properly configured.",
+    "image": "https://www.sherlockforensics.com/assets/images/og-image.png"
+   },
+   {
+    "id": "https://kimbodo.com/upgrade-to-pandas-3-0-6-now-what-engineering-teams-need-to-know-for-python-3-15-and-production-stability/",
+    "title": "Upgrade to pandas 3.0.6 Now \u2014 What Engineering Teams Need to Know for Python 3.15 and Production Stability | Kimbodo AI Research",
+    "url": "https://kimbodo.com/upgrade-to-pandas-3-0-6-now-what-engineering-teams-need-to-know-for-python-3-15-and-production-stability/",
+    "publishedDate": "2026-09-17T00:00:00.000Z",
+    "author": "Chad Collins",
+    "text": "Upgrade to pandas 3.0.6 Now \u2014 What Engineering Teams Need to Know for Python 3.15 and Production Stability | Kimbodo AI Research\n\ninfo@kimbodo.com (sales@kimbodo.com)\n\n# Upgrade to pandas 3.0.6 Now \u2014 What Engineering Teams Need to Know for Python 3.15 and Production Stability\n\nBy Chad Collins September 17, 2026 0 Comments\n\n## What Happened\n\npandas 3.0.6 is a patch release in the 3.0.x series containing regression and bug fixes; the project recommends that all users of the 3.0.x line upgrade. This release is the first pandas build that supports Python 3.15. Installation instructions and distribution channels are the standard PyPI and conda-forge routes: python -m pip install \u2013upgrade pandas==3.0.* or conda install -c conda-forge pandas=3.0. Reported issues continue to be handled via the pandas issue tracker; see the full whatsnew for granular details and contributor acknowledgements [1].\n\n## Why It Matters to Businesses\n\npandas remains a core dependency across analytics, ETL and many ML feature pipelines. A patch release that explicitly adds Python 3.15 support and backports regression fixes affects business teams in three concrete ways:\n\n- Python version strategy: Organizations planning or already running Python 3.15 can now use an officially supported pandas binary, reducing the need for local builds and workarounds.\n- Operational stability: patch releases typically fix regressions encountered in production; applying them reduces incident risk from known bugs in the 3.0.x series.\n- Dependency management: upgrades change the dependency matrix for systems that combine pandas with NumPy, scikit-learn, Polars interop, or DL frameworks (PyTorch, TensorFlow, JAX). Uncoordinated upgrades can surface incompatibilities unless tested.\n\n## Kimbodo Engineering Perspective\n\nWhen we manage production AI/analytics stacks for clients we treat a patch release with Python compatibility changes as an operational event, not merely a routine pip upgrade. Our practical judgment and trade-offs are:\n\n- Upgrade promptly but with controls: Because 3.0.6 contains bug fixes and adds Python 3.15 support, we recommend upgrading 3.0.x deployments after running a focused test battery. Delaying leaves known regressions in place; rushing without tests risks platform-level breakage.\n- Test the full stack, not just pandas: pandas is often an input to feature pipelines consumed by scikit-learn or PyTorch data loaders. Verify integration points: dtype semantics, missing-value behavior, and Arrow interchange if you use Polars or Apache Arrow-based I/O.\n- Favor pinned, reproducible environments: In production we use lockfiles (pip-tools/poetry, conda-lock) and container images to avoid drifting transitive dependency behavior across workers and platforms.\n- Consider workload-specific trade-offs: For large-scale, memory- or CPU-bound ETL, evaluate migrating hot paths to Polars or Arrow-native code. pandas remains the most feature-complete but can be heavier in memory and single-threaded contexts.\n\n### 1) Audit and plan\n\n- Inventory services that import pandas and record current pandas + Python versions.\n- Identify critical pipelines (SLAs, daily volume) and downstream consumers (models, dashboards).\n\n### 2) Create reproducible test environments\n\n- Build CI matrix that covers your supported Python versions (3.11\u20133.15 if you plan to adopt 3.15).\n- Use pinned environment files (conda-lock, pip-compile) and container base images. For pip installs reference the formal command for the 3.0.x series when testing (python -m pip install \u2013upgrade pandas==3.0.*) and prefer conda-forge for scientific stacks when binary compatibility matters [1].\n\n### 3) Focused integration tests\n\n- Run unit + integration tests exercising: groupby/merge semantics, categorical dtype behavior, timezone-aware datetime conversions, and read/write to CSV/Parquet/Arrow.\n- Include performance regressions \u2014 measure memory use and latency on representative datasets.\n\n### 4) Canary and staged rollout\n\n- Dep"
+   },
+   {
+    "id": "https://github.com/pandas-dev/pandas/issues?milestone=18&q=is%3Aclosed+sort%3Acreated-desc",
+    "title": "Issues \u00b7 pandas-dev/pandas \u00b7 GitHub",
+    "url": "https://github.com/pandas-dev/pandas/issues?milestone=18&q=is%3Aclosed+sort%3Acreated-desc",
+    "publishedDate": "2026-10-04T00:00:00.000Z",
+    "text": "Issues \u00b7 pandas-dev/pandas \u00b7 GitHub\n\n# Issues\n\n# Issues\n\n## 65001 results\n\nAuthor\n\nLabels\n\nProjects\n\nMilestones\n\nAssignees\n\nTypes\n\nNewest\n\n### ENH: raise informative error when Categorical.map produces unhashable values\n\nhttps://github.com/pandas-dev/pandas/pull/70355 Needs Issue Assignment\n\npandas-dev/pandas#70355\n\nby boriskozak was closed Oct 4, 2026\n\n2\n\n### Backport PR #70298 on branch 3.1.x (BUG: Timestamp - 0-dim timedelta64 ndarray raised TypeError (GH#66552))\n\npandas-dev/pandas#70342\n\nby meeseeksmachine was merged Oct 4, 2026\n\n### Backport PR #70230 on branch 3.1.x (BUG: plotting regressions for arrow decimal and binary columns (GH#64535))\n\npandas-dev/pandas#70318\n\nby meeseeksmachine was merged Oct 4, 2026\n\n### Backport PR #70297 on branch 3.1.x (BUG: Timestamp/Timedelta +/- ndarray dropped a unit multiplier (GH#25611))\n\npandas-dev/pandas#70317\n\nby meeseeksmachine was merged Oct 4, 2026\n\n### BUG: Timestamp - 0-dim timedelta64 ndarray raised TypeError (GH#66552)\n\npandas-dev/pandas#70298\n\nby jbrockmendel was merged Oct 4, 2026\n\n### BUG: Timestamp/Timedelta +/- ndarray dropped a unit multiplier (GH#25611)\n\npandas-dev/pandas#70297\n\nby jbrockmendel was merged Oct 4, 2026\n\n### DOC: note that resample excludes the on column\n\npandas-dev/pandas#70296\n\nby jbrockmendel was merged Oct 4, 2026\n\n### Backport PR #70233 on branch 3.1.x (BUG: setitem-with-expansion, map and groupby.agg raised for a value the dtype cannot hold)\n\npandas-dev/pandas#70283\n\nby meeseeksmachine was merged Oct 4, 2026\n\n### Backport PR #68521 on branch 3.1.x (BUG: iloc/loc setitem broadcast a 1-D value down rows on an all-datetimelike frame)\n\npandas-dev/pandas#70277\n\nby meeseeksmachine was merged Oct 4, 2026\n\n### Backport PR #70227 on branch 3.1.x (REGR: DataFrame.agg with an ndarray or Index of func names raises (GH#69496))\n\npandas-dev/pandas#70258\n\nby meeseeksmachine was merged Oct 4, 2026\n\n### Backport PR #70225 on branch 3.1.x (BUG: SparseArray.astype unboxed a Timestamp/Timedelta fill value on an object subtype)\n\npandas-dev/pandas#70255\n\nby jbrockmendel was merged Oct 3, 2026\n\n### Backport PR #70223: BUG: float16 mean wrong for more than 2048 values\n\npandas-dev/pandas#70254\n\nby jbrockmendel was merged Oct 3, 2026\n\n### Gul\n\npandas-dev/pandas#70253\n\nby GulAkkoca was closed Oct 3, 2026\n\n1\n\n### Backport PR #70226 on branch 3.1.x (BUG: offset rollback/rollforward and arithmetic with NaT (GH#67028 follow-up))\n\npandas-dev/pandas#70251\n\nby jbrockmendel was merged Oct 3, 2026\n\n### Backport PR #70128 on branch 3.1.x (DOC: fix whatsnew errata in v3.0.0, v3.0.1 and v3.1.0)\n\npandas-dev/pandas#70250\n\nby meeseeksmachine was merged Oct 3, 2026\n\n### Backport PR #69631 on branch 3.1.x (DOC: give infer_freq deprecation its own whatsnew section (GH#68437))\n\npandas-dev/pandas#70249\n\nby meeseeksmachine was merged Oct 3, 2026\n\n### BUG: setitem-with-expansion, map and groupby.agg raised for a value the dtype cannot hold\n\npandas-dev/pandas#70233\n\nby jbrockmendel was merged Oct 4, 2026\n\n1\n\n### BUG: setting into a 1-column EA frame with a column key selecting nothing\n\npandas-dev/pandas#70232\n\nby jbrockmendel was merged Oct 4, 2026\n\n1\n\n### COMPAT: read_sql_table rounding float columns with SQLAlchemy 2.1\n\npandas-dev/pandas#70231\n\nby jbrockmendel was merged Oct 4, 2026\n\n### BUG: plotting regressions for arrow decimal and binary columns (GH#64535)\n\npandas-dev/pandas#70230\n\nby jbrockmendel was merged Oct 4, 2026\n\n1\n\n### BUG: read_sql with psycopg2 DictCursor and duplicate column names (GH#53028)\n\nhttps://github.com/pandas-dev/pandas/pull/70229 BugIO SQLRegressionStill Needs Manual Backport\n\npandas-dev/pandas#70229\n\nby jbrockmendel was merged Oct 4, 2026\n\n1\n\n### REGR: DataFrame.agg with an ndarray or Index of func names raises (GH#69496)\n\npandas-dev/pandas#70227\n\nby jbrockmendel was merged Oct 3, 2026\n\n1\n\n### BUG: offset rollback/rollforward and arithmetic with NaT (GH#67028 follow-up)\n\npandas-dev/pandas#70226\n\nby jbrockmendel was merged Oct 3, 2026\n\n5\n\n### BUG: SparseArray.astype unboxed",
+    "image": "https://opengraph.githubassets.com/536385d097ddf0b993df720877d58866bdaf6ab15c846ed24dbd6b7a8afd263e/pandas-dev/pandas"
+   }
+  ],
+  "searchTime": 1614.6,
+  "costDollars": {
+   "total": 0.007,
+   "search": {
+    "neural": 0.007
+   }
+  }
+ },
+ "fetched_at": "2026-10-14T17:25:58+0530"
+}

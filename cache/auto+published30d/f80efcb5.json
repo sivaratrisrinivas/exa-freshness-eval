@@ -1,0 +1,693 @@
+{
+ "status": 200,
+ "latency_s": 1.832,
+ "request": {
+  "type": "auto",
+  "startPublishedDate": "2026-09-14T00:00:00.000Z",
+  "contents": {
+   "text": {
+    "maxCharacters": 4000
+   }
+  },
+  "query": "Globality CEO",
+  "numResults": 10
+ },
+ "response": {
+  "requestId": "0e06103a8dc4942a1f0711399cd3521c",
+  "resolvedSearchType": "",
+  "results": [
+   {
+    "id": "https://procurementmag.com/news/jared-hyatt-named-new-globality-ceo-as-joel-hyatt-steps-down",
+    "title": "Jared Hyatt Named New Globality CEO as Joel Hyatt Steps Down | Procurement Magazine",
+    "url": "https://procurementmag.com/news/jared-hyatt-named-new-globality-ceo-as-joel-hyatt-steps-down",
+    "publishedDate": "2026-10-14T10:14:47.000Z",
+    "author": "Georgia Collins",
+    "text": "# Jared Hyatt Named New Globality CEO as Joel Hyatt Steps Down | Procurement Magazine\n\nAuthor: Georgia Collins\nPublished: 2026-10-14T10:14:47Z\nSource: procurementmag.com\nLanguage: en"
+   },
+   {
+    "id": "https://procurementmag.com/interviews/true-autonomous-sourcing-is-here-are-you-ready",
+    "title": "The Procurement Interview: Joel Hyatt",
+    "url": "https://procurementmag.com/interviews/true-autonomous-sourcing-is-here-are-you-ready",
+    "author": "Louise Collins",
+    "text": "The Procurement Interview: Joel Hyatt | Procurement Magazine\n\n# The Procurement Interview: Joel Hyatt\n\nAmid increasing market complexity, Globality CEO Joel Hyatt explores how AI agents can help procurement teams manage spend more efficiently.\n\nWRITTEN BY Louise Collins\n\nPRODUCED BY James White\n\n# The Procurement Interview: Joel Hyatt\n\nAmid increasing market complexity, Globality CEO Joel Hyatt explores how AI agents can help procurement teams manage spend more efficiently.\n\nWRITTEN BY Louise Collins\n\nPRODUCED BY James White\n\nSeptember 29, 2026\n\nAmid increasing market complexity, Globality CEO Joel Hyatt explores how AI agents can help procurement teams manage spend more efficiently.\n\nProcurement innovation is moving fast, and every vendor now claims its own version of autonomous sourcing.\n\nMost of those claims sound identical from the outside, and that noise is exactly what Globality is trying to cut through with its new Glo 2.0 platform, which it calls the first \u201cTruly Autonomous Sourcing Platform\u201d.\n\nHowever, the label alone doesn't tell you much. The more useful question is what the platform does differently, and whether that difference holds up under the kind of spend enterprises actually manage.\n\nAccording to Joel Hyatt, Globality's Co-founder, Chairman and CEO, the answer starts with scope. \"Glo 2.0 runs the complete intake-to-award process,\" he says.\n\n\"Our AI agents don't just automate a workflow; they reason through the data, decide the right approach for what's being sourced, and act on your behalf with suppliers. That flexibility is a real gamechanger, whether it's handling a routine purchase or the most complex sourcing event.\"\n\nThat's a broad claim for a single platform to make, and Hyatt is careful to qualify it. Not every sourcing event, he says, should be handled the same way.\n\n\"Every event is different,\" he explains. \"Teams have the flexibility to choose which events are run by Glo, our AI, in Autonomous Mode, and which events are run by your team in Collaborative Mode, with Glo acting as a copilot.\"\n\nIn other words, autonomy here is a setting, not a default; how much control a team hands over is still their call.\n\nAI sourcing gives teams more reach without losing control. Credit: Photo by Erin Ashford\n\n## Deciding whether to source with \u201cshould-cost\u201d benchmarks \n\nWhen deciding what counts as sourcing, Joel casts a wide net. He explains how Glo Intake acts as a conversational front door that understands what an employee is trying to buy and compares it against the company's procurement policies to determine the best course of action.\n\nIt also calculates a 'should-cost baseline,' derived from spend history and market data, so every request gets checked against the market before it goes any further. This market rate is used to decide if the company can get a better price through sourcing. \n\nFor example, if a supplier quote is uploaded to Intake by an employee. Glo compares it against the should-cost baseline.\n\nIf the price already holds up, the request moves straight through for approval. If it's priced above where it should be, Glo routes it into a competitive sourcing event instead, finds potential suppliers, and invites them to bid.\n\nJoel frames autonomy as a choice, not a default, for procurement teams. Credit: Photo by Erin Ashford\n\n## Autonomous supplier negotiation\n\nIt's one thing to flag an inflated price. It's another to actually negotiate a better one, at scale, without a team spending weeks on it. This is where Hyatt's argument gets more specific, and more testable.\n\nOnce suppliers respond with their bids, \"Glo runs negotiations with every qualified supplier at once, across every commercial term that matters like price, quality, delivery, service and risk,\" Joel says. \n\nThe pitch is capacity.\n\n\"Human sourcing teams naturally concentrate their time on the most important suppliers and negotiations because there are only so many hours in a day. An AI agent doesn't have that constraint.\"\n\nWhether that hold",
+    "image": "https://assets.bizclikmedia.net/1200/041ccc9cbeb24a2a74de92aff5f76ce1:fa038484b2b352011eda706a854eb792/hyatt-joel-globality-34a-new.jpg.jpg"
+   },
+   {
+    "id": "https://www.linkedin.com/posts/procurement-magazine-bc_procurement-ai-globality-activity-7511084957281263616-sYRe",
+    "title": "Autonomous AI Agents in Procurement Boost Efficiency and ...",
+    "url": "https://www.linkedin.com/posts/procurement-magazine-bc_procurement-ai-globality-activity-7511084957281263616-sYRe",
+    "text": "# What happens when AI moves beyond assisting procurement and starts making sourcing decisions? \u00b7 2026-09-30T00:00:00+00:00\n\nWhat happens when AI moves beyond assisting procurement and starts making sourcing decisions?\n\nGlobality CEO Joel Hyatt explains how Glo 2.0 uses autonomous AI agents to manage sourcing from intake to award, helping procurement teams address more spend without increasing capacity.\n\nWith Globality citing 60\u201390% efficiency gains and 10\u201320% average cost savings, the potential impact goes beyond process automation.\n\nRead the full report to explore what autonomous sourcing could mean for procurement: https://lnkd.in/erpCStM4\n\n#Procurement #AI #Globality\n\n## Engagement\n\n- Reactions: 8\n- Comments: 0"
+   },
+   {
+    "id": "https://procurementmag.com/videos/joel-hyatt-on-the-power-of-autonomous-sourcing-at-scale",
+    "title": "Joel Hyatt on the Power of Autonomous Sourcing at Scale",
+    "url": "https://procurementmag.com/videos/joel-hyatt-on-the-power-of-autonomous-sourcing-at-scale",
+    "author": "Louise Collins",
+    "text": "Joel Hyatt on the Power of Autonomous Sourcing at Scale | Procurement Magazine\n\n# Joel Hyatt on the Power of Autonomous Sourcing at Scale\n\nBy Louise Collins\n\nSeptember 28, 2026\n\nAI claims are everywhere in procurement, but most of it never moves past the marketing page into work at real enterprise scale. \n\nIn this clip, Joel Hyatt, Co-founder, Chairman and CEO of Globality, explains the impact of running autonomous sourcing across a company's entire spend. \n\nHe starts with the constraint that has kept procurement stuck for years: no team, no matter how large, can get its arms around the full scope of company spend, so most of it goes unmanaged. \n\nThat is the gap Globality closes. In Collaborative Mode, AI works with the sourcing team; in Autonomous Mode, it works for them, running the process on its own. \n\nJoel emphasises the result of transforming procurement by deploying innovative autonomous sourcing: \"By bringing efficiency, savings, and judgement to every dollar a company spends, Procurement vastly increases its impact on the company's results. And with that increase in impact comes far more influence and a seat at the C-Suite table.\"",
+    "image": "https://assets.bizclikmedia.net/1200/2fb4dfb0a8fce267e82c41755b82b000:e75582fedd422683a1065c5c36ce3269/maxresdefault.jpg.jpg"
+   },
+   {
+    "id": "https://exa.ai/library/person/30k701zscxm",
+    "title": "Lior Delgo",
+    "url": "https://linkedin.com/in/liordelgo",
+    "publishedDate": "2026-10-06T00:00:00.000Z",
+    "text": "# Lior Delgo\n\nPalo Alto, California, United States (US)\n\n500 connections \u2022 1,659 followers\n\n## About\n\nTotal Experience: 11 years and 7 months\n\n## Experience\n\n### Co-founder & President - [Globality](https://www.linkedin.com/company/globality-inc-) (Current)\n\nMar 2015 - Present (11 years and 7 months)\n\nDepartment: General Management \u2022 Level: President/Vice President\n\nGlobality, Inc. is a Software Development company. Globality is a company that provides autonomous sourcing solutions using sophisticated AI. They help businesses create precisely scoped requirements, identify qualified suppliers, provide negotiation insights, and enable data-driven decisions. Globality, Inc. has 60-70 employees (6-7% YoY decline) and has annual revenue in the $80M-$90M range, founded in 2015. Headquartered in Palo Alto, California, United States, with presence in United Kingdom. Its workforce is distributed across United States, United Kingdom, Romania, and Hong Kong. Has $357.6M in total funding, with 5 prior funding rounds.\n\n## Skills\n\nboard \u2022 board governance \u2022 co-founder \u2022 investor\n\n## Recommendations\n\n[Anat Amibar](https://www.linkedin.com/in/anata)\n\n\u201cLior is a passionate, intelligent and visionary entrepreneur, who thinks big and aims high, and has a great success record as a result. I have worked for his company for several years and have learned a lot from the experience.\u201d\n\n## Social\n\n### Linkedin\n\n- [2026-09-23 \u00b7 Lior Delgo shared this] [Welcome to the team! BIG things start with the right people. Join...](https://www.linkedin.com/posts/liordelgo_welcome-to-the-team-activity-7508592487670697985-OFDu): Welcome to the team! BIG things start with the right people. Join us in welcoming our newest additions to Team Glo! Welcome Jessica Kremer , Chris Hansen , Shine L. , Mir Rahim Ali Khan , Dave Mill...\n\n- [2026-08-27 \u00b7 Lior Delgo shared this] [Proud to have Vinod Devan representing Globality, Inc. We\u2019re...](https://www.linkedin.com/posts/liordelgo_proud-to-have-vinod-devan-representing-globality-activity-7498867571996311552-TqzV): Proud to have Vinod Devan representing Globality, Inc. We\u2019re excited to announce that Vinod Devan , President, Go-to-Market at Globality, Inc. , will be hosting a keynote at Procurement LIVE: The L...\n\n- [2026-08-21 \u00b7 Lior Delgo reposted this] [We\u2019re building something special at Globality and bringing in...](https://www.linkedin.com/posts/vdevan_were-building-something-special-at-globality-activity-7496377853127856129-nu3o): We\u2019re building something special at Globality and bringing in exceptional people to help shape what comes next. Come build with us. Jared Hyatt , Sonia Mathai , Keith McFarlane , Doug Kurfess, Lior...\n\n- [2026-06-15 \u00b7 Lior Delgo shared this] [100% Ashish G. . Well said. As Ashish put it: \u201cAI does not need...](https://www.linkedin.com/posts/liordelgo_100-ashish-g-well-said-as-ashish-put-activity-7472331090461040640-CIaf): 100% Ashish G. . Well said. As Ashish put it: \u201cAI does not need clean data to begin. It needs to begin to make data clean.\u201d The path to better data is increasingly through AI, not before AI. Organi...\n\n- [2026-06-10 \u00b7 Lior Delgo reposted this] [Driving real progress means moving forward before everything is...](https://www.linkedin.com/posts/rhondagriscti_inside-bristol-myers-ai-powered-procurement-activity-7470580686522073089-xLOe): Driving real progress means moving forward before everything is perfect. Excited to see momentum building as AI connects workflows and unlocks smarter, faster decisions at scale. #ProudToBeBMS ...m...\n\n- [2026-05-14 \u00b7 Lior Delgo reposted this] [In this episode, Telliant Systems' CEO Seth Narayanan and Globality...](https://www.linkedin.com/posts/telliant-systems_keith-mcfarlane-seth-activity-7460705604832247808-pVAQ): In this episode, Telliant Systems' CEO Seth Narayanan and Globality CTO Keith McFarlane tackle the hard truths of enterprise innovation. They explore why rigid processes often stifle the very creat...\n\n- [2026-04-23 \u00b7 Lior Delgo repos",
+    "image": "https://media.licdn.com/dms/image/v2/D5603AQGQ3ETOqdG_Tw/profile-displayphoto-shrink_200_200/B56ZbPqVV.GgAY-/0/1747240703690?e=2147483647&v=beta&t=C33WAdLjjdG3YBgVoAiPGiNCX4iwsFLbFtWQOsrgC4s",
+    "entities": [
+     {
+      "id": "https://exa.ai/library/person/30k701zscxm",
+      "type": "person",
+      "version": 1,
+      "properties": {
+       "name": "Lior Delgo",
+       "firstName": "Lior",
+       "lastName": "Delgo",
+       "location": "Palo Alto, California, United States",
+       "workHistory": [
+        {
+         "title": "Co-founder & President",
+         "location": null,
+         "dates": {
+          "from": "2015-03-01",
+          "to": null
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/2l0yg17z0hb",
+          "name": "Globality"
+         }
+        }
+       ],
+       "educationHistory": [],
+       "research": null
+      }
+     }
+    ]
+   },
+   {
+    "id": "https://exa.ai/library/person/xx8p0s9vbmx",
+    "title": "Keith McFarlane",
+    "url": "https://linkedin.com/in/keithmcfarlane",
+    "publishedDate": "2026-09-21T00:00:00.000Z",
+    "text": "# Keith McFarlane\n\nChief Technology Officer at Globality, Inc.\n\nPunta Gorda, Florida, United States (US)\n\n500 connections \u2022 4,728 followers\n\n## About\n\nTechnology Leader -- Organization Builder -- Passionate Brand Advocate As a technology leader with engineering expertise across multiple disciplines, I bring great credibility to my leadership roles. I have demonstrated the ability to recruit and retain A-players, and have built and fine-tuned processes to ensure all resources are producing at the highest level possible. I am also an excellent cross-functional communicator, bridging gaps between business functions for greater overall effectiveness. Beyond internal communications, I am an extremely effective public speaker, and will often represent my brand at conferences, in print media, and via social media.\n\nTotal Experience: 36 years and 9 months\n\n## Experience\n\n### Chief Technology Officer - [Globality](https://www.linkedin.com/company/globality-inc-) (Current)\n\nFeb 2020 - Present (6 years and 8 months) in Palo Alto, California, United States\n\nDepartment: Engineering and Technical \u2022 Level: C-Level\n\nGlobality, Inc. is a Software Development company. Globality is a company that provides autonomous sourcing solutions using sophisticated AI. They help businesses create precisely scoped requirements, identify qualified suppliers, provide negotiation insights, and enable data-driven decisions. Globality, Inc. has 60-70 employees (6-7% YoY decline) and has annual revenue in the $80M-$90M range, founded in 2015. Headquartered in Palo Alto, California, United States, with presence in United Kingdom. Its workforce is distributed across United States, United Kingdom, Romania, and Hong Kong. Has $357.6M in total funding, with 5 prior funding rounds.\n\n### Advisor - [Playboox](https://www.linkedin.com/company/playboox) (Current)\n\nOct 2010 - Present (14 years and 5 months)\n\nDepartment: Consulting \u2022 Level: Specialist\n\nPlayboox is a Business Consulting and Services company. Playboox is an AI-powered fractional sales enablement company helping growth-stage enterprise SaaS teams win big deals more often delivered in 30 days for a flat quarterly fee. Playboox has 1-10 employees (-10% YoY). Headquartered in San Francisco, United States. Has $3.5M in total funding, with 2 prior funding rounds.\n\n### Director Board Of Directors - [Vibrant Emotional Health](https://www.linkedin.com/company/vibrantforall)\n\nJun 2020 - Jun 2023 (3 years) in New York, United States\n\nDepartment: General Management \u2022 Level: Director\n\nVibrant Emotional Health is a nonprofit organization. Vibrant Emotional Health provides high-quality mental and emotional support and care services, including call, text, chat, and online services, community programs, disaster services, advocacy, policy & education, and business solutions. They have been building a society in which emotional wellness can be a reality for everyone for over 55 years. Vibrant Emotional Health has 400-500 employees and has annual revenue in the $300M-$400M range, founded in 1969. Headquartered in New York, New York, United States. Its workforce is distributed across United States and Georgia. Research output of 100-150 works, primarily in Medicine, Psychology, and Social Sciences.\n\n### Senior Vice President, Service Cloud Development - [Oracle](https://www.linkedin.com/company/oracle)\n\nAug 2015 - Feb 2020 (4 years and 6 months) in Redwood Shores, California, United States\n\nLevel: Executive\n\nOracle (ORCL) is a IT Services and IT Consulting company. Oracle offers a comprehensive and fully integrated stack of cloud applications and cloud platform services. Oracle has 100,000-200,000 employees (less than 1% YoY growth) and has annual revenue in the $60B-$70B range, founded in 1977. Headquartered in Austin, Texas, United States, operates in 43 countries (including Australia, Mexico, Netherlands, Sweden, and Egypt). Its workforce is distributed across 146 countries (including United States, India, Mexico, Romania, and ",
+    "image": "https://media.licdn.com/dms/image/v2/D4E03AQEaGVIRRItZzg/profile-displayphoto-scale_200_200/B4EaCDCTKXHAAc-/0/1788904814856?e=2147483647&v=beta&t=OhSIGy8MoI1tOSdtboQ8aJzW4gt3x9Ig3tB4Pft6QL8",
+    "entities": [
+     {
+      "id": "https://exa.ai/library/person/xx8p0s9vbmx",
+      "type": "person",
+      "version": 1,
+      "properties": {
+       "name": "Keith McFarlane",
+       "firstName": "Keith",
+       "lastName": "McFarlane",
+       "location": "Punta Gorda, Florida, United States",
+       "workHistory": [
+        {
+         "title": "Chief Technology Officer",
+         "location": "Palo Alto, California, United States",
+         "dates": {
+          "from": "2020-02-01",
+          "to": null
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/2l0yg17z0hb",
+          "name": "Globality"
+         }
+        },
+        {
+         "title": "Advisor",
+         "location": null,
+         "dates": {
+          "from": "2010-10-01",
+          "to": null
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/pjzfdnw9dtc",
+          "name": "Playboox"
+         }
+        },
+        {
+         "title": "Director Board Of Directors",
+         "location": "New York, United States",
+         "dates": {
+          "from": "2020-06-01",
+          "to": "2023-06-01"
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/yx9dqj4tkql",
+          "name": "Vibrant Emotional Health"
+         }
+        },
+        {
+         "title": "Senior Vice President, Service Cloud Development",
+         "location": "Redwood Shores, California, United States",
+         "dates": {
+          "from": "2015-08-01",
+          "to": "2020-02-01"
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/9kzyvyzqbcb",
+          "name": "Oracle"
+         }
+        },
+        {
+         "title": "Development Manager, CRM Architecture",
+         "location": null,
+         "dates": {
+          "from": "2005-04-01",
+          "to": "2006-03-01"
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/9kzyvyzqbcb",
+          "name": "Oracle"
+         }
+        },
+        {
+         "title": "Engineering Manager",
+         "location": null,
+         "dates": {
+          "from": "2004-05-01",
+          "to": "2005-04-01"
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/9kzyvyzqbcb",
+          "name": "Oracle"
+         }
+        },
+        {
+         "title": "CTO and SVP of Engineering",
+         "location": "Santa Clara, California, United States",
+         "dates": {
+          "from": "2012-07-01",
+          "to": "2015-07-01"
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/vmq3cbh540s",
+          "name": "Serenova"
+         }
+        },
+        {
+         "title": "Chief Architect",
+         "location": null,
+         "dates": {
+          "from": "2008-04-01",
+          "to": "2012-07-01"
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/vmq3cbh540s",
+          "name": "Serenova"
+         }
+        },
+        {
+         "title": "Lead Communication Enabled Application Architect",
+         "location": null,
+         "dates": {
+          "from": "2006-04-01",
+          "to": "2008-04-01"
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/xgy3nm4pk1h",
+          "name": "Avaya"
+         }
+        },
+        {
+         "title": "Manager",
+         "location": null,
+         "dates": {
+          "from": "1998-01-01",
+          "to": "2004-01-01"
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/xgy3nm4pk1h",
+          "name": "Avaya"
+         }
+        },
+        {
+         "title": "Software Engineer",
+         "location": null,
+         "dates": {
+          "from": "1996-04-01",
+          "to": "1999-11-01"
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/xgy3nm4pk1h",
+          "name": "Avaya"
+         }
+        },
+        {
+         "title": "Advisor",
+         "location": "San Francisco, California, United States",
+         "dates": {
+          "from": "2004-01-01",
+          "to": "2007-01-01"
+         },
+         "company": {
+          "id": null,
+          "name": "Salesedge"
+         }
+        },
+        {
+         "title": "Consulting Engineer",
+         "location": null,
+         "dates": {
+          "from": "1997-01-01",
+          "to": "1998-01-01"
+         },
+         "company": {
+          "id": null,
+          "name": "Lifespring"
+         }
+        },
+        {
+         "title": "Software Engineer",
+         "location": null,
+         "dates": {
+          "from": "1992-01-01",
+          "to": "1997-01-01"
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/9x9ddydt8hh",
+          "name": "AT&T"
+         }
+        },
+        {
+         "title": "Computer Technician",
+         "location": null,
+         "dates": {
+          "from": "1990-01-01",
+          "to": "1992-01-01"
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/xnrjw350xns",
+          "name": "University of Colorado Denver"
+         }
+        },
+        {
+         "title": "Testing Intern",
+         "location": null,
+         "dates": {
+          "from": "1990-01-01",
+          "to": "1991-01-01"
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/gxl16rnpqtq",
+          "name": "Microsoft"
+         }
+        }
+       ],
+       "educationHistory": [
+        {
+         "degree": "Bachelor of Science (B.Sc.) Computer Science",
+         "dates": {
+          "from": "1990",
+          "to": "1993"
+         },
+         "institution": {
+          "id": "https://exa.ai/library/organization/xnrjw350xns",
+          "name": "University of Colorado Denver"
+         }
+        }
+       ],
+       "research": null
+      }
+     }
+    ]
+   },
+   {
+    "id": "https://www.globenewswire.com/news-release/2026/10/12/3378981/0/en/globali-launches-technology-platform-to-restructure-enterprise-global-immigration.html",
+    "title": "Globali Launches Technology Platform to Restructure",
+    "url": "https://www.globenewswire.com/news-release/2026/10/12/3378981/0/en/globali-launches-technology-platform-to-restructure-enterprise-global-immigration.html",
+    "publishedDate": "2026-10-12T14:00:00.000Z",
+    "author": "Globali",
+    "text": "# Globali Launches Technology Platform to Restructure\n\nAuthor: Globali\nPublished: 2026-10-12T14:00:00Z\nSource: globenewswire.com\nLanguage: en\n\n## Story\n\nGlobali Launches Technology Platform to Restructure\n## The AI-native operating layer coordinates enterprise immigration execution while keeping legal judgment with qualified attorneys.\nOctober 12, 2026 10:00 ET | Source: Globali\n**Globali Launches to Redefine How Enterprises Manage Immigration: Technology Execution, Attorney Oversight, End-to-End Accountability**\nIrvine, CALIFORNIA, Oct. 12, 2026 (GLOBE NEWSWIRE) -- Enterprise immigration has a structural problem. Companies spend significant resources on immigration processes that are reactive, fragmented and opaque \u2013 disrupting workforce plans, delaying business priorities and creating uncertainty for the people who matter most. Software alone hasn't solved it. Adding technology to a broken process produces a faster broken process. **\n**\nGlobali Founder, Maryam Etminan is presenting a pitch on globally\n**Globali today announced the launch of its advanced technology platform for enterprise global mobility**, introducing a service-delivery model that rethinks how immigration gets executed at scale. Globali combines technology-enabled operational execution with qualified attorney oversight into a single coordinated managed service.\n\"Immigration is never simply a process,\" said Maryam Etminan, Founder and CEO of Globali. \"Behind every case is a person's career, a family's future and an enterprise's ability to reach the talent it needs to grow. Globali brings intelligence, execution and professional oversight into one coordinated foundation, so employers can plan with greater visibility and people can navigate important opportunities with more clarity.\"\n**What Makes Globali Different**\nMost immigration technology companies build software and sell it to immigration professionals. Globali runs the operation.\nThe platform coordinates end-to-end case execution while qualified attorneys retain full responsibility for legal judgment. Technology handles the operational weight \u2013 structured decision-making, case activity, stakeholder coordination, timeline management \u2013 while professional oversight ensures accountability at every step. The result: greater consistency, earlier visibility and a process that can scale with an enterprise's actual needs.\nFor companies managing global workforces, this translates to:\n- Reduced manual work across immigration programs\n- Improved visibility into case status and timelines\n- Fewer delays that disrupt hiring and workforce planning\n- Lower total cost of managing immigration at scale\nFor employees and their families, it means a clearer, less uncertain experience navigating a process that affects careers and lives.\n**A Market Built for a Different Era**\nThree structural forces have converged to create the conditions for a new model:\n**Demand has scaled past existing capacity. **The competition for skilled talent has intensified across every major economy. Employers routinely need expertise that isn't available domestically. Workers need pathways abroad that existing systems weren't designed to handle at current volume.\n**Government infrastructure has caught up.**Immigration agencies have modernized significantly over the past decade. The digital infrastructure now exists to enable a more coordinated, technology-supported operational model.\n**AI can now handle regulated operational work**. With appropriate oversight, AI and workflow automation can execute complex, regulated tasks at a level and consistency that changes what's possible in a managed service.\nGlobali was designed around this convergence from the start \u2013 not retrofitted to it after the fact.\n**The Team**\nMaryam Etminan, Founder and CEO, brings a doctorate in business administration and 20 years of entrepreneurial and business leadership, including six years at the intersection of immigration and technology and a prior exit in the category. She "
+   },
+   {
+    "id": "https://exa.ai/library/person/3fv0024ttjr",
+    "title": "Maryam Etminan, DBA",
+    "url": "https://linkedin.com/in/maryam-etminan",
+    "publishedDate": "2026-09-29T00:00:00.000Z",
+    "text": "# Maryam Etminan, DBA\n\nCEO & Founder at Globali | Business Strategist\n\nUnited States (US)\n\n500 connections \u2022 11,789 followers\n\n## About\n\nFounder & CEO of Globali.ai \u2014 building agentic AI infrastructure for global hiring and immigration. Global talent mobility is broken: slow, expensive, and highly manual. At Globali, I\u2019m building a multi-agent AI system that automates international hiring workflows, turning immigration into scalable infrastructure for companies hiring globally. Over the past decade, I\u2019ve built and scaled ventures across education, immigration, and technology, including founding and growing organizations from early-stage to multi-location operations serving thousands of users. My work is focused on transforming fragmented, service-based industries into productized, AI-driven systems. Globali sits at the intersection of AI, global workforce mobility, and enterprise infrastructure\u2014addressing a massive and growing market driven by talent shortages and cross-border hiring demand. I hold a Doctor of Business Administration, with additional training in entrepreneurship (Stanford GSB) and venture finance (Berkeley Law). My background in physics shapes a systems-level approach to solving complex, high-friction problems. Building infrastructure that enables talent to move globally\u2014faster, smarter, and at scale.\n\nTotal Experience: 20 years and 4 months\n\n## Experience\n\n### Founder & CEO - [Globali.ai](https://www.linkedin.com/company/globali1) (Current)\n\nJan 2024 - Present (2 years and 8 months) in Irvine, California, United States\n\nDepartment: General Management \u2022 Level: C-Level\n\nGlobali.ai is a Information Services company. Globali.ai has 1-10 employees (+20% YoY), founded in 2023. Headquartered in Newport Beach, California, United States. Its workforce is distributed across United States, United Arab Emirates, and United Kingdom.\n\n### Co-Founder and CEO - [Productized OS](https://www.linkedin.com/company/idea-to-startup)\n\nNov 2019 - Dec 2023 (4 years and 1 month) in California, United States\n\nStartup Visa, Startup Development, Canada Startup, Business, E-Commerce, Venture Funding, Technology Consulting, Business Consulting, Training & Education, Immigration , Startup Funding, and Angel Investors\n\nDepartment: General Management \u2022 Level: Founder\n\nProductized OS is an educational institution. Productized OS has 1-10 employees (-50% YoY), founded in 2022. Headquartered in Aliso Viejo, California, United States, with an office in Newport Beach.\n\n### Vice President - [NIPOC (Network of Iranian American Professionals of Orange County)](https://www.linkedin.com/company/nipoc)\n\nJan 2019 - Jan 2021 (2 years) in California, United States\n\nNIPOC\n\nDepartment: General Management \u2022 Level: President/Vice President\n\nNIPOC (Network of Iranian American Professionals of Orange County) is a nonprofit organization. NIPOC is a network of iranian American professionals of Orange County that creates business opportunities and networking. NIPOC (Network of Iranian American Professionals of Orange County) has 1-10 employees (-10% YoY) and has annual revenue in the $10M-$20M range, founded in 1987. Headquartered in Irvine, California, United States. Its workforce is distributed across United States and Iran.\n\n### Founder and CEO - Negaresh School\n\nMay 2009 - May 2018 (9 years) in Fars Province, Iran\n\nDepartment: General Management \u2022 Level: Founder\n\n### Phsics Lecturer - [Islamic Azad University](https://www.linkedin.com/school/islamic-azad-university)\n\nSep 2005 - Jun 2010 (4 years and 9 months) in Fars Province, Iran\n\nLevel: Mid\n\nIslamic Azad University is a higher education institution. Islamic Azad University has 3,000-4,000 employees (+9-10% YoY), founded in 1982. Headquartered in Tehran, Iran, with an office in Shahreza. Its workforce is distributed across 38 countries (including Iran, Canada, United Arab Emirates, United States, and Turkey). Research output of 30,000-40,000 works, primarily in Engineering, Medicine, and Agricultural and Biol",
+    "image": "https://media.licdn.com/dms/image/v2/D5603AQHPZPRQpRHF8Q/profile-displayphoto-scale_200_200/B56Z6FzZ9CIEAc-/0/1780361307438?e=2147483647&v=beta&t=wJkcGhoi-CWHUXAzKzzr34SoyRKLGpegZt5vf_PXMbI",
+    "entities": [
+     {
+      "id": "https://exa.ai/library/person/3fv0024ttjr",
+      "type": "person",
+      "version": 1,
+      "properties": {
+       "name": "Maryam Etminan, DBA",
+       "firstName": "Maryam",
+       "lastName": "Etminan",
+       "location": "United States",
+       "workHistory": [
+        {
+         "title": "Founder & CEO",
+         "location": "Irvine, California, United States",
+         "dates": {
+          "from": "2024-01-01",
+          "to": null
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/yjjrtc7jtd4",
+          "name": "Globali.ai"
+         }
+        },
+        {
+         "title": "Co-Founder and CEO",
+         "location": "California, United States",
+         "dates": {
+          "from": "2019-11-01",
+          "to": "2023-12-01"
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/vnydjrbdkk6",
+          "name": "Productized OS"
+         }
+        },
+        {
+         "title": "Vice President",
+         "location": "California, United States",
+         "dates": {
+          "from": "2019-01-01",
+          "to": "2021-01-01"
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/20kjg3vwtj0",
+          "name": "NIPOC (Network of Iranian American Professionals of Orange County)"
+         }
+        },
+        {
+         "title": "Founder and CEO",
+         "location": "Fars Province, Iran",
+         "dates": {
+          "from": "2009-05-01",
+          "to": "2018-05-01"
+         },
+         "company": {
+          "id": null,
+          "name": "Negaresh School"
+         }
+        },
+        {
+         "title": "Phsics Lecturer",
+         "location": "Fars Province, Iran",
+         "dates": {
+          "from": "2005-09-01",
+          "to": "2010-06-01"
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/1hs56q5jm56",
+          "name": "Islamic Azad University"
+         }
+        }
+       ],
+       "educationHistory": [
+        {
+         "degree": "Entrepreneurship/Entrepreneurial Studies",
+         "dates": {
+          "from": "2021",
+          "to": "2022"
+         },
+         "institution": {
+          "id": "https://exa.ai/library/organization/6c4t1fsnw3g",
+          "name": "Stanford University Graduate School of Business"
+         }
+        },
+        {
+         "degree": "Venture Capital",
+         "dates": null,
+         "institution": {
+          "id": "https://exa.ai/library/organization/7p454p9nd8q",
+          "name": "University of California, Berkeley - School of Law"
+         }
+        },
+        {
+         "degree": "Doctor of Business Admistrative, International Business",
+         "dates": {
+          "from": "2023",
+          "to": "2026"
+         },
+         "institution": {
+          "id": "https://exa.ai/library/organization/ft4230zcqrt",
+          "name": "Swiss School of Business and Management"
+         }
+        },
+        {
+         "degree": "Master's degree, Fundamental Particle Physics",
+         "dates": {
+          "from": "2000",
+          "to": "2003"
+         },
+         "institution": {
+          "id": "https://exa.ai/library/organization/6hds6fhsccn",
+          "name": "Shahid Beheshti University"
+         }
+        }
+       ],
+       "research": null
+      }
+     }
+    ]
+   },
+   {
+    "id": "https://ceotodays.com/category/global/",
+    "title": "Global Business - CEO Today",
+    "url": "https://ceotodays.com/category/global/",
+    "publishedDate": "2026-09-18T00:00:00.000Z",
+    "text": "Global Business - CEO Today\n\n# Global Business\n\n### AI Isn\u2019t Just Eliminating Entry-Level Jobs. It\u2019s Quietly Bankrupting the Leadership Pipeline Behind Them\n\nSomewhere in the last eighteen months, a slide started appearing in board decks that nobody quite challenges: cost per employee falling, revenue per head rising, margins expanding, all of...\n\n### The Rare Earth Race Isn\u2019t a Mining Problem Anymore. It\u2019s a Chemistry Monopoly, and China Just Extended It.\n\nIn May 2025, Suzuki quietly halted production of the Swift, one of its highest-volume cars, because it could...\n\n### India\u2019s GCCs Stopped Being Cost Centres in 2021. Most Global Boards Still Haven\u2019t Updated the Org Chart.\n\nSometime in the last eighteen months, a decision quietly moved. At a growing number of Fortune 500 and...\n\n### Stablecoins Were Meant to Bypass the Banks. Now the Banks Are Becoming the Stablecoins.\n\nSomewhere in the last eighteen months, a mid-sized exporter in Tamil Nadu shipping auto components to a buyer...\n\n### Private Credit Isn\u2019t Cheaper Money for CEOs. It\u2019s a Lender That Can Freeze Overnight.\n\nEvery CEO who has raised debt in the last three years has noticed the same thing: the terms...\n\n### AI Isn\u2019t Just Eliminating Entry-Level Jobs. It\u2019s Quietly Bankrupting the Leadership Pipeline Behind Them\n\n Future Outlook Dr. Amarnath Gupta - September 18, 2026 \n\nSomewhere in the last eighteen months, a slide started appearing in board decks that nobody quite challenges: cost per employee falling, revenue per head...\n\n### The Rare Earth Race Isn\u2019t a Mining Problem Anymore. It\u2019s a Chemistry Monopoly, and China Just Extended It.\n\n Economy & Policy Dr. Amarnath Gupta - September 17, 2026 \n\nIn May 2025, Suzuki quietly halted production of the Swift, one of its highest-volume cars, because it could not get hold of enough rare...\n\n### India\u2019s GCCs Stopped Being Cost Centres in 2021. Most Global Boards Still Haven\u2019t Updated the Org Chart.\n\n Future Outlook Dr. Amarnath Gupta - September 10, 2026 \n\nSometime in the last eighteen months, a decision quietly moved. At a growing number of Fortune 500 and Forbes Global 2000 companies, the call...\n\n### Stablecoins Were Meant to Bypass the Banks. Now the Banks Are Becoming the Stablecoins.\n\n Economy & Policy Dr. Amarnath Gupta - September 10, 2026 \n\nSomewhere in the last eighteen months, a mid-sized exporter in Tamil Nadu shipping auto components to a buyer in Mexico stopped waiting three days...\n\n### Private Credit Isn\u2019t Cheaper Money for CEOs. It\u2019s a Lender That Can Freeze Overnight.\n\n Economy & Policy Dr. Amarnath Gupta - September 10, 2026 \n\nEvery CEO who has raised debt in the last three years has noticed the same thing: the terms got easier. Fewer covenants. Looser reporting...\n\n### The AI Boom Fixed Its Power Problem. It Never Fixed Its Water Problem \u2014 and the Bill Is Arriving First in the Places Building...\n\n Economy & Policy Dr. Amarnath Gupta - September 10, 2026 \n\nEvery board that has approved an AI infrastructure commitment in the past eighteen months has, in some form, run the power math: gigawatts required,...\n\n### AI Isn\u2019t Just Eliminating Entry-Level Jobs. It\u2019s Quietly Bankrupting the Leadership Pipeline Behind Them\n\n Dr. Amarnath Gupta - September 18, 2026 \n\n### The Rare Earth Race Isn\u2019t a Mining Problem Anymore. It\u2019s a Chemistry Monopoly, and China Just Extended It."
+   },
+   {
+    "id": "https://exa.ai/library/person/slbpr3yl645",
+    "title": "Paul Abbott",
+    "url": "https://linkedin.com/in/paul-g-abbott",
+    "publishedDate": "2026-09-26T00:00:00.000Z",
+    "text": "# Paul Abbott\n\nCEO at American Express Global Business Travel\n\nUnited Kingdom (GB)\n\n500 connections \u2022 39,755 followers\n\n## About\n\nCEO at American Express Global Business Travel\n\nTotal Experience: 40 years and 9 months\n\n## Experience\n\n### Chief Executive Officer - [American Express Global Business Travel](https://www.linkedin.com/company/american-express-global-business-travel) (Current)\n\nSep 2019 - Present (7 years and 1 month) in London, England, United Kingdom\n\nDepartment: General Management \u2022 Level: C-Level\n\nAmerican Express Global Business Travel (GBTG) is a Travel Arrangements company. Amex GBT provides end-to-end corporate travel management solutions, including online booking and savings tools, event planning and spend management. American Express Global Business Travel has 8,000-9,000 employees (+70% YoY) and has annual revenue in the $2B-$3B range. Headquartered in New York, New York, United States, with presence in United Kingdom. Its workforce is distributed across 73 countries (including United States, India, United Kingdom, Spain, and Canada). Has a market cap in the $3B-$4B range. IPO 2020.\n\n### Non Executive Director - [RWS](https://www.linkedin.com/company/rws-group) (Current)\n\nJan 2024 - Present (2 years and 4 months)\n\nDepartment: General Management \u2022 Level: Director\n\nRWS Group (RWS.L) is a Business Content company. RWS is a company that provides content management services, including localization, translation, transcreation, and AI solutions. They aim to connect global audiences with relevant content, meaningful communication, accurate information, instant access, and personalized experiences. RWS offers services such as content creation, translation, analysis, and management, as well as AI solutions and intellectual property services. RWS Group has 7,000-8,000 employees (+40% YoY) and has annual revenue in the GBP600M-GBP700M range, founded in 1958. Headquartered in Maidenhead, Berkshire, United Kingdom, operates in 7 countries (including United States, Ireland, Hungary, China, and Japan). Its workforce is distributed across 128 countries (including India, United States, United Kingdom, Czechia, and Spain). Has a market cap in the GBP400M-GBP500M range. IPO 2003.\n\n### Chair - [GBTA Foundation](https://www.linkedin.com/company/the-gbta-foundation) (Current)\n\nJul 2022 - Present (3 years and 10 months)\n\nDepartment: Other \u2022 Level: Board Member\n\nGBTA Foundation is a nonprofit organization. The GBTA Foundation works collaboratively with industry partners, governments, experts, and other like-minded, non-profit organizations to drive positive change for People and the Planet. They foster a diverse and inclusive industry of talented and passionate professionals in business travel. They provide career mobility, mentoring, education, and networking opportunities for women in business travel. They also focus on sustainability and building a greener future for the business travel. GBTA Foundation has 1-10 employees (-10% YoY). Headquartered in Alexandria, Virginia, United States. Its workforce is distributed across United Kingdom and United States.\n\n### Member Board Of Directors - [American Express Global Business Travel](https://www.linkedin.com/company/american-express-global-business-travel)\n\nJan 2016 - Oct 2019 (3 years and 9 months)\n\nProviding end to end corporate travel and meetings program management for companies of all sizes and across all industries, with 12,000 employees in 120 countries.\n\nDepartment: General Management \u2022 Level: Director\n\n### [American Express](https://www.linkedin.com/company/american-express)\n\n#### Chief Commercial Officer\n\nOct 2017 - Oct 2019 (2 years) in London, England, United Kingdom\n\nLeading a global team of 5,700 people delivering payments and business financing solutions to over 4 million businesses in 200 countries.\n\nDepartment: Sales \u2022 Level: C-Level\n\n#### Executive Vice President, International and Global Clients (Global Commercial Payments)\n\nJan 2015 - Feb 2018 (3 years and 1 mont",
+    "image": "https://media.licdn.com/dms/image/v2/C4D03AQE4tuK-QaLCDA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1575658146428?e=2147483647&v=beta&t=jLbGycpwrFIdeaIhwY-sTiWWmQ80tI7Zjch2k1lAi0I",
+    "entities": [
+     {
+      "id": "https://exa.ai/library/person/slbpr3yl645",
+      "type": "person",
+      "version": 1,
+      "properties": {
+       "name": "Paul Abbott",
+       "firstName": "Paul",
+       "lastName": "Abbott",
+       "location": "United Kingdom",
+       "workHistory": [
+        {
+         "title": "Chief Executive Officer",
+         "location": "London, England, United Kingdom",
+         "dates": {
+          "from": "2019-09-01",
+          "to": null
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/ht96tl8pdr1",
+          "name": "American Express Global Business Travel"
+         }
+        },
+        {
+         "title": "Member Board Of Directors",
+         "location": null,
+         "dates": {
+          "from": "2016-01-01",
+          "to": "2019-10-01"
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/ht96tl8pdr1",
+          "name": "American Express Global Business Travel"
+         }
+        },
+        {
+         "title": "Non Executive Director",
+         "location": null,
+         "dates": {
+          "from": "2024-01-01",
+          "to": null
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/fyk070gh1rh",
+          "name": "RWS"
+         }
+        },
+        {
+         "title": "Chair",
+         "location": null,
+         "dates": {
+          "from": "2022-07-01",
+          "to": null
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/2j8pzdybht1",
+          "name": "GBTA Foundation"
+         }
+        },
+        {
+         "title": "Chief Commercial Officer",
+         "location": "London, England, United Kingdom",
+         "dates": {
+          "from": "2017-10-01",
+          "to": "2019-10-01"
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/63q7h3l17f6",
+          "name": "American Express"
+         }
+        },
+        {
+         "title": "Executive Vice President, International and Global Clients (Global Commercial Payments)",
+         "location": null,
+         "dates": {
+          "from": "2015-01-01",
+          "to": "2018-02-01"
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/63q7h3l17f6",
+          "name": "American Express"
+         }
+        },
+        {
+         "title": "Executive Vice President, Global Network Services",
+         "location": null,
+         "dates": {
+          "from": "2012-01-01",
+          "to": "2015-01-01"
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/63q7h3l17f6",
+          "name": "American Express"
+         }
+        },
+        {
+         "title": "Executive Vice President, Global Network Services, Europe, Middle East and Africa",
+         "location": null,
+         "dates": {
+          "from": "2010-01-01",
+          "to": "2012-01-01"
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/63q7h3l17f6",
+          "name": "American Express"
+         }
+        },
+        {
+         "title": "Senior Vice President, Merchant Services Europe and Global Client Group (Global Merchant Services)",
+         "location": null,
+         "dates": {
+          "from": "2006-01-01",
+          "to": "2010-01-01"
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/63q7h3l17f6",
+          "name": "American Express"
+         }
+        },
+        {
+         "title": "Vice President and General Manager, Commercial Card Europe",
+         "location": null,
+         "dates": {
+          "from": "2004-01-01",
+          "to": "2006-01-01"
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/63q7h3l17f6",
+          "name": "American Express"
+         }
+        },
+        {
+         "title": "Vice President and General Manager, Commercial Card Canada",
+         "location": null,
+         "dates": {
+          "from": "2002-01-01",
+          "to": "2004-01-01"
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/63q7h3l17f6",
+          "name": "American Express"
+         }
+        },
+        {
+         "title": "Vice President and General Manager, Corporate Travel Canada",
+         "location": null,
+         "dates": {
+          "from": "1999-01-01",
+          "to": "2002-01-01"
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/63q7h3l17f6",
+          "name": "American Express"
+         }
+        },
+        {
+         "title": "Director, Corporate Services Business Transformation",
+         "location": null,
+         "dates": {
+          "from": "1997-01-01",
+          "to": "1999-01-01"
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/63q7h3l17f6",
+          "name": "American Express"
+         }
+        },
+        {
+         "title": "Regional Director, American Express UK Corporate Travel",
+         "location": null,
+         "dates": {
+          "from": "1995-01-01",
+          "to": "1997-01-01"
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/63q7h3l17f6",
+          "name": "American Express"
+         }
+        },
+        {
+         "title": "Senior Manager - National Account Sales",
+         "location": null,
+         "dates": {
+          "from": "1992-01-01",
+          "to": "1995-01-01"
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/68yv1lqpxns",
+          "name": "British Airways"
+         }
+        },
+        {
+         "title": "Various Roles - Marketing, Operations and Finance",
+         "location": null,
+         "dates": {
+          "from": "1986-01-01",
+          "to": "1992-01-01"
+         },
+         "company": {
+          "id": "https://exa.ai/library/organization/68yv1lqpxns",
+          "name": "British Airways"
+         }
+        }
+       ],
+       "educationHistory": [
+        {
+         "degree": "PostGrad in Business and Administration",
+         "dates": null,
+         "institution": {
+          "id": "https://exa.ai/library/organization/q54xqqkgt08",
+          "name": "Lancaster University"
+         }
+        }
+       ],
+       "research": null
+      }
+     }
+    ]
+   }
+  ],
+  "searchTime": 1718.8,
+  "costDollars": {
+   "total": 0.007,
+   "search": {
+    "neural": 0.007
+   }
+  }
+ },
+ "fetched_at": "2026-10-14T17:26:37+0530"
+}
